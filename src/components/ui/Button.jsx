@@ -1,17 +1,32 @@
-// Button.jsx
 import React from "react";
 import * as LucideIcons from "lucide-react";
 
-const Button = ({ className = "", btnText, icon, iconSize }) => {
+const Button = ({ 
+  className = "", 
+  btnText, 
+  icon, 
+  iconSize, 
+  useCommonSvg = false 
+}) => {
   const IconComponent = LucideIcons[icon];
+
   return (
-    <button
-      className={`inline-flex gap-2.5 items-center justify-center ${className}`}
+    <button 
+      className={`inline-flex gap-2.5  capitalize items-center justify-center ${className}`}
     >
       {btnText}
-      {icon && (
+
+      {useCommonSvg && (
+        <img src="/svg/gradient-icon.svg" alt="gradient-icon" />
+      )}
+
+      {!useCommonSvg && icon && IconComponent && (
         <IconComponent
-          className={`size-${iconSize || "20px"} hover:rotate-45 transition`}
+          style={{
+            width: iconSize || "20px",
+            height: iconSize || "20px",
+          }}
+          className="hover:rotate-45 transition"
         />
       )}
     </button>

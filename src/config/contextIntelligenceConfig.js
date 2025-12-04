@@ -1,0 +1,190 @@
+export const Context_HERO_CONFIG = {
+  heading: "Context Intelligence Platform",
+  paragraph:
+    "Enterprise-grade AI orchestration that understands, adapts, and <br > evolves with you data context in real-time.",
+
+  backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
+  imageSrc: "/automation/dashboard.png",
+  buttons: [
+    {
+      text: "Download Architecture Deck",
+      className:
+        "py-5 flex-row-reverse font-medium custom-btn-text-sm text-[#C44558] px-6 bg-white",
+      icon: "Download",
+      iconSize: "20",
+      wrapperClass:
+        "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-px",
+    },
+    {
+      text: "Explore the Platform",
+      className:
+        "py-5 font-medium custom-btn-text-sm bg-primary-gradient px-6 text-white",
+      icon: "CircleArrowOutUpRight",
+      iconSize: "20",
+    },
+  ],
+  badges: [
+    {
+      text: "Reliable Performance",
+      className: "absolute left-[-16%] top-[10%]",
+    },
+    { text: "Fast Execution", className: "absolute right-[-10%] top-[40%]" },
+    {
+      text: "Simplified Insight",
+      className: "absolute right-[10%] -translate-y-1/2",
+    },
+  ],
+};
+
+export const CONTEXT_ANALYTICS_CONFIG = {
+  title: "",
+  description: "",
+  cards: [
+    {
+      id: 1,
+      icon: "LineChart", // lucide-react icon
+      iconColor: "#C44558",
+      title: "Predictive Analytics",
+      description:
+        "Advanced forecasting with context-aware models that understands market dynamics and business cycles",
+      state: "active", // optional if you want to highlight blue card
+    },
+    {
+      id: 2,
+      icon: "Users",
+      iconColor: "#C44558",
+      title: "Personalization Engine",
+      description:
+        "Real-time customer experience optimization based on behavioral context and preferences",
+    },
+    {
+      id: 3,
+      icon: "Bot",
+      iconColor: "#C44558",
+      title: "Process Automation",
+      description:
+        "Intelligent workflow orchestration that adapts to changing business requirements automatically",
+    },
+  ],
+};
+
+export const CONTEXT_CTA_CONFIG = {
+  heading: "Ready to Transform your Testing?",
+  paragraph:
+    "Experience the power of AI-Enabled intelligent test automation and revolutionize your development workflow",
+  backgroundImage: "/bg/bg-gradient-three.jpg",
+  buttons: [
+    {
+      text: "Download Whitepaper",
+      className:
+        "px-6 text-dmsans-20 flex-row-reverse font-medium rounded-lg border-2 py-5",
+      icon: "Download",
+      iconSize: "",
+      href: "",
+    },
+    {
+      text: "Request Demo",
+      className:
+        "px-9 text-[#C44558] bg-white text-dmsans-20 font-medium rounded-lg py-5",
+      href: "",
+      icon: "CircleArrowOutUpRight",
+      iconSize: "20px",
+
+    },
+  ],
+};
+
+export const WHY_CHOOSE_CIP_CONFIG = {
+  title: "Why Choose CIP",
+
+  cards: [
+    {
+      id: 1,
+      icon: "FastForward", // change to your lucide icon
+      iconColor: "#C44558",
+      title: "10x Faster Processing",
+      description:
+        "Revolutionary parallel processing architecture delivers results 10x faster than traditional AI platforms",
+      borderHighlight: "#3B82F6", // optional if you want active border color
+    },
+    {
+      id: 2,
+      icon: "Brain", // change to your lucide icon
+      iconColor: "#C44558",
+      title: "Context-Aware Intelligence",
+      description:
+        "First platform to truly understand multi-dimensional context relationships in real-time",
+    },
+    {
+      id: 3,
+      icon: "RefreshCw", // change to your lucide icon
+      iconColor: "#C44558",
+      title: "Self-Evolving Models",
+      description:
+        "AI that learns and adapts automatically without manual retraining or intervention",
+    },
+    {
+      id: 4,
+      icon: "Globe", // change to your lucide icon
+      iconColor: "#C44558",
+      title: "Enterprise Ready",
+      description:
+        "Built for mission-critical applications with 99.99% uptime and enterprise-grade security",
+    },
+  ],
+};
+
+export const CONTEXT_CORE_PILLAR_CONFIG = {
+  title: "Core Platform Pillars",
+  description: "",
+  cards: [
+    {
+      id: 1,
+      icon: "Network",
+      iconColor: "#C44558",
+      title: "Dynamic Context Mapping",
+      description:
+        "Real-time relationship discovery & contextual understanding across multi-dimensional data spaces",
+    },
+    {
+      id: 2,
+      icon: "Settings",
+      iconColor: "#C44558",
+      title: "Adaptive Intelligence",
+      description:
+        "Self-evolving algorithms that learn and adapt to changing business contexts automatically",
+    },
+    {
+      id: 3,
+      icon: "Rocket",
+      iconColor: "#C44558",
+      title: "Quantum Processing",
+      description:
+        "Parallel context analysis with quantum inspired computing for unprecedented speed",
+    },
+    {
+      id: 4,
+      icon: "ShieldCheck",
+      iconColor: "#C44558",
+      title: "Enterprise Security",
+      description:
+        "Zero trust architecture with end-to-end encryption and context aware access controls",
+    },
+    {
+      id: 5,
+      icon: "Expand",
+      iconColor: "#C44558",
+      title: "Infinite Scalability",
+      description:
+        "Cloud native architecture that scales seamlessly from startup to enterprise workloads",
+    },
+    {
+      id: 6,
+      icon: "Puzzle",
+      iconColor: "#C44558",
+      title: "Universal Integration",
+      description:
+        "Native connectors and APIs for seamless integration with existing enterprise systems",
+    },
+  ],
+};

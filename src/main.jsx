@@ -1,10 +1,23 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "@/index.css";
+import { RouterProvider } from "react-router-dom";
+import router from "@/appConfig/router.jsx";
+import { ReactLenis, useLenis } from "lenis/react";
 
-createRoot(document.getElementById('root')).render(
+const RouterWrapper = ({ children }) => {
+  return (
+    <>
+      <ReactLenis root />
+      {children}
+    </>
+  );
+};
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <RouterWrapper>
+      <RouterProvider router={router} />
+    </RouterWrapper>
+  </StrictMode>
+);

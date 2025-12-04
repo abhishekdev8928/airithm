@@ -1,0 +1,365 @@
+
+
+export const HOME_FEATURED_CONFIG = {
+  title: "The AIRITHM Core",
+  subtitle:
+    "A Unified AI Infrastructure That Powers Intelligent Solutions  With Seamless <br class='hidden md:block' /> Integration, Enterprise Security, And Limitless Scalability",
+  cards: [
+    {
+      id: 1,
+      icon: "Server",
+      iconColor: "",
+      title: "Unified Infrastructure",
+      description:
+        "Integrated AI Services Delivering Enterprise-Grade Reliability And Performance",
+    },
+    {
+      id: 2,
+      icon: "ShieldCheck",
+      iconColor: "",
+      title: "Enterprise Security",
+      description:
+        "Advanced Security Protocols With Full Compliance And Data Governance",
+    },
+    {
+      id: 3,
+      icon: "Maximize2",
+      iconColor: "",
+      title: "Infinite Scalability",
+      description:
+        "Dynamic Scaling Capabilities To Meet Growing Enterprise AI Demands",
+    },
+    {
+      id: 4,
+      icon: "Cpu",
+      iconColor: "",
+      title: "High Performance",
+      description:
+        "Optimized AI Workflows That Deliver Speed And Accuracy At Scale",
+    },
+    {
+      id: 5,
+      icon: "Activity",
+      iconColor: "",
+      title: "Real-Time Insights",
+      description:
+        "Actionable Analytics Delivered Instantly Across Enterprise Systems",
+    },
+    {
+      id: 6,
+      icon: "Cloud",
+      iconColor: "",
+      title: "Cloud-Ready",
+      description:
+        "Flexible Deployment Across Public, Private, Or Hybrid Cloud Environments",
+    },
+  ],
+};
+
+
+
+export const HOME_CAPABILITY_CONFIG  = {
+  title: "Intelligence In Action",
+  description:
+    "Advanced AI Capabilities Driving Innovation, Automation, And Strategic Intelligence Across Your Enterprise Operations",
+  cards: [
+    {
+      id: 1,
+      icon: "Bot",
+      iconColor: "#C44558",
+      title: "Agentic AI",
+      description: "Autonomous intelligent agents",
+    },
+    {
+      id: 2,
+      icon: "Wand2",
+      iconColor: "#dc2626",
+      title: "GenAI",
+      description: "Creative content generation",
+    },
+    {
+      id: 3,
+      icon: "TrendingUp",
+      iconColor: "#2563EB",
+      title: "ML Analytics",
+      description: "Predictive insights",
+    },
+    {
+      id: 4,
+      icon: "Settings",
+      iconColor: "#F59E0B",
+      title: "Automation",
+      description: "Process optimization",
+    },
+  ],
+};
+export const HOME_PLATFORM_CONFIG = {
+  title: "Our Flagship Platforms",
+  subtitle:
+    "Powered by AIRITHM Core, delivering intelligent solutions for every enterprise need",
+  cards: [
+    {
+      id: 1,
+      icon: "Box",
+      iconColor: "#C44558",
+      badge: "Patent Pending",
+      title: "AI Test Platform",
+      description:
+        "Comprehensive AI Model Testing With Automated Quality Assurance, Performance Monitoring, And Compliance Verification",
+      image: "/home/sample.png",
+      ctaText: "Learn More",
+      ctaLink: "/platforms/ai-test",
+      ctaIcon: "CircleArrowOutUpRight",
+      imgAlignment: "left",
+    },
+    {
+      id: 2,
+      icon: "Layers",
+      iconColor: "#2563EB",
+      badge: "Patent Pending",
+      title: "Context Intelligence Platform",
+      description:
+        "Advanced contextual AI That Understands, Interprets, And Acts On Complex Enterprise Data With Human-Like Comprehension",
+      image: "/home/sample.png",
+      ctaText: "Learn More",
+      ctaLink: "/platforms/ai-analytics",
+      ctaIcon: "CircleArrowOutUpRight",
+      imgAlignment: "right",
+    },
+    {
+      id: 3,
+      icon: "TrendingUp",
+      iconColor: "#10B981",
+      badge: "Patent Pending",
+
+      title: "Predictive Analytics & Anomaly Detection",
+      description:
+        "Advanced AI For Detecting Patterns, Predicting Trends, And Identifying Anomalies In Complex Enterprise Data",
+      image: "/home/sample.png",
+      ctaText: "Learn More",
+      ctaLink: "/platforms/ai-automation",
+      ctaIcon: "CircleArrowOutUpRight",
+      imgAlignment: "left",
+    },
+  ],
+};
+
+export const HOME_ENTERPRISE_CONFIG = {
+  title: "Built For Enterprise Scale",
+  subtitle:
+    "AIRITHM Platforms Are Designed From The Ground Up For Enterprise <br /> Environments, With Enterprise-Grade Security, Compliance, And Scalability",
+
+  cards: [
+    {
+      id: 1,
+      icon: "Globe",
+      title: "Global Data Centers",
+      description: "Worldwide Infrastructure With Local Data Residency",
+    },
+    {
+      id: 2,
+      icon: "ShieldCheck",
+      title: "SOC 2 Type II Compliant",
+      description: "Enterprise Security And Compliance Standards",
+    },
+    {
+      id: 3,
+      icon: "CheckCircle",
+      title: "99.9% Uptime SLA",
+      description: "Mission-Critical Reliability With Enterprise Support",
+    },
+  ],
+};
+
+export const HOME_TESTIMONIAL_CONFIG  = {
+  testimonials: [
+    {
+      id: 1,
+      name: "Loganathan D.",
+      title: "QA DevOps, Liberty Latin America",
+      quote:
+        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+    },
+    {
+      id: 2,
+      name: "Loganathan D.",
+      title: "QA DevOps, Liberty Latin America",
+      quote:
+        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+    },
+    {
+      id: 3,
+      name: "Loganathan D.",
+      title: "QA DevOps, Liberty Latin America",
+      quote:
+        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+    },
+    {
+      id: 4,
+      name: "Loganathan D.",
+      title: "QA DevOps, Liberty Latin America",
+      quote:
+        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+    },
+    {
+      id: 5,
+      name: "Loganathan D.",
+      title: "QA DevOps, Liberty Latin America",
+      quote:
+        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+    },
+  ],
+
+  profileImages: [
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+  ],
+
+  swiperConfig: {
+    spaceBetween: 30,
+    slidesPerView: 3,
+    pagination: {
+      clickable: true,
+      bulletActiveClass: "swiper-pagination-bullet-active",
+    },
+    navigation: false,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 25,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+    },
+  },
+
+  styles: {
+    cardWidth: "358px",
+    dividerHeight: "90%",
+    dividerColor: "#999999",
+    sectionHeading: "Over 1,000 five-star reviews",
+  },
+};
+
+
+export const Home_BLOGS_CONFIG = [
+  {
+    id: 1,
+    title:
+      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+  },
+  {
+    id: 2,
+    title:
+      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+  },
+  {
+    id: 3,
+    title:
+      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+  },
+  {
+    id: 4,
+    title:
+      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+  },
+  {
+    id: 5,
+    title:
+      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+  },
+];
+
+export const testingCapabilitiesConfig = {
+  title: "Two Powerful Testing Capabilities",
+  description:
+    "Airithm test studio revolutionizes testing with two powerful capabilities NeuroTest for AI/LLM And CoreTest for enterprise applications",
+
+  neuroTest: {
+    name: "NeuroTest",
+    imgSrc: "/automation/creative.png",
+    tagline:
+      "Advanced testing for AI/LLM systems with specialized validation capabilities",
+    cards: [
+      {
+        id: 1,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Robustness & Reliability",
+        description:
+          "Comprehensive validation for AI model stability and consistency",
+      },
+      {
+        id: 2,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Security & Safety",
+        description:
+          "Advanced security testing for AI systems and model protection",
+      },
+      {
+        id: 3,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Fairness & Ethics",
+        description: "Fairness & Bias Testing, Explainability & Transparency",
+      },
+      {
+        id: 4,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Data & Context Quality",
+        description:
+          "Validate data integrity and contextual accuracy in AI systems",
+      },
+    ],
+  },
+
+  coreTest: {
+    name: "CoreTest",
+    imgSrc: "/automation/invoation.png",
+    tagline: "Comprehensive testing for enterprise and non-AI Applications",
+    cards: [
+      {
+        id: 1,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Security & Compliance Testing",
+        description:
+          "Ensure enterprise applications meet security and regulatory standards",
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+      },
+      {
+        id: 2,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Functional & Regression Testing",
+        description:
+          "Unit, Integration, End-to-End Workflow Testing, Regression Automation & CI/CD Validation",
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+      },
+      {
+        id: 3,
+        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        title: "Usability & Accessibility Testing",
+        description: "Validate user experience and accessibility compliance",
+      },
+      {
+        id: 4,
+
+        title: "Data & Integrating Testing",
+        description: "Verify data flows and third-party integrations",
+      },
+    ],
+  },
+};
+
+
