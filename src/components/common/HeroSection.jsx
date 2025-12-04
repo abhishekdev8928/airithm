@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../ui/Button.jsx";
-import Badge from "../ui/Badge.jsx";
+import Button from "../ui/Button";
+import Badge from "../ui/Badge";
 
 const HeroSection = ({
   heading,

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@/components/ui/button";
+import Button from "@/components/ui/Button";
 import { SectionIcon } from "lucide-react";
 import SectionHeading from "@/components/common/SectionHeading";
 const CommunitySection = () => {

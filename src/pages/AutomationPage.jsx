@@ -1,10 +1,9 @@
-import React from "react";
-import Button from "../components/ui/Button";
-import TestingCapabilitiesSection from "../components/automation/TestingCapilitiesSection";
-import HeroSection from "../components/common/HeroSection";
-import LifeCycleSection from "../components/automation/LifeCycleSection";
-import CtaSection from "../components/common/CtaSection";
-import FooterSection from "../components/automation/FooterSection";
+
+import TestingCapabilitiesSection from "@/components/automation/TestingCapilitiesSection";
+import HeroSection from "@/components/common/HeroSection";
+import LifeCycleSection from "@/components/automation/LifeCycleSection";
+import CtaSection from "@/components/common/CtaSection";
+import FooterSection from "@/components/automation/FooterSection";
 
 
 // config
