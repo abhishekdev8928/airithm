@@ -6,11 +6,11 @@ import EnterpriseSection from "@/components/home/EnterpriseSection.jsx";
 import CommunitySection from "@/components/home/CommunitySection.jsx";
 import TestimonialCarouselSection from "@/components/home/TestimonialCarouselSection.jsx";
 import BlogsSection from "@/components/home/BlogSection.jsx";
-import FooterSection from "@/components/home/FooterSection.jsx";
+// import FooterSection from "@/components/home/FooterSection.jsx";
 import HeroSection from "@/components/home/HeroSection.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import CtaSection from "@/components/home/CtaSection.jsx";
-
+import FooterSection from "@/components/automation/FooterSection";
 const HomePage = () => {
   return (
     <>

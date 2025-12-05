@@ -12,6 +12,7 @@ import {
   WHY_CHOOSE_CIP_CONFIG,
   CONTEXT_CORE_PILLAR_CONFIG,
 } from "@/config/contextIntelligenceConfig";
+// import FooterSection from "@/components/automation/FooterSection";
 import FooterSection from "@/components/automation/FooterSection";
 
 const ContextIntelligencePage = () => {
