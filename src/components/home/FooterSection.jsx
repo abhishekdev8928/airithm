@@ -19,7 +19,7 @@ const FooterSection = () => {
           </div>
 
           {/* RIGHT NAVIGATION BLOCK */}
-          <div className="flex  flex-wrap  gap-10 text-[14px] leading-[22px]">
+          <div className="flex  flex-wrap  md:flex-nowrap  gap-10 text-[14px] leading-[22px]">
             
             {/* Column 1 */}
             <div className="flex  flex-col gap-4 w-[150px]">
