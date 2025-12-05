@@ -10,7 +10,7 @@ const FooterSection = () => {
       <div className="px-10 py-12">
         
         {/* MAIN WRAPPER */}
-        <div className=" flex justify-between flex-wrap gap-12 lg:gap-[120px]">
+        <div className=" flex justify-between flex-wrap lg:flex-nowrap gap-12 lg:gap-[120px]">
           
           {/* LEFT TEXT BLOCK */}
           <div className="text-inter-16 leading-[1.2] max-w-[247px] flex-shrink-0">
