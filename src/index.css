@@ -1,11 +1,14 @@
+@import "tailwindcss";
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import "tailwindcss";
+
 
 
 
 * {
   box-sizing: border-box;
+  
 }
 
 :root {
@@ -21,13 +24,15 @@
 }
 
 /* font-family helpers */
-.font-dm-sans {
+.font-primary {
   font-family: var(--font-primary);
 }
 
-.font-inter {
+.font-secondary {
   font-family: var(--font-secondary);
 }
+
+
 
 /* ===============================
    TYPOGRAPHY HELPERS (NO LINE HEIGHT)
@@ -90,6 +95,11 @@
 .text-dmsans-16 {
   font-family: var(--font-primary);
   font-size: 16px;
+  letter-spacing: 2%;
+}
+.text-dmsans-40 {
+  font-family: var(--font-primary);
+  font-size: 40px;
   letter-spacing: 2%;
 }
 .text-inter-24 {
@@ -216,3 +226,6 @@
 .swiper-wrapper {
   transition-timing-function: ease-in-out !important;
 }
+
+
+

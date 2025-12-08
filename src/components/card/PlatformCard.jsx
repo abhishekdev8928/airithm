@@ -17,7 +17,7 @@ const PlatformCard = ({
 
   return (
     <div
-      className={`max-w-[1190px]  flex flex-wrap    md:flex-nowrap  gap-14 justify-center mx-auto lg:px-0  ${
+      className={`max-w-[1190px]  flex flex-wrap    md:flex-nowrap gap-10  sm:gap-14 justify-center mx-auto lg:px-0  ${
         isRightAligned ? "flex-row-reverse" : ""
       }`}
     >
@@ -72,8 +72,8 @@ const PlatformCard = ({
       </div>
 
       {/* Content Block */}
-      <div className=" w-full lg:w-1/2      flex flex-col justify-between items-start">
-        <div className="platform-content-top flex pb-[40px] lg:pb-0 flex-col gap-6">
+      <div className=" w-full lg:w-1/2 gap-6 lg:gap-0     flex flex-col justify-between items-start">
+        <div className="platform-content-top flex  flex-col gap-6">
           {/* Badge */}
           <div className="border-gradient w-fit">
             <div className="platform-badge border-gradient-inner w-fit rounded-full px-3 py-2 flex gap-2 items-center">
@@ -84,17 +84,17 @@ const PlatformCard = ({
             </div>
           </div>
 
-          <h2 className="text-dmsans-36 text-[#1E1E1E] font-normal leading-[1.2]">
+          <h2 className="text-[24px] sm:text-[36px]  text-[#1E1E1E] font-normal leading-[1.2]">
             {title}
           </h2>
-          <p className="text-inter-18 capitalize text-[#626161]  leading-[1.4] ">
+          <p className="text-inter-18.  capitalize text-[#626161]  leading-[1.4] ">
             {description}
           </p>
         </div>
 
         {/* Dynamic Button */}
         <Button
-          className="font-dm-sans rounded-lg capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
+          className="font-primary rounded-lg w-full sm:w-fit capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
           btnText={ctaText}
           icon={ctaIcon}
           iconSize="20px"

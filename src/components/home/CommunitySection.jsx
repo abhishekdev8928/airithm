@@ -14,7 +14,7 @@ const CommunitySection = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="max-w-7xl py-[60px] relative z-[14]">
+        <div className="max-w-7xl sm:py-[60px] relative z-[14]">
           {/* <div className="relative z-12 max-w-[1000px] mx-auto">
               <h2 className="section-heading  text-center text-white">
                 Your community advantage
@@ -29,24 +29,29 @@ const CommunitySection = () => {
             </div> */}
 
           <SectionHeading
-            subtitle="Join the world's largest automated software testing product community. <br> Collaborate with 120,301 testing pros like you. Ask questions, get answers."
-            subtitleClassName="section-subtitle text-[#DADADA]"
-            titleClassName=" section-title text-white captialize"
+            subtitle="
+    Join the world's largest automated software testing product community.
+   <br class='hidden sm:block' />
+    Collaborate with 120,301 testing pros like you. Ask questions, get answers.
+ "
+            subtitleClassName=" font-secondary text-[#DADADA]"
+            titleClassName="font-primary   text-white captialize"
             title="Your community advantage "
+            wrapperClassName="w-[361px] sm:w-[991px] mx-auto"
           />
 
-          <div className="communtiy-group-btn mx-auto  flex justify-center items-center mt-6 gap-6">
+          <div className="communtiy-group-btn max-w-[316px] sm:w-full mx-auto flex-col-reverse md:flex-row-reverse flex justify-center items-center mt-6 gap-4 sm:gap-6">
             <Button
               btnText="Meet the community"
-              className="py-5 custom-btn-text text-[#C44558] px-10 bg-white "
-              iconSize="20px"
+              className="py-5 px-10 w-full font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              iconSize="20"
               icon="CircleArrowOutUpRight"
             />
 
             <Button
               btnText="Free Training"
-              className="py-5 custom-btn-text bg-primary-gradient rounded   px-10 text-white "
-              iconSize="20px"
+              className="py-5 px-10 w-full font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+              iconSize="20"
               icon="CircleArrowOutUpRight"
             />
           </div>

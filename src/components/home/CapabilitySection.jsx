@@ -14,13 +14,13 @@ const CapabilitySection = () => {
     >
 
       <SectionHeading 
-          titleClassName="section-title   text-white capitalize "
+          titleClassName="   text-white capitalize "
           title="intelligence in Action"
 
           
         />
 
-      <div className="pt-[95px] mb-[60px]   md:gap-0 flex-wrap  flex justify-center md:justify-between px-[33px]">
+      <div className="pt-[95px] sm:mb-[60px] gap-14 sm:gap-0  md:gap-0 flex-wrap  flex justify-center md:justify-between px-[33px]">
         {cards.map((capability , index) => (
           <CapabilitiyCard key={capability.id || index} {...capability} />
         ))}

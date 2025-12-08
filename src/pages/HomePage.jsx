@@ -15,18 +15,22 @@ const HomePage = () => {
   return (
     <>
 
- <Navbar
+ {/* <Navbar
   wrapperClassName="fixed top-0 left-0"
   disableScrollHide={false}
   linkClassName="text-white"
   iconClassName="text-white"
-/>
+/> */}
 
       <HeroSection />
       <FeatureSection />
       <PlatformSection />
       <CapabilitySection />
+
+
       <EnterpriseSection />
+
+      
       <CommunitySection />
       <TestimonialCarouselSection />
       <CtaSection />

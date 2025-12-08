@@ -12,7 +12,7 @@ const Button = ({
 
   return (
     <button 
-      className={`inline-flex gap-2.5  capitalize items-center justify-center ${className}`}
+      className={`flex gap-2.5 whitespace-nowrap  capitalize items-center justify-center ${className}`}
     >
       {btnText}
 

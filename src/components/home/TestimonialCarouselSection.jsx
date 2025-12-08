@@ -14,14 +14,15 @@ const TestimonialCarousel = () => {
   return (
     <section>
       <div className="rounded-[100px]  section-wrapper  bg-white relative z-10 mt-[-100px]  w-full">
-        <SectionHeading
-          titleClassName="section-title  pt-9  text-[#00273A] capitalize "
-          title="Over 1,000 five-star reviews"
-        />
+       <SectionHeading
+  titleClassName="pt-9 text-[#00273A]  capitalize font-primary font-medium text-[32px] sm:text-[48px] leading-[1.2] tracking-[0.02em]"
+  title="Over 1,000 <br class=' sm:hidden' />  five-star reviews"
+/>
+
 
         <div className="max-w-7xl mx-auto">
           {/* Profile Images Row */}
-          <div className="flex justify-center pt-[60px] pb-20 items-center gap-2">
+          <div className="flex justify-center flex-wrap pt-[60px] pb-20 items-center gap-2">
             {profileImages.map((img, idx) => (
               <div
                 key={idx}
@@ -48,7 +49,7 @@ const TestimonialCarousel = () => {
               {testimonials.map((testimonial, index) => (
                 <SwiperSlide key={testimonial.id}>
                   <div className="h-full flex flex-col relative">
-                    <div className="rounded-lg w-[90%] mx-auto md:w-[358px] testmonial-cards h-full flex gap-16 flex-col">
+                    <div className="rounded-lg  mx-auto px-4 sm:px-0 max-w-[358px] testmonial-cards h-full flex gap-16 flex-col">
                       <p className="text-[#1E1E1E] text-dmsans-16 leading-[1.4] font-light">
                         {testimonial.quote}
                       </p>
@@ -74,7 +75,7 @@ const TestimonialCarousel = () => {
 
                     {/* Vertical line separator between cards - centered in the gap */}
                     <div
-                      className="absolute right-2.5 md:-right-3.5 top-1/2 -translate-y-1/2 w-px testimonial-divider"
+                      className="absolute hidden md:block right-2.5 md:-right-3.5 top-1/2 -translate-y-1/2 w-px testimonial-divider"
                       style={{
                         height: styles.dividerHeight,
                         backgroundColor: styles.dividerColor,

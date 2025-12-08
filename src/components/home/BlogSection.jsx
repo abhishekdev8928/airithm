@@ -16,39 +16,55 @@ import { Home_BLOGS_CONFIG } from "@/config/homeConfig";
 const BlogsSection = () => {
   return (
     <section>
-      <div className="min-h-screen section-wrapper bg-gray-50 ">
+      <div className="min-h-screen px-4 sm:px-0 section-wrapper bg-gray-50 ">
         <div className="">
           {/* Section Header */}
           
-          <SectionHeading titleClassName="text-dmsans-48 pt-[36px] font-medium text-[#00273A] capitalize" title="insight,ideas, and innovation" />
+          <SectionHeading
+  titleClassName="font-primary font-medium text-[#00273A] capitalize text-[32px] sm:text-[48px] pt-[36px] leading-[1.2] tracking-[0.02em]"
+  title="insight, ideas, and innovation"
+
+  wrapperClassName="max-w-[274px] sm:max-w-full mx-auto"
+/>
+
 
           {/* Swiper Container */}
           <div className="relative pt-12 ">
-            <Swiper
-              modules={[Pagination]}
-              spaceBetween={24}
-              slidesPerView="auto"
-              pagination={{
-                clickable: true,
-                bulletClass: "swiper-pagination-bullet",
-                bulletActiveClass: "swiper-pagination-bullet-active",
-                el: ".custom-pagination",
-              }}
-              className="mb-8"
-            >
-              {Home_BLOGS_CONFIG.map((blog) => (
-                <SwiperSlide
-                  key={blog.id}
-                  className="h-auto"
-                  style={{ width: "432px" }}
-                >
-                  <BlogCard blog={blog} />
-                </SwiperSlide>
-              ))}
-            </Swiper>
+          <Swiper
+  modules={[Pagination]}
+  spaceBetween={24}
+  pagination={{
+    clickable: true,
+    bulletClass: "swiper-pagination-bullet",
+    bulletActiveClass: "swiper-pagination-bullet-active",
+    el: ".custom-pagination",
+  }}
+  className="mb-8"
+  breakpoints={{
+    0: {
+      slidesPerView: 1, // small screens show 1 slide
+      spaceBetween: 16,
+    },
+    640: {
+      slidesPerView: 2, // from sm screens show 2 slides
+      spaceBetween: 24,
+    },
+    1024: {
+      slidesPerView: 3, // from lg screens show 3 slides
+      spaceBetween: 24,
+    },
+  }}
+>
+  {Home_BLOGS_CONFIG.map((blog) => (
+    <SwiperSlide key={blog.id} className="h-auto">
+      <BlogCard blog={blog} />
+    </SwiperSlide>
+  ))}
+</Swiper>
+
 
             {/* Pagination and View More Button Container */}
-            <div className="flex items-center pb-14 px-10 justify-between w-full">
+            <div className="flex items-center flex-col sm:flex-row gap-12 sm:gap-0 sm:flex-nowrap pb-14 px-10 justify-between w-full">
               {/* Custom Pagination Container */}
               <div className="custom-pagination flex items-center gap-2"></div>
 

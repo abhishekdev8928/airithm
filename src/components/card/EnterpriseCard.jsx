@@ -5,7 +5,7 @@ const EnterpriseCard = ({ icon, title, description }) => {
   const IconComponent = LucideIcon[icon] || LucideIcon.ArrowUp; // fallback
 
   return (
-    <div className="enterprise-card w-full mb-10  md:mb-0 md:w-[300px] flex flex-col items-center justify-between min-h-[120px] md:min-h-[140px]">
+    <div className="enterprise-card w-full  md:w-[300px] flex flex-col items-center justify-between min-h-[120px] md:min-h-[140px]">
       <IconComponent size="32" className=" text-[#C44558]" />
 
       <div className="enterprise-card-content flex flex-col gap-2.5 text-center">

@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 export default function HeroHeader() {
   return (
-    <header className="w-full text-white rounded-b-[100px] overflow-hidden relative">
+    <header className="w-full text-white min-h-[904px] rounded-b-[50px]  sm:rounded-b-[100px] overflow-hidden relative">
       <style
         dangerouslySetInnerHTML={{
           __html: `
@@ -31,50 +31,8 @@ export default function HeroHeader() {
           clickable: true,
         }}
         modules={[Pagination, Autoplay]}
-        className="hero-swiper w-full h-[800px]"
+        className="hero-swiper w-full h-[904px]"
       >
-        {/* Slide 1 */}
-        <SwiperSlide>
-          <div
-            className="w-full h-full bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: 'url("/home/carousel/carousel-two.jpg")',
-            }}
-          >
-            <div className="absolute inset-0 bg-black/5" />
-
-            <div className="relative text-center pt-[220px] px-4 z-10">
-              <h1 className="text-dmsans-64 leading-none font-medium">
-                Enterprise Intelligence, Reimagined
-              </h1>
-
-              <p className="text-inter-18 leading-[1.4] font-medium max-w-[750px] mx-auto pt-2.5">
-                AIRITHM Core Powers Next-Generation AI Platforms With Advanced
-                Agentic AI, GenAI, And ML Capabilities Designed For Enterprise
-                Scale
-              </p>
-
-              <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-[2px]">
-                  <Button
-                    btnText="Join Partner Program"
-                    className="py-5 custom-btn-text text-[#C44558] px-10 bg-white "
-                    iconSize="20"
-                    useCommonSvg="true"
-                  />
-                </div>
-
-                <Button
-                  btnText="Explore Products"
-                  className="py-5  bg-primary-gradient custom-btn-text  px-10 text-white "
-                  iconSize="20"
-                  icon="CircleArrowOutUpRight"
-                />
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
         {/* Slide 2 */}
 
         <SwiperSlide>
@@ -86,30 +44,31 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center pt-[220px] px-4 z-10">
-              <h1 className="text-dmsans-64 leading-none font-medium">
+            <div className="relative text-center  pt-[220px] px-4 z-10">
+              <h1 class="font-primary text-[40px] mx-auto w-[280px] sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
                 Enterprise Intelligence, Reimagined
               </h1>
 
-              <p className="text-inter-18 leading-[1.4] font-medium max-w-[750px] mx-auto pt-2.5">
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize max-w-[355px] sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
                 AIRITHM Core Powers Next-Generation AI Platforms With Advanced
                 Agentic AI, GenAI, And ML Capabilities Designed For Enterprise
                 Scale
               </p>
 
-              <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-[2px]">
+              <div className="flex mx-auto w-[264px]  sm:w-full flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
+                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5">
                   <Button
-                    btnText="Join Partner Program"
-                    className="py-5 custom-btn-text text-[#C44558] px-10 bg-white "
-                    iconSize="20"
-                    useCommonSvg="true"
-                  />
+  btnText="Join Partner Program"
+  className="py-5 px-10 font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+  iconSize="20"
+  useCommonSvg="true"
+/>
+
                 </div>
 
                 <Button
                   btnText="Explore Products"
-                  className="py-5  bg-primary-gradient custom-btn-text  px-10 text-white "
+                  className="text-[16px] sm:text-[20px] py-5 pl-10 pr-8 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-[8px] bg-primary-gradient text-white"
                   iconSize="20"
                   icon="CircleArrowOutUpRight"
                 />

@@ -6,16 +6,17 @@ const PlatformSection = () => {
   const { title, subtitle, cards } = HOME_PLATFORM_CONFIG;
 
   return (
-    <section className="section-wrapper rounded-b-[100px] rounded-3xl">
-      <div className="platform-section   bg-white relative z-10 rounded-[100px]">
-        <SectionHeading
-          titleClassName="section-title"
-          subtitleClassName="section-subtitle text-[#1E1E1E]"
-          title={title}
-          subtitle={subtitle}
-        />
+    <section className="section-wrapper bg-white   relative z-10 px-4 lg:px-0 rounded-b-[100px] rounded-3xl">
+      <div className="platform-section   rounded-[100px]">
+         <SectionHeading
+        title={title}
+        titleClassName="text-[#00273A]"
+        subtitleClassName=" text-[#626161]"
+        wrapperClassName={"w-[408px] sm:w-full   mx-auto"}
+        subtitle={subtitle}
+      />
 
-        <div className="flex flex-col pt-18 pb-[180px] gap-20  ">
+        <div className="flex flex-col  pt-18 pb-[180px] gap-20  ">
           {cards.map((platform) => (
             <PlatformCard key={platform.id} {...platform} />
           ))}

@@ -145,9 +145,9 @@ export const HOME_PLATFORM_CONFIG = {
 };
 
 export const HOME_ENTERPRISE_CONFIG = {
-  title: "Built For Enterprise Scale",
+  title: "Built For <br class='block md:hidden' />  Enterprise Scale",
   subtitle:
-    "AIRITHM Platforms Are Designed From The Ground Up For Enterprise <br /> Environments, With Enterprise-Grade Security, Compliance, And Scalability",
+    "AIRITHM Platforms Are Designed From The Ground Up For Enterprise <br hidden md:block /> Environments, With Enterprise-Grade Security, Compliance, And Scalability",
 
   cards: [
     {
@@ -215,12 +215,7 @@ export const HOME_TESTIMONIAL_CONFIG  = {
     "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
     "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
   ],
 
   swiperConfig: {
