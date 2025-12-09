@@ -7,7 +7,7 @@ export const FooterSection = () => {
         background: "linear-gradient(180deg, #042539 0%, #000000 100%)",
       }}
     >
-      <div className="px-10 py-12">
+      <div className=" px-6 sm:px-10 py-12">
         {/* MAIN WRAPPER */}
       <div className="flex flex-wrap justify-between gap-8 lg:gap-[120px]">
   {/* LEFT TEXT BLOCK */}
@@ -58,7 +58,7 @@ export const FooterSection = () => {
 
 
         {/* COPYRIGHT */}
-        <div className="max-w-[1440px] mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
+        <div className="max-w-[1440px]  mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
           Copyright © 2025
         </div>
       </div>

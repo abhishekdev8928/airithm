@@ -16,7 +16,7 @@ import { Home_BLOGS_CONFIG } from "@/config/homeConfig";
 const BlogsSection = () => {
   return (
     <section>
-      <div className=" px-4 sm:px-0 section-wrapper bg-gray-50 ">
+      <div className=" px-4 pb-[30px] sm:pb-0 sm:px-0 section-wrapper bg-gray-50 ">
         <div className="">
           {/* Section Header */}
 
@@ -116,6 +116,19 @@ const BlogsSection = () => {
           .swiper-slide > div {
             width: 100%;
           }
+
+          @media (max-width:576px){
+           .swiper-pagination-bullet {
+            width: 16px;
+            height: 16px;
+           
+          }
+
+          .swiper-pagination-bullet-active {
+            width: 16px;
+            height: 16px;
+           
+          }}
         `}</style>
       </div>
     </section>

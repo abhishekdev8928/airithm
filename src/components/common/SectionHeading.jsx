@@ -8,7 +8,7 @@ const SectionHeading = ({
   subtitleClassName,
 }) => {
   return (
-    <div className={`text-center space-y-2 ${wrapperClassName || ""}`}>
+    <div className={`text-center space-y-4 sm:space-y-2 ${wrapperClassName || ""}`}>
       
       {title && (
         <h2

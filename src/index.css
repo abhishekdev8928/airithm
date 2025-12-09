@@ -229,4 +229,8 @@
 }
 
 
-
+@media (max-width:560px) {
+  .section-wrapper {
+  padding-top: 80px;
+}
+}

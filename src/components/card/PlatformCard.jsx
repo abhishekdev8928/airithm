@@ -1,6 +1,6 @@
 import React from "react";
 import { BadgeCheck } from "lucide-react";
-import Button from "../ui/Button"; // make sure path is correct
+import Button from "../ui/Button"; // ensure correct path
 
 const PlatformCard = ({
   badge,
@@ -17,20 +17,21 @@ const PlatformCard = ({
 
   return (
     <div
-      className={`max-w-[1190px]  flex flex-wrap    md:flex-nowrap gap-10  sm:gap-14 justify-center mx-auto lg:px-0  ${
+      className={`max-w-[1190px] flex flex-wrap md:flex-nowrap gap-10 sm:gap-14 justify-center mx-auto ${
         isRightAligned ? "flex-row-reverse" : ""
       }`}
     >
-      {/* Image Block */}
-      <div className=" w-full lg:w-1/2  h-full shadow-[0px_15px_33px_rgba(0,49,73,0.29)] relative">
+
+    
+      <div className="w-full lg:w-1/2 h-full  relative shadow-[0px_15px_33px_rgba(0,49,73,0.29)] bg-white rounded-[40px]">
+
+        {/* Floating Badge (not clipped) */}
         <div
-          className={`w-10 h-10 flex justify-center items-center rounded-full bg-white shadow absolute -translate-y-1/2 ${
-            isRightAligned
-              ? "right-0 translate-x-1/2"
-              : "left-0 -translate-x-1/2"
+          className={`w-10 h-10 flex justify-center items-center rounded-full bg-white shadow absolute -translate-y-1/2 top-0 ${
+            isRightAligned ? "right-0" : "left-0"
           }`}
         >
-          {/* Placeholder SVG */}
+          {/* SVG stays unchanged */}
           <svg
             width="24"
             height="24"
@@ -68,12 +69,23 @@ const PlatformCard = ({
             </defs>
           </svg>
         </div>
-        <img className="w-full" src={image} alt={title} />
+
+      
+        <div className="w-full h-full  overflow-hidden">
+          <img
+            className="w-full h-full object-cover"
+            src={image}
+            alt={title}
+          />
+        </div>
       </div>
 
-      {/* Content Block */}
-      <div className=" w-full lg:w-1/2 gap-6 lg:gap-0     flex flex-col justify-between items-start">
-        <div className="platform-content-top flex  flex-col gap-6">
+      {/* ===========================
+          CONTENT BLOCK
+      ============================ */}
+      <div className="w-full lg:w-1/2 gap-6 lg:gap-0 flex flex-col justify-between items-start">
+
+        <div className="platform-content-top space-y-4 md:space-y-6">
           {/* Badge */}
           <div className="border-gradient w-fit">
             <div className="platform-badge border-gradient-inner w-fit rounded-full px-3 py-2 flex gap-2 items-center">
@@ -84,21 +96,24 @@ const PlatformCard = ({
             </div>
           </div>
 
-          <h2 className="text-[24px] sm:text-[36px]  text-[#1E1E1E] font-normal leading-[1.2]">
-            {title}
-          </h2>
-          <p className="text-inter-18.  capitalize text-[#626161]  leading-[1.4] ">
-            {description}
-          </p>
+          <div className="space-y-2">
+            <h2 className="text-[24px] tracking-[0.02em] font-primary sm:text-[36px] text-[#1E1E1E] font-normal leading-[1.2]">
+              {title}
+            </h2>
+
+            <p className="font-secondary tracking-[0.02em] capitalize text-[#626161] leading-[1.4]">
+              {description}
+            </p>
+          </div>
         </div>
 
-        {/* Dynamic Button */}
+        {/* CTA BUTTON */}
         <Button
           className="font-primary rounded-lg w-full sm:w-fit capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
           btnText={ctaText}
           icon={ctaIcon}
           iconSize="20px"
-          onClick={() => (window.location.href = ctaLink)} // optional navigation
+          onClick={() => (window.location.href = ctaLink)}
         />
       </div>
     </div>
@@ -106,3 +121,8 @@ const PlatformCard = ({
 };
 
 export default PlatformCard;
+
+
+
+
+ 

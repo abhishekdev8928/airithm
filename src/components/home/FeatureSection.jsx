@@ -6,7 +6,7 @@ const FeatureSection = () => {
   const { title, subtitle, cards } = HOME_FEATURED_CONFIG;
 
   return (
-    <section className="core-features-section   px-4 sm:px-0  section-wrapper">
+    <section className="core-features-section   px-6 sm:px-0  section-wrapper">
 
 
       <SectionHeading
@@ -19,7 +19,7 @@ const FeatureSection = () => {
     
 
       {/* Feature Cards */}
-      <div className="flex flex-wrap  gap-6 py-10 justify-center max-w-[1200px] mx-auto">
+      <div className="flex flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
         {cards.map((card) => (
           <FeatureCard key={card.id} {...card} />
         ))}

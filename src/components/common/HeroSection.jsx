@@ -22,13 +22,13 @@ const HeroSection = ({
       >
         {/* CONTENT */}
         <div
-          className="flex flex-col pt-[100px] mx-auto  items-center  w-full px-4"
+          className="flex flex-col pt-[100px] mx-auto  items-center  w-full px-6"
 
         >
           {/* Heading with <br/> support */}
           {heading && (
            <h2
-  className="mb-4 font-semibold max-w-[355px] sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
+  className="mb-4 font-semibold  sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
   dangerouslySetInnerHTML={{ __html: heading }}
 ></h2>
 

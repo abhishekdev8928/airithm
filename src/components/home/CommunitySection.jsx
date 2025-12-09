@@ -6,7 +6,7 @@ const CommunitySection = () => {
   return (
     <section>
       <div
-        className="relative bg-img-overlay  w-full gap-10 commmunity-section section-overlap flex-col justify-center flex items-center mt-[-100px] z-5"
+        className="relative px-4 sm:px-0 bg-img-overlay  w-full gap-10 commmunity-section section-overlap flex-col justify-center flex items-center mt-[-100px] z-5"
         style={{
           backgroundImage: 'url("/bg/gradient.jpg")',
           backgroundSize: "cover",
@@ -37,7 +37,7 @@ const CommunitySection = () => {
             subtitleClassName=" font-secondary text-[#DADADA]"
             titleClassName="font-primary   text-white captialize"
             title="Your community advantage "
-            wrapperClassName="max-w-[361px] sm:max-w-[991px] mx-auto"
+            wrapperClassName=" sm:max-w-[991px] mx-auto"
           />
 
           <div className="communtiy-group-btn max-w-[316px] sm:w-full mx-auto flex-col-reverse md:flex-row-reverse flex justify-center items-center mt-6 gap-4 sm:gap-6">

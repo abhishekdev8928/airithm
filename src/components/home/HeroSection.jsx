@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 export default function HeroHeader() {
   return (
-    <header className="w-full text-white min-h-[904px] rounded-b-[50px]  sm:rounded-b-[100px] overflow-hidden relative">
+    <header className="w-full text-white min-h-[904px]  rounded-b-[50px]  sm:rounded-b-[100px] overflow-hidden relative">
       <style
         dangerouslySetInnerHTML={{
           __html: `
@@ -31,7 +31,7 @@ export default function HeroHeader() {
           clickable: true,
         }}
         modules={[Pagination, Autoplay]}
-        className="hero-swiper w-full h-[904px]"
+        className="hero-swiper w-full h-[904px] "
       >
         {/* Slide 2 */}
 
@@ -44,12 +44,12 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center  pt-[220px] px-4 z-10">
-              <h1 class="font-primary text-[40px] mx-auto w-[280px] sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
+            <div className="relative text-center px-4 lg:px-0  pt-[220px]  z-10">
+              <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
                 Enterprise Intelligence, Reimagined
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize max-w-[355px] sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
                 AIRITHM Core Powers Next-Generation AI Platforms With Advanced
                 Agentic AI, GenAI, And ML Capabilities Designed For Enterprise
                 Scale

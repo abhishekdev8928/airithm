@@ -82,7 +82,7 @@ bgImgSrc: "/automation/testing-cap/c-data.jpg",
 export const AUTOMATION_LIFECYCLE_CONFIG  = {
   title: "Automation <br class=' sm:hidden' /> Lifecycle Stages",
   subtitle:
-    "Complete testing workflow from learning <br class=' sm:hidden' />  to evaluation with intelligent automation",
+    "Complete testing workflow from learning   to <br class=' sm:hidden' /> evaluation with intelligent automation",
 
   cards: [
     {

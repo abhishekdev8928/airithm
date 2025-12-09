@@ -1,4 +1,3 @@
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -14,15 +13,14 @@ const TestimonialCarousel = () => {
   return (
     <section>
       <div className="rounded-[50px] sm:rounded-[100px]  section-wrapper  bg-white relative z-10 mt-[-100px]  w-full">
-       <SectionHeading
-  titleClassName="pt-9 text-[#00273A]   "
-  title="Over 1,000 <br class=' sm:hidden' />  five-star reviews"
-/>
-
+        <SectionHeading
+          titleClassName="pt-9 text-[#00273A]   "
+          title="Over 1,000 <br class=' sm:hidden' />  five-star reviews"
+        />
 
         <div className="max-w-7xl mx-auto">
           {/* Profile Images Row */}
-          <div className="flex justify-center flex-wrap pt-[40px] pb-[60px] sm:pt-[60px] sm:pb-20 items-center gap-2">
+          <div className="flex justify-center flex-wrap pt-10 pb-[60px] sm:pt-[60px] sm:pb-20 items-center gap-2">
             {profileImages.map((img, idx) => (
               <div
                 key={idx}
@@ -51,9 +49,8 @@ const TestimonialCarousel = () => {
                   <div className="h-full flex flex-col relative">
                     <div className="rounded-lg  mx-auto px-4 sm:px-0 max-w-[358px] testmonial-cards h-full flex gap-16 flex-col">
                       <p className="font-primary font-normal text-[16px] leading-[1.4] tracking-[0.02em] text-[#1E1E1E] capitalize">
-  {testimonial.quote}
-</p>
-
+                        {testimonial.quote}
+                      </p>
 
                       <div className="flex items-center gap-4 mt-auto">
                         <div className="size-[60px] rounded-full overflow-hidden">
@@ -65,13 +62,12 @@ const TestimonialCarousel = () => {
                         </div>
                         <div className="">
                           <h4 className="font-primary font-medium text-[16px] leading-[1.4] tracking-[0.02em] capitalize text-[#00273A]">
-  {testimonial.name}
-</h4>
+                            {testimonial.name}
+                          </h4>
 
-                         <p className="font-primaryfont-normal whitespace-nowrap text-[16px] leading-[1.2] tracking-[0.02em] capitalize text-[#1E1E1E] mt-2">
-  {testimonial.title}
-</p>
-
+                          <p className="font-primaryfont-normal whitespace-nowrap text-[16px] leading-[1.2] tracking-[0.02em] capitalize text-[#1E1E1E] mt-2">
+                            {testimonial.title}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -131,6 +127,24 @@ const TestimonialCarousel = () => {
           /* Hide divider on last visible slide */
           .swiper-slide:last-child .testimonial-divider {
             display: none;
+          }
+
+
+          @media (max-width:576px){
+          .testimonial-swiper .swiper-pagination-bullet {
+            width: 16px;
+            height: 16px;
+          }
+
+          .testimonial-swiper .swiper-pagination-bullet-active {
+            background: linear-gradient(
+              76.14deg,
+              #00273a 50.23%,
+              #006ca0 131.99%
+            );
+            width: 16px;
+            height: 16px;
+          }
           }
         `}</style>
       </div>

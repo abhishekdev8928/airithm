@@ -20,12 +20,14 @@ const CtaSection = () => {
               title="Ready to modernize <br class='sm:hidden' /> your testing?"
             />
 
-            <Button
+             <Button
               btnText="Talk to sales"
-              className="py-5  shadow-[0px_2px_4px_0px_#00000029,0px_8px_8px_0px_#00000024,0px_17px_10px_0px_#00000014,0px_30px_12px_0px_#00000005,0px_47px_13px_0px_#00000000] font-primary bg-primary-gradient capitalize font-bold text-[20px] leading-[1.2] rounded-lg px-10 text-white gap-2.5 "
-              iconSize="20px"
+              className="py-5 px-10 font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+              iconSize="20"
               icon="CircleArrowOutUpRight"
             />
+
+          
           </div>
 
           <div className="w-full py-[100px] flex flex-col md:flex-row items-center gap-20 md:items-start sm:gap-10">
@@ -36,12 +38,14 @@ const CtaSection = () => {
                 Here’s why it matters.
               </h3>
 
-              <Button
-                btnText="Download 2025 Report"
-                className="py-5 mx-auto sm:mx-0 custom-btn-text text-[#C44558] px-10 bg-white"
-                iconSize="20px"
-                icon="Download"
-              />
+              
+<Button
+              btnText="Download 2025 Report"
+              className="py-5 px-10  mx-auto font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              iconSize="20"
+              icon="Download"
+            />
+              
             </div>
 
             {/* RIGHT SIDE */}
