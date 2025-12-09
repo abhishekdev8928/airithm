@@ -6,15 +6,14 @@ const FeatureSection = () => {
   const { title, subtitle, cards } = HOME_FEATURED_CONFIG;
 
   return (
-    <section className="core-features-section px-4 sm:px-0  section-wrapper">
+    <section className="core-features-section   px-4 sm:px-0  section-wrapper">
 
 
       <SectionHeading
         title={title}
         titleClassName="text-[#00273A]"
         subtitleClassName=" text-[#626161]"
-        wrapperClassName={"w-[408px] sm:w-full   mx-auto"}
-        subtitle={subtitle}
+        wrapperClassName={"max-w-[408px] sm:max-w-full   mx-auto"} subtitle={subtitle}
       />
 
     

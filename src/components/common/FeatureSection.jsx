@@ -6,18 +6,18 @@ const FeatureSection = ({ config, className, featureCardClassName }) => {
 
   return (
     <section
-      className={`core-features-section ${className} pb-10 section-wrapper`}
+      className={`core-features-section ${className} pb-[100px]  px-4 lg:px-0 section-wrapper`}
     >
      <div className="max-w-7xl mx-auto">
-       <SectionHeading
+         <SectionHeading
         title={title}
-        titleClassName="section-title"
-        subtitleClassName="section-subtitle text-[#626161]"
-        subtitle={subtitle}
+        titleClassName="text-[#00273A]"
+        subtitleClassName=" text-[#626161]"
+        wrapperClassName={"max-w-[408px] sm:max-w-full   mx-auto"} subtitle={subtitle}
       />
 
       {/* Feature Cards */}
-      <div className="flex flex-wrap gap-6 py-10 justify-center  mx-auto">
+       <div className="flex flex-wrap  gap-6 py-10 justify-center max-w-[1200px] mx-auto">
         {cards.map((card) => (
           <FeatureCard cardClassName={featureCardClassName} key={card.id} {...card} />
         ))}

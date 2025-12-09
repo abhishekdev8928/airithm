@@ -1,7 +1,7 @@
 export const AUTOMATION_Testing_CONFIG  = {
   title: "Two Powerful Testing Capabilities",
   subtitle:
-    "Airithm test studio revolutionizes testing with two powerful capabilities <br> NeuroTest for AI/LLM And CoreTest for enterprise applications",
+    "Airithm test studio revolutionizes testing with two powerful capabilities <br class='hidden sm:block' /> NeuroTest for AI/LLM And CoreTest for enterprise applications",
 
   neuroTest: {
     name: "NeuroTest",
@@ -80,9 +80,9 @@ bgImgSrc: "/automation/testing-cap/c-data.jpg",
 
 
 export const AUTOMATION_LIFECYCLE_CONFIG  = {
-  title: "Automation Lifecycle Stages",
+  title: "Automation <br class=' sm:hidden' /> Lifecycle Stages",
   subtitle:
-    "Complete testing workflow from learning to evaluation with intelligent automation",
+    "Complete testing workflow from learning <br class=' sm:hidden' />  to evaluation with intelligent automation",
 
   cards: [
     {
@@ -121,28 +121,27 @@ export const AUTOMATION_LIFECYCLE_CONFIG  = {
 
 
 export const AUTOMATION_HERO_CONFIG  = {
-  heading: "AI Enabled Intelligent <br> Test Automation Platform",
+  heading: "AI Enabled Intelligent <br class='hidden md:block' /> Test Automation Platform",
   paragraph:
-    "Airithm test studio revolutionizes testing with two powerful capabilities: NeuroTest for AI/ <br> LLM and CoreTest for enterprise applications",
+    "Airithm test studio revolutionizes testing with two powerful capabilities: NeuroTest for AI/ <br class='hidden md:block' /> LLM and CoreTest for enterprise applications",
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
   imageSrc: "/automation/dashboard.png",
   buttons: [
+   {
+  text: "Watch Demo",
+  className: "py-5 px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#C44558] bg-white",
+  icon: "Play",
+  iconSize: "20",
+  wrapperClass: "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
+}
+,
     {
-      text: "Watch Demo",
-      className:
-        "py-5 flex-row-reverse font-medium custom-btn-text-sm text-[#C44558] px-6 bg-white",
-      icon: "Play",
-      iconSize: "20",
-      wrapperClass:
-        "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-px",
-    },
-    {
-      text: "Start Free Trial",
-      className:
-        "py-5 font-medium custom-btn-text-sm bg-primary-gradient px-6 text-white",
-      icon: "CircleArrowOutUpRight",
-      iconSize: "20",
-    },
+  text: "Start Free Trial",
+  className: "py-5 px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
+  icon: "CircleArrowOutUpRight",
+  iconSize: "20",
+}
+
   ],
   badges: [
     {
@@ -164,21 +163,19 @@ export const AUTOMATION_HERO_CONFIG  = {
     "Experience the power of AI-Enabled intelligent test automation and revolutionize your development workflow",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
-    {
-      text: "Schedule Demo",
-      className: "px-6 text-dmsans-20 flex-row-reverse font-medium rounded-lg border-2 py-5",
-      icon: "Play",
-      iconSize: "20px",
-      href: "",
-    },
-    {
-      text: "Start Free Trial",
-      className:
-        "px-9 text-[#C44558] bg-white text-dmsans-20 font-medium rounded-lg py-5",
-      href: "",
-      icon: "CircleArrowOutUpRight",
-      iconSize: "20px",
-      
-    },
-  ],
-};
+  {
+    text: "Schedule Demo",
+    className: "px-6 py-5 flex flex-row-reverse leading-[1.2] font-primary font-medium text-[20px] tracking-[0.02em] rounded-lg border-2",
+    icon: "Play",
+    iconSize: "20px",
+    href: "",
+  },
+  {
+    text: "Start Free Trial",
+    className: "px-9 py-5 font-primary font-medium leading-[1.2] text-[20px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    icon: "CircleArrowOutUpRight",
+    iconSize: "20px",
+    href: "",
+  },
+]
+ }

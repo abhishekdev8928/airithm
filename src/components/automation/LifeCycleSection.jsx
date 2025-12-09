@@ -9,7 +9,7 @@ function LifeCycleSection() {
     <div className="w-full  relative z-9 section-overlap mt-[-100px]  bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] ">
       <div className="max-w-7xl  mx-auto">
 
-        <SectionHeading title={title} subtitleClassName="section-subtitle text-[#D9D9D9]" titleClassName="section-title text-white" subtitle={subtitle} />
+        <SectionHeading wrapperClassName="mx-auto" title={title} subtitleClassName=" text-[#D9D9D9]" titleClassName=" text-white" subtitle={subtitle} />
 
 
 

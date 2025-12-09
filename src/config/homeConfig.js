@@ -56,6 +56,22 @@ export const HOME_FEATURED_CONFIG = {
   ],
 };
 
+export const HOME_LOGOS = [
+  "logo-one.png",
+  "logo-two.png",
+  "logo-three.png",
+  "logo-four.png",
+  "logo-five.png",
+  "logo-six.png",
+  "logo-seven.png",
+  "logo-eight.png",
+  "logo-nine.png",
+  "logo-ten.png",
+  "logo-eleven.png",
+  "logo-twelve.png",
+  "logo-thirteen.png",
+  "logo-fourteen.png",
+];
 
 
 export const HOME_CAPABILITY_CONFIG  = {

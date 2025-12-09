@@ -26,7 +26,7 @@ const Button = ({
             width: iconSize || "20px",
             height: iconSize || "20px",
           }}
-          className="hover:rotate-45 transition"
+          className="hover:rotate-45 shrink-0 transition"
         />
       )}
     </button>

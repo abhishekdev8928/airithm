@@ -37,7 +37,7 @@ const CommunitySection = () => {
             subtitleClassName=" font-secondary text-[#DADADA]"
             titleClassName="font-primary   text-white captialize"
             title="Your community advantage "
-            wrapperClassName="w-[361px] sm:w-[991px] mx-auto"
+            wrapperClassName="max-w-[361px] sm:max-w-[991px] mx-auto"
           />
 
           <div className="communtiy-group-btn max-w-[316px] sm:w-full mx-auto flex-col-reverse md:flex-row-reverse flex justify-center items-center mt-6 gap-4 sm:gap-6">

@@ -1,6 +1,6 @@
 import { Earth } from "lucide-react";
 import React from "react";
-import { HOME_ENTERPRISE_CONFIG } from "../../config/homeConfig.js";
+import { HOME_ENTERPRISE_CONFIG, HOME_LOGOS } from "../../config/homeConfig.js";
 import EnterpriseCard from "../card/EnterpriseCard.jsx";
 import SectionHeading from "@/components/common/SectionHeading";
 const EnterpriseSection = () => {
@@ -16,20 +16,30 @@ const EnterpriseSection = () => {
             subtitleClassName=" text-[#626161]"
             subtitle={subtitle}
             wrapperClassName="max-w-[334px] sm:max-w-[709px] mx-auto"
-          
           />
 
-          <div className="group-icon pt-[60px] pb-[100px] flex justify-center">
-            <img src="./home/group-logo.png" alt="" />
-          </div>
 
-          <div className="flex flex-wrap gap-[56px] sm:gap-10 justify-between mx-auto max-w-[300px]  sm:max-w-[1012px]">
-            {Array.isArray(cards) &&
-              cards.length > 0 &&
-              cards.map((enterprise) => (
-                <EnterpriseCard key={enterprise.id} {...enterprise} />
-              ))}
-          </div>
+          <div className="group-icon py-20 justify-center flex flex-wrap mx-auto gap-[42px] max-w-[824px]">
+  {HOME_LOGOS.map((logo, index) => (
+    <img
+      key={index}
+      src={`/home/logo/${logo}`}
+      alt={`logo ${index + 1}`}
+      className="size-[80px] object-cover"
+    />
+  ))}
+</div>
+
+
+
+         <div className="flex flex-wrap justify-center gap-8 sm:gap-10 mx-auto max-w-full sm:max-w-[1012px] px-4">
+  {Array.isArray(cards) &&
+    cards.length > 0 &&
+    cards.map((enterprise) => (
+      <EnterpriseCard key={enterprise.id} {...enterprise} />
+    ))}
+</div>
+
         </div>
       </div>
     </section>

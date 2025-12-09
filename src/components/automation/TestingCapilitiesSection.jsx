@@ -6,28 +6,39 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const TestingSection = ({ sectionData, sectionType }) => {
   return (
-    <div className="container mx-auto pt-18 px-4">
-      <div className="flex flex-col lg:flex-row items-start gap-10">
+    <div className=" mx-auto pt-18 px-4">
+      <div className="flex flex-col lg:flex-row items-center gap-10">
 
-        {/* LEFT BLOCK */}
-        <div className="flex flex-col items-center w-[420px] flex-shrink-0">
+        {/* LEFT CONTENT */}
+        <div className="flex flex-col items-center max-w-[420px] w-full shrink-0 text-center">
           <img className="w-16 mb-6" src={sectionData.imgSrc} alt="" />
 
-          {/* TITLE SUPPORTS <br> */}
           <h2
-            className="text-dmsans-64 leading-none font-medium text-[#00273A] text-center lg:text-left"
+            className="leading-none font-medium text-[#00273A] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] tracking-[0.02em] font-primary"
             dangerouslySetInnerHTML={{ __html: sectionData.name }}
-          />
+          ></h2>
 
-          {/* DESCRIPTION SUPPORTS <br> */}
           <p
-            className="text-[#797979] text-center mt-4"
+            className="text-[#797979] mt-4"
             dangerouslySetInnerHTML={{ __html: sectionData.tagline }}
           />
         </div>
 
         {/* RIGHT CARDS */}
-        <div className="ml-auto flex flex-wrap justify-center gap-6 md:justify-center lg:flex-nowrap lg:justify-start overflow-x-auto flex-1 min-w-0">
+        <div
+          className="
+          flex-wrap
+           md:flex-nowrap
+            flex  
+            gap-6
+            justify-center
+            lg:justify-start 
+            w-full
+            overflow-x-auto
+            lg:overflow-visible
+            pb-2
+          "
+        >
           {sectionData.cards.map((card) => (
             <TestingCard key={card.id} {...card} />
           ))}
@@ -43,11 +54,11 @@ const TestingCapabilitiesSection = () => {
   const { title, subtitle, neuroTest, coreTest } = AUTOMATION_Testing_CONFIG;
   return (
     <section>
-      <div className=" section-wrapper relative z-10  bg-white rounded-[100px]  ">
-        <div className="max-w-7xl pb-[120px] mx-auto">
+      <div className=" section-wrapper relative z-10  bg-white rounded-[50px] sm:rounded-[100px]  ">
+        <div className=" pb-[120px] mx-auto">
           <SectionHeading
-            subtitleClassName="text-[#626161] section-subtitle"
-            titleClassName="section-title"
+            subtitleClassName="text-[#626161] "
+            titleClassName=""
             title={title}
             subtitle={subtitle}
           />

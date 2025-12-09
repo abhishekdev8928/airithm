@@ -14,7 +14,7 @@ const HeroSection = ({
   return (
     <section>
       <div
-        className="w-full h-auto lg:h-[800px] relative overflow-hidden"
+        className="w-full h-auto md:h-[800px] relative overflow-hidden"
         style={{
           background: backgroundGradient,
           borderRadius: rounded,
@@ -27,10 +27,11 @@ const HeroSection = ({
         >
           {/* Heading with <br/> support */}
           {heading && (
-            <h2
-              className="text-dmsans-64 mb-4 font-semibold leading-none text-white text-center"
-              dangerouslySetInnerHTML={{ __html: heading }}
-            ></h2>
+           <h2
+  className="mb-4 font-semibold max-w-[355px] sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
+  dangerouslySetInnerHTML={{ __html: heading }}
+></h2>
+
           )}
 
           {/* Paragraph with <br/> support */}
@@ -43,7 +44,9 @@ const HeroSection = ({
 
           {/* Buttons */}
           {buttons.length > 0 && (
-            <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4 ">
+          <div className="flex max-w-[264px] sm:max-w-full w-full flex-col-reverse sm:flex-row justify-center items-stretch gap-4">
+
+
               {buttons.map((btn, index) => {
                 const Wrapper = btn.wrapperClass ? "div" : React.Fragment;
                 return (
@@ -67,15 +70,15 @@ const HeroSection = ({
 
         {/* IMAGE */}
         {imageSrc && (
-          <div className="absolute w-full bottom-[-150px] left-1/2 -translate-x-1/2 max-w-[815px]">
-            <div>
+          <div className="  relative mx-auto h-[300px] sm:h-auto mt-[60px] max-w-[815px]">
+            <div className=" hidden md:block">
               {badges.map((item, i) => (
                 <Badge key={i} text={item.text} className={item.className} />
               ))}
 
 
             </div>
-            <img className="w-full mx-auto" src={imageSrc} alt="" />
+            <img className="w-full h-full object-cover  mx-auto" src={imageSrc} alt="" />
           </div>
         )}
       </div>

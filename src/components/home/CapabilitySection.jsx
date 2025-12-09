@@ -20,11 +20,12 @@ const CapabilitySection = () => {
           
         />
 
-      <div className="pt-[95px] sm:mb-[60px] gap-14 sm:gap-0  md:gap-0 flex-wrap  flex justify-center md:justify-between px-[33px]">
-        {cards.map((capability , index) => (
-          <CapabilitiyCard key={capability.id || index} {...capability} />
-        ))}
-      </div>
+    <div className="pt-[95px] sm:mb-[60px] flex flex-wrap justify-center gap-8 px-[33px]">
+  {cards.map((capability, index) => (
+    <CapabilitiyCard key={capability.id || index} {...capability} />
+  ))}
+</div>
+
     </section>
   );
 };

@@ -8,61 +8,54 @@ export const FooterSection = () => {
       }}
     >
       <div className="px-10 py-12">
-        
         {/* MAIN WRAPPER */}
-        <div className=" flex justify-between flex-wrap gap-12 lg:gap-[120px]">
-          
-          {/* LEFT TEXT BLOCK */}
-          <div className="text-inter-16 leading-[1.2] max-w-[358px] shrink-0">
-            Critical Flows Often Go Untested Because Automation Focuses On
-            What’s Documented, Not What Human And.
-          </div>
+      <div className="flex flex-wrap justify-between gap-8 lg:gap-[120px]">
+  {/* LEFT TEXT BLOCK */}
+  <div className="font-secondary text-[16px] leading-[1.2] max-w-full sm:max-w-[358px] shrink-0">
+    Critical Flows Often Go Untested Because Automation Focuses On
+    What’s Documented, Not What Human And.
+  </div>
 
-          {/* RIGHT NAVIGATION BLOCK */}
-          <div className="flex flex-wrap  gap-10 text-[14px] leading-[22px]">
-            
-            {/* Column 1 */}
-            <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Products
-              </h4>
-              <ul className="space-y-3.5 capitalize text-inter-16">
-                <li>neuroTest</li>
-                
-                <li>CoreTest</li>
-                <li>Integration</li>
+  {/* RIGHT NAVIGATION BLOCK */}
+  <div className="flex flex-wrap gap-10 text-[14px] leading-[22px]">
+    {/* Column 1 */}
+    <div className="flex flex-col gap-4 w-[150px] sm:w-auto">
+      <h4 className="font-secondary text-[16px] font-semibold leading-[1.2]">
+        Products
+      </h4>
+      <ul className="space-y-3.5 capitalize font-secondary text-[16px]">
+        <li>neuroTest</li>
+        <li>CoreTest</li>
+        <li>Integration</li>
+      </ul>
+    </div>
 
-              </ul>
-            </div>
+    {/* Column 2 */}
+    <div className="flex flex-col gap-4 w-[150px] sm:w-auto">
+      <h4 className="font-secondary text-[16px] font-semibold leading-[1.2]">
+        Privacy Policy
+      </h4>
+      <ul className="space-y-3.5 font-secondary text-[16px]">
+        <li>Documentation</li>
+        <li>Tutorials</li>
+        <li>Support</li>
+      </ul>
+    </div>
 
-            {/* Column 2 */}
-            <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Privacy Policy
-              </h4>
-              <ul className="space-y-3.5 text-inter-16">
-                <li>Documentation</li>
-                <li>Tutorials</li>
-                <li>Support</li>
-              </ul>
-            </div>
+    {/* Column 3 */}
+    <div className="flex flex-col gap-4 w-[150px] sm:w-auto">
+      <h4 className="font-secondary text-[16px] font-semibold leading-[1.2]">
+        Company
+      </h4>
+      <ul className="space-y-3.5 font-secondary text-[16px]">
+        <li>About</li>
+        <li>Careers</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-            {/* Column 3 */}
-            <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Company
-              </h4>
-              <ul className="space-y-3.5 text-inter-16">
-                <li>About</li>
-                <li>Careers</li>
-                <li>Contact</li>
-
-              </ul>
-            </div>
-
-           
-          </div>
-        </div>
 
         {/* COPYRIGHT */}
         <div className="max-w-[1440px] mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
@@ -81,8 +74,5 @@ export const FooterSection = () => {
     </footer>
   );
 };
-
-
-
 
 export default FooterSection;
