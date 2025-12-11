@@ -5,7 +5,7 @@ const CtaSection = ({
   paragraph,
   backgroundImage,
   buttons = [],
-  wrapperClassName,
+  wrapperClassName
 }) => {
   return (
     <section>
@@ -41,6 +41,7 @@ const CtaSection = ({
                     <Button
                       btnText={btn.text}
                       className={btn.className}
+                      hoverIcon={btn.hoverIcon}
                       icon={btn.icon}
                       iconSize={btn.iconSize}
                       useCommonSvg={btn.useCommonSvg}

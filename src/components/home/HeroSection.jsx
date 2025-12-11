@@ -59,7 +59,7 @@ export default function HeroHeader() {
                 <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5">
                   <Button
   btnText="Join Partner Program"
-  className="py-5 px-10 font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+  className="py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
   iconSize="20"
   useCommonSvg="true"
 />
@@ -68,9 +68,10 @@ export default function HeroHeader() {
 
                 <Button
                   btnText="Explore Products"
-                  className="text-[16px] sm:text-[20px] py-5 pl-10 pr-8 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-[8px] bg-primary-gradient text-white"
+                  className="text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                   iconSize="20"
                   icon="CircleArrowOutUpRight"
+                  
                 />
               </div>
             </div>

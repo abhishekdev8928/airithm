@@ -17,7 +17,7 @@ const FeatureSection = ({ config, className, featureCardClassName }) => {
       />
 
       {/* Feature Cards */}
-       <div className="flex flex-wrap  gap-6 py-10 justify-center max-w-[1200px] mx-auto">
+<div className="flex flex-wrap gap-6 py-10 justify-center max-w-7xl mx-auto">
         {cards.map((card) => (
           <FeatureCard cardClassName={featureCardClassName} key={card.id} {...card} />
         ))}

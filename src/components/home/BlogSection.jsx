@@ -85,8 +85,8 @@ const BlogsSection = () => {
           }
 
           .swiper-pagination-bullet {
-            width: 20px;
-            height: 20px;
+            width: 14px;
+            height: 14px;
             background-color: #d9d9d9;
 
             opacity: 1;
@@ -97,8 +97,8 @@ const BlogsSection = () => {
           }
 
           .swiper-pagination-bullet-active {
-            width: 20px;
-            height: 20px;
+            width: 14px;
+            height: 14px;
             background: #111827;
             border-radius: 50%;
             background: linear-gradient(

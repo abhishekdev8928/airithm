@@ -11,6 +11,7 @@ export const Context_HERO_CONFIG = {
   className:
     "py-5 px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#C44558] bg-white",
   icon: "Download",
+  hoverIcon:false,
   iconSize: "20",
   wrapperClass:
     "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
@@ -79,15 +80,16 @@ export const CONTEXT_CTA_CONFIG = {
    {
   text: "Download Whitepaper",
   className:
-    "px-6 flex-row-reverse font-primary font-medium rounded-lg border-2 py-5 text-[16px]",
+    "px-6 flex-row-reverse min-w-[228px] leading-[1.2] font-primary font-medium rounded-lg border-2 py-5 text-[16px]",
   icon: "Download",
+  hoverIcon:false,
   iconSize: "",
   href: "",
 },
 {
   text: "Request Demo",
   className:
-    "px-9 text-[#C44558] bg-white font-primary font-medium rounded-lg py-5 text-[16px]",
+    "px-6 text-[#C44558] bg-white min-w-[228px] leading-[1.2] font-primary font-medium rounded-lg py-5 text-[16px]",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",

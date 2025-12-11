@@ -129,15 +129,16 @@ export const AUTOMATION_HERO_CONFIG  = {
   buttons: [
    {
   text: "Watch Demo",
-  className: "py-5 px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#C44558] bg-white",
+  className: "py-5 min-w-[228px] px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#C44558] bg-white",
   icon: "Play",
   iconSize: "20",
+  hoverIcon:false,
   wrapperClass: "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
 }
 ,
     {
   text: "Start Free Trial",
-  className: "py-5 px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
+  className: "py-5 min-w-[228px] px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
   icon: "CircleArrowOutUpRight",
   iconSize: "20",
 }
@@ -165,14 +166,15 @@ export const AUTOMATION_HERO_CONFIG  = {
   buttons: [
   {
     text: "Schedule Demo",
-    className: "px-6 py-5 flex flex-row-reverse leading-[1.2] font-primary font-medium text-[20px] tracking-[0.02em] rounded-lg border-2",
+    className: "px-6 py-5 min-w-[228px] flex flex-row-reverse text-[16px] leading-[1.2] font-primary font-medium  tracking-[0.02em] rounded-lg border-2",
     icon: "Play",
     iconSize: "20px",
     href: "",
+    hoverIcon:false
   },
   {
     text: "Start Free Trial",
-    className: "px-9 py-5 font-primary font-medium leading-[1.2] text-[20px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",

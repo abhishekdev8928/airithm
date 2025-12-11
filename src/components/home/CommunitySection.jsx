@@ -41,19 +41,20 @@ const CommunitySection = () => {
           />
 
           <div className="communtiy-group-btn max-w-[316px] sm:w-full mx-auto flex-col-reverse md:flex-row-reverse flex justify-center items-center mt-6 gap-4 sm:gap-6">
+             <Button
+              btnText="Free Training"
+              className="py-5 px-6 w-full min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+              iconSize="20"
+              icon="CircleArrowOutUpRight"
+            />
             <Button
               btnText="Meet the community"
-              className="py-5 px-10 w-full font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              className="py-5 px-6 w-full min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
               iconSize="20"
               icon="CircleArrowOutUpRight"
             />
 
-            <Button
-              btnText="Free Training"
-              className="py-5 px-10 w-full font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-              iconSize="20"
-              icon="CircleArrowOutUpRight"
-            />
+           
           </div>
         </div>
       </div>

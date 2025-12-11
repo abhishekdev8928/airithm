@@ -22,7 +22,7 @@ const CtaSection = () => {
 
              <Button
               btnText="Talk to sales"
-              className="py-5 px-10 font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+              className="py-5 px-6 font-primary min-w-[228px] font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg leading-[1.2] bg-primary-gradient text-white"
               iconSize="20"
               icon="CircleArrowOutUpRight"
             />
@@ -41,7 +41,8 @@ const CtaSection = () => {
               
 <Button
               btnText="Download 2025 Report"
-              className="py-5 px-10  mx-auto font-primary font-semibold text-[16px] sm:text-[20px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              hoverIcon={false}
+              className="py-5 px-6 min-w-[228px] items-center  mx-auto sm:mx-0 font-primary font-medium text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
               iconSize="20"
               icon="Download"
             />

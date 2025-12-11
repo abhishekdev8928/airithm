@@ -101,8 +101,8 @@ const TestimonialCarousel = () => {
           }
 
           .testimonial-swiper .swiper-pagination-bullet {
-            width: 20px;
-            height: 20px;
+            width: 14px;
+            height: 14px;
             background: #d1d5db;
             opacity: 1;
             transition: all 0.3s ease;
@@ -115,8 +115,8 @@ const TestimonialCarousel = () => {
               #00273a 50.23%,
               #006ca0 131.99%
             );
-            width: 20px;
-            height: 20px;
+            width: 14px;
+            height: 14px;
           }
           .swiper-pagination {
             display: flex;

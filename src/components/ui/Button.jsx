@@ -6,18 +6,25 @@ const Button = ({
   btnText, 
   icon, 
   iconSize, 
-  useCommonSvg = false 
+  useCommonSvg = false,
+  hoverIcon = true   // ✅ NEW PROP (default ON)
 }) => {
   const IconComponent = LucideIcons[icon];
 
   return (
     <button 
-      className={`flex gap-2.5 whitespace-nowrap  capitalize items-center justify-center ${className}`}
+      className={`group flex gap-2.5 whitespace-nowrap capitalize items-center justify-center ${className}`}
     >
       {btnText}
 
       {useCommonSvg && (
-        <img src="/svg/gradient-icon.svg" alt="gradient-icon" />
+        <img 
+          src="/svg/gradient-icon.svg" 
+          alt="gradient-icon"
+          className={`shrink-0 transition-transform duration-300 
+            ${hoverIcon ? "group-hover:rotate-45" : ""}
+          `}
+        />
       )}
 
       {!useCommonSvg && icon && IconComponent && (
@@ -26,7 +33,9 @@ const Button = ({
             width: iconSize || "20px",
             height: iconSize || "20px",
           }}
-          className="hover:rotate-45 shrink-0 transition"
+          className={`shrink-0 transition-transform duration-300 
+            ${hoverIcon ? "group-hover:rotate-45" : ""}
+          `}
         />
       )}
     </button>

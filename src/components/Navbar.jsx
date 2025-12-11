@@ -47,7 +47,7 @@ export default function Navbar({
         <img
           src="/svg/airithm-logo.svg"
           alt="Airithm Logo"
-          className="w-[120px] sm:w-[140px] lg:w-[150px] flex-shrink-0"
+          className="w-[120px] sm:w-[140px] lg:w-[150px] shrink-0"
         />
 
         {/* DESKTOP NAV LINKS */}
@@ -60,7 +60,7 @@ export default function Navbar({
               {item.label}
               {item.hasDropdown && (
                 <svg
-                  className={`w-4 h-4 sm:w-5 sm:h-5 ${iconClassName}`}
+                  className={`w-4 h-4 sm:w-4 sm:h-4 ${iconClassName}`}
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -79,7 +79,7 @@ export default function Navbar({
         <div className="hidden lg:block flex-shrink-0 p-px rounded-lg bg-gradient-to-r from-[#C44558] via-[#FF7F7F] to-[#FF7F7F]">
           <Button
             btnText="Start Now"
-            className="bg-white text-[#C44558] font-primary font-medium px-6 lg:px-8 py-2.5 lg:py-3 rounded-lg text-[16px] lg:text-[18px] leading-none w-full sm:w-auto"
+            className="bg-white  text-[#C44558] font-primary font-medium pl-6 pr-5 py-4  rounded-lg text-[16px]  leading-none w-full sm:w-auto"
             useCommonSvg
           />
         </div>

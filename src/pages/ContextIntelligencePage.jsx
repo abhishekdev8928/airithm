@@ -165,11 +165,13 @@ const ContextIntelligencePage = () => {
 
      
 
-        <FeatureSection
-        featureCardClassName="w-full sm:w-[48%] lg:w-[30%]"
+     
+<FeatureSection
+  featureCardClassName="w-full sm:basis-[45%]"
+  config={WHY_CHOOSE_CIP_CONFIG}
+/>
 
-        config={WHY_CHOOSE_CIP_CONFIG}
-      />
+
      
 
       <CtaSection wrapperClassName="mt-0" {...CONTEXT_CTA_CONFIG} />
