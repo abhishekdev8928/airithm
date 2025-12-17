@@ -58,11 +58,11 @@ export default function HeroHeader() {
               <div className="flex mx-auto w-[264px]  sm:w-full flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
                 <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5">
                   <Button
-  btnText="Join Partner Program"
-  className="py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
-  iconSize="20"
-  useCommonSvg="true"
-/>
+                      btnText="Join Partner Program"
+                      className="py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      iconSize="20"
+                      useCommonSvg="true"
+                    />
 
                 </div>
 
