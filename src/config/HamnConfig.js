@@ -1,0 +1,144 @@
+export const HAMN_HEADER = {
+  heading: "Hybrid Attention Memory Network",
+  headClass: "pt-[0]",
+  paragraph:
+    "Enable seamless synchronization of distributed agents, devices and subsystems with secure, scalable event- driven, and subsystems with secure, scalable event-driven AI behaviors acorss organizational boundaries.",
+  buttons: [
+    {
+      text: "View Documentation",
+      className:
+        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+      icon: "Eye",
+      hoverIcon: true,
+      iconSize: "20px",
+      href: "",
+    },
+    {
+      text: "Explore Technology",
+      className:
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+      href: "",
+      icon: "CircleArrowOutUpRight",
+      iconSize: "20px",
+    },
+  ],
+};
+
+export const HAMN_HEADER_CHIPS = [
+  {
+    id: 1,
+    label: "Multi-Source Attention",
+  },
+  {
+    id: 2,
+    label: "Adaptive AMI",
+  },
+  {
+    id: 3,
+    label: "Enterprise Ready",
+  },
+];
+
+export const HAMN_SECTION_CONFIG = {
+  imageSrc: "/core-module/hamn/hamn.png",
+  imageAlt: "Hybrid Attention Memory Network Architecture",
+  wrapperClassName: "max-w-5xl",
+  description:
+    "Hybrid Attention Memory Network (HAMN) is a transformer-inspired routing engine that dynamically allocates attention across episodic, semantic, and capsule-local memories. Each query activates multi-head attention pathways, governed by policy constraints that restrict sensitive or domain-protected sources. HAMN adapts continuously through feedback loops informed by task-success, satisfaction, and reinforcement signals. The router outputs a ranked, relevance-scored context pack optimized for high-signal retrieval, personalization, and transparency.",
+};
+
+export const HAMN_USP_CONFIG = {
+  title: "System Architecture",
+  subtitle: "Deep dive into HAMN’s layered attention mechanism",
+  bodyclass: true,
+
+  cards: [
+    {
+      id: 1,
+      icon: "Layers",
+      title: "Input Layer",
+      discColor: "rgba(198, 198, 198, 1)",
+      textColor: "#fff",
+      description:
+        "Multi-source data ingestion with preprocessing and tokenization for diverse input types.",
+      points: {
+        labels: ["Text Processing", "Structured Data"],
+        textGradientColor:
+          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        discGradientColor:
+          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+      },
+    },
+    {
+      id: 2,
+      icon: "Brain",
+      title: "Attention Engine",
+      textColor: "#fff",
+      discColor: "rgba(198, 198, 198, 1)",
+      description:
+        "Policy-gated multi-head attention with dynamic routing and context prioritization.",
+      points: {
+        labels: ["Multi-Head Attention", "Policy Gating"],
+        textGradientColor:
+          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        discGradientColor:
+          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+      },
+    },
+    {
+      id: 3,
+      icon: "BarChart3",
+      textColor: "#fff",
+      title: "Output Layer",
+      discColor: "rgba(198, 198, 198, 1)",
+      description:
+        "Ranked context snippets with relevance scoring and explainability metrics.",
+      points: {
+        labels: ["Relevance Scoring", "Context Ranking"],
+        textGradientColor:
+          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        discGradientColor:
+          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+      },
+    },
+  ],
+};
+
+export const ATTENTION_FLOW_CONFIG = {
+  title: "Attention Flow Visualization",
+
+  steps: [
+    {
+      id: "signal",
+      label: "Signal Generation",
+      icon: {
+        name: "Upload",
+        size: "32",
+      },
+    },
+    {
+      id: "routing",
+      label: "Attention Routing",
+      icon: {
+        name: "Network",
+        size: "32",
+      },
+    },
+    {
+      id: "policy",
+      label: "Policy Gating",
+      icon: {
+        name: "Funnel",
+        size: "32",
+      },
+    },
+    {
+      id: "ranked",
+      label: "Ranked Output",
+      icon: {
+        name: "Award",
+        size: 32,
+      },
+    },
+  ],
+};

@@ -1,6 +1,4 @@
 import {createBrowserRouter} from "react-router-dom";
-
-
 import HomePage from '@/pages/HomePage';
 import ContextIntelligencePage from '@/pages/ContextIntelligencePage';
 import AutomationPage from '@/pages/AutomationPage';
@@ -8,7 +6,11 @@ import RealTimeContext from "@/pages/RealTimeContext"
 import Declarative_Context_Protocol from "../pages/Declarative_Context_Protocol";
 import TcmPage from "../pages/TcmPage"
 import ContextCapsulePage from "../pages/ContextCapsulePage"
-
+import ReflectiveMemory from "../pages/ReflectiveMemory"
+import NeuroTestPage from "../pages/NeuroTestPage"
+import HamnPage from "../pages/HamnPage";
+import CoreTestPage from "../pages/CoreTestPage";
+ 
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,7 +39,21 @@ const router = createBrowserRouter([
   {
     path:"/context-capsule",
     element:<ContextCapsulePage />
-  }
+  },
+  {
+    path:"/reflective-memory",
+    element:<ReflectiveMemory/>
+  },{
+    path:"/neuro-test",
+    element:<NeuroTestPage/>
+  },{
+      path:"/hybrid-attention-memory-network-page",
+      element:<HamnPage />
+    },
+    {
+      path:"/core-test",
+      element:<CoreTestPage />
+    }
 ]);
 
 export default router;

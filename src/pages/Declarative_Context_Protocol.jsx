@@ -17,7 +17,7 @@ const Declarative_Context_Protocol = () => {
             iconClassName="text-dark"
           />
           <MainBanner  data={HEADER} />
-          <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
+          <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto mb-[100px]">
             {cards.map((card) => (
                 <FeatureCard key={card.id} {...card} />
             ))}

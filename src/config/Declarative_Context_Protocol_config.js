@@ -1,6 +1,7 @@
 
 export const HEADER = {
   heading: "Declarative Context Protocol",
+  headclass:true,
   paragraph:
     "Enterprise-grade governance framework for multiagent AI systems. Policy Driven context flow that ensures safety, auditability, and explainable AI operations",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
@@ -79,6 +80,7 @@ export const CARD_CONFIG = {
 export const KEY_FEATURE_CONFIG = {
    title: "Key Features",
    bodyclass:true,
+    headclass:true,
   subtitle:
     "Comprehensive governance capabilities designed for enterprise-scale AI deployments ",
  cards: [
