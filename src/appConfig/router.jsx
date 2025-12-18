@@ -10,6 +10,7 @@ import ReflectiveMemory from "../pages/ReflectiveMemory"
 import NeuroTestPage from "../pages/NeuroTestPage"
 import HamnPage from "../pages/HamnPage";
 import CoreTestPage from "../pages/CoreTestPage";
+import CompanyPage from "../pages/CompanyPage";
  
 const router = createBrowserRouter([
   {
@@ -53,6 +54,9 @@ const router = createBrowserRouter([
     {
       path:"/core-test",
       element:<CoreTestPage />
+    },{
+      path:"/company",
+      element:<CompanyPage />
     }
 ]);
 

@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from "@/components/Navbar.jsx";
 import MainBanner from '../components/services/MainBanner';
+import FooterSection from "@/components/automation/FooterSection";
+import UspServices from '../components/services/UspServices';
 import { REAL_TIME_CONTEXT_HEADER} from "@/config/servicesConfig";
 import { CORE_MODULE_CONFIG , TIMELINE_SECTION_CONFIG, KEY_FEATURES_CONFIG} from "@/config/servicesConfig";
-import UspServices from '../components/services/UspServices';
 import TimeLine from '../components/services/TimeLine';
-import FooterSection from "@/components/automation/FooterSection";
 
 const RealTimeContext = () => {
   return (

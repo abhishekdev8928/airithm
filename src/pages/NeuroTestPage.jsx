@@ -3,17 +3,33 @@ import SectionHeading from "@/components/common/SectionHeading";
 import UspServices from '../components/services/UspServices';
 import FooterSection from "@/components/automation/FooterSection";
 import Navbar from "@/components/Navbar.jsx";
-import { 
+import CtaSection from "../components/common/CtaSection"
+import {
     Neuro_Test_HEADER,
-     Core_capabiliti_CONFIG,
-    Key_feature_Config
- } from "../config/NeuroTestConfig"
+    Core_capabiliti_CONFIG,
+    Key_feature_Config,
+    Key_feature2_Config,
+    TIMELINE_SECTION_CONFIG,
+    benifits_Config,
+    AUTOMATION_CTA_CONFIG
+} from "../config/NeuroTestConfig"
 import MainBanner from '../components/services/MainBanner';
 import { Brain, CircleCheck, MemoryStick, Network, Search, Shield, ShieldCheck } from 'lucide-react';
+import TimeLine from "../components/services/TimeLine"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+
 
 const NeuroTestPage = () => {
     const { list } = Key_feature_Config;
-    
+    const { list: listtwo } = Key_feature2_Config;
+    const { cards } = benifits_Config
+
     return (
         <>
             <Navbar
@@ -140,28 +156,141 @@ const NeuroTestPage = () => {
                 </div>
 
             </div>
-            <section className='py-[80px] max-w-[780px] mx-auto '>
+            <section className='py-[80px] max-w-[991px] mx-auto '>
                 <SectionHeading
                     title="Key Features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
                     titleClassName="sm:text-[48px]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
+                <div className="pt-[40px] grid grid-cols-1 md:grid-cols-2 gap-[40px]">
 
-                <div className="pt-[40px]">
-                    <div className="">
-                        <ul>
-                            {
-                                list.map((item, index)=>{
-                                    <li key={index} className='text-[#C44558] font-primary font-[600] text-[20px]'><CircleCheck/>{item.title}</li>
+                    {/* Column 1 */}
+                    <ul>
+                        {list.map((item, index) => (
+                            <li
+                                key={index}
+                                className="text-[#C44558] flex items-center font-primary font-semibold text-[20px] mb-[18px]"
+                            >
+                                <span className="inline-flex me-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] h-[40px] w-[40px] justify-center items-center rounded-full">
+                                    <CircleCheck className="text-white h-[19px]" />
+                                </span>
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
 
-                                })
-                            }
-                        </ul>
-                    </div>
+                    {/* Column 2 */}
+                    <ul>
+                        {listtwo.map((item, index) => (
+                            <li
+                                key={index}
+                                className="text-[#C44558] flex items-center font-primary font-semibold text-[20px] mb-[18px]"
+                            >
+                                <span className="inline-flex me-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] h-[40px] w-[40px] justify-center items-center rounded-full">
+                                    <CircleCheck className="text-white h-[19px]" />
+                                </span>
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
 
                 </div>
             </section>
+            <div className='mb-[80px]'>
+                <TimeLine data={TIMELINE_SECTION_CONFIG} />
+
+            </div>
+            <section className='py-[80px] bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]
+                rounded-t-[100px]'>
+                <SectionHeading
+                    title="Enterprise Benefits"
+                    // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
+                    titleClassName="sm:text-[48px] text-[#fff]"
+                    subtitleClassName=" sm:text-[16px] text-[#fff]"
+                />
+
+                <div class="flex flex-wrap   gap-6 pt-10 justify-center max-w-7xl mx-auto">
+                    {
+                        cards.map((item, index) => (
+                            <div class={`core-feature-card background: linear-gradient(
+                        180deg,
+                        rgba(255, 255, 255, 0.1) 0%,
+                        rgba(153, 153, 153, 0.1) 100%
+                        );
+                        transition-shadow duration-300   hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0  w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#505050] p-5 gap-12 flex flex-col ${item.cardClass}`}>
+                                <div class="feature-card-content">
+                                    <h2 class="font-primary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[60px]" >{item.title}</h2>
+                                    <p class="font-secondary text-[18px] leading-[1.4] pt-4 capitalize text-white" >{item.description}</p>
+                                </div>
+                            </div>
+
+                        ))
+                    }
+
+                </div>
+            </section>
+            <section className="py-[80px] max-w-[1100px] mx-auto px-4">
+                   <SectionHeading
+                    title="Integrations"
+                    // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
+                    titleClassName="sm:text-[48px] "
+                    subtitleClassName=" sm:text-[16px] text-[#fff]"
+                />
+                <Swiper
+                    modules={[Navigation, Pagination, Autoplay]}
+                    spaceBetween={30}
+                    slidesPerView={6}
+                    navigation
+                    pagination={{ clickable: true }}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    className="flex items-center logo-sloder mt-[50px]"
+                >
+                    <SwiperSlide>
+                        <div className="flex justify-center items-center">
+                            <img className='object-contain' src="/slider/slide1.png" alt="" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex justify-center items-center">
+                            <img className='object-contain' src="/slider/slide2.png" alt="" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex justify-center items-center">
+                            <img className='object-contain' src="/slider/slide3.png" alt="" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='h-[100%]'>
+                        <div className="flex justify-center items-center">
+                            <img className='object-contain' src="/slider/slide4.png" alt="" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex justify-center items-center">
+                            <img className='object-contain' src="/slider/slide5.png" alt="" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="flex justify-center items-center">
+                            <img className='object-contain' src="/slider/slide6.png" alt="" />
+                        </div>
+                    </SwiperSlide>
+
+
+                </Swiper>
+            </section>
+
+                <div className='pt-[80px]'>
+             <CtaSection wrapperClassName="mt-[-100px]" {...AUTOMATION_CTA_CONFIG} />
+
+                </div>
+            <FooterSection />
+
 
 
         </>

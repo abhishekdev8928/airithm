@@ -28,9 +28,9 @@ const HeroSection = ({
           {/* Heading with <br/> support */}
           {heading && (
            <h2
-  className="mb-4 font-semibold  sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
-  dangerouslySetInnerHTML={{ __html: heading }}
-></h2>
+              className="mb-4 font-semibold  sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
+              dangerouslySetInnerHTML={{ __html: heading }}
+            ></h2>
 
           )}
 

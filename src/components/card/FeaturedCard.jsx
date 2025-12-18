@@ -11,6 +11,7 @@ const FeatureCard = ({
   description,
   cardClassName,
   points,
+  gradent
 }) => {
   const IconComponent = LucideIcons[icon];
 
@@ -31,7 +32,7 @@ const FeatureCard = ({
       {/* Content */}
       <div className="feature-card-content">
         <h2
-          className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
+          className={`font-primary font-medium text-[24px] leading-[1.2] capitalize ${gradent=== true ? ` bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent` : "text-[#fff]"} `}
           style={{ color: textColor || "#1E1E1E" }}
         >
           {title}

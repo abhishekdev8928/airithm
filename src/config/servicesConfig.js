@@ -137,10 +137,7 @@ export const TIMELINE_SECTION_CONFIG = {
 
 }
 export const KEY_FEATURES_CONFIG = {
-   title: "Key Features",
-   bodyclass:"bg-[#fff] border border-[#D9D9D9] border-b-0 border-l-0 border-r-0",
-  subtitle:
-    "Advanced capabilities for enterprise-grade context intelligence",
+ 
     cards: [
       {
       id: 1,
