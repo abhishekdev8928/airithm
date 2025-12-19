@@ -4,7 +4,7 @@ import { HEADER , CARD_CONFIG, KEY_FEATURE_CONFIG} from "@/config/Declarative_Co
 import Navbar from "@/components/Navbar.jsx";
 import FeatureCard from "@/components/card/FeaturedCard.jsx";
 import UspServices from '../components/services/UspServices';
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection"; 
 
 const Declarative_Context_Protocol = () => {
     const { cards } = CARD_CONFIG;

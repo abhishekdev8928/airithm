@@ -1,0 +1,43 @@
+import * as LucideIcons from "lucide-react";
+
+const SideCard = ({ title, icon, iconSrc, iconSize, points }) => {
+  const Icon = LucideIcons?.[icon];
+
+  return (
+    <div className="w-[300px] rounded-2xl border border-[#E5E5E5] gap-10 p-5 flex flex-col items-start">
+      {/* Card icon */}
+      <div className="">
+        {iconSrc ? (
+          <img src={iconSrc} alt="icon" className="w-6 h-6" />
+        ) : (
+          Icon && <Icon size={iconSize || 24} className="text-[#C44558]" />
+        )}
+      </div>
+
+      <div className="sidecard-group sapce-y-6">
+        <h3 className="text-[24px] capitalize font-primary font-medium tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-6">
+          {title}
+        </h3>
+
+        {/* Points list */}
+        <ul className="space-y-2.5">
+          {points?.map((item, i) => (
+            <li key={i} className="flex items-center gap-3 text-[#C44558]">
+              {item.iconSrc ? (
+                <img src={item.iconSrc} alt="icon" className="w-5 h-5" />
+              ) : (
+                <LucideIcons.Check size={20} />
+              )}
+
+              <span className="text-base font-normal font-secondary leading-none tracking-[0.0em]">
+                {item.label || item}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default SideCard;

@@ -14,7 +14,7 @@ const HeroSection = ({
   return (
     <section>
       <div
-        className="w-full h-auto md:h-[800px] relative overflow-hidden"
+        className="w-full h-auto mt-[104px] md:h-[800px] relative overflow-hidden"
         style={{
           background: backgroundGradient,
           borderRadius: rounded,
@@ -28,9 +28,9 @@ const HeroSection = ({
           {/* Heading with <br/> support */}
           {heading && (
            <h2
-              className="mb-4 font-semibold  sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
-              dangerouslySetInnerHTML={{ __html: heading }}
-            ></h2>
+  className="mb-4 font-semibold  sm:max-w-full leading-none text-white text-center font-primary text-[40px] sm:text-[64px] tracking-[0.02em]"
+  dangerouslySetInnerHTML={{ __html: heading }}
+></h2>
 
           )}
 

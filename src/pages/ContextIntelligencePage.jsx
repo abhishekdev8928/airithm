@@ -12,17 +12,13 @@ import {
   WHY_CHOOSE_CIP_CONFIG,
   CONTEXT_CORE_PILLAR_CONFIG,
 } from "@/config/contextIntelligenceConfig";
-// import FooterSection from "@/components/automation/FooterSection";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
 
 const ContextIntelligencePage = () => {
   return (
     <>
       <Navbar
-        wrapperClassName="relative "
-        disableScrollHide={true}
-        linkClassName="text-black"
-        iconClassName="invert-0"
+       intialTextColor="#000"
       />
 
       <HeroSection {...Context_HERO_CONFIG} />

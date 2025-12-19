@@ -13,7 +13,7 @@ import ImageTextSection from "../components/common/ImageTextSection";
 import Navbar from "@/components/Navbar.jsx";
 import UspServices from "../components/services/UspServices";
 import AttentionHeatmapCard from "../components/services/AttentionHeatmap";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
 import SectionHeading from "../components/common/SectionHeading";
 import { icons } from "lucide-react";
 
@@ -22,13 +22,10 @@ const HamnPage = () => {
   return (
     <>
       <Navbar
-        wrapperClassName="fixed top-0 left-0 "
-        disableScrollHide={false}
-        linkClassName="text-dark"
-        iconClassName="text-dark"
+        
       />
       <section>
-        <div className="pt-[180px]">
+        <div className="pt-[100px] mt-[104px]">
           <div className="flex gap-4 flex-wrap pb-5 justify-center">
             {HAMN_HEADER_CHIPS.map((item, index) => (
               <Chip key={item.id ?? index} {...item} />

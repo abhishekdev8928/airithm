@@ -1,6 +1,13 @@
 import React from "react";
-import FeatureCard from "../card/FeaturedCard.jsx";
+
 import SectionHeading from "@/components/common/SectionHeading";
+
+import FeatureCard from "../card/FeaturedCard"
+
+
+
+
+
 const FeatureSection = ({ config, className, featureCardClassName }) => {
   const { title, subtitle, cards } = config;
 
@@ -17,9 +24,9 @@ const FeatureSection = ({ config, className, featureCardClassName }) => {
       />
 
       {/* Feature Cards */}
-<div className="flex flex-wrap gap-6 py-10 justify-center max-w-7xl mx-auto">
-        {cards.map((card) => (
-          <FeatureCard cardClassName={featureCardClassName} key={card.id} {...card} />
+<div className="flex flex-wrap gap-6 py-10 justify-center  mx-auto">
+        {config?.cards.map((card) => (
+          <FeatureCard  key={card?.id} {...card} />
         ))}
       </div>
      </div>

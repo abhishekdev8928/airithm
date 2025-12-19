@@ -3,8 +3,8 @@ import React from "react";
 import { HOME_CAPABILITY_CONFIG } from "@/config/homeConfig";
 import CapabilitiyCard from "../card/CapabilitiyCard";
 import SectionHeading from "@/components/common/SectionHeading"
-const CapabilitySection = () => {
-  const { title, cards } = HOME_CAPABILITY_CONFIG;
+const CapabilitySection = ({title,cards}) => {
+  
   return (
     <section
       className="relative section-overlap px-4  lg:px-0  mt-[-100px] flex flex-col justify-center z-5"
@@ -15,7 +15,7 @@ const CapabilitySection = () => {
 
       <SectionHeading 
           titleClassName="   text-white capitalize "
-          title="intelligence in Action"
+          title={title}
 
           
         />

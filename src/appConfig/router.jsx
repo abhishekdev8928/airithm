@@ -11,6 +11,10 @@ import NeuroTestPage from "../pages/NeuroTestPage"
 import HamnPage from "../pages/HamnPage";
 import CoreTestPage from "../pages/CoreTestPage";
 import CompanyPage from "../pages/CompanyPage";
+import ResourcesPage from "../pages/ResourcesPage";
+import PricingPage from "../pages/PricingPage";
+import AboutPage from "../pages/AboutPage";
+import DemoPage from "../pages/DemoPage";
  
 const router = createBrowserRouter([
   {
@@ -57,7 +61,21 @@ const router = createBrowserRouter([
     },{
       path:"/company",
       element:<CompanyPage />
-    }
+    },{
+      path:"/resources",
+      element:<ResourcesPage/>
+    },
+      {
+    path: "/about",
+    element: <AboutPage />,
+  },
+  {
+    path: "/demo",
+    element: <DemoPage />,
+  },  {
+    path: "/pricing",
+    element: <PricingPage />,
+  },
 ]);
 
 export default router;

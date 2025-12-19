@@ -10,7 +10,7 @@ const FooterSection = () => {
       <div className="px-10 py-12">
         
         {/* MAIN WRAPPER */}
-        <div className=" flex justify-between flex-wrap lg:flex-nowrap gap-12 lg:gap-[120px]">
+        <div className=" flex justify-between flex-wrap lg:flex-nowrap gap-12 ">
           
           {/* LEFT TEXT BLOCK */}
           <div className="text-inter-16 leading-[1.2] max-w-[247px] flex-shrink-0">
@@ -19,7 +19,7 @@ const FooterSection = () => {
           </div>
 
           {/* RIGHT NAVIGATION BLOCK */}
-          <div className="flex  flex-wrap  md:flex-nowrap  gap-10 text-[14px] leading-[22px]">
+          <div className="flex  flex-wrap    gap-10 text-[14px] leading-[22px]">
             
             {/* Column 1 */}
             <div className="flex  flex-col gap-4 w-[150px]">
@@ -81,7 +81,7 @@ const FooterSection = () => {
                 Company
               </h4>
               <ul className="space-y-3.5 text-inter-16 text-white/90">
-                <li>About Katalon</li>
+                <li>About Airithm</li>
                 <li>Careers</li>
                 <li>Events</li>
                 <li>News</li>

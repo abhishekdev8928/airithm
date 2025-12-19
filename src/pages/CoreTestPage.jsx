@@ -4,15 +4,15 @@ import {
   CORE_TEST_FEATURES_CONFIG,
   CORE_TEST_MODULE_CONFIG,
   QA_TESTING_USP_CONFIG,
-  CORE_TEST_HEADER_CONFIG
+  CORE_TEST_HEADER_CONFIG,
+  CORE_TEST_CTA_CONFIG
 } from "../config/coreTestConfig";
 import MainBanner from "../components/services/MainBanner";
 import ArchitectureLayers from "../components/services/ArchitectureLayers";
 import CtaSection from "@/components/common/CtaSection.jsx";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
 import Navbar from "../components/Navbar";
 
-import { AUTOMATION_CTA_CONFIG} from  '@/config/automationConfig'
 
 
 
@@ -21,12 +21,9 @@ const CoreTestPage = () => {
     <>
 
     <Navbar
-      wrapperClassName="relative "
-      disableScrollHide={true}
-      linkClassName="text-black"
-       iconClassName="invert-0"
+      
     />
-      <section className="pt-[100px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white">
+      <section className="pt-[100px] mt-[104px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white">
         <MainBanner data={CORE_TEST_HEADER_CONFIG} />
 
         <div className="max-w-[519px] pt-20  pb-10 mx-auto space-y-4 ">
@@ -95,7 +92,7 @@ const CoreTestPage = () => {
 
       <UspServices data={CORE_TEST_MODULE_CONFIG} />
       <ArchitectureLayers />
-<CtaSection wrapperClassName="mt-[-100px]" {...AUTOMATION_CTA_CONFIG} />
+<CtaSection wrapperClassName="mt-[-100px]" {...CORE_TEST_CTA_CONFIG} />
 
 <FooterSection />
 

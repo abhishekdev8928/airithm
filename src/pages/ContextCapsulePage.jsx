@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeading from "@/components/common/SectionHeading";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
 import Navbar from "@/components/Navbar.jsx";
 import { CAPSULE_CONFIG} from "../config/tcmConfig";
 import UspServices from "../components/services/UspServices";
@@ -9,13 +9,10 @@ const ContextCapsulePage = () => {
   return (
     <>
       <Navbar
-        wrapperClassName="relative "
-        disableScrollHide={true}
-        linkClassName="text-black"
-        iconClassName="invert-0"
+      
       />
       <section>
-        <div className="max-w-7xl pt-[100px]  mx-auto">
+        <div className="max-w-7xl pt-[100px] mt-[104px]  mx-auto">
           {/* Hero */}
           <div className="cc-hero-content space-y-4">
             <SectionHeading

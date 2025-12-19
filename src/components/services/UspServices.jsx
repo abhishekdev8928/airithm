@@ -1,12 +1,9 @@
-import { Earth, SpaceIcon } from "lucide-react";
-import React from "react";
-// import { HOME_ENTERPRISE_CONFIG} from "../../config/homeConfig.js";
-import EnterpriseCard from "../card/EnterpriseCard.jsx";
+
 import SectionHeading from "@/components/common/SectionHeading";
 import FeatureCard from "@/components/card/FeaturedCard.jsx";
-// import { HOME_FEATURED_CONFIG } from "@/config/servicesConfig";
 
-const UspServices = ({ data }) => {
+
+const UspServices = ({ data ,spacing = "" }) => {
   const { title, subtitle, cards, bodyclass } = data;
     
 
@@ -21,16 +18,18 @@ const UspServices = ({ data }) => {
       >
         <div className="max-w-7xl mx-auto ">
           <SectionHeading
-            titleClassName={` ${
-              bodyclass === true ? "text-white" : "text-black"
-            }  capitalize `}
-            title={title}
-            subtitleClassName={`${
-              bodyclass === true ? "text-white" : "text-black"
-            } `}
-            subtitle={subtitle}
-            wrapperClassName="w-full  sm:max-w-[909px] mx-auto"
-          />
+  title={title}
+  subtitle={subtitle}
+  spacing={spacing}
+  titleClassName={`${
+    bodyclass ? "text-white" : "text-black"
+  } capitalize`}
+  subtitleClassName={`${
+    bodyclass ? "text-white" : "text-black"
+  }`}
+  wrapperClassName="w-full sm:max-w-[909px] mx-auto"
+/>
+
           <div className="flex flex-wrap   gap-6 pt-10 justify-center max-w-7xl mx-auto">
             {data.cards.map((card) => (
 

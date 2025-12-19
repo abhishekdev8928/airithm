@@ -5,34 +5,51 @@ const FeatureCard = ({
   id,
   icon,
   iconColor,
+  bgColor,
+  hasBg = false,
   textColor,
   discColor,
   title,
   description,
   cardClassName,
   points,
-  gradent
 }) => {
   const IconComponent = LucideIcons[icon];
 
+  // Determine final icon color
+  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#C44558";
+
   return (
     <div
-      className={`core-feature-card transition-shadow duration-300 
-      hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
-      ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
-      rounded-3xl border border-[#9d9d9d] p-5 gap-12 flex flex-col`}
+      className={`core-feature-card transition-shadow justify-between duration-300 
+        hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
+        ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
+        rounded-3xl border border-[#9d9d9d] p-5 gap-12 flex flex-col`}
     >
       {/* Card Icon */}
       {IconComponent ? (
-        <IconComponent size={32} color={iconColor || "#C44558"} />
+        <div
+          className={`rounded-[16px] ${
+            hasBg
+              ? "flex items-center justify-center w-[66px] h-[66px]"
+              : "w-auto h-auto"
+          }`}
+          style={{
+            backgroundColor: hasBg ? bgColor || "#C44558" : "transparent",
+          }}
+        >
+          <IconComponent size={32} color={finalIconColor} />
+        </div>
       ) : (
-        <div className="w-10 h-10 rounded-full bg-gray-300" />
+        <div className="w-10 h-10 rounded-full bg-gray-300">
+          {/* fallback empty */}
+        </div>
       )}
 
       {/* Content */}
       <div className="feature-card-content">
         <h2
-          className={`font-primary font-medium text-[24px] leading-[1.2] capitalize ${gradent=== true ? ` bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent` : "text-[#fff]"} `}
+          className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
           style={{ color: textColor || "#1E1E1E" }}
         >
           {title}
@@ -50,12 +67,10 @@ const FeatureCard = ({
       {points?.labels && (
         <ul className="points space-y-2">
           {points.labels.map((item, index) => {
-            const isGradient =
-              points.textGradientColor?.includes("gradient");
+            const isGradient = points.textGradientColor?.includes("gradient");
 
             const PointIcon =
-              points.icon?.name &&
-              LucideIcons[points.icon.name];
+              points.icon?.name && LucideIcons[points.icon.name];
 
             return (
               <li key={index} className="flex items-start gap-2">

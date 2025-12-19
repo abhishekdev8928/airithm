@@ -3,10 +3,9 @@ import TestingCapabilitiesSection from "@/components/automation/TestingCapilitie
 import HeroSection from "@/components/common/HeroSection";
 import LifeCycleSection from "@/components/automation/LifeCycleSection";
 import CtaSection from "@/components/common/CtaSection";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
 
 
-// config
 
 import {AUTOMATION_HERO_CONFIG , AUTOMATION_CTA_CONFIG} from  '@/config/automationConfig'
 import Navbar from "../components/Navbar";
@@ -18,14 +17,11 @@ import Navbar from "../components/Navbar";
 const AutomationPage = () => {
   return (
     <>
-<Navbar
-  wrapperClassName="relative "
-  disableScrollHide={true}
-  linkClassName="text-black"
-   iconClassName="invert-0"
-/>
+ <Navbar
+     initialTextColor="black"
+   />
 
-      <HeroSection {...AUTOMATION_HERO_CONFIG} />
+      <HeroSection  {...AUTOMATION_HERO_CONFIG} />
       <TestingCapabilitiesSection />
 
       <LifeCycleSection />

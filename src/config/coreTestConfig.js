@@ -251,6 +251,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
     points: {
       labels: [
         "Multi-agent orchestration",
+        "Planning, reasoning, tool use",
         "Improves test strategies",
         "Self-optimizing test cycles",
       ],
@@ -265,7 +266,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
   heading: "Neuro Test",
   subheading:
     "Comprehensive Intelligent Testing for Enterprise & Non-AI Applications",
-  headclass: "pt-[0px]",
+  headclass: "",
   paragraph:
     "A unified automation platform that accelerates quality, <br class='hidden sm:block' /> ensures reliability, and delivers continuous validation across mission-critical systems.",
   buttons: [
@@ -288,4 +289,29 @@ export  const CORE_TEST_HEADER_CONFIG = {
     },
   ],
 };
+
+ export const CORE_TEST_CTA_CONFIG  = {
+  heading: "Build Better. Test Smarter. <br /> Accelerate Quality with CoreTest",
+  paragraph:
+    "Empower your teams with intelligent, end-to-end test automation across every layer of your enterprise stack.",
+  backgroundImage: "/bg/bg-gradient-four.jpg",
+  buttons: [
+  {
+    text: "Request Demo",
+    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    icon: "Play",
+    iconSize: "20px",
+    href: "",
+    hoverIcon:false
+  },
+  {
+    text: "Get Started",
+          className:
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    icon: "CircleArrowOutUpRight",
+    iconSize: "20px",
+    href: "",
+  },
+]
+ }
 

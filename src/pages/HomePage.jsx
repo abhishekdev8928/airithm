@@ -6,26 +6,22 @@ import EnterpriseSection from "@/components/home/EnterpriseSection.jsx";
 import CommunitySection from "@/components/home/CommunitySection.jsx";
 import TestimonialCarouselSection from "@/components/home/TestimonialCarouselSection.jsx";
 import BlogsSection from "@/components/home/BlogSection.jsx";
-// import FooterSection from "@/components/home/FooterSection.jsx";
 import HeroSection from "@/components/home/HeroSection.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import CtaSection from "@/components/home/CtaSection.jsx";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
+import { HOME_CAPABILITY_CONFIG } from "@/config/homeConfig";
 const HomePage = () => {
   return (
     <>
 
- <Navbar
-  wrapperClassName="fixed top-0 left-0"
-  disableScrollHide={false}
-  linkClassName="text-white"
-  iconClassName="text-white"
-/>
+ <Navbar initialTextColor="text-white" />
+
 
       <HeroSection />
       <FeatureSection />
       <PlatformSection />
-      <CapabilitySection />
+      <CapabilitySection {...HOME_CAPABILITY_CONFIG} />
 
 
       <EnterpriseSection />

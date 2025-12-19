@@ -50,7 +50,8 @@ export const CONTEXT_ANALYTICS_CONFIG = {
       title: "Predictive Analytics",
       description:
         "Advanced forecasting with context-aware models that understands market dynamics and business cycles",
-      state: "active", // optional if you want to highlight blue card
+      state: "active",
+      cardClassName :"border-[#D9D9D9] w-full sm:w-[340px]"
     },
     {
       id: 2,
@@ -59,6 +60,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
       title: "Personalization Engine",
       description:
         "Real-time customer experience optimization based on behavioral context and preferences",
+         cardClassName :"border-[#D9D9D9] w-full sm:w-[340px]"
     },
     {
       id: 3,
@@ -67,6 +69,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
       title: "Process Automation",
       description:
         "Intelligent workflow orchestration that adapts to changing business requirements automatically",
+         cardClassName :"border-[#D9D9D9]  w-full sm:w-[340px]"
     },
   ],
 };
@@ -110,6 +113,8 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       description:
         "Revolutionary parallel processing architecture delivers results 10x faster than traditional AI platforms",
       borderHighlight: "#3B82F6", // optional if you want active border color
+      cardClassName:" border-[#D9D9D9] w-full md:w-[46%]"
+
     },
     {
       id: 2,
@@ -118,6 +123,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       title: "Context-Aware Intelligence",
       description:
         "First platform to truly understand multi-dimensional context relationships in real-time",
+         cardClassName:"border-[#D9D9D9] w-full md:w-[46%]"
     },
     {
       id: 3,
@@ -126,6 +132,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       title: "Self-Evolving Models",
       description:
         "AI that learns and adapts automatically without manual retraining or intervention",
+         cardClassName:"border-[#D9D9D9] w-full md:w-[46%]"
     },
     {
       id: 4,
@@ -134,6 +141,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       title: "Enterprise Ready",
       description:
         "Built for mission-critical applications with 99.99% uptime and enterprise-grade security",
+         cardClassName:"border-[#D9D9D9] w-full md:w-[46%]"
     },
   ],
 };

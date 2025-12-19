@@ -5,8 +5,7 @@ import Button from "../components/ui/Button";
 export default function Navbar({
   wrapperClassName = "",
   disableScrollHide = false,
-  linkClassName = "",
-  iconClassName = "",
+  initialTextColor = "text-black", // 👈 NEW
 }) {
   const [isVisible, setIsVisible] = useState(true);
   const [scrolled, setScrolled] = useState(false);
@@ -32,35 +31,46 @@ export default function Navbar({
     return () => window.removeEventListener("scroll", handleScroll);
   }, [disableScrollHide]);
 
+  // ✅ FINAL COLOR LOGIC
+  const textColor = scrolled ? "text-white" : initialTextColor;
+  const iconColor = textColor;
+
   return (
     <header
-      className={`w-full py-4 sm:py-6 px-4 sm:px-6 lg:px-10 transition-transform duration-300 z-50 ${
-        disableScrollHide ? "" : isVisible ? "translate-y-0" : "-translate-y-full"
-      } ${wrapperClassName}`}
-      style={{
-        backdropFilter: scrolled && !disableScrollHide ? "blur(12px)" : "none",
-        background: scrolled && !disableScrollHide ? "rgba(0,0,0,0.6)" : "transparent",
-      }}
+      className={`
+        fixed top-0 left-0 w-full z-50
+        py-4 sm:py-6 px-4 sm:px-6 lg:px-10
+        transition-all duration-300
+        ${disableScrollHide ? "" : isVisible ? "translate-y-0" : "-translate-y-full"}
+        ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-transparent"}
+        ${wrapperClassName}
+      `}
     >
-      <div className=" mx-auto w-full flex items-center justify-between flex-wrap gap-4">
-        {/* LOGO */}
+      <div className="mx-auto w-full flex items-center justify-between gap-4">
+        {/* LOGO (UNCHANGED) */}
         <img
           src="/svg/airithm-logo.svg"
           alt="Airithm Logo"
-          className="w-[120px] sm:w-[140px] lg:w-[150px] shrink-0"
+          className="w-[120px] sm:w-[140px] lg:w-[150px]"
         />
 
-        {/* DESKTOP NAV LINKS */}
-        <nav className="hidden lg:flex gap-6 flex-wrap">
+        {/* NAV LINKS */}
+        <nav className="hidden lg:flex gap-6">
           {NAVBAR_LINKS.map((item) => (
             <button
               key={item.label}
-              className={`flex items-center gap-2 text-[14px] sm:text-[15px] lg:text-[16px] whitespace-nowrap ${linkClassName}`}
+              className={`
+                flex items-center gap-2
+                text-[14px] sm:text-[15px] lg:text-[16px]
+                whitespace-nowrap
+                transition-colors duration-300
+                ${textColor}
+              `}
             >
               {item.label}
               {item.hasDropdown && (
                 <svg
-                  className={`w-4 h-4 sm:w-4 sm:h-4 ${iconClassName}`}
+                  className={`w-4 h-4 ${iconColor}`}
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -75,17 +85,17 @@ export default function Navbar({
           ))}
         </nav>
 
-        {/* DESKTOP BUTTON */}
-        <div className="hidden lg:block flex-shrink-0 p-px rounded-lg bg-gradient-to-r from-[#C44558] via-[#FF7F7F] to-[#FF7F7F]">
+        {/* CTA */}
+        <div className="hidden lg:block p-px rounded-lg bg-gradient-to-r from-[#C44558] via-[#FF7F7F] to-[#FF7F7F]">
           <Button
             btnText="Start Now"
-            className="bg-white  text-[#C44558] font-primary font-medium pl-6 pr-5 py-4  rounded-lg text-[16px]  leading-none w-full sm:w-auto"
+            className="bg-white text-[#C44558] px-6 py-4 rounded-lg"
             useCommonSvg
           />
         </div>
 
-        {/* MOBILE HAMBURGER */}
-        <button className={`block lg:hidden flex-shrink-0 ${iconClassName}`}>
+        {/* MOBILE */}
+        <button className={`block lg:hidden ${iconColor}`}>
           <Menu size={32} />
         </button>
       </div>

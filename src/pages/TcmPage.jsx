@@ -1,6 +1,7 @@
 import React from "react";
 import { statsCardConfig, Query_TIME_CONFIG } from "../config/tcmConfig";
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection";
+
 import Navbar from "@/components/Navbar.jsx";
 import SectionHeading from "../components/common/SectionHeading";
 import UspServices from "../components/services/UspServices";
@@ -55,14 +56,11 @@ const TcmPage = () => {
   return (
     <>
       <Navbar
-        wrapperClassName="relative "
-        disableScrollHide={true}
-        linkClassName="text-black"
-        iconClassName="invert-0"
+        
       />
 
       <section>
-        <div className="max-w-7xl py-[106px] mx-auto">
+        <div className="max-w-7xl mt-[104px] py-[106px] mx-auto">
           {/* Hero */}
           <div className="tcm-hero-content space-y-4">
 
@@ -120,7 +118,11 @@ const TcmPage = () => {
           </div>
         </div>
       </section>
-      <UspServices data={Query_TIME_CONFIG}/>
+      <UspServices
+  spacing="space-y-4 sm:space-y-6"
+  data={Query_TIME_CONFIG}
+/>
+
 
       <section>
         <div className="max-w-7xl mx-auto py-[100px]">

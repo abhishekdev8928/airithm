@@ -228,12 +228,17 @@
   transition-timing-function: ease-in-out !important;
 }
 
+.mae-gradient-text {
+    background: linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
 
 @media (max-width:560px) {
   .section-wrapper {
   padding-top: 80px;
 }
-}
-.logo-sloder .swiper-wrapper{
-      align-items: center;
 }

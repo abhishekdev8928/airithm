@@ -1,0 +1,150 @@
+export const ABOUT_HEADER_CONFIG = {
+  heading: "About Us",
+  paragraph:
+    "Building intelligent systems that understand context and validate <br /> behavior—autonomously.",
+    headclass:false,
+  buttons:[]
+};
+
+
+export const HOW_THEY_WORK_TOGETHER_CONFIG = {
+  title: "How They Work Together",
+
+  center: {
+    title: "Shared Intelligence",
+    subtitle: "& Feedback Loop",
+    icon: "Settings",
+    useGradientBg: true,
+    roundPill: true,
+    iconSize: 28,
+  },
+
+  cards: [
+    {
+      id: "sectionA",
+      title: "Context Intelligence",
+      icon: "Settings",
+      iconSize:"32",
+      points: [
+        { label: "Context graphs", iconSrc: "/svg/circle-check.svg" },
+        { label: "Memory systems" , iconSrc: "/svg/circle-check.svg"}, 
+        { label: "Reasoning engines", iconSrc: "/svg/circle-check.svg" },
+      ],
+    },
+    {
+      id: "sectionB",
+      title: "Autonomous Testing",
+      icon: "Settings",
+      iconSize:"32",
+      points: [
+        { label: "Autonomous agents" , iconSrc: "/svg/circle-check.svg"}, 
+        { label: "Execution engines", iconSrc: "/svg/circle-check.svg"},
+        { label: "Evaluation systems" , iconSrc: "/svg/circle-check.svg" }, 
+      ],
+    },
+  ],
+};
+
+
+
+
+export const ABOUT_CTA_CONFIG  = {
+  heading: "Ready to Explore Our Platforms?",
+  paragraph:
+    "Join leading enterprises already leveraging context intelligence to drive <br /> unprecedented business outcomes",
+  backgroundImage: "/bg/bg-gradient-four.jpg",
+  buttons: [
+  
+  {
+    text: "Explore Our Platforms",
+    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    icon: "CircleArrowOutUpRight",
+    iconSize: "20px",
+    href: "",
+     useCommonSvg:true
+  },
+]
+ }
+
+
+
+ export const DUAL_PLATFORM_CONFIG = {
+  title: "A Dual-Platform Intelligence Company",
+  subtitle:
+    "We build enterprise platforms that address two foundational challenges of modern systems",
+
+  cards: [
+    {
+      id: 1,
+      icon: "TestTubes",
+      iconColor: "#C44558",
+      title: "Autonomous Testing Platform",
+      description: "Ensuring software and AI systems behave correctly",
+      cardClassName: "w-[400px] border-[#D9D9D9]",
+    },
+    {
+      id: 2,
+      icon: "Network",
+      iconColor: "#C44558",
+      title: "Context Intelligence Platform",
+      description:
+        "Enabling systems to understand, reason, and retain context over time",
+      cardClassName: "w-[400px] border-[#D9D9D9]",
+    },
+  ],
+
+  dualPlatforms: [
+    {
+      id: 1,
+      icon: "Settings",
+      label: "Testing\nPlatform",
+      bgGradient: "linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)",
+      iconColor: "#fff",
+    },
+    {
+      id: 2,
+      icon: "Brain",
+      label: "Intelligence\nPlatform",
+      bgGradient: "linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)",
+      iconColor: "#fff",
+    },
+  ],
+};
+
+export const WHY_TWO_PLATFORMS_CONFIG = {
+  title: "Why Two Platforms",
+  cards: [
+    {
+      id: 1,
+      icon: "Rocket",
+      iconSize: 32,
+      title: "Software Systems\nAre Becoming\nAutonomous",
+      useGradientBg: true,
+      roundPill: true,
+    },
+    {
+      id: 2,
+      icon: "Brain",
+      iconSize: 32,
+      title: "AI Systems Are\nContext-Dependent",
+      useGradientBg: true,
+      roundPill: true,
+    },
+    {
+      id: 3,
+      icon: "ShieldCheck",
+      iconSize: 32,
+      title: "Quality Without\nContext Is\nIncomplete",
+      useGradientBg: true,
+      roundPill: true,
+    },
+    {
+      id: 4,
+      icon: "ShieldAlert",
+      iconSize: 32,
+      title: "Context Without\nValidation Is Risky",
+      useGradientBg: true,
+      roundPill: true,
+    },
+  ],
+};

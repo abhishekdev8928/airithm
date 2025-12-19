@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionHeading from "@/components/common/SectionHeading";
 import UspServices from '../components/services/UspServices';
-import FooterSection from "@/components/automation/FooterSection";
+import FooterSection from "@/components/home/FooterSection"; 
 import Navbar from "@/components/Navbar.jsx";
 import MainBanner from '../components/services/MainBanner';
 import { REFLECTIVE_MEMORY_HEADER, CORE_MODULE_CONFIG, LOOP_CARD_CONFIG, Memory_CONFIG, ATTENTION_FLOW_CONFIG } from "../config/reflectivememoryConfig"
