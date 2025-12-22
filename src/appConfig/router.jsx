@@ -15,6 +15,7 @@ import ResourcesPage from "../pages/ResourcesPage";
 import PricingPage from "../pages/PricingPage";
 import AboutPage from "../pages/AboutPage";
 import DemoPage from "../pages/DemoPage";
+import SecurityPage from "../pages/SecurityPage";
  
 const router = createBrowserRouter([
   {
@@ -75,7 +76,10 @@ const router = createBrowserRouter([
   },  {
     path: "/pricing",
     element: <PricingPage />,
-  },
+  },{
+    path:"/security",
+    element:<SecurityPage/>
+  }
 ]);
 
 export default router;
