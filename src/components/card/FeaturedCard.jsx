@@ -13,8 +13,14 @@ const FeatureCard = ({
   description,
   cardClassName,
   points,
+
+  // 👉 new
+  showLink = false,
+  href,
+  linkText = "Learn More",
 }) => {
   const IconComponent = LucideIcons[icon];
+  const ArrowIconComponent = LucideIcons["ArrowRight"];
 
   // Determine final icon color
   const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#C44558";
@@ -29,7 +35,7 @@ const FeatureCard = ({
       {/* Card Icon */}
       {IconComponent ? (
         <div
-          className={`rounded-[16px] ${
+          className={`rounded-2xl ${
             hasBg
               ? "flex items-center justify-center w-[66px] h-[66px]"
               : "w-auto h-auto"
@@ -62,6 +68,16 @@ const FeatureCard = ({
           {description}
         </p>
       </div>
+
+      {showLink && href && (
+        <a
+          href={href}
+          className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
+        >
+          {linkText}
+          <ArrowIconComponent size={22} strokeWidth={2} />
+        </a>
+      )}
 
       {/* Points */}
       {points?.labels && (

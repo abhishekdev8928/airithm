@@ -30,14 +30,14 @@ export const Security_HEADER = {
 
 export const CORE_MODULE_CONFIG = {
    title: "What is Context <br class='hidden md:block' />Broadcasting & Federation ?",
-   bodyclass:"bg-[#fff] text-[#00273A] mt-[-100px] ",
+   bodyclass:"bg-[#fff] text-[#00273A] mt-[-100px] relative z-10 ",
    
   subtitle:
     "A revolutionary approach to real-time context distribution that enables AI agents, devices, and subsystems to maintain synchronized awareness while preserving organizational autonomy and security",
     cards: [
     {
       id: 1,
-      icon: "Server",
+      icon: "CircleQuestionMark",
       textColor:"#1E1E1E",
       iconColor: "",
       title: "Zero-Trust Architecture",
@@ -47,7 +47,7 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 2,
-      icon: "ShieldCheck",
+      icon: "CircleOff",
       iconColor: "",
        textColor:"#1E1E1E",
        discColor:'#626161',
@@ -57,7 +57,7 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 3,
-      icon: "Maximize2",
+      icon: "Bot",
       iconColor: "",
        textColor:"#1E1E1E",
        discColor:'#626161',
@@ -67,7 +67,7 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 4,
-      icon: "Cpu",
+      icon: "KeyRound",
       iconColor: "",
        textColor:"#1E1E1E",
        discColor:'#626161',
@@ -77,7 +77,7 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 5,
-      icon: "Activity",
+      icon: "Search",
       iconColor: "",
        textColor:"#1E1E1E",
        discColor:'#626161',
@@ -87,7 +87,7 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 6,
-      icon: "Cloud",
+      icon: "Brain",
        textColor:"#1E1E1E",
       iconColor: "",
       title: "Governance-First AI",
@@ -95,5 +95,56 @@ export const CORE_MODULE_CONFIG = {
       description:
         "Responsible AI practices with explainability, bias detection, and human oversight.",
     },
+  ],
+};
+
+
+export const SECURITY_FAQ_CONFIG = [
+  {
+    id: 1,
+    question: "Is customer data used to train models?",
+    answer:
+      "Autonomous Testing is an AI-driven approach that automatically generates, executes, and maintains test cases without human intervention. Unlike traditional test automation that requires manual script creation, autonomous systems use machine learning to understand application behavior and dynamically create comprehensive test coverage.",
+  },
+  {
+    id: 2,
+    question: "How are AI agents sandboxed?",
+    answer:
+      "Traditional automation relies on manually written scripts, whereas autonomous testing adapts automatically to changes using AI and self-healing mechanisms.",
+  },
+  {
+    id: 3,
+    question: "Can this run fully on-premises?",
+    answer:
+      "AI systems are evaluated using benchmarks, validation pipelines, accuracy metrics, and real-world performance testing.",
+  },
+  {
+    id: 4,
+    question: "How are audit logs handled?",
+    answer:
+      "We support cloud, on-premise, and hybrid deployment models.",
+  },
+];
+
+
+export const SECURITY_CTA_CONFIG = {
+  heading: "Security You Can Trust. <br /> Autonomy You Can Scale.",
+   paragraph:
+    "Ready to implement enterprise-grade <br /> autonomous testing with confidence?",
+  backgroundImage: "/bg/bg-gradient-four.jpg",
+  buttons: [
+  {
+    text: "Request Enterprise Demo",
+    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    
+    href: "",
+    
+  },
+  {
+    text: "Talk to Security Team",
+          className:
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    href: "",
+  },
   ],
 };

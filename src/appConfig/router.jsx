@@ -16,6 +16,7 @@ import PricingPage from "../pages/PricingPage";
 import AboutPage from "../pages/AboutPage";
 import DemoPage from "../pages/DemoPage";
 import SecurityPage from "../pages/SecurityPage";
+import PlatformArchitecture from "@/pages/PlatformArchitecture";
  
 const router = createBrowserRouter([
   {
@@ -76,7 +77,12 @@ const router = createBrowserRouter([
   },  {
     path: "/pricing",
     element: <PricingPage />,
-  },{
+  },
+    {
+      path:"/platform-architecture",
+      element:<PlatformArchitecture />
+    },
+    ,{
     path:"/security",
     element:<SecurityPage/>
   }
