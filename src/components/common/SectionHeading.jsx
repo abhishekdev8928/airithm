@@ -9,6 +9,7 @@ const SectionHeading = ({
   subtitleSize = "text-[16px] sm:text-[18px]",  // new prop for subtitle font size
   subtitleClassName = "",
   spacing = "space-y-4 sm:space-y-2",
+  headcolor=""
 }) => {
   return (
     <div className={`text-center ${spacing} ${wrapperClassName}`}>

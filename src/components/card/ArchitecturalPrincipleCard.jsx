@@ -4,7 +4,8 @@ import React from "react";
 const ArchitecturalPrincipleCard = ({ icon, title, description, tags }) => {
   return (
     <div
-      className="bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]
+      className="bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]
+                  border border-[1px ] border-[#cdcdcd8a]
                  w-full p-5 shrink-0 rounded-2xl flex flex-col justify-between"
     >
       {/* Icon */}

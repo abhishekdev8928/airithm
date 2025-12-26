@@ -1,0 +1,68 @@
+export const at_HEADER = {
+  heading: "Autonomous Testing vs Traditional Testing",
+   headclass:"pt-0 text-white max-w-[800px] m-auto",
+  paragraph:
+    "A clear, unbiased comparison to help engineering and QA leaders choose the right testing approach.",
+//   backgroundImage: "/bg/bg-gradient-four.jpg",
+  buttons: [
+   {
+  text: "View Architecture",
+  className:
+    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+  icon: "",
+  hoverIcon:true,
+  iconSize: "20px",
+  href: "",
+},
+{
+  text: "Request a Demo",
+  className:
+    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+  href: "",
+  icon: "",
+  iconSize: "20px",
+}
+
+  ],
+};
+export const benifits_Config ={
+   cards: [
+   
+  {
+    id: 3,
+        img:"./public/svg/brain.svg",
+    title: "Adaptive Test Generation",
+    description:
+      "AI creates and evolves tests automatically based on application behavior and user patterns.",
+  },
+  {
+    id: 4,
+        img:"./public/svg/wand-sparkles.svg",
+    title: "Agentic Execution",
+    description:
+      "Intelligent agents that understand context and adapt to changes in real-time.",
+  },
+  {
+    id: 5,
+        img:"./public/svg/graduation-cap.svg",
+    title: "Continuous Learning",
+    description:
+      "System improves over time, learning from failures and optimizing test coverage.",
+  },
+  {
+    id: 1,
+    img:"./public/svg/message-circle-more.svg",
+    title: "LLM-Based Evaluation",
+    cardClass:' w-full sm:w-[550px] ',
+    description:
+      "Natural language understanding for more intuitive and comprehensive test validation.",
+  },{
+    id: 2,
+        img:"./public/svg/user-round.svg",
+    title: "Reduced Human Effort",
+        cardClass:' w-full sm:w-[550px] ',
+    description:
+      "Minimal manual intervention required, freeing teams to focus on strategic initiatives.",
+  },
+]
+}

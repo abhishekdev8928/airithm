@@ -29,11 +29,13 @@ export const Security_HEADER = {
 
 
 export const CORE_MODULE_CONFIG = {
-   title: "What is Context <br class='hidden md:block' />Broadcasting & Federation ?",
+   title: "Enterprise Security Capabilities",
    bodyclass:"bg-[#fff] text-[#00273A] mt-[-100px] relative z-10 ",
+   headcolor:"#00273A",
+   paracolor:"",
    
-  subtitle:
-    "A revolutionary approach to real-time context distribution that enables AI agents, devices, and subsystems to maintain synchronized awareness while preserving organizational autonomy and security",
+  // subtitle:
+    // "A revolutionary approach to real-time context distribution that enables AI agents, devices, and subsystems to maintain synchronized awareness while preserving organizational autonomy and security",
     cards: [
     {
       id: 1,
@@ -135,15 +137,16 @@ export const SECURITY_CTA_CONFIG = {
   buttons: [
   {
     text: "Request Enterprise Demo",
-    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
-    
+    className: "px-9 py-5 min-w-[228px] font-primary font-[600] leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    icon: "CircleArrowOutUpRight",
     href: "",
     
   },
   {
     text: "Talk to Security Team",
+    icon: "CircleArrowOutUpRight",
           className:
-        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
     href: "",
   },
   ],

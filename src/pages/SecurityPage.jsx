@@ -28,10 +28,10 @@ const SecurityPage = () => {
                 <MainBanner data={Security_HEADER} />
                 <div className=" mt-[40px]">
                     <ul className="flex justify-center gap-5">
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-4 py-3  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-primary '>SOC 2 Ready</span></li>
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-4 py-3  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-primary '>GDPR Aligned</span></li>
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-4 py-3  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-primary '>HIPAA Capable</span></li>
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-4 py-3  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-primary '>ISO Standards</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>SOC 2 Ready</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>GDPR Aligned</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>HIPAA Capable</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] rounded-[100px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>ISO Standards</span></li>
                     </ul>
                 </div>
                 <div className="max-w-[680px] m-auto mt-[60px] " >
@@ -106,14 +106,14 @@ const SecurityPage = () => {
             </div>
             <div className="py-[40px]">
                 <ul className="flex justify-center gap-5">
-                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-4 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>SOC 2 Ready</span></li>
-                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-4 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>GDPR Aligned</span></li>
-                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-4 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>HIPAA Capable</span></li>
-                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-4 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>ISO Standards</span></li>
+                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>SOC 2 Ready</span></li>
+                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>GDPR Aligned</span></li>
+                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>HIPAA Capable</span></li>
+                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>ISO Standards</span></li>
                 </ul>
 
             </div>
-            <div className=" rounded-t-[100px]  pb-[200px] py-[80px] pb-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
+            <div className="rounded-t-[100px]  pb-[200px] py-[80px] pb-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
                 <SectionHeading
                     title="Defense-in-Depth Security Architecture"
                     subtitle='Multi-layered security controls across platform, infrastructure, and operational layers ensure <br/> comprehensive protection.'
@@ -136,7 +136,7 @@ const SecurityPage = () => {
 
                                 </div>
                                 <div className="">
-                                    <h3 className='text-[24px] font-primary text-[#fff] font-[600]'>UI Layer Security</h3>
+                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>UI Layer Security</h3>
                                     <p className='text-[#999999] text-[16px]'>Role-based access controls, session management, and secure authentication flows.</p>
 
                                 </div>
@@ -153,7 +153,7 @@ const SecurityPage = () => {
 
                                 </div>
                                 <div className="">
-                                    <h3 className='text-[24px] font-primary text-[#fff] font-[600]'>API Security</h3>
+                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>API Security</h3>
                                     <p className='text-[#999999] text-[16px]'>OAuth 2.0, rate limiting, input validation, and comprehensive API audit trails.</p>
 
                                 </div>
@@ -170,7 +170,7 @@ const SecurityPage = () => {
 
                                 </div>
                                 <div className="">
-                                    <h3 className='text-[24px] font-primary text-[#fff] font-[600]'>Agent Isolation</h3>
+                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>Agent Isolation</h3>
                                     <p className='text-[#999999] text-[16px]'>Sandboxed execution environments with strict resource and network controls.</p>
 
                                 </div>
@@ -179,15 +179,15 @@ const SecurityPage = () => {
                         </div>
                         <div className="col-span-5 ">
                             <div className="border border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
-                                <h3 className='text-[20px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[600]'>Long-Term Memory</h3>
+                                <h3 className='text-[20px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent font-[600]'>Long-Term Memory</h3>
                                 <ul className='mt-[40px]'>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Self-healing test scripts <Check className='text-[#C44558]' /></li>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Self-healing test scripts <Check className='text-[#C44558]' /></li>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Self-healing test scripts <Check className='text-[#C44558]' /></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Identity Verification <Check className='text-[#C44558]' /></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Device Authentication <Check className='text-[#C44558]' /></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Least Privilege <Check className='text-[#C44558]' /></li>
                                 </ul>
                             </div>
                             <div className="border mt-9 border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
-                                <h3 className='text-[20px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[600]'>Long-Term Memory</h3>
+                                <h3 className='text-[20px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent font-[600]'>Long-Term Memory</h3>
                                 <ul className='mt-[40px]'>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Stored Contexts <span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent'>2,468</span></li>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Embeddings<span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent'>1M+</span></li>

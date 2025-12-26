@@ -17,6 +17,7 @@ import AboutPage from "../pages/AboutPage";
 import DemoPage from "../pages/DemoPage";
 import SecurityPage from "../pages/SecurityPage";
 import PlatformArchitecture from "@/pages/PlatformArchitecture";
+import AutonomousTestingPage from "@/pages/AutonomousTestingPage";
  
 const router = createBrowserRouter([
   {
@@ -82,9 +83,14 @@ const router = createBrowserRouter([
       path:"/platform-architecture",
       element:<PlatformArchitecture />
     },
-    ,{
+    {
     path:"/security",
     element:<SecurityPage/>
+    }
+    ,{
+      path:"/autonomous-testing-vs-traditional-testing",
+      element:<AutonomousTestingPage/>
+    
   }
 ]);
 

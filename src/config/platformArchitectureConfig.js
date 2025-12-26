@@ -7,13 +7,15 @@ export const PLATFORM_ARCHITECTURE_HEADER_CONFIG = {
     {
       text: "View Documentation",
       className:
-        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       href: "",
+        icon: "Eye",
     },
     {
       text: "Explore Architecture",
-      className: "py-5 min-w-[228px] px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
+      className: "py-5 min-w-[228px] px-6 font-primary font-[600] text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
       href: "",
+        icon: "CircleArrowOutUpRight",
     },
   ],
 };

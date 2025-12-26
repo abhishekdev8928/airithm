@@ -17,9 +17,11 @@ export default function PlatformHighLevelArchi() {
         <div key={layer.id} className="w-full  relative">
           {/* Layer Card */}
 
-          <div className="rounded-3xl space-y-4  border border-[#999999] p-6">
+          <div className="rounded-3xl bg-gradient-to-r
+        from-[rgba(255,166,141,0.6)]
+        to-[rgba(253,58,132,0.6)] space-y-4  border border-[#d4d4d4] p-6">
             {/* Header */}
-            <div className="flex rounded-2xl  items-start p-4 border-light-sm justify-between">
+            <div className="flex rounded-2xl bg-[#fff]  items-start p-4 border-light-sm justify-between">
               <div className="space-y-2">
                 <h3 className="font-primary font-medium text-[#1E1E1E] text-[20px] leading-[1.2] tracking-[0.02em] capitalize">
                   {layer.title}
