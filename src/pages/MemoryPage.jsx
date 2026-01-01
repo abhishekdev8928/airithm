@@ -79,7 +79,7 @@ const MemoryPage = () => {
                               {item.points?.map((list, i) => (
                                 <li key={i} className="flex items-center gap-3 text-[#C44558]">
                                
-                                    <img src="./public/svg/circle-check1.svg"  className="w-5 h-5" />
+                                    <img src="/svg/circle-check1.svg"  className="w-5 h-5" />
                                  
                     
                                   <span className="text-base text-[16px] font-normal font-secondary leading-none tracking-[0.0em]">
