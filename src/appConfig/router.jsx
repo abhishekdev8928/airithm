@@ -1,4 +1,4 @@
-import {createBrowserRouter} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import HomePage from '@/pages/HomePage';
 import ContextIntelligencePage from '@/pages/ContextIntelligencePage';
 import AutomationPage from '@/pages/AutomationPage';
@@ -18,7 +18,12 @@ import DemoPage from "../pages/DemoPage";
 import SecurityPage from "../pages/SecurityPage";
 import PlatformArchitecture from "@/pages/PlatformArchitecture";
 import AutonomousTestingPage from "@/pages/AutonomousTestingPage";
- 
+import Integrations from "../pages/Integrations";
+import AgenticArchitecturePage from "../pages/AgenticArchitecturePage";
+import MemoryPage from "../pages/MemoryPage";
+import DeploymentOptionsPage from "../pages/DeploymentOptionsPage";
+import PlatformCapabilitiesPage from "../pages/PlatformCapabilitiesPage";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,66 +36,82 @@ const router = createBrowserRouter([
   {
     path: "/context-intelligence-platform",
     element: <ContextIntelligencePage />,
-  }, 
+  },
   {
     path: "/real-time-context",
     element: <RealTimeContext />,
   },
   {
-    path:"/declarative-context-protocol",
-    element:<Declarative_Context_Protocol/>
+    path: "/declarative-context-protocol",
+    element: <Declarative_Context_Protocol />
   },
   {
     path: "/tcm",
     element: <TcmPage />,
   },
   {
-    path:"/context-capsule",
-    element:<ContextCapsulePage />
+    path: "/context-capsule",
+    element: <ContextCapsulePage />
   },
   {
-    path:"/reflective-memory",
-    element:<ReflectiveMemory/>
-  },{
-    path:"/neuro-test",
-    element:<NeuroTestPage/>
-  },{
-      path:"/hybrid-attention-memory-network-page",
-      element:<HamnPage />
-    },
-    {
-      path:"/core-test",
-      element:<CoreTestPage />
-    },{
-      path:"/company",
-      element:<CompanyPage />
-    },{
-      path:"/resources",
-      element:<ResourcesPage/>
-    },
-      {
+    path: "/reflective-memory",
+    element: <ReflectiveMemory />
+  }, {
+    path: "/neuro-test",
+    element: <NeuroTestPage />
+  }, {
+    path: "/hybrid-attention-memory-network-page",
+    element: <HamnPage />
+  },
+  {
+    path: "/core-test",
+    element: <CoreTestPage />
+  }, {
+    path: "/company",
+    element: <CompanyPage />
+  }, {
+    path: "/resources",
+    element: <ResourcesPage />
+  },
+  {
     path: "/about",
     element: <AboutPage />,
   },
   {
     path: "/demo",
     element: <DemoPage />,
-  },  {
+  }, {
     path: "/pricing",
     element: <PricingPage />,
   },
-    {
-      path:"/platform-architecture",
-      element:<PlatformArchitecture />
-    },
-    {
-    path:"/security",
-    element:<SecurityPage/>
-    }
-    ,{
-      path:"/autonomous-testing-vs-traditional-testing",
-      element:<AutonomousTestingPage/>
-    
+  {
+    path: "/platform-architecture",
+    element: <PlatformArchitecture />
+  },
+  {
+    path: "/security",
+    element: <SecurityPage />
+  }, {
+    path: "/autonomous-testing-vs-traditional-testing",
+    element: <AutonomousTestingPage />
+  },
+
+  
+  {
+    path:"/integrations",
+    element:<Integrations/>
+  },{
+    path:"/agentic-architecture",
+    element:<AgenticArchitecturePage/>
+  },{
+    path:"/memory-and-graph-rag",
+    element:<MemoryPage/>
+  },{
+    path:"/deployment-options",
+    element:<DeploymentOptionsPage/>
+  },{
+    path:"/platform-capabilities",
+    element:<PlatformCapabilitiesPage/>
   }
 ]);
 

@@ -18,26 +18,33 @@ const TimeLine = ({ data }) => {
       {/* Center Line */}
       {/* <div className="absolute left-1/2 top-[200px] h-[calc(100%-200px)] w-[2px] bg-[#F2B6BE] -translate-x-1/2" /> */}
 
-      <div className="flex flex-col gap-5 relative">
+      <div className="flex flex-col lg:gap-5 gap-[50px] px-[18px] lg:px-[0]  relative">
         {cards.map((step, index) => (
           <div key={step.id}   className={`relative flex items-start ${
-                step.align === "left" ? "justify-start" : "justify-end"
-            }`}>
+                step.align === "left" ? "lg:justify-start" : "lg:justify-end"
+            } justify-center`}>
             
             {/* LEFT CONTENT */}
             {step.align === "left" && (
-              <div className="w-[40%] pr-10 text-right">
-                <h3 className="font-primary mt-3 font-semibold text-[24px] text-[#C44558]  relative before:content-[''] before:absolute before:right-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]">
-                  {step.title}
-                </h3>
-                <p className="mt-2 w-[350px] m-auto mr-0 text-[20px] text-[#626161] leading-[1.6]">
+              <div className="lg:w-[40%] w-[100%]  lg:pr-10 text-right ">
+                <div className="flex lg:hidden items-center m-auto justify-center w-[64px] h-[64px] rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] text-white text-[24px] font-semibold">
+                {step.id}
+              </div>
+              {step.title  && (
+
+                <h3 dangerouslySetInnerHTML={{ __html:step.title }}  className="font-primary mt-3 text-center lg:text-end font-semibold text-[24px] text-[#C44558]  relative before:hidden  lg:before:block before:content-[''] before:absolute before:right-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]"/>
+              )
+
+              }
+               
+                <p className="mt-2 lg:w-[350px] text-center lg:text-end  lg:m-auto mr-0 text-[20px] text-[#626161] leading-[1.6]">
                   {step.description}
                 </p>
               </div>
             )}
 
             {/* CENTER NODE */}
-            <div className={`relative z-10 flex flex-col items-center ${    step.align === "left" ? "right-[-83px]" : "left-[-83px]"}`}>
+            <div className={`relative z-10 lg:flex flex-col items-center hidden  ${    step.align === "left" ? "lg:right-[-83px]" : "lg:left-[-83px]"}`}>
               <div className="flex items-center justify-center w-[64px] h-[64px] rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] text-white text-[24px] font-semibold">
                 {step.id}
               </div>
@@ -52,11 +59,12 @@ const TimeLine = ({ data }) => {
 
             {/* RIGHT CONTENT */}
             {step.align === "right" && (
-              <div className="w-[40%] pl-10 text-left relative">
-                <h3 className="font-primary mt-3 font-semibold text-[24px] text-[#C44558] relative before:content-[''] before:absolute before:left-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]">
-                  {step.title}
-                </h3>
-                <p className="mt-2 w-[350px] text-[20px] text-[#626161] leading-[1.6]">
+              <div className="lg:w-[40%] w-[100%]  lg:pl-10 text-left relative">
+                <div className="flex lg:hidden items-center m-auto justify-center w-[64px] h-[64px] rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] text-white text-[24px] font-semibold">
+                {step.id}
+              </div>
+                <h3 className="font-primary mt-3 lg:text-left text-center font-semibold text-[24px] text-[#C44558] relative before:content-[''] before:absolute before:left-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]" dangerouslySetInnerHTML={{ __html:step.title }} />
+                <p className="mt-2  lg:w-[350px] lg:text-left text-center text-[20px] text-[#626161] leading-[1.6]">
                   {step.description}
                 </p>
               </div>

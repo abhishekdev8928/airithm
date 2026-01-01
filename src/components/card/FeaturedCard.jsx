@@ -1,5 +1,6 @@
 import React from "react";
 import * as LucideIcons from "lucide-react";
+import {CircleArrowOutUpRight} from "lucide-react"
 
 const FeatureCard = ({
   id,
@@ -13,6 +14,7 @@ const FeatureCard = ({
   description,
   cardClassName,
   points,
+  linkicon,
 
   // 👉 new
   showLink = false,
@@ -41,7 +43,7 @@ const FeatureCard = ({
               : "w-auto h-auto"
           }`}
           style={{
-            backgroundColor: hasBg ? bgColor || "#C44558" : "transparent",
+            background: hasBg ? bgColor || "#C44558" : "transparent",
           }}
         >
           <IconComponent size={32} color={finalIconColor} />
@@ -75,7 +77,11 @@ const FeatureCard = ({
           className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
         >
           {linkText}
-          <ArrowIconComponent size={22} strokeWidth={2} />
+          { linkicon !== "CircleArrowOutUpRight"?
+<ArrowIconComponent size={22} strokeWidth={2} /> :
+<CircleArrowOutUpRight size={20}/>
+
+          }
         </a>
       )}
 

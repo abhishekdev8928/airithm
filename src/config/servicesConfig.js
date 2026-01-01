@@ -33,6 +33,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
 export const CORE_MODULE_CONFIG = {
    title: "What is Context <br class='hidden md:block' />Broadcasting & Federation ?",
    bodyclass:true,
+   headcolor:"#fff",
    
   subtitle:
     "A revolutionary approach to real-time context distribution that enables AI agents, devices, and subsystems to maintain synchronized awareness while preserving organizational autonomy and security",
@@ -144,7 +145,7 @@ export const KEY_FEATURES_CONFIG = {
       icon: "Server",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      cardClassName: " h-[100%] w-[240px]",
+      cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
       iconColor: "",
       title: "Low-Latency Upadtes",
       description:
@@ -154,7 +155,7 @@ export const KEY_FEATURES_CONFIG = {
       id: 2,
       icon: "ShieldCheck",
       iconColor: "",
-        cardClassName: " h-[100%] w-[240px]",
+        cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Infinite Scalability",
@@ -165,7 +166,7 @@ export const KEY_FEATURES_CONFIG = {
       id: 3,
       icon: "Maximize2",
       iconColor: "",
-        cardClassName: " h-[100%] w-[240px]",
+        cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Infinite Scalability",
@@ -175,7 +176,7 @@ export const KEY_FEATURES_CONFIG = {
     {
       id: 4,
       icon: "Cpu",
-        cardClassName: " h-[100%] w-[240px]",
+        cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',

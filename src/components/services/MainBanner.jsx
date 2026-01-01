@@ -39,32 +39,32 @@ const MainBanner = ({ data }) => {
                     
                     />
               </div> */}
-               <div className="flex mx-auto w-[264px] sm:w-full flex-col-reverse sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
-            {data.buttons.map((btn, index) =>
-  index === 0 ? (
-    <div
-      key={index}
-      className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5"
-    >
-      <Button
-        btnText={btn.text}
-        className={btn.className}
-        icon={btn.icon}
-        iconSize={btn.iconSize}
-        href={btn.href}
-      />
-    </div>
-  ) : (
-    <Button
-      key={index}
-      btnText={btn.text}
-      className={btn.className}
-      icon={btn.icon}
-      iconSize={btn.iconSize}
-      href={btn.href}
-    />
-  )
-)}
+               <div className="flex mx-auto w-[264px] sm:w-full items-center flex-col-reverse sm:flex-row justify-center lg:items-stretch gap-4 mt-[30px]">
+                  {data.buttons.map((btn, index) =>
+                    index === 0 ? (
+                      <div
+                        key={index}
+                        className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5"
+                      >
+                        <Button
+                          btnText={btn.text}
+                          className={btn.className}
+                          icon={btn.icon}
+                          iconSize={btn.iconSize}
+                          href={btn.href}
+                        />
+                      </div>
+                    ) : (
+                      <Button
+                        key={index}
+                        btnText={btn.text}
+                        className={btn.className}
+                        icon={btn.icon}
+                        iconSize={btn.iconSize}
+                        href={btn.href}
+                      />
+                    )
+                  )}
 
           </div>
             </div>

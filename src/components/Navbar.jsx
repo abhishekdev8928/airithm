@@ -41,6 +41,7 @@ export default function Navbar({
         fixed top-0 left-0 w-full z-50
         py-4 sm:py-6 px-4 sm:px-6 lg:px-10
         transition-all duration-300
+        w-[100%]
         ${disableScrollHide ? "" : isVisible ? "translate-y-0" : "-translate-y-full"}
         ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-transparent"}
         ${wrapperClassName}

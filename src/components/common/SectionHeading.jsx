@@ -12,7 +12,7 @@ const SectionHeading = ({
   headcolor=""
 }) => {
   return (
-    <div className={`text-center ${spacing} ${wrapperClassName}`}>
+    <div className={`text-center px-[20px] lg:px-[0px] ${spacing} ${wrapperClassName}`}>
       {title && (
         <h2
           className={`font-primary font-medium leading-[1.2] tracking-[2%] capitalize ${titleSize} ${titleClassName}`}
