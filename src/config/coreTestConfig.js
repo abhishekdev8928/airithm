@@ -263,7 +263,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
 
 
 export  const CORE_TEST_HEADER_CONFIG = {
-  heading: "Neuro Test",
+  heading: "CoreTest",
   subheading:
     "Comprehensive Intelligent Testing for Enterprise & Non-AI Applications",
   headclass: "",
