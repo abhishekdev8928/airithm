@@ -126,7 +126,7 @@ const router = createBrowserRouter([
     path:"/security-by-design",
     element:<SecuritybyDesignPage/>
   },{
-    path:"/two-platformsone-intelligence-loop",
+    path:"/two-platforms-one-intelligence-loop",
     element:<TwoPlatformsOneIntelligenceLoopPage/>
   },
   {
