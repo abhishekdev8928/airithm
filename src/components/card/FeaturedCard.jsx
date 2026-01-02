@@ -15,8 +15,6 @@ const FeatureCard = ({
   cardClassName,
   points,
   linkicon,
-
-  // 👉 new
   showLink = false,
   href,
   linkText = "Learn More",

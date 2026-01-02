@@ -52,7 +52,9 @@
   border: var(--border-light);
 }
 
-
+.bg-gradient-secondary{
+  background: var(--gradient-pink);
+}
 .bg-gradient-primary{
   background: var(--gradient-primary);
 }

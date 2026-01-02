@@ -109,7 +109,7 @@ const DemoPage = () => {
 
               <div className="flex flex-wrap   gap-6 pt-10 justify-center max-w-7xl mx-auto">
                 {PLATFORM_FEATURES_CONFIG?.cards?.map((item) => (
-                  <FeatureCard {...item} />
+                  <FeatureCard {...item} conte />
                 ))}
               </div>
             </div>

@@ -23,6 +23,12 @@ import AgenticArchitecturePage from "../pages/AgenticArchitecturePage";
 import MemoryPage from "../pages/MemoryPage";
 import DeploymentOptionsPage from "../pages/DeploymentOptionsPage";
 import PlatformCapabilitiesPage from "../pages/PlatformCapabilitiesPage";
+import HowAutonomousTestingWorks from "../pages/HowAutonomousTestingWorks";
+import SecuritybyDesignPage from "../pages/SecuritybyDesignPage";
+import TwoPlatformsOneIntelligenceLoopPage from "../pages/TwoPlatformsOneIntelligenceLoopPage";
+import LLMBasedEvaluationPage from "../pages/LLMBasedEvaluationPage";
+import KnowledgeBasedCreationPage from "../pages/KnowledgeBasedCreationPage";
+import CICDPage from "../pages/CICDPage";
 
 const router = createBrowserRouter([
   {
@@ -112,6 +118,29 @@ const router = createBrowserRouter([
   },{
     path:"/platform-capabilities",
     element:<PlatformCapabilitiesPage/>
+  },{
+    path:"/how-autonomous-testing-works",
+    element:<HowAutonomousTestingWorks/>
+  }
+  ,{
+    path:"/security-by-design",
+    element:<SecuritybyDesignPage/>
+  },{
+    path:"/two-platformsone-intelligence-loop",
+    element:<TwoPlatformsOneIntelligenceLoopPage/>
+  },
+  {
+    path:"/llm-based-evaluation",
+   element:<LLMBasedEvaluationPage />
+  },
+  {
+    path:"/knowledge-base-creation-from-self-learning",
+    element:<KnowledgeBasedCreationPage />
+  },
+
+  {
+    path:"/ci-cd-devops-integration",
+    element:<CICDPage />
   }
 ]);
 
