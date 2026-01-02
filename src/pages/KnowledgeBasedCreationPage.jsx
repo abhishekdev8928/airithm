@@ -75,7 +75,7 @@ const KnowledgeBasedCreationPage = () => {
           {/* Heading */}
           <SectionHeading
             title="How It Works"
-            subtitle="A streamlined four-step process that transforms your evaluation workflow from manual to automated."
+            subtitle="Powered by AIRITHM Core, delivering intelligent solutions for every enterprise need."
             titleClassName="font-primary text-white capitalize text-center"
             subtitleClassName="font-secondary max-w-[760px] mx-auto text-[#B5B5B5] text-center"
             spacing="space-y-4"

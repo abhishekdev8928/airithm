@@ -148,7 +148,7 @@ export const LLM_BASED_USP_CONFIG = {
       icon: "MessageCircle",
       title: "Customer Support",
       textColor: "#fff",
-      descriptionColor: "#C6C6C6",
+      discColor: "#C6C6C6",
       cardClassName:
         "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
       description:
@@ -158,8 +158,7 @@ export const LLM_BASED_USP_CONFIG = {
         showDisc: false, // ✅ disc visible
         textGradientColor:
           "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
-        discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        
       },
     },
 
@@ -168,7 +167,7 @@ export const LLM_BASED_USP_CONFIG = {
       icon: "FileText",
       title: "Content Generation",
       textColor: "#fff",
-      descriptionColor: "#C6C6C6",
+      discColor: "#C6C6C6",
       cardClassName:
         "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
       description:
@@ -186,7 +185,7 @@ export const LLM_BASED_USP_CONFIG = {
       icon: "CodeXml",
       title: "Code Review",
       textColor: "#fff",
-      descriptionColor: "#C6C6C6",
+      discColor: "#C6C6C6",
       cardClassName:
         "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
       description:
@@ -196,8 +195,7 @@ export const LLM_BASED_USP_CONFIG = {
         showDisc: false,
         textGradientColor:
           "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
-        discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        
       },
     },
   ],

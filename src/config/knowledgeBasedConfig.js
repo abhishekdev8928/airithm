@@ -33,18 +33,18 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       id: 1,
       icon: "Bot",
       iconColor: "#C44558", // icon white because hasBg is true
-      title: "Automated Pipelines",
+      title: "Automated Ingestion",
       description:
-        "Trigger builds, tests, and deployments automatically on every commit. Smart parallel execution reduces wait times by up to 70%.",
+        "Seamlessly captures data from documents, emails, databases, and conversations across your organization.",
       cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
     },
     {
       id: 2,
       icon: "Search",
       iconColor: "#C44558",
-      title: "Security First",
+      title: "Intelligent Search",
       description:
-        "Built-in vulnerability scanning, compliance checks, and secret management ensure every deployment meets security standards.",
+        "Natural language queries return contextually relevant answers with source citations and confidence scores.",
       cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
     },
     {
@@ -52,19 +52,14 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       icon: "ChartSpline",
       iconColor: "#C44558",
 
-      title: "Real-time Insights",
+      title: "Continuous Learning",
       description:
-        "Monitor pipeline performance, deployment success rates, and team velocity with comprehensive analytics dashboards.",
+        "Adapts and improves knowledge accuracy through user feedback and new information patterns.",
       cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
     },
   ],
 };
 export const KNOWLEDGE_WORKS_CONFIG = {
-  heading: {
-    title: "How It Works",
-    subtitle:
-      "A streamlined four-step process that transforms your evaluation workflow from manual to automated.",
-  },
   steps: [
     {
       step: 1,
