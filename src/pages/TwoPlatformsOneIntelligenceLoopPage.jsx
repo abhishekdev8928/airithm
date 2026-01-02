@@ -24,6 +24,7 @@ const TwoPlatformsOneIntelligenceLoopPage = () => {
   
                 <MainBanner data={tpil_HEADER} />
             </section>
+            <FooterSection/>
     </>
   )
 }
