@@ -8,10 +8,10 @@ import {
   PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG
 } from "../config/platformArchitectureConfig";
 import UspServices from "../components/services/UspServices";
-import PlatformHighLevelArchi from "../components/shared/PlatformHighLevelArchi";
+import PlatformHighLevelArchi from "../components/sections/PlatformHighLevelArchi";
 
 import FooterSection from "../components/home/FooterSection";
-import ArchitecturalPrinciples from "../components/shared/ArchitecturalPrinciples";
+import ArchitecturalPrinciples from "../components/sections/ArchitecturalPrinciples";
 import { ChevronLeft } from "lucide-react";
 const PlatformArchitecture = () => {
   return (

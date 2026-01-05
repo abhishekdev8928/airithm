@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import MainBanner from "../components/services/MainBanner";
 import FeatureCard from "@/components/card/FeaturedCard";
 import FooterSection from "@/components/home/FooterSection";
+import TimeLine2 from "../components/services/TimeLine2";
+import UspServices2 from "../components/services/UspServices2";
 const CICDPage = () => {
   return (
     <>
@@ -88,12 +90,13 @@ const CICDPage = () => {
           </div>
         </div>
       </section>
+      <TimeLine2 data={CICD_DATA}/>  
 
       <section>
         <div className="py-[100px]">
           <SectionHeading
             subtitle="
-Measurable improvements across your entire development lifecycle.       "
+                Measurable improvements across your entire development lifecycle."
             subtitleClassName=" font-secondary text-[#626161]"
             titleClassName="font-primary   text-[#00273A] captialize"
             title="Key Benefits"
@@ -113,13 +116,256 @@ Measurable improvements across your entire development lifecycle.       "
           </div>
         </div>
       </section>
-      <FooterSection/>
-      
+
+      <UspServices2 data={USP_CONFIG}/>
+      <FooterSection />
+
     </>
   );
 };
 
 export default CICDPage;
+
+
+
+export const USP_CONFIG = {
+  title: "Real-World Use Cases",
+  subtitle: "See how teams across industries leverage our platform to transform their delivery process",
+  bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white mb-[60px]",
+  // tags:"How it works",
+
+  cards: [
+    {
+      id: 1,
+      icon: "Store",
+      title: "E-Commerce Platform",
+      discColor: "#C6C6C6",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
+      textColor: "#fff",
+      description:
+        "A retail company deploys 50+ microservices daily during peak season. Automated pipelines handle testing, staging, and production deployments with zero downtime.",
+      points: {
+        labels: [
+          {
+            text: "50+ deploys/day",
+            icon: {
+              name: "Rocket",
+              color: "#C44558",
+            },
+          },
+          {
+            text: "8 min avg",
+            icon: {
+              name: "Clock",
+              color: "#C44558",
+            },
+          },
+        
+        ],
+
+
+        // TEXT COLOR / GRADIENT
+        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+
+      }
+        
+    
+    },
+     {
+      id: 2,
+      icon: "Hospital",
+      title: "Healthcare SaaS",
+      discColor: "#C6C6C6",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
+      textColor: "#fff",
+      description:
+        "HIPAA-compliant deployment pipelines with mandatory security scans, audit logging, and automated compliance checks before every production release.",
+
+ points: {
+        labels: [
+          {
+            text: "100% compliant",
+            icon: {
+              name: "CircleAlert",
+              color: "#C44558",
+            },
+          },
+          {
+            text: "Zero breaches",
+            icon: {
+              name: "Lock",
+              color: "#C44558",
+            },
+          },
+        
+        ],
+
+
+        // TEXT COLOR / GRADIENT
+        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+
+      }
+    
+    },
+     {
+      id: 3,
+      icon: "Smartphone",
+      title: "Mobile App Startup",
+      discColor: "#C6C6C6",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
+      textColor: "#fff",
+      description:
+        "Continuous deployment to app stores with automated testing on real devices, beta distribution, and gradual rollouts to minimize user impact.",
+ points: {
+        labels: [
+          {
+            text: "5M+ users",
+            icon: {
+              name: "UsersRound",
+              color: "#C44558",
+            },
+          },
+          {
+            text: "4.8 rating",
+            icon: {
+              name: "Star",
+              color: "#C44558",
+            },
+          },
+        
+        ],
+
+
+        // TEXT COLOR / GRADIENT
+        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+
+      }
+ 
+    
+    }
+   
+  ],
+};
+
+
+
+
+
+
+
+
+
+export const CICD_DATA = {
+  title: "CI/CD Pipeline",
+  subtitle: "Automated delivery from commit to production",
+  cards: [
+    {
+      id: 1,
+      align: "left",
+      title: "Code Commit & Trigger",
+      description:
+        "Developers push code to your repository. Our system instantly detects changes and triggers the appropriate pipeline based on branch, tags, or custom rules.",
+      card: (
+        <>
+        <div className="mb-3">
+          <img src="/svg/img1.png" alt="" />
+        </div>
+          <div className="bg-[#FFFFFF1F] rounded-[8px] p-2">
+          <p className="text-[14px] gap-1  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex">
+            <img src="/svg/check.svg" alt="" /> Commit Detected: Feature/New-Feature
+          </p>
+          <p className="text-[14px]  gap-1 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent mt-2 flex">
+               <img src="/svg/check.svg"  alt="" />  Pipeline Triggered Automatically
+          </p>
+          </div>
+        </>
+      )
+    },
+    {
+      id: 2,
+      align: "right",
+      title: "Build & Test",
+      description:
+        "Code is compiled, dependencies resolved, and test suites run in parallel for fast feedback.",
+      card: (
+        <>
+        
+          <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] bg-[#FFFFFF1F]">
+            <span className="text-gray-400">Unit Tests</span>
+            <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  243 passed</span>
+          </div>
+          <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] mt-2 bg-[#FFFFFF1F]">
+            <span className="text-gray-400">Integration Tests</span>
+            <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex gap-1"> <img src="/svg/check.svg"  alt="" />  87 passed</span>
+          </div>
+          <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] mt-2 bg-[#FFFFFF1F]">
+            <span className="text-gray-400">Security Scan</span>
+            <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  No issues</span>
+          </div>
+        </>
+      )
+    },
+    {
+      id: 3,
+      align: "left",
+      title: "Quality Gates",
+      description:
+        "Automated checks ensure coverage, performance, and security standards before deployment.",
+      card: (
+        <div className="grid grid-cols-2 gap-4 text-center">
+          <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
+            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">94%</p>
+            <p className="text-[14px] font-seconadry text-[#FFFFFF]">Coverage</p>
+          </div>
+          <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
+            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">A+</p>
+            <p className="text-[14px] font-seconadry text-[#FFFFFF]">Quality</p>
+          </div>
+          <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
+            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">0</p>
+            <p className="text-[14px] font-seconadry text-[#FFFFFF]">Vulnerabilities</p>
+          </div>
+          <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
+            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">98%</p>
+            <p className="text-[14px] font-seconadry text-[#FFFFFF]">Performance</p>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 4,
+      align: "right",
+      title: "Deploy & Monitor",
+      description:
+        "Zero-downtime deployments with real-time monitoring and automated rollback.",
+      card: (
+        <>
+          <div className="flex justify-between text-[16px] bg-[#FFFFFF1F] p-2 rounded-[8px]">
+            <span className="text-gray-400">Staging</span>
+             <span class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
+                                                            w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center "><span class="font-secondary  block text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                                                            bg-clip-text p-1
+                                                            text-transparent">Deployed</span></span>
+          </div>
+          <div className="flex justify-between text-[16px] bg-[#FFFFFF1F] p-2 rounded-[8px] mt-2">
+            <span className="text-gray-400">Production</span>
+          <span class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
+                                                            w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center "><span class="font-secondary  block text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                                                            bg-clip-text p-1
+                                                            text-transparent">In Progress</span></span>
+          </div>
+          <div className="mt-3 bg-[#FFFFFF1F] p-2 rounded-[8px]">
+            <p className="flex justify-between mb-2 text-[16px] text-gray-400 "><span>Deployment Progress</span> <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">75%</span></p>
+            <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
+              <div className="h-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]  w-[75%]" />
+            </div>
+          </div>
+        </>
+      )
+    }
+  ]
+};
+
 
 export const AUTOMATION_PIPELINE_HEADER = {
   heading: "CI/CD & DevOps <br class='hidden md:block' /> Integration",

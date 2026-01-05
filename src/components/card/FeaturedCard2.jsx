@@ -2,7 +2,7 @@ import React from "react";
 import * as LucideIcons from "lucide-react";
 import {CircleArrowOutUpRight} from "lucide-react"
 
-const FeatureCard = ({
+const FeatureCard2 = ({
   id,
   icon,
   iconColor,
@@ -17,6 +17,8 @@ const FeatureCard = ({
   linkicon,
   showLink = false,
   href,
+  bigheading,
+  num,
   linkText = "Learn More",
 }) => {
   const IconComponent = LucideIcons[icon];
@@ -27,11 +29,20 @@ const FeatureCard = ({
 
   return (
     <div
-      className={`core-feature-card transition-shadow justify-between duration-300 
+      className={`relative core-feature-card transition-shadow justify-between duration-300 
         hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
         ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
         rounded-3xl border border-[#9d9d9d] p-5 gap-12 flex flex-col`}
-    >
+      
+    >  
+    
+    {
+          num && (
+            <h2 className="absolute top-[-40px] text-[#fff] h-[64px] w-[64px] left-[40%] rounded-[100%] flex justify-center items-center text-[24px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+              {num}
+            </h2>
+          )
+        }
       {/* Card Icon */}
       {IconComponent ? (
         <div
@@ -54,12 +65,19 @@ const FeatureCard = ({
 
       {/* Content */}
       <div className="feature-card-content">
+        {
+          bigheading && (
+            <h1 className="text-[#1E1E1E] text-[48px] font-primary font-[600]">{bigheading}</h1>
+          )
+        }
         <h2
           className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
           style={{ color: textColor || "#1E1E1E" }}
         >
           {title}
         </h2>
+        
+
 
         <p
           className="font-secondary text-[18px] leading-[1.4] pt-4 capitalize"
@@ -84,50 +102,52 @@ const FeatureCard = ({
       )}
 
       {/* Points */}
+    
       {points?.labels && (
-        <ul className="points space-y-2">
-          {points.labels.map((item, index) => {
-            const isGradient = points.textGradientColor?.includes("gradient");
+  <ul className="points space-y-2">
+    {points.labels.map((item, index) => {
+      const isGradient =
+        typeof points.textGradientColor === "string" &&
+        points.textGradientColor.includes("gradient");
 
-            const PointIcon =
-              points.icon?.name && LucideIcons[points.icon.name];
+      const ItemIcon =
+        item.icon?.name && LucideIcons[item.icon.name];
 
-            return (
-              <li key={index} className="flex items-start gap-2">
-              
-                {PointIcon ? (
-                  <PointIcon
-                    size={16}
-                    className="mt-1 shrink-0"
-                    color={points.icon.color || "#C44558"}
-                  />
-                ) : (
-                  <span
-                    className="mt-2 h-2 w-2 rounded-full shrink-0"
-                    style={{ background: points.discGradientColor }}
-                  />
-                )}
+      return (
+        <li key={index} className="flex items-start gap-2 font-[600]">
+          {/* Icon */}
+          {ItemIcon ? (
+            <ItemIcon
+              size={16}
+              className="mt-1 shrink-0"
+              color={item.icon.color || "#C44558"}
+            />
+          ) : (
+            <span
+              className="mt-2 h-2 w-2 rounded-full shrink-0"
+              style={{ background: points.discGradientColor }}
+            />
+          )}
 
-            
-                <span
-                  className={isGradient ? "bg-clip-text text-transparent" : ""}
-                  style={
-                    isGradient
-                      ? { backgroundImage: points.textGradientColor }
-                      : { color: points.textGradientColor }
-                  }
-                >
-                  {item}
-                </span>
-              </li>
-            );
-          })}
-        </ul>
-      )}
-     
+          {/* Text */}
+          <span
+            className={isGradient ? "bg-clip-text text-transparent" : ""}
+            style={
+              isGradient
+                ? { backgroundImage: points.textGradientColor }
+                : { color: points.textGradientColor }
+            }
+          >
+            {item.text}
+          </span>
+        </li>
+      );
+    })}
+  </ul>
+)}
 
     </div>
   );
 };
 
-export default FeatureCard;
+export default FeatureCard2;

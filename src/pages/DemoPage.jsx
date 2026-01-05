@@ -9,7 +9,7 @@ import {
 } from "../config/demoConfig";
 import SectionHeading from "@/components/common/SectionHeading";
 import FeatureCard from "@/components/card/FeaturedCard";
-import RequestDemoForm from "../components/shared/RequestDemoForm";
+import RequestDemoForm from "../components/sections/RequestDemoForm";
 import CtaSection from "@/components/common/CtaSection";
 import FooterSection from "@/components/home/FooterSection"
 const DemoPage = () => {

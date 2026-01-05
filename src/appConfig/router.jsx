@@ -29,6 +29,9 @@ import TwoPlatformsOneIntelligenceLoopPage from "../pages/TwoPlatformsOneIntelli
 import LLMBasedEvaluationPage from "../pages/LLMBasedEvaluationPage";
 import KnowledgeBasedCreationPage from "../pages/KnowledgeBasedCreationPage";
 import CICDPage from "../pages/CICDPage";
+import TestAnalyticsInsightsPage from "../pages/TestAnalyticsInsightsPage";
+import IntelligentTestAutomation from "../pages/IntelligentTestAutomation";
+import TestingAISystemsPage from "../pages/TestingAISystemsPage";
 
 const router = createBrowserRouter([
   {
@@ -141,7 +144,17 @@ const router = createBrowserRouter([
   {
     path:"/ci-cd-devops-integration",
     element:<CICDPage />
-  }
+  },{
+    path:"/intelligent-test-automation",
+    element:<IntelligentTestAutomation/>
+  },{
+    path:"/testing-ai-systems-at-interprise-scale",
+    element:<TestingAISystemsPage/>
+  },
+    {
+      path:"/test-analytics-insights",
+      element:<TestAnalyticsInsightsPage />
+    }
 ]);
 
 export default router;

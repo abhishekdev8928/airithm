@@ -9,14 +9,28 @@ const InsightCard = ({
   description,
   cardClassName = "",
   iconWrapperClass = "",
+  flag, // new prop for top-right badge
 }) => {
   const Icon = LucideIcons[iconName];
 
   return (
-    <div className={`rounded-xl p-6 border-light-sm ${cardClassName}`}>
+    <div className={`relative bg-white rounded-xl p-6 border-light-sm ${cardClassName}`}>
+      {/* Flag / Badge */}
+      <div className="flex justify-between items-start">
+       
+
       {/* Icon */}
       <div className={`mb-6 ${iconWrapperClass}`}>
         {Icon && <Icon size={iconSize} strokeWidth="1.5" />}
+      </div>
+
+       {flag && (
+        <div
+          className={` ${flag.className}`}
+        >
+          {flag.text}
+        </div>
+      )}
       </div>
 
       {/* Content */}
