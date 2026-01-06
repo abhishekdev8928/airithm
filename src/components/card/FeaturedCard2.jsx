@@ -18,6 +18,7 @@ const FeatureCard2 = ({
   showLink = false,
   href,
   bigheading,
+  bigheadingclass,
   num,
   linkText = "Learn More",
 }) => {
@@ -67,7 +68,7 @@ const FeatureCard2 = ({
       <div className="feature-card-content">
         {
           bigheading && (
-            <h1 className="text-[#1E1E1E] text-[48px] font-primary font-[600]">{bigheading}</h1>
+            <h1 className={`${bigheadingclass} text-[48px] font-primary font-[600]`}>{bigheading}</h1>
           )
         }
         <h2
@@ -94,8 +95,8 @@ const FeatureCard2 = ({
         >
           {linkText}
           { linkicon !== "CircleArrowOutUpRight"?
-<ArrowIconComponent size={22} strokeWidth={2} /> :
-<CircleArrowOutUpRight size={20}/>
+          <ArrowIconComponent size={22} strokeWidth={2} /> :
+          <CircleArrowOutUpRight size={20}/>
 
           }
         </a>
@@ -104,47 +105,47 @@ const FeatureCard2 = ({
       {/* Points */}
     
       {points?.labels && (
-  <ul className="points space-y-2">
-    {points.labels.map((item, index) => {
-      const isGradient =
-        typeof points.textGradientColor === "string" &&
-        points.textGradientColor.includes("gradient");
+        <ul className="points space-y-2">
+          {points.labels.map((item, index) => {
+            const isGradient =
+              typeof points.textGradientColor === "string" &&
+              points.textGradientColor.includes("gradient");
 
-      const ItemIcon =
-        item.icon?.name && LucideIcons[item.icon.name];
+            const ItemIcon =
+              item.icon?.name && LucideIcons[item.icon.name];
 
-      return (
-        <li key={index} className="flex items-start gap-2 font-[600]">
-          {/* Icon */}
-          {ItemIcon ? (
-            <ItemIcon
-              size={16}
-              className="mt-1 shrink-0"
-              color={item.icon.color || "#C44558"}
-            />
-          ) : (
-            <span
-              className="mt-2 h-2 w-2 rounded-full shrink-0"
-              style={{ background: points.discGradientColor }}
-            />
-          )}
+            return (
+              <li key={index} className="flex items-start gap-2 font-[600]">
+                {/* Icon */}
+                {ItemIcon ? (
+                  <ItemIcon
+                    size={16}
+                    className="mt-1 shrink-0"
+                    color={item.icon.color || "#C44558"}
+                  />
+                ) : (
+                  <span
+                    className="mt-2 h-2 w-2 rounded-full shrink-0"
+                    style={{ background: points.discGradientColor }}
+                  />
+                )}
 
-          {/* Text */}
-          <span
-            className={isGradient ? "bg-clip-text text-transparent" : ""}
-            style={
-              isGradient
-                ? { backgroundImage: points.textGradientColor }
-                : { color: points.textGradientColor }
-            }
-          >
-            {item.text}
-          </span>
-        </li>
-      );
-    })}
-  </ul>
-)}
+                {/* Text */}
+                <span
+                  className={isGradient ? "bg-clip-text text-transparent" : ""}
+                  style={
+                    isGradient
+                      ? { backgroundImage: points.textGradientColor }
+                      : { color: points.textGradientColor }
+                  }
+                >
+                  {item.text}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+      )}
 
     </div>
   );

@@ -4,7 +4,7 @@ import FeatureCard2 from "@/components/card/FeaturedCard2.jsx";
 
 
 const UspServices2 = ({ data ,spacing = "" }) => {
-  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, tags , num, bigheading} = data;
+  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, tags , num, bigheading, bigheadingclass} = data;
     
 
   return (

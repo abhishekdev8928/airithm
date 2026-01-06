@@ -30,7 +30,7 @@ const FeatureCard = ({
       className={`core-feature-card transition-shadow justify-between duration-300 
         hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
         ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
-        rounded-3xl border border-[#9d9d9d] p-5 gap-12 flex flex-col`}
+        rounded-3xl border border-[#9d9d9d] p-5 gap-7 flex flex-col`}
     >
       {/* Card Icon */}
       {IconComponent ? (
