@@ -32,7 +32,7 @@ import CICDPage from "../pages/CICDPage";
 import TestAnalyticsInsightsPage from "../pages/TestAnalyticsInsightsPage";
 import IntelligentTestAutomation from "../pages/IntelligentTestAutomation";
 import TestingAISystemsPage from "../pages/TestingAISystemsPage";
-
+import SystemArchitecturePage from "../pages/SystemArchitecturePage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -154,6 +154,10 @@ const router = createBrowserRouter([
     {
       path:"/test-analytics-insights",
       element:<TestAnalyticsInsightsPage />
+    },
+    {
+      path:"/system-architecture-overview",
+      element:<SystemArchitecturePage />
     }
 ]);
 

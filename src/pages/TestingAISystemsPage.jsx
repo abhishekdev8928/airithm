@@ -187,8 +187,6 @@ export const Related_Resources = {
       textColor: "#fff",
       description:
         "Comprehensive guide to evaluating large language models",
-     
-        
     
     },
     {
@@ -223,7 +221,6 @@ export const Related_Resources = {
     },
     {
       id: 4,
-      icon: "Network",
       title: "Testing Architecture",
       bigheading:"ARCHITECTURE",
       bigheadingclass:"!text-[16px] mb-5 text-[#626161]",
