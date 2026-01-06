@@ -18,6 +18,7 @@ const FeatureCard = ({
   showLink = false,
   href,
   linkText = "Learn More",
+  
 }) => {
   const IconComponent = LucideIcons[icon];
   const ArrowIconComponent = LucideIcons["ArrowRight"];

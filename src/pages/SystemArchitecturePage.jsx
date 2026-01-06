@@ -17,8 +17,7 @@ const SystemArchitecturePage = () => {
       <Navbar />
 
       <div
-        className="bg-black rounded-t-[100px]
-"
+        className="bg-black rounded-t-[100px]"
       >
         <div className="mt-[100px] rounded-[100px] py-[150px] pb-[60px] bg-gradient-primary space-y-10">
           <MainBanner data={SYSTEM_ARCHI_HEADER_CONFIG} />
@@ -42,7 +41,7 @@ const SystemArchitecturePage = () => {
                 title="Context Flow Diagram"
               />
 
-              <img src="/svg/control-flow.svg" className="mx-auto" alt="" />
+              <img src="/svg/control-flow.png" className="mx-auto" alt="" />
             </div>
 
             <div className="system-architecture-bottom pt-60 pb-[244px]">
@@ -68,7 +67,7 @@ const SystemArchitecturePage = () => {
             titleClassName="text-white"
           />
 
-          <img src="/svg/control-flow.svg" className="mx-auto" alt="" />
+          <img src="/svg/control-flow.png" className="mx-auto" alt="" />
         </div>
       </section>
 
