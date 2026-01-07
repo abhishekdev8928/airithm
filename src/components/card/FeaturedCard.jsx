@@ -39,7 +39,7 @@ const FeatureCard = ({
         rounded-3xl border border-[#9d9d9d] p-5 gap-7 flex flex-col`}
     >
       {/* Card Icon */}
-      {iconSrc ? (
+      {linkIconSrc ? (
         <div
           className={`rounded-2xl ${
             hasBg
@@ -49,7 +49,7 @@ const FeatureCard = ({
           style={{ background: hasBg ? bgColor || "transparent" : "transparent" }}
         >
           <img
-            src={iconSrc}
+            src={linkIconSrc}
             alt={title}
             className="w-8 h-8 object-contain"
           />
