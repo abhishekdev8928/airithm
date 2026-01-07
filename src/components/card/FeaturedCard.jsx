@@ -18,6 +18,11 @@ const FeatureCard = ({
   showLink = false,
   href,
   linkText = "Learn More",
+
+  linkIconType = "lucide",
+  linkIconSrc,
+  linkIconColor,
+  linkTextClass, // ✅ ADD THIS
   
 }) => {
   const IconComponent = LucideIcons[icon];
@@ -34,7 +39,22 @@ const FeatureCard = ({
         rounded-3xl border border-[#9d9d9d] p-5 gap-7 flex flex-col`}
     >
       {/* Card Icon */}
-      {IconComponent ? (
+      {iconSrc ? (
+        <div
+          className={`rounded-2xl ${
+            hasBg
+              ? "flex items-center justify-center w-[66px] h-[66px]"
+              : "w-auto h-auto"
+          }`}
+          style={{ background: hasBg ? bgColor || "transparent" : "transparent" }}
+        >
+          <img
+            src={iconSrc}
+            alt={title}
+            className="w-8 h-8 object-contain"
+          />
+        </div>
+      ) : IconComponent ? (
         <div
           className={`rounded-2xl ${
             hasBg
@@ -76,11 +96,19 @@ const FeatureCard = ({
           className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
         >
           {linkText}
-          { linkicon !== "CircleArrowOutUpRight"?
-<ArrowIconComponent size={22} strokeWidth={2} /> :
-<CircleArrowOutUpRight size={20}/>
-
-          }
+         {linkIconType === "gradient" && linkIconSrc ? (
+      <img
+        src={linkIconSrc}
+        alt="arrow"
+        className="w-5 h-5 object-contain"
+      />
+    ) : (
+      <ArrowIconComponent
+        size={22}
+        strokeWidth={2}
+        color={linkIconColor || "#C44558"}
+      />
+    )}
         </a>
       )}
 
