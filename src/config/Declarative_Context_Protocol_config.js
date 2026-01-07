@@ -79,8 +79,9 @@ export const CARD_CONFIG = {
 
 export const KEY_FEATURE_CONFIG = {
    title: "Key Features",
-   bodyclass:true,
+   bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]  text-[#fff] ",
     headclass:true,
+    headcolor:"#fff",
   subtitle:
     "Comprehensive governance capabilities designed for enterprise-scale AI deployments ",
  cards: [

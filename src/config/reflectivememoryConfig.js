@@ -29,7 +29,7 @@ export const REFLECTIVE_MEMORY_HEADER = {
 
 export const CORE_MODULE_CONFIG = {
    title: "Core Concept",
-   bodyclass:true,
+   bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-[#fff]",
   subtitle:
     "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
     cards: [
@@ -38,7 +38,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "AudioWaveform",
       textColor:"#fff",
       iconColor: "",
-        cardClassName: "w-[405px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "Through sophisticated meta-cognitive processes",
       discColor:'#C6C6C6',
       description:
@@ -48,7 +48,7 @@ export const CORE_MODULE_CONFIG = {
       id: 2,
       icon: "AudioLines",
       iconColor: "",
-      cardClassName: "w-[405px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
       title: "AIRITHM analyzes its own decision-making patterns",
@@ -60,7 +60,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Lightbulb",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[405px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "identifies areas for improvement",
       description:
@@ -71,7 +71,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Bot",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[405px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "autonomously refines its capabilities without human intervention",
       description:
@@ -88,7 +88,7 @@ export const LOOP_CARD_CONFIG = {
       icon: "Search",
       textColor:"#C44558",
       discColor:'#626161 ',
-      cardClassName: " h-[350px] w-[375px]",
+      cardClassName: " h-[350px] md:w-[375px] w-[100%]",
       iconColor: "",
       title: "Continuous Analysis",
       description:
@@ -98,7 +98,7 @@ export const LOOP_CARD_CONFIG = {
       id: 2,
       icon: "SquareChartGantt",
       iconColor: "",
-        cardClassName: " h-[350px] w-[375px]",
+        cardClassName: " h-[350px] md:w-[375px] w-[100%]",
    textColor:"#C44558",
       discColor:'#626161 ',
       title: "Meta-Cognitive Processing",
@@ -109,7 +109,7 @@ export const LOOP_CARD_CONFIG = {
       id: 3,
       icon: "ChartSpline",
       iconColor: "",
-        cardClassName: " h-[350px] w-[375px]",
+        cardClassName: " h-[350px] md:w-[375px] w-[100%]",
        textColor:"#C44558",
       discColor:'#626161 ',
       title: "Autonomous Refinement",
@@ -122,7 +122,7 @@ export const LOOP_CARD_CONFIG = {
 
 export const Memory_CONFIG = {
    title: "Memory Distillation",
-   bodyclass:true,
+   bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
   subtitle:
     "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
     cards: [
@@ -131,7 +131,7 @@ export const Memory_CONFIG = {
       icon: "ChartArea",
       textColor:"#fff",
       iconColor: "",
-        cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "Insight Extraction",
       discColor:'#C6C6C6',
       description:
@@ -141,7 +141,7 @@ export const Memory_CONFIG = {
       id: 2,
       icon: "Brain",
       iconColor: "",
-      cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
       title: "Knowledge Compression",
@@ -153,7 +153,7 @@ export const Memory_CONFIG = {
       icon: "DatabaseZap",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Memory Integration",
       description:

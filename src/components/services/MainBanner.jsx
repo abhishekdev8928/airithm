@@ -10,13 +10,13 @@ const MainBanner = ({ data }) => {
           >
             {/* <div className="absolute inset-0 bg-black/5" /> */}
 
-            <div className={`relative text-center px-4 lg:px-0 ${data.headclass === true ?  "pt-[220px]" : data.headclass}   z-10`}>
+            <div className={`relative text-center px-4 lg:px-0 ${data.headclass === true ?  "lg:pt-[220px] pt-[150px]" : data.headclass}   z-10`}>
               <h1 dangerouslySetInnerHTML={{ __html: data.heading }} class="font-primary text-[40px] mx-auto font-[600]  sm:w-fit leading-none sm:text-[64px]  mx-auto tracking-[0.02em]">
                 
               </h1>
-              <h3 className='font-primary text-[20px] font-[500] mt-2'>{data.subheading}</h3>
+              <h3 className='font-primary lg:text-[20px] text-[16px] font-[500] mt-2'>{data.subheading}</h3>
 
-              <p   dangerouslySetInnerHTML={{ __html: data.paragraph }} class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize mt-[20px]  sm:max-w-[950px] mx-auto  text-[#838383]">
+              <p   dangerouslySetInnerHTML={{ __html: data.paragraph }} class="font-secondary font-medium lg:text-[18px] text-[17px] leading-[1.4] tracking-[2%] text-center capitalize mt-[20px]  sm:max-w-[950px] mx-auto  text-[#838383]">
                  {/* {data.paragraph} */}
               </p>
 

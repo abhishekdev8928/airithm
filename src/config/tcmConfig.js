@@ -29,7 +29,7 @@ export const statsCardConfig = [
 
 export const Query_TIME_CONFIG = {
    title: "Query-Time Composition",
-   bodyclass:true,
+   bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
   subtitle:
     "Intelligent merging and composition engine that combines short-term and long-term memory contexts for optimal, responsive generation.",
     cards: [

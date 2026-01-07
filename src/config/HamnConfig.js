@@ -42,7 +42,7 @@ export const HAMN_HEADER_CHIPS = [
 export const HAMN_SECTION_CONFIG = {
   imageSrc: "/core-module/hamn/hamn.png",
   imageAlt: "Hybrid Attention Memory Network Architecture",
-  wrapperClassName: "max-w-5xl",
+  wrapperClassName: "max-w-5xl px-5 lg:px-0",
   description:
     "Hybrid Attention Memory Network (HAMN) is a transformer-inspired routing engine that dynamically allocates attention across episodic, semantic, and capsule-local memories. Each query activates multi-head attention pathways, governed by policy constraints that restrict sensitive or domain-protected sources. HAMN adapts continuously through feedback loops informed by task-success, satisfaction, and reinforcement signals. The router outputs a ranked, relevance-scored context pack optimized for high-signal retrieval, personalization, and transparency.",
 };
@@ -50,7 +50,7 @@ export const HAMN_SECTION_CONFIG = {
 export const HAMN_USP_CONFIG = {
   title: "System Architecture",
   subtitle: "Deep dive into HAMN’s layered attention mechanism",
-  bodyclass: true,
+  bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
 
   cards: [
     {

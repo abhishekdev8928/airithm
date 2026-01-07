@@ -60,14 +60,14 @@ const TcmPage = () => {
       />
 
       <section>
-        <div className="max-w-7xl mt-[104px] py-[106px] mx-auto">
+        <div className="max-w-7xl mt-[104px] lg:py-[106px] pt-[60px] pb-[60px] mx-auto">
           {/* Hero */}
           <div className="tcm-hero-content space-y-4">
 
 
             <SectionHeading 
             title={"TCM.Module.DualTierMemory"}
-            titleClassName="text-[32px] sm:text-[64px] break-all"
+            titleClassName="text-[40px] font-600 sm:text-[64px] break-all"
             subtitle={
                 
                   'Advanced memory architecture featuring dual-tier storage with intelligent promotion and query-time <br className="hidden md:block " /> composition for enhanced contextual understanding and retrieval performance.'
@@ -118,15 +118,15 @@ const TcmPage = () => {
           </div>
         </div>
       </section>
-      <UspServices
-  spacing="space-y-4 sm:space-y-6"
-  data={Query_TIME_CONFIG}
-/>
+          <UspServices
+      spacing="space-y-4 sm:space-y-6"
+      data={Query_TIME_CONFIG}
+    />
 
 
       <section>
-        <div className="max-w-7xl mx-auto py-[100px]">
-          <h2 className="text-center text-[#00273A] capitalize tracking-[0.02em] leading-none font-primary font-medium text-[48px]">
+        <div className="max-w-7xl mx-auto py-[100px] lg:px-0 px-5">
+          <h2 className="text-center text-[#00273A] capitalize tracking-[0.02em] leading-none font-primary font-medium lg:text-[48px] text-[40px]">
             Temporal Context Memory (TCM)
           </h2>
 
@@ -135,7 +135,7 @@ const TcmPage = () => {
               <img className="w-full rounded-3xl" src="/home/tcm.png" alt="" />
             </div>
 
-            <p className="text-center tracking-[0.04em] leading-[1.4] text-[20px] font-secondary font-medium text-[#1e1e1e]">
+            <p className="text-center tracking-[0.04em] leading-[1.4] lg:text-[20px] text-[16px] font-secondary font-medium text-[#1e1e1e]">
               Temporal Context Memory (TCM) is a dual-tiered AI memory system
               integrating short-term/episodic cache and long-term semantic
               storage. A promotion engine evaluates recency, frequency, and

@@ -17,7 +17,7 @@ const Declarative_Context_Protocol = () => {
             iconClassName="text-dark"
           />
           <MainBanner  data={HEADER} />
-          <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto mb-[100px]">
+          <div className="flex mt-5 lg:px-0 px-5 flex-wrap  gap-6 lg:pt-10 justify-center max-w-[1200px] mx-auto mb-[100px]">
             {cards.map((card) => (
                 <FeatureCard key={card.id} {...card} />
             ))}
@@ -34,8 +34,8 @@ const Declarative_Context_Protocol = () => {
                 Built for the most demanding compliance
               </p>
             </div>
-            <div className="max-w-5xl mx-auto mt-[80px] ">
-                <div className="flex justify-between">
+            <div className="max-w-5xl mx-auto mt-[80px] lg:px-5 px-5 ">
+                <div className="flex justify-between lg:flex-row flex-col">
                     <div className="soc2 min-w-[419px]">    
                         <div className="flex mb-5">
                             <span className='inline-block me-6 mt-2'>

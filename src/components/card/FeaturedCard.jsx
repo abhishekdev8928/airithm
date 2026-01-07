@@ -33,10 +33,10 @@ const FeatureCard = ({
 
   return (
     <div
-      className={`core-feature-card transition-shadow justify-between duration-300 
+      className={`core-feature-card transition-shadow  duration-300 
         hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
-        ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
-        rounded-3xl border border-[#9d9d9d] p-5 gap-7 flex flex-col`}
+        ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} 
+        rounded-3xl border border-[#9d9d9d] p-5  flex flex-col`}
     >
       {/* Card Icon */}
       {linkIconSrc ? (
@@ -74,7 +74,7 @@ const FeatureCard = ({
       )}
 
       {/* Content */}
-      <div className="feature-card-content">
+      <div className="feature-card-content mt-[40px]">
         <h2
           className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
           style={{ color: textColor || "#1E1E1E" }}
@@ -83,7 +83,7 @@ const FeatureCard = ({
         </h2>
 
         <p
-          className="font-secondary text-[18px] leading-[1.4] pt-4 capitalize"
+          className="font-secondary text-[16px] leading-[1.4] pt-[16px] capitalize"
           style={{ color: discColor || "#626161" }}
         >
           {description}

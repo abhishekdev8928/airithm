@@ -12,7 +12,7 @@ const ContextCapsulePage = () => {
       
       />
       <section>
-        <div className="max-w-7xl pt-[100px] mt-[104px]  mx-auto">
+        <div className="max-w-7xl lg:pt-[100px] pt-[60px] mt-[104px]  mx-auto">
           {/* Hero */}
           <div className="cc-hero-content space-y-4">
             <SectionHeading
@@ -44,31 +44,31 @@ const ContextCapsulePage = () => {
           subtitleClassName=" text-[#626161] sm:text-[16px]"
         />
 
-        <div className="modular-ai-container py-[60px] flex flex-wrap lg:flex-row justify-center items-stretch gap-20 mx-auto">
+        <div className="modular-ai-container py-[60px] lg:px-0 px-5 flex flex-wrap lg:flex-row justify-center items-stretch gap-20 mx-auto">
           {/* Left box */}
-          <div className="w-full lg:w-[452px] bg-[#D9D9D9]"></div>
+          <div className="w-full lg:w-[452px] lg:h-[100%] h-[300px] bg-[#D9D9D9]"></div>
 
           {/* Right boxes */}
           <div className="w-[380px] space-y-4">
-            <div className="p-6 w-full border rounded-2xl border-[#D5D5D5]">
+            <div className="lg:p-6 p-3 w-full border rounded-2xl border-[#D5D5D5]">
               <h2 className="text-center text-[#C44558] capitalize font-primary text-[20px] font-medium">
                 Persona/role profile definition
               </h2>
             </div>
 
-            <div className="p-6 w-full border rounded-2xl border-[#D5D5D5]">
+            <div className="lg:p-6 p-3 w-full border rounded-2xl border-[#D5D5D5]">
               <h2 className="text-center text-[#C44558] capitalize font-primary text-[20px] font-medium">
                 Tools and system permissions
               </h2>
             </div>
 
-            <div className="p-6 w-full border rounded-2xl border-[#D5D5D5]">
+            <div className="lg:p-6 p-3 w-full border rounded-2xl border-[#D5D5D5]">
               <h2 className="text-center text-[#C44558] capitalize font-primary text-[20px] font-medium">
                 Scoped memory and history
               </h2>
             </div>
 
-            <div className="p-6 w-full border rounded-2xl border-[#D5D5D5]">
+            <div className="lg:p-6 p-3 w-full border rounded-2xl border-[#D5D5D5]">
               <h2 className="text-center text-[#C44558] capitalize font-primary text-[20px] font-medium">
                 TTL and expiration management
               </h2>

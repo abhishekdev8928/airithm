@@ -24,8 +24,8 @@ const HamnPage = () => {
       <Navbar
         
       />
-      <section>
-        <div className="pt-[100px] mt-[104px]">
+      <section className="px-5 lg:px-0">
+        <div className="pt-[100px] lg:mt-[104px] mt-[50px]">
           <div className="flex gap-4 flex-wrap pb-5 justify-center">
             {HAMN_HEADER_CHIPS.map((item, index) => (
               <Chip key={item.id ?? index} {...item} />
@@ -90,11 +90,11 @@ const HamnPage = () => {
 
       <section className="py-[100px] px-4 sm:px-0">
         <div className="relative text-center px-4 lg:px-0  z-10">
-          <h1 class="font-primary text-[48px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
+          <h1 class="font-primary lg:text-[48px] text-[40px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
             Explainable AI
           </h1>
 
-          <p class="font-secondary   font-medium text-[20px] leading-[1.4] tracking-[2%] text-center  mt-5  sm:max-w-[656px] mx-auto pt-2.5 text-[#838383]">
+          <p class="font-secondary   font-medium lg:text-[20px] text-[18px] leading-[1.4] tracking-[2%] text-center  mt-5  sm:max-w-[656px] mx-auto pt-2.5 text-[#838383]">
             Complete transparency in decision making with visual attention
             heatmaps and interpretable routing paths.
           </p>
@@ -102,13 +102,13 @@ const HamnPage = () => {
         <div className="  mx-auto mt-20 ">
           <div
             className="
-  flex flex-col
-  gap-12
-  items-center
-  lg:flex-row
-  lg:justify-center
-  lg:gap-8
-"
+                flex flex-col
+                gap-12
+                items-center
+                lg:flex-row
+                lg:justify-center
+                lg:gap-8
+              "
           >
             <div className="soc2 max-w-[419px]">
               <div className="flex mb-5">

@@ -23,15 +23,15 @@ const ReflectiveMemory = () => {
       />
       <section className='mb-[80px]'>
         <MainBanner data={REFLECTIVE_MEMORY_HEADER} />
-        <div className="tags flex gap-[40px] justify-center mt-[60px]">
+        <div className="tags flex gap-[40px] justify-center items-center lg:flex-row flex-col  mt-[60px]">
           <span className='text-[14px] text-[#C44558] font-[500] font-secondary'>    <Atom className='inline-flex me-2 text-[14px]' />Autonomous Learning</span>
           <span className='text-[14px] text-[#C44558] font-[500] font-secondary'>    <Repeat2 className='inline-flex me-2 text-[14px]' />Continuous Adaptation</span>
           <span className='text-[14px] text-[#C44558] font-[500] font-secondary'>    <Eye className='inline-flex me-2 text-[14px]' />Full Transparency</span>
         </div>
       </section>
       <UspServices data={CORE_MODULE_CONFIG} />
-      <section className='py-[80px]'>
-        <h2 className='font-primary text-[48px] font-[600] text-center'>Cognitive Feedback Loop</h2>
+      <section className='py-[80px] lg:px-0 px-5'>
+        <h2 className='font-primary lg:text-[48px] text-[32px] font-[600] text-center'>Cognitive Feedback Loop</h2>
         <div className="img flex justify-center mt-12">
           <img src='/home/loop.png' alt="" />
         </div>
@@ -43,7 +43,7 @@ const ReflectiveMemory = () => {
 
 
       </section>
-      <section className='py-[80px] border border-[1px] border-[#D9D9D9] border-b-0 border-l-0 border-r-0  rounded-[50px] '>
+      <section className='py-[80px] px-5 lg:px-0 border border-[1px] border-[#D9D9D9] border-b-0 border-l-0 border-r-0  rounded-[50px] '>
         <SectionHeading
           title="Meta-Prompts & Refinement"
           subtitle='AIRITHM generates sophisticated meta-prompts that guide its own learning process. <br/> These self-directed instructions enable deeper analysis and more nuanced understanding of complex scenarios.'
@@ -51,15 +51,14 @@ const ReflectiveMemory = () => {
           subtitleClassName=" sm:text-[16px] text-[#626161]"
         />
 
-        <div className="max-w-5xl mx-auto mt-[80px] ">
-          <div className="flex justify-between">
-            <div className="soc2 min-w-[419px]">
+        <div className="max-w-5xl mx-auto lg:mt-[80px] mt-[30px]">
+          <div className="flex lg:flex-row flex-col justify-between">
+            <div className="soc2 lg:min-w-[419px]">
               <div className="flex mb-5">
                 <span className='inline-block me-6 mt-2'>
-                  <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)" />
-                    <path d="M16.8031 19
-                                .1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
                     <defs>
                       <linearGradient id="paint0_linear_650_409" x1="0.0112518" y1="19.2049" x2="38.4" y2="19.2049" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#FFA68D" />
@@ -70,7 +69,7 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#C44558] text-[20px] font-primary font-[600]'>LLM-based evaluation and <br /> scoring</h3>
+                  <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600]'>LLM-based evaluation and scoring</h3>
                 </div>
               </div>
               <div className="flex mb-5">
@@ -88,7 +87,7 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#C44558] text-[20px] font-primary font-[600] '>Dynamic prompt <br /> optimization</h3>
+                  <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600] '>Dynamic prompt <br /> optimization</h3>
                 </div>
               </div>
               <div className="flex mb-5">
@@ -106,18 +105,18 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#C44558] text-[20px] font-primary font-[600] '>Contextual learning <br /> adaption</h3>
+                  <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600] '>Contextual learning <br /> adaption</h3>
                 </div>
               </div>
 
             </div>
-            <div className="imgbox h-[270px] w-[434px] bg-[#D9D9D9] rounded-[24px] m-auto"></div>
+            <div className="imgbox h-[270px] lg:w-[434px] w-[100%] bg-[#D9D9D9] rounded-[24px] m-auto"></div>
           </div>
         </div>
 
       </section>
       <UspServices data={Memory_CONFIG} />
-      <section className="py-[80px] max-w-7xl mx-auto " >
+      <section className="py-[80px] max-w-7xl mx-auto px-5 lg:px-0 " >
         <SectionHeading
           title="Transparency & Governance"
           //  subtitle='AIRITHM generates sophisticated meta-prompts that guide its own learning process. <br/> These self-directed instructions enable deeper analysis and more nuanced understanding of complex scenarios.'
@@ -125,8 +124,8 @@ const ReflectiveMemory = () => {
           subtitleClassName=" sm:text-[16px] text-[#626161]"
         />
 
-        <div className="mt-[50px] flex gap-[20px]">
-          <div className="w-[600px] border border-[1px] border-[#D9D9D9] rounded-[16px] p-[20px]">
+        <div className="mt-[50px] flex gap-[20px] md:flex-row flex-col">
+          <div className="md:w-[600px] border border-[1px] border-[#D9D9D9] rounded-[16px] p-[20px]">
             <h3 className='text-[24px] font-secondary font-[500]'>Audit Logs</h3>
             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Complete transparency with detailed logs of all reflection processes and decisions.</p>
 
@@ -146,7 +145,7 @@ const ReflectiveMemory = () => {
             </ul>
 
           </div>
-          <div className="w-[600px] border border-[1px] border-[#D9D9D9] rounded-[16px] p-[20px]">
+          <div className="md:w-[600px] border border-[1px] border-[#D9D9D9] rounded-[16px] p-[20px]">
             <h3 className='text-[24px] font-secondary font-[500]'>Safety Protocols</h3>
             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Built-in safeguards ensure responsible and ethical autonomus learning.</p>
 

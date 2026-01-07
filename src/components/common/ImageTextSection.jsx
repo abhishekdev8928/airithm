@@ -18,7 +18,7 @@ const ImageTextSection = ({
           <img className="w-full" src={imageSrc} alt={imageAlt} />
         </div>
 
-        <p className="font-secondary text-center text-[#1E1E1E] font-medium text-[20px] leading-[1.4] tracking-[0.04em]">
+        <p className="font-secondary text-center text-[#1E1E1E] font-medium lg:text-[20px] text-[18] leading-[1.4] tracking-[0.04em]">
           {description}
         </p>
       </div>
