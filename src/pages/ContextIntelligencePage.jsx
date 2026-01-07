@@ -47,8 +47,8 @@ const ContextIntelligencePage = () => {
       </section>
 
       <section>
-        <div className="rounded-t-[50px] lg:rounded-t-[100px] relative z-10  bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] section-overlap-bottom">
-          <div className="max-w-7xl  mx-auto flex flex-col md:flex-row justify-between gap-12 px-4 lg:px-0">
+        <div className="rounded-t-[50px] lg:rounded-t-[100px] relative z-10  bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] px-9 section-overlap-bottom">
+          <div className="max-w-7xl  mx-auto flex flex-col lg:flex-row  md:justify-between gap-12 px-4 lg:px-0">
             {/* LEFT */}
             <div className="flex-1 justify-between  flex flex-col gap-6">
               <h3 className="font-primary text-center sm:text-left mx-auto  sm:w-full text-[40px] sm:text-[64px] text-white leading-[1.2] font-medium">
