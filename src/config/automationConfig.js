@@ -1,7 +1,7 @@
 export const AUTOMATION_Testing_CONFIG  = {
   title: "Two Powerful Testing Capabilities",
   subtitle:
-    "Airithm test studio revolutionizes testing with two powerful capabilities <br class='hidden sm:block' /> NeuroTest for AI/LLM And CoreTest for enterprise applications",
+    "Comprehensive testing solutions for both AI and traditional enterprise <br className='lg:hidden block' /> applications with advanced automation",
 
   neuroTest: {
     name: "NeuroTest",
@@ -14,28 +14,30 @@ export const AUTOMATION_Testing_CONFIG  = {
         bgImgSrc: "/automation/testing-cap/robust.jpg",
         title: "Robustness & Reliability",
         description:
-          "Comprehensive validation for AI model stability and consistency",
+          "Adversarial & Robustness Testing, CI/CD & Model Regression, Model Evaluation & Validation",
+      },
+        {
+        id: 3,
+        bgImgSrc: "https://media.istockphoto.com/id/1497881503/photo/alphabets-ai-on-advanced-central-processing-unit-chip-and-gavel-and-sound-block-in-wireframe.jpg?s=1024x1024&w=is&k=20&c=73Gi23mj6Am7q-x1IEZZKHR4tfTn03FUXX3QzKR9rss=",
+        title: "Fairness & Ethics",
+        description: "Fairness & Bias Testing, Explainability & Transparency",
+      },
+        {
+        id: 4,
+        bgImgSrc: "/automation/testing-cap/data.jpg",
+        title: "Data & Context Quality",
+        description:
+          "Data-Centric Testing, LLM-Specific Eval & Prompt Testing",
       },
       {
         id: 2,
         bgImgSrc: "/automation/testing-cap/security.jpg",
         title: "Security & Safety",
         description:
-          "Advanced security testing for AI systems and model protection",
+          "Security & Safety Testing for AI applications",
       },
-      {
-        id: 3,
-        bgImgSrc: "https://media.istockphoto.com/id/1497881503/photo/alphabets-ai-on-advanced-central-processing-unit-chip-and-gavel-and-sound-block-in-wireframe.jpg?s=1024x1024&w=is&k=20&c=73Gi23mj6Am7q-x1IEZZKHR4tfTn03FUXX3QzKR9rss=",
-        title: "Fairness & Ethics",
-        description: "Fairness & Bias Testing, Explainability & Transparency",
-      },
-      {
-        id: 4,
-        bgImgSrc: "/automation/testing-cap/data.jpg",
-        title: "Data & Context Quality",
-        description:
-          "Validate data integrity and contextual accuracy in AI systems",
-      },
+    
+    
     ],
   },
 
@@ -44,15 +46,7 @@ export const AUTOMATION_Testing_CONFIG  = {
     imgSrc: "/automation/invoation.png",
     tagline: "Comprehensive testing for <br> enterprise and non-AI Applications",
     cards: [
-      {
-        id: 1,
-        bgImgSrc: "/automation/testing-cap/security.jpg",
-        title: "Security & Compliance Testing",
-        description:
-          "Ensure enterprise applications meet security and regulatory standards",
-        bgImgSrc: "/automation/testing-cap/c-security.jpg",
-      },
-      {
+       {
         id: 2,
         bgImgSrc: "/automation/testing-cap/robust.jpg",
         title: "Functional & Regression Testing",
@@ -61,16 +55,25 @@ export const AUTOMATION_Testing_CONFIG  = {
         bgImgSrc: "https://media.istockphoto.com/id/2157176253/photo/quality-assurance-and-document-control-with-checklist-icons-businessman-mark-off-items-on.jpg?s=1024x1024&w=is&k=20&c=VwlgvhCM-AI870yM-fMHCYcF89FpWaFb5Q1_R4msq4w=",
       },
       {
+        id: 1,
+        bgImgSrc: "/automation/testing-cap/security.jpg",
+        title: "Security & Compliance Testing",
+        description:
+          "Vulnerability & Penetration Testing, API Security, Data Privacy & Compliance (GDPR, HIPAA, SOX, PCI)",
+        bgImgSrc: "/automation/testing-cap/c-security.jpg",
+      },
+     
+      {
         id: 3,
         bgImgSrc: "/automation/testing-cap/c-usability.jpg",
         title: "Usability & Accessibility Testing",
-        description: "Validate user experience and accessibility compliance",
+        description: "UI/UX Validation, Cross-Browser & Cross-Device Testing, Accessibility (WCAG/ADA)",
       },
       {
         id: 4,
 bgImgSrc: "/automation/testing-cap/c-data.jpg",
         title: "Data & Integrating Testing",
-        description: "Verify data flows and third-party integrations",
+        description: "Database Validation, Data Accuracy & Integrity, System Integration (ERP, CRM, Payment Gateways, APIs)",
       },
     ],
   },
@@ -82,36 +85,41 @@ bgImgSrc: "/automation/testing-cap/c-data.jpg",
 export const AUTOMATION_LIFECYCLE_CONFIG  = {
   title: "Automation <br class=' sm:hidden' /> Lifecycle Stages",
   subtitle:
-    "Complete testing workflow from learning   to <br class=' sm:hidden' /> evaluation with intelligent automation",
+    "Complete testing workflow from learning to <br class=' sm:hidden' /> evaluation with intelligent automation",
 
   cards: [
     {
       id: 1,
       icon: "GraduationCap",
+            iconpath:"./svg/grid/graduation-cap.svg",
       title: "Learn",
       description: "Analyze and understand system behavior patterns",
     },
     {
       id: 2,
       icon: "Plus",
+                iconpath:"./svg/grid/circle-plus.svg",
       title: "Create",
       description: "Generate intelligent automated test cases",
     },
     {
       id: 3,
       icon: "Play",
+         iconpath:"./svg/grid/circle-play.svg",
       title: "Execute",
       description: "Run comprehensive suites efficiently",
     },
     {
       id: 4,
       icon: "LineChart",
+        iconpath:"./svg/grid/chart-spline.svg",
       title: "Report",
       description: "Generate detailed insights and analytics",
     },
     {
       id: 5,
       icon: "Search",
+           iconpath:"./svg/grid/search.svg",
       title: "Evaluate",
       description: "Assess results and optimize performance",
     },
@@ -123,7 +131,7 @@ export const AUTOMATION_LIFECYCLE_CONFIG  = {
 export const AUTOMATION_HERO_CONFIG  = {
   heading: "AI Enabled Intelligent <br class='hidden md:block' /> Test Automation Platform",
   paragraph:
-    "Airithm test studio revolutionizes testing with two powerful capabilities: NeuroTest for AI/ <br class='hidden md:block' /> LLM and CoreTest for enterprise applications",
+    "AIRITHM Test Studio revolutionizes testing with two powerful capabilities: NeuroTest for AI/ <br class='hidden md:block' /> LLM and CoreTest for enterprise applications",
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
   imageSrc: "/automation/dashboard.png",
   buttons: [
@@ -161,20 +169,20 @@ export const AUTOMATION_HERO_CONFIG  = {
  export const AUTOMATION_CTA_CONFIG  = {
   heading: "Ready to Transform your Testing?",
   paragraph:
-    "Experience the power of AI-Enabled intelligent test automation and revolutionize your development workflow",
+    "Experience the power of AI-Enabled intelligent test automation and <br className='lg:block hidden'/> revolutionize your development workflow",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
   {
     text: "Schedule Demo",
-    className: "px-6 py-5 min-w-[228px] flex flex-row-reverse text-[16px] leading-[1.2] font-primary font-medium  tracking-[0.02em] rounded-lg border-2",
-    icon: "Play",
+    className: "px-6 py-5 min-w-[228px] flex  text-[16px] leading-[1.2] font-primary font-medium  tracking-[0.02em] rounded-lg border-2",
+     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",
     hoverIcon:false
   },
   {
     text: "Start Free Trial",
-    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: "px-9 py-5 min-w-[228px] font-primary font-[600] leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",

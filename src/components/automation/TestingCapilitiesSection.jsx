@@ -7,7 +7,7 @@ import SectionHeading from "@/components/common/SectionHeading";
 const TestingSection = ({ sectionData, sectionType }) => {
   return (
     <div className=" mx-auto pt-18 px-4">
-      <div className="flex flex-col lg:flex-row items-center gap-10">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
 
         {/* LEFT CONTENT */}
         <div className="flex flex-col items-center max-w-[420px] w-full shrink-0 text-center">
@@ -28,12 +28,13 @@ const TestingSection = ({ sectionData, sectionType }) => {
         <div
           className="
           flex-wrap
+          lg:w-auto
+          w-full
            md:flex-nowrap
             flex  
             gap-6
             justify-center
             lg:justify-start 
-            w-full
             overflow-x-auto
             lg:overflow-visible
             pb-2

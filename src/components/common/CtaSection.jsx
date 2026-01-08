@@ -28,7 +28,7 @@ const CtaSection = ({
 
           {paragraph && (
             <p
-              className="font-secondary tracking-[0.02em] text-[16px] md:text-[24px] w-full w-full  text-center mb-8 leading-[1.4] font-medium"
+              className="font-secondary tracking-[0.02em] text-[16px] md:text-[16px] w-full w-full  text-center mb-8 leading-[1.4] font-medium"
               dangerouslySetInnerHTML={{ __html: paragraph }}
             />
           )}

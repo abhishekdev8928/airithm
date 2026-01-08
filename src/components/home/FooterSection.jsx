@@ -1,4 +1,5 @@
 import React from "react";
+const year = new Date().getFullYear();
 const FooterSection = () => {
   return (
     <footer
@@ -93,7 +94,7 @@ const FooterSection = () => {
 
         {/* COPYRIGHT */}
         <div className="max-w-[1440px] mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
-          Copyright © 2025
+          Copyright © {year}
         </div>
       </div>
 
