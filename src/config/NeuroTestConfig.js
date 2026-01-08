@@ -40,7 +40,7 @@ export const Core_capabiliti_CONFIG = {
       textColor:"#fff",
       gradent:true,
       iconColor: "",
-        cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 gap-[80px]",
+        cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
       title: "Unified Evaluation Orchestrator",
       discColor:'#C6C6C6',
       description:
@@ -51,7 +51,7 @@ export const Core_capabiliti_CONFIG = {
       icon: "SearchCheck",
       gradent:true,
       iconColor: "",
-      cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 gap-[80px]",
+      cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        textColor:"#fff",
        gradent:true,
        discColor:'#C6C6C6',
@@ -65,7 +65,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
        textColor:"#fff",
        gradent:true,
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 gap-[80px]",
+       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Agentic AI Testing",
       description:
@@ -78,7 +78,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
       gradent:true,
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 gap-[80px]",
+       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Safety & Robustness Auditing",
       description:
@@ -91,7 +91,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
       gradent:true,
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 gap-[80px]",
+       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Automated CI/CD Quality Gates",
       description:
@@ -104,7 +104,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
       gradent:true,
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 gap-[80px]",
+       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Enterprise Dashboard & Analytics",
       description:
