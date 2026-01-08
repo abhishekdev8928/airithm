@@ -79,7 +79,7 @@ const ContextIntelligencePage = () => {
         <div className="lg:rounded-[100px] rounded-[50px] py-[100px]  bg-white    relative z-14 mt-[-100px]">
           <div className="max-w-7xl px-4 lg:px-0 mx-auto">
             <SectionHeading
-              titleClassName="font-primary font-medium text-[32px] sm:text-[48px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
+              titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
               title="Enterprise Use Cases"
             />
 
@@ -113,7 +113,7 @@ const ContextIntelligencePage = () => {
                 <SectionHeading
                   title="Developer Integration"
                   subtitle={`Build intelligent applications with our comprehensive APIs and SDKs. Get started in minutes with our intuitive developer tools.`}
-                  titleClassName="text-center md:text-left sm:text-[48px] text-white"
+                  titleClassName="text-center md:text-left sm:text-[40px] text-white"
                   subtitleClassName="text-white text-center md:text-left"
                   wrapperClassName="text-left"
                 />
