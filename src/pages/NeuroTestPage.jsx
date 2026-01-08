@@ -71,11 +71,11 @@ const NeuroTestPage = () => {
                     <SectionHeading
                         title="A Unified Architecture for AI Evaluation"
                         //    subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                        titleClassName="sm:text-[48px] font-[600]"
+                        titleClassName="sm:text-[40px] text-[32px] font-[600]"
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
                     />
-                    <div className="max-w-[1190px] mt-[60px] m-auto bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] p-5">
-                        <div className="grid grid-cols-3 gap-4">
+                    <div className="max-w-[1190px] mt-[60px] m-auto px-5 py-5 lg:p-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] ">
+                        <div className="grid lg:grid-cols-3 grid-cols-1  gap-4">
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px]">
                                     <h3 className='text-[#C44558] text-[24px] font-primary mb-[20px] block'>AIRITHM UI</h3>
@@ -160,10 +160,10 @@ const NeuroTestPage = () => {
                 <SectionHeading
                     title="Key Features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[48px]"
+                    titleClassName="sm:text-[40px] text-[32px]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
-                <div className="pt-[40px] grid grid-cols-1 md:grid-cols-2 gap-[40px]">
+                <div className="pt-[40px] lg:px-0 px-5 grid grid-cols-1 md:grid-cols-2 gap-[40px]">
 
                     {/* Column 1 */}
                     <ul>
@@ -206,7 +206,7 @@ const NeuroTestPage = () => {
                 <SectionHeading
                     title="Enterprise Benefits"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[48px] text-[#fff]"
+                    titleClassName="sm:text-[40px] text-[32px]   text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#fff]"
                 />
 
@@ -234,7 +234,7 @@ const NeuroTestPage = () => {
                    <SectionHeading
                     title="Integrations"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[48px] "
+                    titleClassName="sm:text-[40px] text-[32px] "
                     subtitleClassName=" sm:text-[16px] text-[#fff]"
                 />
                 <Swiper
