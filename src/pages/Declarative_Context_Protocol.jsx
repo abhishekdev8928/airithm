@@ -26,12 +26,12 @@ const Declarative_Context_Protocol = () => {
 
             <section className="py-[100px]">
                    <div className="relative text-center px-4 lg:px-0  z-10">
-              <h1 class="font-primary text-[48px] mx-auto font-[600]  sm:w-fit leading-none sm:text-[64px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
+              <h1 class="font-primary font-medium leading-[1.2] tracking-[2%] capitalize text-[32px] sm:text-[40px]  capitalize  sm:max-w-[1000px] mx-auto tracking-[0.02em]">
                 Enterprise Governance
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize mt-[20px]  sm:max-w-[950px] mx-auto pt-2.5 text-[#838383]">
-                Built for the most demanding compliance
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize mt-2  sm:max-w-[950px] mx-auto  text-[#838383]">
+               Built for the most demanding compliance requirements with <br /> enterprise-grade security and governance frameworks
               </p>
             </div>
             <div className="max-w-5xl mx-auto mt-[80px] lg:px-5 px-5 ">

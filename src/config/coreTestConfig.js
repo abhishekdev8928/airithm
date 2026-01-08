@@ -1,4 +1,6 @@
 export const QA_TESTING_USP_CONFIG = {
+     title: "AI-Driven Workflows",
+   bodyclass:false,
   cards: [
     {
       id: 1,
@@ -109,32 +111,32 @@ export const QA_TESTING_USP_CONFIG = {
 
 export const CORE_TEST_MODULE_CONFIG = {
    title: "Automation Lifecycle Stages",
-   bodyclass:true,
+   bodyclass:"text-white bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]",
   subtitle:
     "Complete Testing Workflow From Learning to Evaluation",
+    // :"An intelligent automation pipeline that dynamically improves with each cycle."
     cards: [
     {
       id: 1,
       icon: "BookCheck",
-      textColor:"#C44558",
+      linkIconSrc:"./public/svg/grid/book-check.svg",
+      textColor:"#fff",
       gradient:true,
-
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
       title: "Learn",
-      discColor:'#fff',
-      
-
+      discColor:'#A1A1A1',
       description:
         "Analyze system behavior patterns, understand dependencies, identify high-risk areas, and map user flows automatically.",
     },
     {
       id: 2,
       icon: "PencilRuler",
+      linkIconSrc:"./public/svg/grid/pencil-ruler.svg",
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
-       textColor:"#C44558",
-       discColor:'#fff',
+       textColor:"#fff",
+       discColor:'#A1A1A1',
       title: "Create",
       description:
         "Generate intelligent automated test cases using systems understanding, code insights, and historical behavior.",
@@ -142,10 +144,11 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 3,
       icon: "CirclePlay",
-cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
+      linkIconSrc:"./public/svg/grid/circle-plus.svg",
+      cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
-       textColor:"#C44558",
-       discColor:'#fff',
+       textColor:"#fff",
+       discColor:'#A1A1A1',
       title: "Execute",
       description:
         "Run end-to-end test suites with optimized scheduling, parallel execution, and real-time monitoring dashboards.",
@@ -153,11 +156,12 @@ cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgb
     {
       id: 4,
       icon: "ChartBarBig",
+      linkIconSrc:"./public/svg/grid/chart-bar-big.svg",
       iconColor: "",
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
 
-       textColor:"#C44558",
-       discColor:'#fff',
+       textColor:"#fff",
+       discColor:'#A1A1A1',
       title: "Report",
       description:
         "Produce advanced analytics, defect heatmaps, coverage summaries, and continuous improvement recommendations.",
@@ -273,7 +277,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
     {
       text: "View Documentation",
       className:
-        "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Play",
       hoverIcon: true,
       iconSize: "20px",
@@ -282,7 +286,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
     {
       text: "Start Free Trial",
       className:
-        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
       href: "",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
@@ -298,7 +302,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
   buttons: [
   {
     text: "Request Demo",
-    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: "px-9 py-5 min-w-[228px] font-primary font-[600] leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
     icon: "Play",
     iconSize: "20px",
     href: "",
@@ -307,7 +311,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
   {
     text: "Get Started",
           className:
-        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",

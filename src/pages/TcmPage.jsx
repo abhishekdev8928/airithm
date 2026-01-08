@@ -11,7 +11,7 @@ export const StatsCard = ({ icon, title, children }) => {
     <div className="w-[390px]  border rounded-2xl p-5 border-[#C6C6C6]">
       {icon}
 
-      <h4 className="font-primary py-[40px] text-[#C44558] capitalize font-medium text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
+      <h4 className="font-primary py-[40px] text-[#C44558] capitalize font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
         {title}
       </h4>
 

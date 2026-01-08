@@ -54,8 +54,8 @@ const ReflectiveMemory = () => {
         <div className="max-w-5xl mx-auto lg:mt-[80px] mt-[30px]">
           <div className="flex lg:flex-row flex-col justify-between">
             <div className="soc2 lg:min-w-[419px]">
-              <div className="flex mb-5">
-                <span className='inline-block me-6 mt-2'>
+              <div className="flex mb-5 items-center">
+                <span className='inline-block me-6 '>
                    <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)" />
                     <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
@@ -72,8 +72,8 @@ const ReflectiveMemory = () => {
                   <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600]'>LLM-based evaluation and scoring</h3>
                 </div>
               </div>
-              <div className="flex mb-5">
-                <span className='inline-block me-6 mt-2'>
+              <div className="flex mb-5 items-center">
+                <span className='inline-block me-6 '>
                   <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)" />
                     <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
@@ -90,8 +90,8 @@ const ReflectiveMemory = () => {
                   <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600] '>Dynamic prompt <br /> optimization</h3>
                 </div>
               </div>
-              <div className="flex mb-5">
-                <span className='inline-block me-6 mt-2'>
+              <div className="flex mb-5 items-center">
+                <span className='inline-block me-6 '>
                   <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)" />
                     <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
@@ -105,7 +105,7 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600] '>Contextual learning <br /> adaption</h3>
+                  <h3 className='text-[#C44558] lg:text-[20px] text-[17px] font-primary font-[600] '>Contextual learning <br /> adaptation</h3>
                 </div>
               </div>
 
@@ -147,7 +147,7 @@ const ReflectiveMemory = () => {
           </div>
           <div className="md:w-[600px] border border-[1px] border-[#D9D9D9] rounded-[16px] p-[20px]">
             <h3 className='text-[24px] font-secondary font-[500]'>Safety Protocols</h3>
-            <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Built-in safeguards ensure responsible and ethical autonomus learning.</p>
+            <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Built-in safeguards ensure responsible and ethical autonomous learning.</p>
 
             <ul className='mt-[80px]'>
               <li className='flex justify-between mb-3'>

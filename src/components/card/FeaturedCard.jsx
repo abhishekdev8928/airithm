@@ -83,7 +83,7 @@ const FeatureCard = ({
         </h2>
 
         <p
-          className="font-secondary text-[16px] leading-[1.4] pt-[16px] capitalize"
+          className="font-secondary text-[16px] leading-[1.4] pt-[16px] "
           style={{ color: discColor || "#626161" }}
         >
           {description}
@@ -114,7 +114,7 @@ const FeatureCard = ({
 
       {/* Points */}
       {points?.labels && (
-        <ul className="points space-y-2">
+        <ul className="points space-y-2 mt-[18px]">
           {points.labels.map((item, index) => {
             const isGradient = points.textGradientColor?.includes("gradient");
 

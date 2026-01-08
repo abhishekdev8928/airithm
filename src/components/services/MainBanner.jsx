@@ -16,7 +16,7 @@ const MainBanner = ({ data }) => {
               </h1>
               <h3 className='font-primary lg:text-[20px] text-[16px] font-[500] mt-2'>{data.subheading}</h3>
 
-              <p   dangerouslySetInnerHTML={{ __html: data.paragraph }} class="font-secondary font-medium lg:text-[18px] text-[17px] leading-[1.4] tracking-[2%] text-center capitalize mt-[20px]  sm:max-w-[950px] mx-auto  text-[#838383]">
+              <p   dangerouslySetInnerHTML={{ __html: data.paragraph }} class="font-secondary font-medium lg:text-[16px] text-[14px] leading-[1.4] tracking-[2%] text-center mt-[20px]  sm:max-w-[950px] mx-auto  text-[#838383]">
                  {/* {data.paragraph} */}
               </p>
 
@@ -52,6 +52,7 @@ const MainBanner = ({ data }) => {
                           icon={btn.icon}
                           iconSize={btn.iconSize}
                           href={btn.href}
+                          hoverIcon={btn.hoverIcon}
                         />
                       </div>
                     ) : (
@@ -62,6 +63,7 @@ const MainBanner = ({ data }) => {
                         icon={btn.icon}
                         iconSize={btn.iconSize}
                         href={btn.href}
+                        hoverIcon={btn.hoverIcon}
                       />
                     )
                   )}

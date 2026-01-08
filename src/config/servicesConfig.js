@@ -11,7 +11,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
   className:
     "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
   icon: "Eye",
-  hoverIcon:true,
+  hoverIcon:false,
   iconSize: "20px",
   href: "",
 },
@@ -40,64 +40,37 @@ export const CORE_MODULE_CONFIG = {
     cards: [
     {
       id: 1,
-      icon: "Server",
+      linkIconSrc: "./svg/network.svg",
       textColor:"#fff",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px]",
       iconColor: "",
-      title: "Unified Infrastructure",
+      title: "Real-time synchronization",
       discColor:'#C6C6C6',
       description:
-        "Integrated AI Services Delivering Enterprise-Grade Reliability And Performance",
+        "Ensure all distributed agents and device maintain accurate state awareness through continuous context updates",
     },
     {
-      id: 2,
-      icon: "ShieldCheck",
+      id: 2, 
+      linkIconSrc: "./svg/shield-check.svg",
       iconColor: "",
        textColor:"#fff",
+             cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px]",
        discColor:'#C6C6C6',
-      title: "Enterprise Security",
+      title: "Secure Federation",
       description:
-        "Advanced Security Protocols With Full Compliance And Data Governance",
+        "Enable secure data sharing across organizational boundaries while maintaining privacy and control",
     },
     {
       id: 3,
-      icon: "Maximize2",
+      linkIconSrc: "./svg/zap.svg",
       iconColor: "",
        textColor:"#fff",
+             cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px]",
        discColor:'#C6C6C6',
-      title: "Infinite Scalability",
+      title: "Event-driven AI",
       description:
-        "Dynamic Scaling Capabilities To Meet Growing Enterprise AI Demands",
-    },
-    {
-      id: 4,
-      icon: "Cpu",
-      iconColor: "",
-       textColor:"#fff",
-       discColor:'#C6C6C6',
-      title: "High Performance",
-      description:
-        "Optimized AI Workflows That Deliver Speed And Accuracy At Scale",
-    },
-    {
-      id: 5,
-      icon: "Activity",
-      iconColor: "",
-       textColor:"#fff",
-       discColor:'#C6C6C6',
-      title: "Real-Time Insights",
-      description:
-        "Actionable Analytics Delivered Instantly Across Enterprise Systems",
-    },
-    {
-      id: 6,
-      icon: "Cloud",
-       textColor:"#fff",
-      iconColor: "",
-      title: "Cloud-Ready",
-      discColor:'#C6C6C6',
-      description:
-        "Flexible Deployment Across Public, Private, Or Hybrid Cloud Environments",
-    },
+        "Facilitate scalable intelligent behaviors across devices and systems through dynamic context awareness",
+    }
   ],
 };
 
@@ -138,14 +111,18 @@ export const TIMELINE_SECTION_CONFIG = {
 
 }
 export const KEY_FEATURES_CONFIG = {
+     title: "Key Features",
+  subtitle:
+    "Advanced capabilities for enterprise-grade context intelligence",
+    bodyclass:"rounded-t-[100px] border border-[1px] border-[#D9D9D9] mt-[90px]",
  
     cards: [
       {
       id: 1,
-      icon: "Server",
+      icon: "Wifi",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
+      cardClassName: "lg:h-[270px] h-[100%] md:w-[270px] w-[100%] ",
       iconColor: "",
       title: "Low-Latency Upadtes",
       description:
@@ -153,9 +130,9 @@ export const KEY_FEATURES_CONFIG = {
     },
     {
       id: 2,
-      icon: "ShieldCheck",
+      icon: "Expand",
       iconColor: "",
-        cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
+        cardClassName: "lg:h-[270px] h-[100%] md:w-[270px] w-[100%] ",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Infinite Scalability",
@@ -164,9 +141,9 @@ export const KEY_FEATURES_CONFIG = {
     },
     {
       id: 3,
-      icon: "Maximize2",
+      icon: "ShieldHalf",
       iconColor: "",
-        cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
+        cardClassName: " lg:h-[270px] h-[100%] md:w-[270px] w-[100%] ",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Infinite Scalability",
@@ -175,8 +152,8 @@ export const KEY_FEATURES_CONFIG = {
     },
     {
       id: 4,
-      icon: "Cpu",
-        cardClassName: " h-[100%] md:w-[270px] w-[100%] ]",
+      icon: "Waypoints",
+        cardClassName: " lg:h-[270px] h-[100%] md:w-[270px] w-[100%] ",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',

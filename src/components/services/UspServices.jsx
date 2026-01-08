@@ -30,7 +30,7 @@ const UspServices = ({ data ,spacing = "" }) => {
               wrapperClassName="w-full  lg:max-w-[909px] mx-auto"
             />
 
-          <div className="flex flex-wrap mt-6  gap-6  pt-5 justify-center max-w-7xl mx-auto">
+          <div className="flex flex-wrap  flex-wrap mt-6  gap-6  pt-5 justify-center max-w-7xl mx-auto">
             {data.cards.map((card) => (
 
               <FeatureCard key={card.id} {...card} />

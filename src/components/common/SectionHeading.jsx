@@ -22,7 +22,7 @@ const SectionHeading = ({
 
       {subtitle && (
         <p
-          className={`font-secondary font-medium leading-[1.4] tracking-[2%] mx-auto ${subtitleSize} ${subtitleClassName}`}
+          className={`font-secondary font-medium leading-[1.4] tracking-[2%] mt-2 mx-auto ${subtitleSize} ${subtitleClassName}`}
           dangerouslySetInnerHTML={{ __html: subtitle }}
         />
       )}

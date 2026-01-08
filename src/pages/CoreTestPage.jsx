@@ -25,12 +25,13 @@ const CoreTestPage = () => {
     />
       <section className="pt-[100px] mt-[104px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white">
         <MainBanner data={CORE_TEST_HEADER_CONFIG} />
+          <div className="h-[308px] w-[917px] bg-[#D9D9D9] rounded-[0px] m-auto mt-[60px] "></div>
 
-        <div className="max-w-[519px] pt-20  pb-10 mx-auto space-y-4 ">
+        {/* <div className="max-w-[519px] pt-20  pb-10 mx-auto space-y-4 ">
           <div className="grid grid-cols-1 mx-auto  w-[388px] sm:grid-cols-2 gap-x-20 gap-y-2">
             {CORE_TEST_FEATURES_CONFIG.items.map((item) => (
               <div key={item.id} className="flex items-center h-[48px] gap-4">
-                {/* SVG Image Icon */}
+            
                 {item.iconType === "image" && (
                   <img
                     src={item.iconSrc}
@@ -82,7 +83,7 @@ const CoreTestPage = () => {
               AI-Driven Workflows
             </h2>
           </div>
-        </div>
+        </div> */}
       </section>
 
 

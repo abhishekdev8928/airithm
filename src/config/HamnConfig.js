@@ -2,14 +2,14 @@ export const HAMN_HEADER = {
   heading: "Hybrid Attention Memory Network",
   headClass: "pt-[0]",
   paragraph:
-    "Enable seamless synchronization of distributed agents, devices and subsystems with secure, scalable event- driven, and subsystems with secure, scalable event-driven AI behaviors acorss organizational boundaries.",
+    "Revolutionary AI routing engine with policy-gated multi-head attention mechanism. Explainable, enterprise-grade artificial intelligence for complex decision making.",
   buttons: [
     {
       text: "View Documentation",
       className:
         "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Eye",
-      hoverIcon: true,
+      hoverIcon: false,
       iconSize: "20px",
       href: "",
     },
@@ -31,7 +31,7 @@ export const HAMN_HEADER_CHIPS = [
   },
   {
     id: 2,
-    label: "Adaptive AMI",
+    label: "Explainable AI",
   },
   {
     id: 3,
@@ -109,8 +109,8 @@ export const ATTENTION_FLOW_CONFIG = {
 
   steps: [
     {
-      id: "signal",
-      label: "Signal Generation",
+      id: "Data",
+      label: "Data Ingestion",
       icon: {
         name: "Upload",
         size: "32",

@@ -112,7 +112,7 @@ const ContextIntelligencePage = () => {
               <div className="max-w-[542px] text-white">
                 <SectionHeading
                   title="Developer Integration"
-                  subtitle={`Build intelligent applications with our comprehensive APIs and SDKs. Get started in minutes with our intuitive developer tools`}
+                  subtitle={`Build intelligent applications with our comprehensive APIs and SDKs. Get started in minutes with our intuitive developer tools.`}
                   titleClassName="text-center md:text-left sm:text-[48px] text-white"
                   subtitleClassName="text-white text-center md:text-left"
                   wrapperClassName="text-left"

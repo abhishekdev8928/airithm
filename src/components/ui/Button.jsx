@@ -12,7 +12,7 @@ const Button = ({
   const IconComponent = LucideIcons[icon];
 
   return (
-    <button 
+    <a href="#!" 
       className={`group flex gap-2.5 whitespace-nowrap capitalize items-center justify-center ${className}`}
     >
       {btnText}
@@ -38,7 +38,7 @@ const Button = ({
           `}
         />
       )}
-    </button>
+    </a>
   );
 };
 

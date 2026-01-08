@@ -3,7 +3,7 @@ import { Database, MemoryStick } from "lucide-react";
 export const statsCardConfig = [
   {
     title: "Short-Term Memory",
-    iconPath: '/svg/database.svg',
+    iconPath: '/svg/memory-stick.svg',
     items: [
       { id: "1", label: "Recent Contexts", value: 12085 },
       { id: "2", label: "Active Sessions", value: 76 },
@@ -12,12 +12,12 @@ export const statsCardConfig = [
   },
   {
     title: "Promotion Engine (Center Panel)",
-    iconPath: '/svg/memory-stick.svg',
+    iconPath: '/svg/grid/arrow-up-down.svg',
     relevanceScore: 87,
   },
   {
     title: "Long-Term Memory",
-    iconPath: '/svg/memory-stick.svg',
+    iconPath: '/svg/database.svg',
     items: [
       { id: "1", label: "Stored Contexts", value: "2,468"},
       { id: "2", label: "Embeddings", value: 1,suffix:"M+" },

@@ -75,7 +75,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
 };
 
 export const CONTEXT_CTA_CONFIG = {
-  heading: "Ready to Transform your Testing?",
+  heading: "Ready to Transform your Enterprise?",
   paragraph:
     "Join leading enterprises already leveraging context intelligence to drive unprecedented business outcomes",
   backgroundImage: "/bg/bg-gradient-four.jpg",

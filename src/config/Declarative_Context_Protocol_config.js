@@ -3,22 +3,22 @@ export const HEADER = {
   heading: "Declarative Context Protocol",
   headclass:true,
   paragraph:
-    "Enterprise-grade governance framework for multiagent AI systems. Policy Driven context flow that ensures safety, auditability, and explainable AI operations",
+    "Enterprise-grade governance framework for multiagent AI systems. Policy Driven <br className='lg:block hidden'/> context flow that ensures safety, auditability, and explainable AI operations",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
    {
   text: "Documentation",
   className:
-    "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
-//   icon: "Eye",
-  hoverIcon:true,
+    "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+hoverIcon: false,
   iconSize: "20px",
+  icon:"Eye",
   href: "",
 },
 {
   text: "View Policy Recipe",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -90,10 +90,10 @@ export const KEY_FEATURE_CONFIG = {
       icon: "Server",
       textColor:"#fff",
       iconColor: "",
-      title: "Real-time synchronization",
+      title: "Policy-Driven Security",
       discColor:'#C6C6C6',
       description:
-        "Ensure all distributed agents and device maintain accurate state awareness through continuous context updates",
+        "Declarative security policies that automatically enforce compliance across all AI interactions and data flows.",
     },
     {
       id: 2,
@@ -101,9 +101,9 @@ export const KEY_FEATURE_CONFIG = {
       iconColor: "",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "Secure Federation",
+      title: "Full Auditability",
       description:
-        "Enable secure data sharing across organizational boundaries while maintaining privacy and control",
+        "Complete audit trails with cryptographic provenance for every context exchange and policy decision.",
     },
     {
       id: 3,
@@ -111,9 +111,9 @@ export const KEY_FEATURE_CONFIG = {
       iconColor: "",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "Event-driven AI",
+      title: "Explainable AI",
       description:
-        "Facilitate scalable intelligent behaviors across devices and systems through dynamic context awareness",
+        "Transparent decision-making processes with detailed explanations for every AI action and policy enforcement.",
     }
   ],
 };

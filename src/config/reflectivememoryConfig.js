@@ -2,8 +2,9 @@
 export const REFLECTIVE_MEMORY_HEADER = {
   heading: "Reflective Memory",
   headclass:"pt-[100px]",
-  paragraph:
-    "Self-learning AI that continuously evolves through meta-cognitive analysis, autonomous reflection, and intelligent adaptation.",
+paragraph:
+  "Self-learning AI that continuously evolves through meta-cognitive <br class='hidden sm:block' /> analysis, autonomous reflection, and intelligent adaptation.",
+
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
    {
@@ -14,6 +15,8 @@ export const REFLECTIVE_MEMORY_HEADER = {
   hoverIcon:true,
   iconSize: "20px",
   href: "",
+  hoverIcon:false,
+  icon:"Play"
 },
 {
   text: "View Policy Recipe",
@@ -39,10 +42,10 @@ export const CORE_MODULE_CONFIG = {
       textColor:"#fff",
       iconColor: "",
         cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "Through sophisticated meta-cognitive processes",
+      title: "AI self-awareness ",
       discColor:'#C6C6C6',
       description:
-        "",
+        "AI systems demonstrate self-awareness and continuously learn to adapt, evolve, and improve performance.",
     },
     {
       id: 2,
@@ -51,9 +54,9 @@ export const CORE_MODULE_CONFIG = {
       cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "AIRITHM analyzes its own decision-making patterns",
+      title: "Meta-cognitive analysis",
       description:
-        "",
+        "Through advanced meta-cognitive processes, the system evaluates reasoning strategies and behavioral patterns continuously.",
     },
     {
       id: 3,
@@ -62,9 +65,9 @@ export const CORE_MODULE_CONFIG = {
        textColor:"#fff",
        cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "identifies areas for improvement",
+      title: "Improvement identification",
       description:
-        "",
+        "The platform identifies performance gaps, inefficiencies, and optimization opportunities across decision-making workflows.",
     },
     {
       id: 4,
@@ -73,9 +76,9 @@ export const CORE_MODULE_CONFIG = {
        textColor:"#fff",
        cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "autonomously refines its capabilities without human intervention",
+      title: "Autonomous refinement",
       description:
-        "",
+        "Capabilities are autonomously refined over time, eliminating dependency on manual tuning or intervention.",
     },
     
   ],
