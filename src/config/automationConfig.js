@@ -178,7 +178,7 @@ export const AUTOMATION_HERO_CONFIG  = {
      icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",
-    hoverIcon:false
+    // hoverIcon:false
   },
   {
     text: "Start Free Trial",
