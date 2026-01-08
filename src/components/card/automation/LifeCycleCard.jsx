@@ -16,7 +16,7 @@ function LifeCycleCard({ title, description, icon, iconpath }) {
           {title}
         </h4>
 
-          <p className="font-secondary text-[16px] text-[#A1A1A1] tracking-[0.02em] font-medium leading-[1.4]">
+          <p className="font-secondary text-[14px] text-[#A1A1A1] tracking-[0.02em] font-medium leading-[1.4]">
             {description}
           </p>
 
