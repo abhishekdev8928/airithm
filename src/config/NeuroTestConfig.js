@@ -30,7 +30,7 @@ export const Neuro_Test_HEADER = {
 
 export const Core_capabiliti_CONFIG = {
    title: "Core Capabilities",
-   bodyclass:true,
+   bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
 //   subtitle:
 //     "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
     cards: [
