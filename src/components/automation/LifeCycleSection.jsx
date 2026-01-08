@@ -15,7 +15,7 @@ function LifeCycleSection() {
 
 
 
-        <div className="lifecycle-process mb-[60px] flex lg:flex-nowrap flex-wrap justify-center gap-6 mt-[60px] ">
+        <div className="lifecycle-process  flex lg:flex-nowrap flex-wrap justify-center gap-6 mt-[60px] ">
           {cards.map((card) => (
             <LifeCycleCard key={card?.id} {...card} />
           ))}
