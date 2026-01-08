@@ -119,7 +119,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 1,
       icon: "BookCheck",
-      linkIconSrc:"./public/svg/grid/book-check.svg",
+      linkIconSrc:"./svg/grid/book-check.svg",
       textColor:"#fff",
       gradient:true,
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
@@ -132,7 +132,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 2,
       icon: "PencilRuler",
-      linkIconSrc:"./public/svg/grid/pencil-ruler.svg",
+      linkIconSrc:"./svg/grid/pencil-ruler.svg",
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
        textColor:"#fff",
@@ -144,7 +144,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 3,
       icon: "CirclePlay",
-      linkIconSrc:"./public/svg/grid/circle-plus.svg",
+      linkIconSrc:"./svg/grid/circle-plus.svg",
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
        textColor:"#fff",
@@ -156,7 +156,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 4,
       icon: "ChartBarBig",
-      linkIconSrc:"./public/svg/grid/chart-bar-big.svg",
+      linkIconSrc:"./svg/grid/chart-bar-big.svg",
       iconColor: "",
       cardClassName:"w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
 
