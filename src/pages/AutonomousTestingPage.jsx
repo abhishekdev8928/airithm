@@ -18,11 +18,11 @@ const AutonomousTestingPage = () => {
                 linkClassName="text-dark"
                 iconClassName="text-dark"
             />
-            <div className='mt-[100px] rounded-[50px] py-[150px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[150px] py-[90px] lg:px-0 px-4 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 {/* <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[15px]'>Two Platforms. One Vision.</p> */}
                 <MainBanner data={at_HEADER} />
-                <div className="max-w-[676px] grid gap-6 grid-cols-12 m-auto bg-[#FFFFFF1A] border border-[1px] border-[#FFFFFF1A] py-8 px-5 rounded-[24px] mt-[60px]">
-                    <div className="col-span-6 px-5">
+                <div className="max-w-[676px] grid lg:gap-6 gap-12 grid-cols-12 m-auto bg-[#FFFFFF1A] border border-[1px] border-[#FFFFFF1A] py-8 px-5 rounded-[24px] mt-[60px]">
+                    <div className="lg:col-span-6 col-span-12 px-5">
                         <h3 className="text-[20px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[600]">Legacy Testing</h3>
 
                         <ul className="mt-5">
@@ -31,7 +31,7 @@ const AutonomousTestingPage = () => {
                             <li className="flex gap-5 "><img src="./public/svg/clock.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Time Intensive</span></li>
                         </ul>
                     </div>
-                    <div className="col-span-6 px-5">
+                    <div className="lg:col-span-6 col-span-12 px-5">
                         <h3 className="text-[20px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[600]">Autonomous Testing</h3>
 
                         <ul className="mt-5">
@@ -43,7 +43,7 @@ const AutonomousTestingPage = () => {
                 </div>
 
             </div>
-            <div className="py-[80px] pb-[150px]">
+            <div className="py-[80px] pb-[150px] lg:px-0 px-6">
                 <SectionHeading
                     titleClassName="font-primary font-medium text-[32px] sm:text-[48px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
                     title="Quick Comparison Summary"
@@ -52,8 +52,8 @@ const AutonomousTestingPage = () => {
                     subtitleClassName=" text-[#626161] sm:text-[16px]"
                 />
 
-                <div className="grid grid-cols-12 gap-[40px] max-w-[1080px] m-auto mt-12 px-5">
-                    <div className="col-span-6  rounded-[16px] p-4 shadow-[0px_12px_12px_0px_#C4455817]">
+                <div className="grid grid-cols-11 gap-[40px] justify-center max-w-[1080px] m-auto mt-12 px-5">
+                    <div className="lg:col-span-6 col-span-11  rounded-[16px] p-4 shadow-[0px_12px_12px_0px_#C4455817]">
                         <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Autonomous Testing</h3>
                         <p className="text-[#626161] text-[16px]">Next-generation testing approach</p>
 
@@ -64,7 +64,7 @@ const AutonomousTestingPage = () => {
                             <li className="text-[#C44558] text-[18px] font-secondary flex gap-3"><span className=""><img src="./public/svg/circle-check1.svg" alt="" /></span>Scales with system complexity</li>
                         </ul>
                     </div>
-                    <div className="col-span-6 border border-[1px] border-[#D9D9D9] rounded-[16px] p-4 px-5">
+                    <div className="lg:col-span-6 col-span-11 border border-[1px] border-[#D9D9D9] rounded-[16px] p-4 px-5">
                         <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Traditional Testing</h3>
                         <p className="text-[#626161] text-[16px]">Legacy script-based approach</p>
 
@@ -77,7 +77,7 @@ const AutonomousTestingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[-50px] rounded-t-[100px] pb-[200px] py-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
+            <div className="mt-[-50px] lg:rounded-t-[100px] rounded-t-[50px] pb-[200px] py-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
                 <SectionHeading
                     titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#fff] text-center"
                     title="Side-by-Side Feature Comparison"
@@ -171,7 +171,7 @@ const AutonomousTestingPage = () => {
                     </table>
                 </div>
             </div>
-            <div className="rounded-[100px] mt-[-100px] py-[80px] bg-[#fff]">
+            <div className="lg:rounded-[100px] rounded-[50px] mt-[-100px] py-[80px] bg-[#fff]">
                 <SectionHeading
                     titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
                     title="How Each Approach Works"
@@ -179,8 +179,8 @@ const AutonomousTestingPage = () => {
                     wrapperClassName="space-y-6"
                     subtitleClassName=" text-[#626161] sm:text-[16px]"
                 />
-                <div className="max-w-[941px] m-auto mt-[60px] grid grid-cols-12">
-                    <div className="col-span-6 text-center">
+                <div className="max-w-[941px] m-auto mt-[60px] lg:gap-0 gap-6 grid grid-cols-12">
+                    <div className="lg:col-span-6 col-span-11 text-center">
                         <h3 className="text-[#C44558] text-[24px] font-[600] font-primary">Traditional Testing Flow</h3>
                         <div>
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
@@ -206,11 +206,11 @@ const AutonomousTestingPage = () => {
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
                                            ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >5</span>
-                                <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Manual fixes &  </h3>
+                                <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Manual fixes & Updates  </h3>
                             </div>
                         </div>
                     </div>
-                     <div className="col-span-6 text-center">
+                     <div className="lg:col-span-6 col-span-11 text-center">
                         <h3 className="text-[#C44558] text-[24px] font-[600] font-primary">Autonomous Testing Flow</h3>
                         <div>
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
@@ -243,7 +243,7 @@ const AutonomousTestingPage = () => {
                     
                 </div>
             </div>
-            <div className=" rounded-t-[100px] pb-[200px] py-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
+            <div className=" lg:rounded-t-[100px] rounded-t-[50px] pb-[200px] px-5 lg:px-0 py-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
                 <SectionHeading
                     titleClassName="font-primary font-medium text-[32px] sm:text-[48px] leading-[1.2] tracking-[0.02em] text-[#FFFFFF] text-center"
                     title="Where Traditional Testing Breaks Down"
@@ -251,8 +251,8 @@ const AutonomousTestingPage = () => {
                     wrapperClassName="space-y-6"
                     subtitleClassName=" text-[#FFFFFF] sm:text-[16px]"
                 />
-                <div className="max-w-[824px] m-auto grid grid-cols-12 gap-[30px] mt-[60px]">
-                    <div className="col-span-6 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
+                <div className="max-w-[824px] m-auto grid justify-center grid-cols-12 gap-[30px]  mt-[60px]">
+                    <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="./public/svg/wrench.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Maintenance Overhead</h3>
                         <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
@@ -263,7 +263,7 @@ const AutonomousTestingPage = () => {
                         </ul>
 
                     </div>
-                    <div className="col-span-6 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
+                    <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="./public/svg/wrench.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Brittleness</h3>
                         <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
@@ -274,7 +274,7 @@ const AutonomousTestingPage = () => {
                         </ul>
 
                     </div>
-                    <div className="col-span-6 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
+                    <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="./public/svg/wrench.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Scaling Challenges</h3>
                         <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
@@ -285,7 +285,7 @@ const AutonomousTestingPage = () => {
                         </ul>
 
                     </div>
-                    <div className="col-span-6 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
+                    <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="./public/svg/wrench.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">AI Limitations</h3>
                         <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
@@ -299,7 +299,7 @@ const AutonomousTestingPage = () => {
                 </div>
             </div>
              <section className='py-[80px] mt-[-100px] bg-[#fff]
-                            rounded-t-[100px]'>
+                            lg:rounded-t-[100px] rounded-t-[50px]'>
                             <SectionHeading
                                 title="Where Autonomous Testing Excels"
                                 subtitle='Key advantages of the autonomous approach'
@@ -307,7 +307,7 @@ const AutonomousTestingPage = () => {
                                 subtitleClassName=" sm:text-[16px] text-[#626161]"
                             />
             
-                            <div class="flex flex-wrap   gap-6 pt-10 justify-center max-w-7xl mx-auto">
+                            <div class="flex flex-wrap px-5  gap-6 pt-10 justify-center max-w-7xl mx-auto">
                                 {
                                     cards.map((item, index) => (
                                         <div class={`core-feature-card background: linear-gradient(
@@ -315,7 +315,7 @@ const AutonomousTestingPage = () => {
                                     rgba(255, 255, 255, 0.1) 0%,
                                     rgba(153, 153, 153, 0.1) 100%
                                     );
-                                    transition-shadow duration-300   hover:shadow-[0px_0px_40px_2px_#D9D9D9] shrink-0  w-[365px] bg-[#fff]  gap-[80px]  rounded-3xl border border-[1px] border-[#D9D9D9] p-5 gap-12 flex flex-col ${item.cardClass}`}>
+                                    transition-shadow duration-300   hover:shadow-[0px_0px_40px_2px_#D9D9D9] shrink-0  md:w-[365px] w-[100%] bg-[#fff]  gap-[80px]  rounded-3xl border border-[1px] border-[#D9D9D9] p-5 gap-12 flex flex-col ${item.cardClass}`}>
                                             <div class="feature-card-content1">
                                                 <img src={item.img} alt="" />
                                                 <h2 class="font-primary  text-[#1E1E1E] font-medium text-[24px] leading-[1.2] capitalize mt-[30px]" >{item.title}</h2>

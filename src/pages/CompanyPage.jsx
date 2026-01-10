@@ -21,7 +21,7 @@ const { cards: members } = members_CONFIG;
                 linkClassName="text-dark"
                 iconClassName="text-dark"
             />
-            <div className='mt-[100px] rounded-[50px] py-[150px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[150px] py-[100px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[15px]'>Two Platforms. One Vision.</p>
                 <MainBanner data={Comapny_HEADER} />
 
@@ -42,7 +42,7 @@ const { cards: members } = members_CONFIG;
 
 
             </section>
-            <section className='py-[80px]  pb-[200px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <section className='py-[80px] lg:px-0 px-5 pb-[200px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[10px]'>Our Platforms</p>
                 <SectionHeading
                     title="Two Complementary Solutions"
@@ -51,13 +51,13 @@ const { cards: members } = members_CONFIG;
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
                 />
 
-                <div className="grid grid-cols-12 gap-4 max-w-[1224px] mx-auto mt-[50px]" >
+                <div className="grid grid-cols-12 lg:gap-4 gap-[30px] max-w-[1224px] mx-auto mt-[50px]" >
                     <div className="col-span-12 md:col-span-6 border border-[1px] border-[#505050] rounded-[16px] py-5 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
                         <FlaskConical className=' text-[#FD3A84] h-[32px]' />
                         <h2 className='font-primary mt-[40px] text-[24px] font-[600] text-[white]'>Autonomous Testing Platform</h2>
                         <h3 className='font-secandary mt-[14px]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
-                        <p className='font-seconadry text-[20px] mt-[14px] text-[#C6C6C6]'>Eliminate manual test maintenance with AI-powered autonomous testing. Our platform automatically generates, executes, and maintains test suites that evolve with your codebase.</p>
+                        <p className='font-seconadry lg:text-[20px] text-[16px] mt-[14px] text-[#C6C6C6]'>Eliminate manual test maintenance with AI-powered autonomous testing. Our platform automatically generates, executes, and maintains test suites that evolve with your codebase.</p>
                         <ul className='mt-[60px]'>
                             <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                 font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Self-healing test scripts</li>
@@ -80,10 +80,11 @@ const { cards: members } = members_CONFIG;
                     </div>
                     <div className="col-span-12 md:col-span-6 border border-[1px] border-[#505050] rounded-[16px] py-4 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
                         <Network className=' text-[#FD3A84] h-[32px]' />
-                        <h2 className='font-primary mt-[40px] text-[24px] font-[600] text-[white]'>Autonomous Testing Platform</h2>
+                        <h2 className='font-primary mt-[40px] text-[24px] font-[600] text-[white]'>Context Intelligence Platform</h2>
                         <h3 className='font-secandary mt-[14px]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
-                        <p className='font-seconadry text-[20px] mt-[14px] text-[#C6C6C6]'>Eliminate manual test maintenance with AI-powered autonomous testing. Our platform automatically generates, executes, and maintains test suites that evolve with your codebase.</p>
+                        <p className='font-seconadry lg:text-[20px] text-[16px]  mt-[14px] text-[#C6C6C6]'>Understand the full context of your systems with deep behavioral analysis.
+Our platform maps dependencies, monitors patterns, and provides actionable intelligence for every decision.</p>
                         <ul className='mt-[60px]'>
                             <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                 font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Real-time dependency mapping</li>
@@ -106,15 +107,15 @@ const { cards: members } = members_CONFIG;
                     </div>
                 </div>
             </section>
-            <section className='py-[80px] rounded-t-[50px] rounded-b-0  mt-[-100px] bg-[#fff] '>
-                    <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[10px]'>Our Platforms</p>
+            <section className='py-[80px] rounded-t-[50px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
+                    <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p>
                 <SectionHeading
                     title="Built by Visionaries"
                     subtitle='A team of industry veterans and innovators dedicated to reshaping software quality'
                     titleClassName="sm:text-[48px] text-[#000]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[100%]"
                 />
-              <div className="grid grid-cols-12 gap-6 mt-[60px] max-w-[1110px] mx-auto">
+              <div className="grid grid-cols-12 justify-center gap-6 mt-[60px] max-w-[1110px] mx-auto">
                 {members?.map((item) => (
                     <div
                     key={item.id}
@@ -139,7 +140,7 @@ const { cards: members } = members_CONFIG;
                  
 
             </section>
-            <section className='py-[80px]  pb-[200px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]
+            <section className='py-[80px]  pb-[150px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]
 '>
                        <p className='font-secondary font-[500] text-[18px] text-[#fff] text-center mb-[10px]'>Our Values</p>
                 <SectionHeading
@@ -158,10 +159,10 @@ const { cards: members } = members_CONFIG;
                 <SectionHeading
                     title="World-Class Investors"
                     subtitle='Supported by leading venture capital firms and strategic partners who share our vision'
-                    titleClassName="sm:text-[48px] text-[#000]"
+                    titleClassName="sm:text-[40px] text-[#000]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[100%]"
                 />
-                <div className="grid grid-cols-12 gap-6 mt-[60px] max-w-[880px] mx-auto">
+                <div className="grid grid-cols-12 gap-6 mt-[60px] max-w-[880px] px-5 lg:px-0 mx-auto">
                     <div className="col-span-12 md:col-span-12 border border-[#C6C6C6] rounded-[16px] border-[1px]">
                         <div className="grid grid-cols-12 gap-6">
                             <div className="col-span-12 md:col-span-3 text-center py-8">

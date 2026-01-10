@@ -18,7 +18,7 @@ const PlatformArchitecture = () => {
     <>
       <Navbar initialTextColor="text-black" />
       <section>
-        <div className="mt-[104px] py-[140px] text-white bg-gradient-primary rounded-[50px]  w-full ">
+        <div className="lg:mt-[104px] mt-[80px] lg:py-[140px] py-[100px] text-white bg-gradient-primary rounded-[50px]  w-full ">
           <MainBanner data={PLATFORM_ARCHITECTURE_HEADER_CONFIG} />
         </div>
       </section>
@@ -46,7 +46,7 @@ const PlatformArchitecture = () => {
       <ArchitecturalPrinciples />
 
       <section className="">
-        <div className="w-full  py-[100px] mt-[-100px] bg-white rounded-t-[100px]">
+        <div className="w-full  py-[100px] mt-[-100px] bg-white lg:rounded-t-[100px] rounded-t-[50px]">
           <SectionHeading
             spacing="space-y-4"
             title="Technical Specifications"

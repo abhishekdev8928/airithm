@@ -139,7 +139,7 @@ export const members_CONFIG = {
 
 export const Drive_CONFIG = {
 //    title: "Memory Distillation",
-   bodyclass:"p-0 !py-[50px]",
+   bodyclass:"lg:pt-0 pt-0",
 //   subtitle:
     // "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
     cards: [
@@ -148,17 +148,17 @@ export const Drive_CONFIG = {
       icon: "Lightbulb",
       textColor:"#fff",
       iconColor: "",
-        cardClassName: "w-[365px] h-[364px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "Innovation First",
       discColor:'#C6C6C6',
       description:
-        "Key learnings are identified and extracted from vast amounts of interaction data.",
+        "We push boundaries and challenge conventions, building solutions that didn’t exist before.",
     },
     {
       id: 2,
       icon: "UsersRound",
       iconColor: "",
-      cardClassName: "w-[365px] h-[364px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
       title: "Customer Obsession",
@@ -170,7 +170,7 @@ export const Drive_CONFIG = {
       icon: "ShieldCheck",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[364px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Trust & Transparency",
       description:
@@ -180,7 +180,7 @@ export const Drive_CONFIG = {
       icon: "Rocket",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[364px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Velocity Matters",
       description:
@@ -190,7 +190,7 @@ export const Drive_CONFIG = {
       icon: "Microscope",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[364px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Research-Driven",
       description:
@@ -200,7 +200,7 @@ export const Drive_CONFIG = {
       icon: "Globe",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[364px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Global Impact",
       description:

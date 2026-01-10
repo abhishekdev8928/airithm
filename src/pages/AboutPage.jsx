@@ -18,19 +18,19 @@ const AboutPage = () => {
      initialTextColor="black"
    />
       <section>
-        <div className=" rounded-[50px] mt-[104px] space-y-[70px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] pt-[200px] pb-[150px] text-white">
+        <div className=" rounded-[50px] lg:mt-[104px] mt-[70px] space-y-[70px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] lg:pt-[200px] pt-[120px] pb-[150px] text-white">
 
           <MainBanner
 
           data={ABOUT_HEADER_CONFIG}
           
           />
-          <img className="mx-auto" src="/home/about-hero.svg" alt="" />
+          <img className="mx-auto px-5 lg:px-0" src="/home/about-hero.svg" alt="" />
 
         </div>
       </section>
 
-      <section className="py-[100px] bg-white  rounded-b-[100px] relative z-10">
+      <section className="py-[100px] px-5 lg:px-5  bg-white  lg:rounded-b-[100px] rounded-b-[50px] relative z-10">
         <SectionHeading
           title={DUAL_PLATFORM_CONFIG?.title ?? ""}
           subtitle={DUAL_PLATFORM_CONFIG?.subtitle ?? ""}
@@ -52,7 +52,7 @@ const AboutPage = () => {
 
         {Array.isArray(DUAL_PLATFORM_CONFIG?.dualPlatforms) &&
           DUAL_PLATFORM_CONFIG.dualPlatforms.length > 0 && (
-            <div className="max-w-[824px] rounded-2xl border border-[#D9D9D9] mt-6 bg-[#F9F9F9] mx-auto flex justify-center items-center min-h-[300px] gap-[100px]">
+            <div className="max-w-[824px]  rounded-2xl border border-[#D9D9D9] mt-6 bg-[#F9F9F9] mx-auto flex justify-center items-center min-h-[300px] lg:gap-[100px] gap-[30px]">
               {DUAL_PLATFORM_CONFIG.dualPlatforms.map((platform, index) => {
                 if (!platform) return null;
 

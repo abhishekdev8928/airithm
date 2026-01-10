@@ -42,7 +42,7 @@ export default function PlatformHighLevelArchi() {
             </div>
 
             {/* Items */}
-            <div className="flex gap-4">
+            <div className="lg:flex-row flex-col  flex gap-4">
               {layer.items.map((item) => (
                 <div
                   key={item.id}

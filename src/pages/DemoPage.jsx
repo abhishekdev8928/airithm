@@ -20,10 +20,10 @@ const DemoPage = () => {
       />
 
       <section>
-        <div className="bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] pt-[200px] pb-[150px] rounded-[50px] mt-[102px] text-white">
+        <div className="bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] lg:pt-[200px] pt-[100px] pb-[150px] rounded-[50px] lg:mt-[102px] mt-[80px] text-white">
           <MainBanner data={DEMO_HEADER_CONFIG} />
 
-          <div className="demo-hero-bottom space-y-6 flex flex-col justify-center items-center text-center mt-[60px]">
+          <div className="demo-hero-bottom space-y-6 flex flex-col justify-center items-center text-center lg:mt-[60px] mt-[40px]">
             <div className="demo-badges flex justify-center">
               <div className="w-fit py-2 px-3 rounded-full bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
                 <span
@@ -35,7 +35,31 @@ const DemoPage = () => {
               </div>
             </div>
 
-            <div className="demo-feature-list max-w-xl w-full space-y-4 mx-auto">
+            <div className="demo-feature-list max-w-xl w-full space-y-4 mx-auto lg:px-0 px-5">
+              <div className="demo-feature-item border rounded-2xl border-[#D9D9D9] flex justify-center items-center gap-6 max-w-full min-h-[94px] ">
+                <div
+                  className="size-12 flex justify-center items-center rounded-sm bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]"
+                >
+                  <img src="/svg/brain.svg" className="size-[32]" alt="" />
+                </div>
+
+                <div className="demo-feature-content text-left space-y-2">
+                  <h4
+                    className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] inline-block bg-clip-text text-transparent
+             font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
+                  >
+                    Agents Analyzing
+                  </h4>
+
+                  <p
+                    className="font-secondary  font-normal text-[18px] leading-[1.2] tracking-[0.02em] lowercase text-[#D9D9D9]
+"
+                  >
+                    system_architecture.py
+                  </p>
+                </div>
+              </div>
+
               <div className="demo-feature-item border rounded-2xl border-[#D9D9D9] flex justify-center items-center gap-6 max-w-full min-h-[94px] ">
                 <div
                   className="size-12 flex justify-center items-center rounded-sm bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
@@ -48,20 +72,19 @@ const DemoPage = () => {
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
                     className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] inline-block bg-clip-text text-transparent
-             font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
+                      font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
                   >
-                    Executing Tests
+                  Executing Tests
                   </h4>
 
                   <p
                     className="font-secondary  font-normal text-[18px] leading-[1.2] tracking-[0.02em] lowercase text-[#D9D9D9]
 "
                   >
-                    multi_env_execution
+                   multi_env_execution
                   </p>
                 </div>
               </div>
-
               <div className="demo-feature-item border rounded-2xl border-[#D9D9D9] flex justify-center items-center gap-6 max-w-full min-h-[94px] ">
                 <div
                   className="size-12 flex justify-center items-center rounded-sm bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
@@ -74,16 +97,16 @@ const DemoPage = () => {
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
                     className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] inline-block bg-clip-text text-transparent
-             font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
+                      font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
                   >
-                    Evaluating Results
+                  Evaluating Results
                   </h4>
 
                   <p
                     className="font-secondary  font-normal text-[18px] leading-[1.2] tracking-[0.02em] lowercase text-[#D9D9D9]
 "
                   >
-                    llm_scoring_engine
+                 llm_scoring_engine
                   </p>
                 </div>
               </div>
@@ -124,7 +147,7 @@ const DemoPage = () => {
 
        <section>
         
-          <div className="relative px-4 py-[100px] sm:px-0 bg-white  w-full gap-10 commmunity-section flex-col justify-center rounded-t-[100px] flex items-center mt-[-100px] z-10">
+          <div className="relative px-4 py-[100px] sm:px-0 bg-white  w-full gap-10 commmunity-section flex-col justify-center lg:rounded-t-[100px] rounded-t-[50px]  flex items-center mt-[-100px] z-10">
             <div className="max-w-7xl  relative ">
               <SectionHeading
                 subtitle="
