@@ -44,7 +44,7 @@ const HamnPage = () => {
       <section className="py-20 max-w-[1100px] mx-auto px-4">
         <SectionHeading
           title="Attention Flow Visualization"
-          titleClassName="sm:text-[48px] text-[#fff]"
+          titleClassName="sm:text-[48px] text-[00273A]"
           subtitleClassName="sm:text-[16px] text-[#626161]"
         />
 
@@ -88,7 +88,7 @@ const HamnPage = () => {
         </div>
       </section>
 
-      <section className="py-[100px] px-4 sm:px-0">
+      <section className="md:py-[100px] py-[70px] px-4 sm:px-0">
         <div className="relative text-center px-4 lg:px-0  z-10">
           <h1 class="font-primary lg:text-[48px] text-[40px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
             Explainable AI
