@@ -15,7 +15,7 @@ import {
 } from "../config/NeuroTestConfig"
 import MainBanner from '../components/services/MainBanner';
 import { Brain, CircleCheck, MemoryStick, Network, Search, Shield, ShieldCheck } from 'lucide-react';
-import Realtime from "../components/services/Realtime"
+import TimeLine from "../components/services/TimeLine"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
@@ -198,7 +198,7 @@ const NeuroTestPage = () => {
                 </div>
             </section>
             <div className='mb-20'>
-                <Realtime data={TIMELINE_SECTION_CONFIG} />
+                <TimeLine data={TIMELINE_SECTION_CONFIG} />
 
             </div>
             <section className='py-20 bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]

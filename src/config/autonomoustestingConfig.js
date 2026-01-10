@@ -30,35 +30,35 @@ export const benifits_Config ={
    
   {
     id: 3,
-        img:"/svg/brain.svg",
+        img:"./public/svg/brain.svg",
     title: "Adaptive Test Generation",
     description:
       "AI creates and evolves tests automatically based on application behavior and user patterns.",
   },
   {
     id: 4,
-        img:"/svg/wand-sparkles.svg",
+        img:"./public/svg/wand-sparkles.svg",
     title: "Agentic Execution",
     description:
       "Intelligent agents that understand context and adapt to changes in real-time.",
   },
   {
     id: 5,
-        img:"/svg/graduation-cap.svg",
+        img:"./public/svg/graduation-cap.svg",
     title: "Continuous Learning",
     description:
       "System improves over time, learning from failures and optimizing test coverage.",
   },
   {
     id: 1,
-    img:"/svg/message-circle-more.svg",
+    img:"./public/svg/message-circle-more.svg",
     title: "LLM-Based Evaluation",
     cardClass:' w-full sm:w-[550px] ',
     description:
       "Natural language understanding for more intuitive and comprehensive test validation.",
   },{
     id: 2,
-        img:"/svg/user-round.svg",
+        img:"./public/svg/user-round.svg",
     title: "Reduced Human Effort",
         cardClass:' w-full sm:w-[550px] ',
     description:

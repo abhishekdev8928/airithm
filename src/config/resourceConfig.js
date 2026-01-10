@@ -8,7 +8,7 @@ export const Resource_HEADER = {
    {
   text: "Download Whitepapers",
   className:
-    " text-[#C44558] bg-white",
+    "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",
@@ -17,7 +17,7 @@ export const Resource_HEADER = {
 {
   text: "Explore Resources",
   className:
-    " bg-primary-gradient text-white",
+    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -35,7 +35,7 @@ export const resorce_card_CONFIG = {
       icon: "Bot",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+      cardClassName: " h-[100%] w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
       iconColor: "",
       title: "Blog",
       description:
@@ -45,7 +45,7 @@ export const resorce_card_CONFIG = {
       id: 2,
       icon: "ChartLine",
       iconColor: "",
-        cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " h-[100%] w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Whitepapers",
@@ -56,7 +56,7 @@ export const resorce_card_CONFIG = {
       id: 3,
       icon: "Brain",
       iconColor: "",
-        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " h-[100%] w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Case Studies",
@@ -66,7 +66,7 @@ export const resorce_card_CONFIG = {
     {
       id: 4,
       icon: "Infinity",
-        cardClassName: "w-full  sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " h-[100%] w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
@@ -77,7 +77,7 @@ export const resorce_card_CONFIG = {
     {
       id: 5,
       icon: "Brain",
-        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " h-[100%] w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
@@ -88,7 +88,7 @@ export const resorce_card_CONFIG = {
     {
       id: 4,
       icon: "Infinity",
-        cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " h-[100%] w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
