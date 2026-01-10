@@ -8,7 +8,7 @@ export const at_HEADER = {
    {
   text: "View Architecture",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    " text-[#C44558] bg-white",
   icon: "",
   hoverIcon:true,
   iconSize: "20px",
@@ -17,7 +17,7 @@ export const at_HEADER = {
 {
   text: "Request a Demo",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    "bg-primary-gradient text-white",
   href: "",
   icon: "",
   iconSize: "20px",

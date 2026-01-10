@@ -15,7 +15,7 @@ const CapabilityCard = ({
   if (!IconComponent) return null;
 
   return (
-    <div className="capability-card w-full sm:w-[48%] md:w-[300px] flex flex-col items-center gap-8 text-center group">
+    <div className="capability-card w-full max-w-[300px]   flex flex-col items-center space-y-5 text-center group">
       {/* Icon */}
       <div
         className={`
@@ -44,7 +44,7 @@ const CapabilityCard = ({
         </h2>
 
         {description && (
-          <p className="text-base sm:text-lg font-medium leading-[1.4] text-[#C6C6C6] tracking-[0.02em] max-w-[260px]">
+          <p className=" text-[#C6C6C6] font-secondary text-[14px] text-[#A1A1A1] tracking-[0.02em] font-medium leading-[1.4] max-w-[260px]">
             {description}
           </p>
         )}

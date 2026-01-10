@@ -3,7 +3,7 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const CtaSection = () => {
   return (
-    <section>
+    <section >
       <div
         style={{
           backgroundImage: 'url("/bg/bg-gradient-two.jpg")',
@@ -11,7 +11,7 @@ const CtaSection = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
         }}
-        className="rounded-[50px] px-4 sm:px-0 sm:rounded-[100px] bg-img-overlay section-wrapper z-11 overflow-hidden  w-full relative"
+        className="rounded-[50px] px-5 sm:px-0 sm:rounded-[100px] bg-img-overlay section-wrapper z-11 overflow-hidden  w-full relative"
       >
         <div className="max-w-7xl mx-auto sm:px-6 relative z-14 ">
           <div className="overlay-content backdrop-blur-[100px]  sm:mx-0 space-y-6 justify-center flex flex-col items-center sm:p-20 w-full h-[350px] sm:h-auto sm:max-w-full rounded-[40px] border border-white cta-banner-content  relative z-13">
@@ -22,7 +22,7 @@ const CtaSection = () => {
 
              <Button
               btnText="Talk to sales"
-              className="py-5 px-6 font-primary min-w-[228px] font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg leading-[1.2] bg-primary-gradient text-white"
+              className="py-5 px-6 font-primary min-w-[228px] font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
               iconSize="20"
               icon="CircleArrowOutUpRight"
             />
@@ -42,7 +42,7 @@ const CtaSection = () => {
 <Button
               btnText="Download 2025 Report"
               hoverIcon={false}
-              className="py-5 px-6 min-w-[228px] items-center  mx-auto sm:mx-0 font-primary font-medium text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              className="py-5 px-6 w-full md:w-fit items-center  mx-auto sm:mx-0 font-primary font-medium text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
               iconSize="20"
               icon="Download"
             />

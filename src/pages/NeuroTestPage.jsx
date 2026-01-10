@@ -44,12 +44,12 @@ const NeuroTestPage = () => {
 
                 </div>
             </section>
-            <section className='py-[80px] max-w-[780px] mx-auto '>
+            <section className='py-[80px] px-5 max-w-[780px] mx-auto '>
                 <SectionHeading
                     title="What is NeuroTest?"
-                    subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[48px]"
-                    subtitleClassName=" sm:text-[16px] text-[#626161]"
+                    subtitle="The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant, <br class='hidden md:block' /> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide  <br class='hidden md:block' /> comprehensive quality assurance for your AI systems."
+                   
+                    subtitleClassName="  text-[#626161]"
                 />
                 <div className="mt-[50px]">
                     <ul className='flex flex-wrap gap-[20px] justify-center'>
@@ -66,13 +66,13 @@ const NeuroTestPage = () => {
             <div className='bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] rounded-tl-[100px] rounded-tr-[100px] rounded-br-0 rounded-bl-0 pb-[150px]'>
                 <UspServices data={Core_capabiliti_CONFIG} />
             </div>
-            <div className="mt-[-100px] relative z-10">
-                <div className="rounded-[100px] py-[80px] bg-[#fff] border border-[1px] border-[#D9D9D9]">
+            <div className="mt-[-100px]  relative z-10">
+                <div className=" rounded-[50px] px-5  md:rounded-[100px]  py-[80px] bg-[#fff] ">
                     <SectionHeading
+                    
                         title="A Unified Architecture for AI Evaluation"
-                        //    subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                        titleClassName="sm:text-[40px] text-[32px] font-[600]"
-                        subtitleClassName=" sm:text-[16px] text-[#626161]"
+                    
+                        subtitleClassName=" text-[#626161]"
                     />
                     <div className="max-w-[1190px] mt-[60px] m-auto px-5 py-5 lg:p-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] ">
                         <div className="grid lg:grid-cols-3 grid-cols-1  gap-4">
@@ -197,31 +197,31 @@ const NeuroTestPage = () => {
 
                 </div>
             </section>
-            <div className='mb-[80px]'>
+            <div className='mb-20'>
                 <TimeLine data={TIMELINE_SECTION_CONFIG} />
 
             </div>
-            <section className='py-[80px] bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]
-                rounded-t-[100px]'>
+            <section className='py-20 bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]
+                rounded-t-[50px] md:rounded-t-[100px]'>
                 <SectionHeading
                     title="Enterprise Benefits"
-                    // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[40px] text-[32px]   text-[#fff]"
-                    subtitleClassName=" sm:text-[16px] text-[#fff]"
+                  
+                    titleClassName="  text-[#fff]"
+                    
                 />
 
-                <div class="flex flex-wrap   gap-6 pt-10 justify-center max-w-7xl mx-auto">
+                <div class="flex flex-wrap px-5   gap-6 pt-10 justify-center max-w-7xl mx-auto">
                     {
                         cards.map((item, index) => (
-                            <div class={`core-feature-card background: linear-gradient(
+                            <div key={index} class={`core-feature-card background: linear-gradient(
                         180deg,
                         rgba(255, 255, 255, 0.1) 0%,
                         rgba(153, 153, 153, 0.1) 100%
                         );
-                        transition-shadow duration-300   hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0  w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#505050] p-5 gap-12 flex flex-col ${item.cardClass}`}>
+                        transition-shadow duration-300   hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0  w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#505050] p-5 gap-12 flex flex-col ${item.cardClass}`}>
                                 <div class="feature-card-content">
-                                    <h2 class="font-primary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[60px]" >{item.title}</h2>
-                                    <p class="font-secondary text-[18px] leading-[1.4] pt-4 capitalize text-white" >{item.description}</p>
+                                    <h2 class="font-primary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[20px] sm:mb-[60px]" >{item.title}</h2>
+                                    <p class="font-secondary text-[14px] sm:text-[18px] leading-[1.4] pt-4 capitalize text-white" >{item.description}</p>
                                 </div>
                             </div>
 
@@ -230,12 +230,12 @@ const NeuroTestPage = () => {
 
                 </div>
             </section>
-            <section className="py-[80px] max-w-[1100px] mx-auto px-4">
+            <section className="py-20 max-w-[1100px] mx-auto px-4">
                    <SectionHeading
                     title="Integrations"
-                    // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[40px] text-[32px] "
-                    subtitleClassName=" sm:text-[16px] text-[#fff]"
+                    
+                   
+                    subtitleClassName="  text-[#fff]"
                 />
                 <Swiper
                     modules={[Navigation, Pagination, Autoplay]}

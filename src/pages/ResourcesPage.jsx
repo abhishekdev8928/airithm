@@ -51,12 +51,12 @@ const ResourcesPage = () => {
                 linkClassName="text-dark"
                 iconClassName="text-dark"
             />
-            <div className='mt-[100px] rounded-[50px] py-[150px] pb-[60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='md:mt-[100px] mt-[80px] rounded-[50px] py-[150px] pb-[60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <MainBanner data={Resource_HEADER} />
                 <img src="/slider/atom.png" alt="" className='m-auto' />
             </div>
             <section className='py-[80px] pt-[40px]'>
-                <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
+                <div className="flex mt-5 flex-wrap px-5 lg:px-5  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
                     {cards.map((card) => (
                         <FeatureCard key={card.id} {...card} />
                     ))}
@@ -70,7 +70,7 @@ const ResourcesPage = () => {
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
                 />
-                <div className="grid grid-cols-12 gap-4 max-w-[1224px] mx-auto mt-[50px]">
+                <div className="grid grid-cols-12 md:gap-4 gap-6 lg:px-0 px-5 max-w-[1224px] mx-auto mt-[50px]">
                     {
                         data.map((item, id) => (
                             <div className="col-span-12 md:col-span-4 border border-[1px] border-[#505050] rounded-[16px] overflow-hidden">
@@ -89,7 +89,7 @@ const ResourcesPage = () => {
                                     <Button
                                         btnText="Learn More"
                                         className=
-                                        "text-[16px]  min-w-[100%] mt-[40px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                        "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                         href=""
                                         icon="CircleArrowOutUpRight"
                                         iconSize="20px"
@@ -134,24 +134,24 @@ const ResourcesPage = () => {
                     </div>
 
                     {/* Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
+                    <div className="grid px-5 md:px-0 grid-cols-1 md:grid-cols-2 gap-[20px]">
                         {filteredBlogs.map((item) => (
                             <div
                                 key={item.id}
-                                className="flex w-[600px] bg-white rounded-[20px] border border-[#E5E5E5] overflow-hidden hover:shadow-lg transition"
+                                className="flex lg:flex-row flex-col md:w-[600px] w-[100%] bg-white rounded-[20px] border border-[#E5E5E5] overflow-hidden hover:shadow-lg transition"
                             >
                                 {/* IMAGE */}
                                 <div
-                                    className="w-[45%] h-[390px] bg-cover bg-center"
+                                    className="md:w-[45%] w-[100%] lg:h-[390px] h-[300px] bg-cover bg-center"
                                     style={{ backgroundImage: `url(${item.img})` }}
                                 />
 
                                 {/* CONTENT */}
-                                <div className="w-[55%] p-6 flex flex-col justify-between">
+                                <div className="md:w-[55%] w-[100%] p-6 flex flex-col justify-between">
                                     <div>
                                         <span className="inline-block mb-3 px-3 py-1 rounded-full text-[12px]
-                    bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0%,rgba(253,58,132,0.15)_100%)]
-                    text-[#C44558] font-medium">
+                                        bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0%,rgba(253,58,132,0.15)_100%)]
+                                        text-[#C44558] font-medium">
                                             {item.tag}
                                         </span>
 
@@ -175,7 +175,7 @@ const ResourcesPage = () => {
                                     <Button
                                         btnText="Learn More"
                                         className=
-                                        "text-[16px]  min-w-[100%] mt-[40px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                        "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                         href=""
                                         icon="CircleArrowOutUpRight"
                                         iconSize="20px"
@@ -197,7 +197,7 @@ const ResourcesPage = () => {
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
                 />
-                <div className="grid grid-cols-12 gap-4 max-w-[1224px] mx-auto mt-[50px]">
+                <div className="grid md:px-0 px-5 grid-cols-12 gap-4 max-w-[1224px] mx-auto mt-[50px]">
                     {
                         data1.map((item, id) => {
                             const Icon = LucideIcons[item.icon]; // ✅ dynamic icon
@@ -209,7 +209,7 @@ const ResourcesPage = () => {
                                         <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
                             w-fit   px-[10px] my-3 h-[48px] w-[48px] flex justify-center  items-center '>
                                             <span className='font-secondary text-[12px]   text-[#FD3A84]'>    {Icon && <Icon size={32} />}</span></h4>
-                                        <h2 className='font-primary text-[#fff] text-[24px] font-[600]  mt-[60px]'>{item.title}</h2>
+                                        <h2 className='font-primary text-[#fff] text-[24px] font-[600]  md:mt-[60px] mt-[28px]'>{item.title}</h2>
                                         <p className='text-[#C6C6C6] text-[16px] font-secondary mt-[10px]'>{item.disc}</p>
                                         <ul className='flex justify-start gap-[20px] mt-[20px]'>
                                             {
@@ -225,7 +225,7 @@ const ResourcesPage = () => {
                                         <Button
                                             btnText="Download Whitepaper"
                                             className=
-                                            "text-[16px]  min-w-[100%] mt-[40px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                            "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                             href=""
                                             icon="Download"
                                             iconSize="20px"
@@ -248,7 +248,7 @@ const ResourcesPage = () => {
                     titleClassName="sm:text-[48px] text-[#000]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
                 />
-                <div className="grid grid-cols-12 gap-4 max-w-[1224px] mx-auto mt-[50px]">
+                <div className="grid lg:px-0 px-5 grid-cols-12 md:gap-4 gap-6 max-w-[1224px] mx-auto mt-[50px]">
                     {
                         data2.map((item, id) => {
                             const Icon = LucideIcons[item.icon]; // ✅ dynamic icon
@@ -261,7 +261,7 @@ const ResourcesPage = () => {
                             w-fit p-2 rounded-[100px] px-[20px] my-3 border border[1px] border-[#797979] '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                             bg-clip-text
                             text-transparent'>{item.tag}</span></h4>
-                                        <h2 className='font-primary text-[#000] text-[24px] font-[600]  mt-[40px]'>{item.title}</h2>
+                                        <h2 className='font-primary text-[#000] text-[24px] font-[600]  md:mt-[40px] mt-[30px]'>{item.title}</h2>
                                         <p className='text-[#626161] text-[16px] font-secondary mt-[10px]'>{item.disc}</p>
                                         <ul className=' gap-[20px] mt-[20px]'>
                                             {
@@ -276,7 +276,7 @@ const ResourcesPage = () => {
                                         <Button
                                             btnText="View Case Study"
                                             className=
-                                            "text-[16px]  min-w-[100%] mt-[40px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                            "text-[16px]  min-w-[100%] md:mt-[40px] mt-[28px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                             href=""
                                             icon="CircleArrowOutUpRight"
                                             iconSize="20px"
@@ -293,16 +293,16 @@ const ResourcesPage = () => {
                 </div>
 
             </section>
-            <section className='py-[80px]  pb-[200px] rounded-t-[100px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <section className='py-[80px]  pb-[200px] md:rounded-t-[100px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <SectionHeading
                     title="Autonomous Testing Benchmarks"
                     subtitle='Objective performance and accuracy benchmarks comparing autonomous testing <br/> against traditional approaches.'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
                 />
-                <div className="max-w-[1250px] m-auto mt-[60px]">
+                <div className="max-w-[1250px] m-auto mt-[60px] lg:px-0 px-5">
                     <div className="grid grid-cols-12 gap-4 ">
-                        <div className=" col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
+                        <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
                             <h2 className='text-[20px] font-primary font-[600] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                                             bg-clip-text
                                                             text-transparent'>Test Coverage Accuracy</h2>
@@ -344,7 +344,7 @@ const ResourcesPage = () => {
 
 
 
-                        <div className=" col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
+                        <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
                             <h2 className='text-[20px] font-primary font-[600] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                                             bg-clip-text
                                                             text-transparent'>Defect Detection Rate</h2>
@@ -384,7 +384,7 @@ const ResourcesPage = () => {
 
                         </div>
 
-                        <div className=" col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
+                        <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
                             <h2 className='text-[20px] font-primary font-[600] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                                             bg-clip-text
                                                             text-transparent'>Time to Market</h2>
@@ -431,7 +431,7 @@ const ResourcesPage = () => {
 
             </section>
 
-            <section className='py-[80px] mt-[-100px]  pb-[100px] rounded-t-[100px] rounded-b-0 bg-[#fff]'>
+            <section className='py-[80px] mt-[-100px]  pb-[100px] md:rounded-t-[100px] rounded-t-[50px] rounded-b-0 bg-[#fff]'>
                 <SectionHeading
                     title="Webinars & Events"
                     subtitle='Live and on-demand sessions with experts in autonomous testing and agentic AI.'
@@ -443,15 +443,15 @@ const ResourcesPage = () => {
                     <span className='text-[12px] font-seconadry py-3 px-5 bg-[#fff]  border border-[1px] border-[#44558] rounded-[100px] text-[#C44558] font-[500]'>On-Demand</span>
                 </div>
                 <div className="max-w-[1224px] m-auto mt-[40px]">
-                    <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-6 p-5 border border-[1px] border-[#D9D9D9] rounded-[18px]">
+                    <div className="grid grid-cols-12 gap-4 md:px-0 px-5">
+                        <div className="md:col-span-6 col-span-12 p-5 border border-[1px] border-[#D9D9D9] rounded-[18px]">
                             <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
                             w-fit p-2 rounded-[100px] px-[20px]  '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                             bg-clip-text
                             text-transparent'>Upcoming</span></h4>
                             <h2 className='font-primary text-[#1E1E1E] text-[24px] font-[600] mt-8'>Implementing Autonomous Testing at Scale</h2>
                             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Learn how to deploy autonomous testing across large enterprise environments.</p>
-                            <ul className='mt-7'>
+                            <ul className='md:mt-7 mt-3'>
                                 <li className='text-[#626161] mb-[4px] font-[600]'>Speaker: <span className="text-[#FD3A84]"> Dr. Sarah Chen, VP Engineering</span></li>
                                 <li className='text-[#626161] mb-[4px]  font-[600]'>Date: <span className="text-[#FD3A84]">Dec 15, 2024</span></li>
                                 <li className='text-[#626161] mb-[4px] font-[600]'>Duration: <span className="text-[#FD3A84]"> 60 min</span></li>
@@ -459,21 +459,21 @@ const ResourcesPage = () => {
                             <Button
                                 btnText="Register"
                                 className=
-                                "text-[16px]  min-w-[100%] mt-[40px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px]  py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                 href=""
                                 icon=""
                                 iconSize="20px"
                             //   useCommonSvg="true"
                             />
                         </div>
-                        <div className="col-span-6 p-5 border border-[1px] border-[#D9D9D9] rounded-[18px]">
+                        <div className="md:col-span-6 col-span-12 p-5 border border-[1px] border-[#D9D9D9] rounded-[18px]">
                             <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
                             w-fit p-2 rounded-[100px] px-[20px]  '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                             bg-clip-text
                             text-transparent'>Upcoming</span></h4>
                             <h2 className='font-primary text-[#1E1E1E] text-[24px] font-[600] mt-8'>AI Quality Engineering Best Practices</h2>
                             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Explore advanced techniques for implementing AI-driven quality assurance.</p>
-                            <ul className='mt-7'>
+                            <ul className='md:mt-7 mt-3'>
                                 <li className='text-[#626161] mb-[4px] font-[600]'>Speaker: <span className="text-[#FD3A84]"> Dr. Sarah Chen, VP Engineering</span></li>
                                 <li className='text-[#626161] mb-[4px]  font-[600]'>Date: <span className="text-[#FD3A84]">Dec 15, 2024</span></li>
                                 <li className='text-[#626161] mb-[4px] font-[600]'>Duration: <span className="text-[#FD3A84]"> 60 min</span></li>
@@ -481,7 +481,7 @@ const ResourcesPage = () => {
                             <Button
                                 btnText="Register"
                                 className=
-                                "text-[16px]  min-w-[100%] mt-[40px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                 href=""
                                 icon=""
                                 iconSize="20px"
@@ -499,7 +499,7 @@ const ResourcesPage = () => {
                     titleClassName="sm:text-[48px] text-[#000]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
                 />
-                <div className="max-w-[800px] m-auto mt-[60px]" >
+                <div className="max-w-[800px] m-auto mt-[60px] px-5 md:px-0" >
                     {FAQ_CONFIG.map((item, index) => (
                         <div
                             key={item.id}

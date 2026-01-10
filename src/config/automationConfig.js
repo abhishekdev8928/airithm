@@ -1,7 +1,7 @@
 export const AUTOMATION_Testing_CONFIG  = {
   title: "Two Powerful Testing Capabilities",
   subtitle:
-    "Comprehensive testing solutions for both AI and traditional enterprise <br className='lg:hidden block' /> applications with advanced automation",
+    "Comprehensive testing solutions for both AI and traditional enterprise <br class='lg:block hidden' /> applications with advanced automation",
 
   neuroTest: {
     name: "NeuroTest",
@@ -174,7 +174,7 @@ export const AUTOMATION_HERO_CONFIG  = {
   buttons: [
   {
     text: "Schedule Demo",
-    className: "px-6 py-5 min-w-[228px] flex  text-[16px] leading-[1.2] font-primary font-medium  tracking-[0.02em] rounded-lg border-2",
+    className: "border-2",
      icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",
@@ -182,7 +182,7 @@ export const AUTOMATION_HERO_CONFIG  = {
   },
   {
     text: "Start Free Trial",
-    className: "px-9 py-5 min-w-[228px] font-primary font-[600] leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: " text-[#C44558] bg-white ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",

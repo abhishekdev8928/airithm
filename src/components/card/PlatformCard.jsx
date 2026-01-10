@@ -23,11 +23,11 @@ const PlatformCard = ({
     >
 
     
-      <div className="w-full lg:w-1/2 h-full  relative shadow-[0px_15px_33px_rgba(0,49,73,0.29)] bg-white rounded-[40px]">
+      <div className="w-full lg:w-1/2 h-full   relative shadow-[0px_15px_33px_rgba(0,49,73,0.29)] bg-white rounded-[40px]">
 
         {/* Floating Badge (not clipped) */}
         <div
-          className={`w-10 h-10 flex justify-center items-center rounded-full bg-white shadow absolute -translate-y-1/2 top-0 ${
+          className={`w-10 h-10 flex  justify-center items-center rounded-full bg-white shadow absolute -translate-y-1/2 top-0 ${
             isRightAligned ? "right-0" : "left-0"
           }`}
         >
@@ -73,7 +73,7 @@ const PlatformCard = ({
       
         <div className="w-full h-full  overflow-hidden">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full rounded-3xl object-cover"
             src={image}
             alt={title}
           />

@@ -4,7 +4,7 @@ const SideCard = ({ title, icon, iconSrc, iconSize, points }) => {
   const Icon = LucideIcons?.[icon];
 
   return (
-    <div className="w-[300px] rounded-2xl border border-[#E5E5E5] gap-10 p-5 flex flex-col items-start">
+    <div className=" w-full sm:w-[300px] rounded-lg sm:rounded-3xl border border-[#E5E5E5] gap-6 p-4 flex flex-col items-start">
       {/* Card icon */}
       <div className="">
         {iconSrc ? (
@@ -14,8 +14,8 @@ const SideCard = ({ title, icon, iconSrc, iconSize, points }) => {
         )}
       </div>
 
-      <div className="sidecard-group sapce-y-6">
-        <h3 className="text-[24px] capitalize font-primary font-medium tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-6">
+      <div className="sidecard-group space-y-2">
+        <h3 className="text-[24px] capitalize font-primary font-medium tracking-[0.02em] leading-[1.2] text-[#1e1e1e]">
           {title}
         </h3>
 

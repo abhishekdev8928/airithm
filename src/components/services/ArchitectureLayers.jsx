@@ -33,7 +33,8 @@ export default function ArchitectureLayers() {
             </div>
           ))}
         </div>
-        <img className="w-[85%] mx-auto" src="/svg/group-arrow.svg" alt="" />
+        <img className="w-[85%] hidden md:block mx-auto" src="/svg/group-arrow.svg" alt="" />
+          <img className="mx-auto block md:hidden" src="/svg/arrow.svg" alt="" />
 
 
         <div>
@@ -41,11 +42,11 @@ export default function ArchitectureLayers() {
 
 
           <div className="relative border border-[#F2A3B0] rounded-3xl space-y-4 px-10 py-12 text-center">
-          <h2 className="text-[40px] text-[#1e1e1e] font-primary font-medium  ">
+          <h2 className=" text-[24px] md:text-[40px] text-[#1e1e1e] font-primary font-medium  ">
             {layer2.title}
           </h2>
 
-          <div className="flex flex-wrap justify-center gap-10">
+          <div className="flex flex-wrap justify-center gap-2 md:gap-10">
             {layer2.points?.labels?.map((point, index) => (
               <div
                 key={index}
@@ -56,7 +57,7 @@ export default function ArchitectureLayers() {
                   alt="tick"
                   className="w-5 h-5"
                 />
-                {point}
+               <span className="font-secondary shrink-0 font-normal text-[16px] sm:text-[20px] leading-none tracking-[0.04em]">{point}</span>
               </div>
             ))}
           </div>
@@ -69,15 +70,15 @@ export default function ArchitectureLayers() {
 
         <div className="border border-[#F2A3B0] rounded-3xl px-10 space-y-4 py-12 text-center">
 
-          <h2 className="text-[40px] text-[#1e1e1e] font-primary font-medium ">
+          <h2 className=" text-[24px] md:text-[40px] text-[#1e1e1e] font-primary font-medium ">
             {layer3.title}
           </h2>
 
-          <div className="grid grid-cols-1 max-w-[670px] mx-auto sm:grid-cols-2 gap-y-6 gap-x-20">
+          <div className="flex flex-wrap max-w-[800px] mx-auto justify-center gap-4 md:gap-10">
             {layer3.points?.labels?.map((point, index) => (
               <div
                 key={index}
-                className="flex items-center  gap-3 text-[#C44558]"
+                className="flex items-center  gap-2 text-[#C44558]"
               >
                 <img
                   src={layer3?.iconSrc}
@@ -86,7 +87,7 @@ export default function ArchitectureLayers() {
                 />
 
 
-                <span className="font-secondary shrink-0 font-normal text-[20px] leading-none tracking-[0.04em]">{point}</span>
+                <span className="font-secondary shrink-0 font-normal text-[16px] sm:text-[20px] leading-none tracking-[0.04em]">{point}</span>
               </div>
             ))}
           </div>

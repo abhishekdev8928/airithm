@@ -7,7 +7,7 @@ const ArchitecturalPrinciples = () => {
   return (
     <section  >
       <div className="w-full bg-white">
-        <div className="w-full px-6 lg:px-0 pt-[90px] pb-[190px] rounded-t-[100px] bg-gradient-primary ">
+        <div className="w-full px-6 lg:px-0 pt-[90px] pb-[190px] rounded-t-[50px] md:rounded-t-[100px] bg-gradient-primary ">
           <SectionHeading
             title={title}
             titleClassName="text-white"

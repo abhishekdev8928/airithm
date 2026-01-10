@@ -129,7 +129,7 @@ const ReflectiveMemory = () => {
             <h3 className='text-[24px] font-secondary font-[500]'>Audit Logs</h3>
             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Complete transparency with detailed logs of all reflection processes and decisions.</p>
 
-            <ul className='mt-[80px]'>
+            <ul className='md:mt-[80px] mt-[40px]'>
               <li className='flex justify-between mb-3'>
                 <span className='text-[16px] text-[#C44558] font-[500] font-primary'>Reflection Cycles</span>
                 <span className='text-[16px] text-[#C44558] font-[500] font-primary'>2,847</span>
@@ -149,7 +149,7 @@ const ReflectiveMemory = () => {
             <h3 className='text-[24px] font-secondary font-[500]'>Safety Protocols</h3>
             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Built-in safeguards ensure responsible and ethical autonomous learning.</p>
 
-            <ul className='mt-[80px]'>
+            <ul className='md:mt-[80px] mt-[40px] '>
               <li className='flex justify-between mb-3'>
                 <span className='text-[16px] text-[#C44558] font-[500] font-primary'>Ethnical boundary enforcement</span>
                 <span className='text-[16px] text-[#C44558] font-[500] font-primary'><ShieldCheck /></span>

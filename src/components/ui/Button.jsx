@@ -7,13 +7,13 @@ const Button = ({
   icon, 
   iconSize, 
   useCommonSvg = false,
-  hoverIcon = true   // ✅ NEW PROP (default ON)
+  hoverIcon = true   
 }) => {
   const IconComponent = LucideIcons[icon];
 
   return (
     <a href="#!" 
-      className={`group flex gap-2.5 whitespace-nowrap capitalize items-center justify-center ${className}`}
+      className={`group py-5 pl-6 pr-5  font-semibold font-primary  leading-[1.2] tracking-[0%] rounded-lg flex gap-2.5 whitespace-nowrap capitalize items-center justify-center ${className}`}
     >
       {btnText}
 

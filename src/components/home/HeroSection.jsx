@@ -44,7 +44,7 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center px-4 lg:px-0  pt-[220px]  z-10">
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
                 Enterprise Intelligence, Reimagined
               </h1>
@@ -55,11 +55,11 @@ export default function HeroHeader() {
                 Scale
               </p>
 
-              <div className="flex mx-auto w-[264px]  sm:w-full flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5">
+              <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
+                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Join Partner Program"
-                      className="py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
                       useCommonSvg="true"
                     />
@@ -68,7 +68,7 @@ export default function HeroHeader() {
 
                 <Button
                   btnText="Explore Products"
-                  className="text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                  className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
                   icon="CircleArrowOutUpRight"
                   

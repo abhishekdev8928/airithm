@@ -11,23 +11,23 @@ export const StatsCard = ({ icon, title, children }) => {
     <div className="w-[390px]  border rounded-2xl p-5 border-[#C6C6C6]">
       {icon}
 
-      <h4 className="font-primary py-[40px] text-[#C44558] capitalize font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
+      <h4 className="font-primary mt-[24px] text-[#C44558] capitalize font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
         {title}
       </h4>
 
-      <div className="stats space-y-4">{children}</div>
+      <div className="stats space-y-4 mt-4">{children}</div>
     </div>
   );
 };
 
 export const StatRow = ({ id, label, value, suffix }) => {
   return (
-    <div className="w-full flex justify-between items-center border p-4 border-[#C6C6C6] rounded-lg">
-      <span className="text-[#626161] font-primary font-normal text-[16px] leading-none tracking-[0.04em]">
+    <div className="w-full flex justify-between items-center border px-4 py-3 border-[#C6C6C6] rounded-lg">
+      <span className="text-[#626161] font-primary font-normal text-[14px] leading-none tracking-[0.04em]">
         {label}
       </span>
 
-      <span className="font-secondary text-[#C44558] font-medium text-[16px] leading-[1.4] tracking-[0.04em]">
+      <span className="font-secondary text-[#C44558] font-medium text-[14px] leading-[1.4] tracking-[0.04em]">
         {value}
         {suffix ?? ""}
       </span>
@@ -59,8 +59,8 @@ const TcmPage = () => {
         
       />
 
-      <section>
-        <div className="max-w-7xl mt-[104px] lg:py-[106px] pt-[60px] pb-[60px] mx-auto">
+      <section >
+        <div className="max-w-7xl lg:px-0 px-5 lg:mt-[104px] mt-[80px] lg:py-[106px] pt-[60px] pb-[60px] mx-auto">
           {/* Hero */}
           <div className="tcm-hero-content space-y-4">
 
@@ -85,7 +85,7 @@ const TcmPage = () => {
           </div>
 
           {/* Cards */}
-          <div className="tcm-cards-wrapper pt-16 flex justify-center  flex-wrap lg:flex-nowrap items-start gap-6 sm:gap-4 xs:gap-2">
+          <div className="tcm-cards-wrapper lg:px-0 px-5 pt-16 flex justify-center  flex-wrap lg:flex-nowrap items-start gap-6 sm:gap-4 xs:gap-2">
             {statsCardConfig.map((card, index) => (
               <StatsCard
                 key={index}
@@ -126,7 +126,7 @@ const TcmPage = () => {
 
       <section>
         <div className="max-w-7xl mx-auto py-[100px] lg:px-0 px-5">
-          <h2 className="text-center text-[#00273A] capitalize tracking-[0.02em] leading-none font-primary font-medium lg:text-[48px] text-[40px]">
+          <h2 className="text-center text-[#00273A] capitalize tracking-[0.02em] leading-none font-primary font-medium lg:text-[40px] text-[32px]">
             Temporal Context Memory (TCM)
           </h2>
 

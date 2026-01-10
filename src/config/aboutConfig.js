@@ -1,7 +1,7 @@
 export const ABOUT_HEADER_CONFIG = {
   heading: "About Us",
   paragraph:
-    "Building intelligent systems that understand context and validate <br /> behavior—autonomously.",
+    "Building intelligent systems that understand context and validate <br class='md:block hidden' /> behavior—autonomously.",
     headclass:false,
   buttons:[]
 };
@@ -51,13 +51,13 @@ export const HOW_THEY_WORK_TOGETHER_CONFIG = {
 export const ABOUT_CTA_CONFIG  = {
   heading: "Ready to Explore Our Platforms?",
   paragraph:
-    "Join leading enterprises already leveraging context intelligence to drive <br /> unprecedented business outcomes",
+    "Join leading enterprises already leveraging context intelligence to drive <br class='hidden md:block' /> unprecedented business outcomes",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
   
   {
     text: "Explore Our Platforms",
-    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: " tracking-[0.02em] text-[#C44558] bg-green-900 bg-white rounded-lg flex items-center ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",
@@ -80,7 +80,7 @@ export const ABOUT_CTA_CONFIG  = {
       iconColor: "#C44558",
       title: "Autonomous Testing Platform",
       description: "Ensuring software and AI systems behave correctly",
-      cardClassName: "w-[400px] border-[#D9D9D9]",
+      cardClassName: " w-full sm:w-[400px] border-[#D9D9D9]",
     },
     {
       id: 2,
@@ -89,7 +89,7 @@ export const ABOUT_CTA_CONFIG  = {
       title: "Context Intelligence Platform",
       description:
         "Enabling systems to understand, reason, and retain context over time",
-      cardClassName: "w-[400px] border-[#D9D9D9]",
+      cardClassName: " w-full sm:w-[400px] border-[#D9D9D9]",
     },
   ],
 

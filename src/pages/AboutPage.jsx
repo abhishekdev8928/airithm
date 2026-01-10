@@ -18,7 +18,7 @@ const AboutPage = () => {
      initialTextColor="black"
    />
       <section>
-        <div className=" rounded-[50px] lg:mt-[104px] mt-[70px] space-y-[70px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] lg:pt-[200px] pt-[120px] pb-[150px] text-white">
+        <div className=" rounded-[50px] lg:mt-[100px] mt-[80px] space-y-[70px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] lg:py-[150px] py-[100px] pt-[120px] pb-[150px] text-white">
 
           <MainBanner
 
@@ -30,7 +30,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="py-[100px] px-5 lg:px-5  bg-white  lg:rounded-b-[100px] rounded-b-[50px] relative z-10">
+      <section className="py-[100px] px-5   bg-white  lg:rounded-b-[100px] rounded-b-[50px] relative z-10">
         <SectionHeading
           title={DUAL_PLATFORM_CONFIG?.title ?? ""}
           subtitle={DUAL_PLATFORM_CONFIG?.subtitle ?? ""}
@@ -52,7 +52,7 @@ const AboutPage = () => {
 
         {Array.isArray(DUAL_PLATFORM_CONFIG?.dualPlatforms) &&
           DUAL_PLATFORM_CONFIG.dualPlatforms.length > 0 && (
-            <div className="max-w-[824px]  rounded-2xl border border-[#D9D9D9] mt-6 bg-[#F9F9F9] mx-auto flex justify-center items-center min-h-[300px] lg:gap-[100px] gap-[30px]">
+            <div className="max-w-[824px] flex-wrap  rounded-lg sm:rounded-3xl border border-[#D9D9D9] mt-6 bg-[#F9F9F9] mx-auto flex justify-center items-center px-4 py-6 lg:gap-[100px] gap-[30px]">
               {DUAL_PLATFORM_CONFIG.dualPlatforms.map((platform, index) => {
                 if (!platform) return null;
 
@@ -70,7 +70,7 @@ const AboutPage = () => {
                     key={platform?.id ?? index}
                     className="size-[164px] gap-2.5 flex flex-col items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]"
                   >
-                    <Icon size={32} color={platform?.iconColor ?? "#fff"} />
+                    <Icon size={24} color={platform?.iconColor ?? "#fff"} />
 
                     <span className="font-sans font-medium text-sm leading-[100%] tracking-[0.04em] text-center text-white whitespace-pre-line">
                       {platform?.label ?? ""}
@@ -85,7 +85,7 @@ const AboutPage = () => {
       <CapabilitySection {...WHY_TWO_PLATFORMS_CONFIG} />
 
       <PlatformSynergy />
-      <CtaSection wrapperClassName="mt-[-100px]" {...ABOUT_CTA_CONFIG} />
+      <CtaSection  {...ABOUT_CTA_CONFIG} />
 
 
       <FooterSection />

@@ -32,12 +32,14 @@ const FeatureCard = ({
   const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#C44558";
 
   return (
-    <div
-      className={`core-feature-card transition-shadow  duration-300 
-        hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
-        ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} 
-        rounded-3xl border border-[#9d9d9d] p-5  flex flex-col`}
-    >
+   <div
+  className={`core-feature-card transition-shadow duration-300
+  hover:shadow-[0px_0px_40px_2px_#C4455840]
+  shrink-0 
+   rounded-lg sm:rounded-3xl border border-[#9d9d9d] space-y-5  p-4 flex flex-col
+   ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} `}
+>
+
       {/* Card Icon */}
       {linkIconSrc ? (
         <div
@@ -51,7 +53,7 @@ const FeatureCard = ({
           <img
             src={linkIconSrc}
             alt={title}
-            className="w-8 h-8 object-contain"
+            className="size-6 object-contain"
           />
         </div>
       ) : IconComponent ? (
@@ -65,7 +67,7 @@ const FeatureCard = ({
             background: hasBg ? bgColor || "#C44558" : "transparent",
           }}
         >
-          <IconComponent size={32} color={finalIconColor} />
+          <IconComponent size={24} color={finalIconColor} />
         </div>
       ) : (
         <div className="w-10 h-10 rounded-full bg-gray-300">
@@ -74,16 +76,16 @@ const FeatureCard = ({
       )}
 
       {/* Content */}
-      <div className="feature-card-content mt-[40px]">
+      <div className="feature-card-content space-y-2">
         <h2
           className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
           style={{ color: textColor || "#1E1E1E" }}
         >
-          {title}
+          {title}.
         </h2>
 
         <p
-          className="font-secondary text-[16px] leading-[1.4] pt-[16px] "
+          className="font-secondary text-[14px] text-[#A1A1A1] tracking-[0.02em] font-medium leading-[1.4]"
           style={{ color: discColor || "#626161" }}
         >
           {description}
@@ -93,7 +95,7 @@ const FeatureCard = ({
       {showLink && href && (
         <a
           href={href}
-          className="text-[#C44558] mt-2 flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
+          className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
         >
           {linkText}
          {linkIconType === "gradient" && linkIconSrc ? (
@@ -114,7 +116,7 @@ const FeatureCard = ({
 
       {/* Points */}
       {points?.labels && (
-        <ul className="points space-y-2 mt-[18px]">
+        <ul className="points space-y-2  flex-1 flex flex-col justify-end ">
           {points.labels.map((item, index) => {
             const isGradient = points.textGradientColor?.includes("gradient");
 
@@ -122,7 +124,7 @@ const FeatureCard = ({
               points.icon?.name && LucideIcons[points.icon.name];
 
             return (
-              <li key={index} className="flex items-start gap-2">
+              <li key={index} className="flex  items-start gap-2">
               
                 {PointIcon ? (
                   <PointIcon

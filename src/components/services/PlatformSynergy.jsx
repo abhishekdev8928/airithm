@@ -13,11 +13,11 @@ const PlatformSynergy = () => {
 
   return (
     <section>
-      <div className="bg-white rounded-[50px] px-4 md:px-0 sm:rounded-[100px] section-overlap-bottom z-10 relative mt-[-100px]">
+      <div className="bg-white rounded-[50px] px-5 md:px-0 sm:rounded-[100px] py-[100px] z-10 relative mt-[-100px]">
         <div className="max-w-7xl mx-auto">
           <SectionHeading title={title} />
 
-          <div className="flex flex-col md:flex-row gap-10 items-center justify-center rounded-2xl p-10">
+          <div className="flex flex-col md:flex-row gap-10 items-center justify-center rounded-2xl py-10">
             {/* Section A */}
             <SideCard {...cards[0]} />
 

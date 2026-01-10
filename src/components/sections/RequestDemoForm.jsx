@@ -1,8 +1,9 @@
 import SectionHeading from "@/components/common/SectionHeading";
+import Button from "../ui/Button";
 
 const RequestDemoForm = () => {
   return (
-    <div className=" section-overlap-bottom rounded-t-[100px] mt-[-100px] relative z-10 flex items-center justify-center bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] ">
+    <div className=" section-overlap-bottom md:rounded-t-[100px] rounded-t-[50px] mt-[-100px] relative z-10 flex items-center justify-center bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] ">
       <div className="w-full max-w-3xl">
         {/* Heading */}
         {/* <div className="text-center mb-8">
@@ -167,17 +168,26 @@ gap-x-6
 
           {/* Submit Button */}
           <div className="md:col-span-2 text-center">
-            <button
+            {/* <button
               type="submit"
-              className="mt-6 h-[60px] w-[360px] font-primary  text-[18px] leading-[1.2] tracking-normal  rounded-lg text-white font-semibold bg-[linear-gradient(85.9deg,#C44558_62.74%,#FF7F7F_95.09%)] hover:opacity-90 transition"
+              className="mt-6 h-[60px] max-w-[300px] font-primary  text-[18px] leading-[1.2] tracking-normal  rounded-lg text-white font-semibold bg-[linear-gradient(85.9deg,#C44558_62.74%,#FF7F7F_95.09%)] hover:opacity-90 transition"
             >
               Request Demo
-            </button>
+            </button> */}
+             <Button
+                                        btnText="Request Demo"
+                                        className=
+                                        " bg-primary-gradient text-white"
+                                        href=""
+                                        // icon="CircleArrowOutUpRight"
+                                        // iconSize="20px"
+                                    //   useCommonSvg="true"
+                                    />
           </div>
         </form>
 
         {/* Footer */}
-        <p className=" mae-gradient-text font-secondary font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize">
+        <p className="px-5 mae-gradient-text font-secondary font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize">
           We’ll Respond Within 24 Hours To Schedule Your Personalized Demo.
         </p>
       </div>

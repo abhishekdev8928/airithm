@@ -8,7 +8,7 @@ export const Comapny_HEADER = {
    {
   text: "View Leadership",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    "   text-[#C44558] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",
@@ -17,7 +17,7 @@ export const Comapny_HEADER = {
 {
   text: "Explore Our Story",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    "  bg-primary-gradient text-white",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -34,7 +34,7 @@ export const KEY_FEATURES_CONFIG = {
       icon: "Bot",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      cardClassName: " h-[100%] w-[400px]",
+      cardClassName: "w-full sm:w-[400px]",
       iconColor: "",
       title: "Autonomous Testing",
       description:
@@ -44,7 +44,7 @@ export const KEY_FEATURES_CONFIG = {
       id: 2,
       icon: "ChartLine",
       iconColor: "",
-        cardClassName: " h-[100%] w-[400px]",
+        cardClassName: " w-full sm:w-[400px]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Predictive Analytics",
@@ -55,7 +55,7 @@ export const KEY_FEATURES_CONFIG = {
       id: 3,
       icon: "Brain",
       iconColor: "",
-        cardClassName: " h-[100%] w-[400px]",
+        cardClassName: " w-full sm:w-[400px]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Context Intelligence",
@@ -65,7 +65,7 @@ export const KEY_FEATURES_CONFIG = {
     {
       id: 4,
       icon: "Infinity",
-        cardClassName: " h-[100%] w-[400px]",
+        cardClassName: " w-full sm:w-[400px]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
@@ -148,7 +148,7 @@ export const Drive_CONFIG = {
       icon: "Lightbulb",
       textColor:"#fff",
       iconColor: "",
-        cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "w-full sm:w-[365px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "Innovation First",
       discColor:'#C6C6C6',
       description:
@@ -158,7 +158,7 @@ export const Drive_CONFIG = {
       id: 2,
       icon: "UsersRound",
       iconColor: "",
-      cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "w-full sm:w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
       title: "Customer Obsession",
@@ -170,7 +170,7 @@ export const Drive_CONFIG = {
       icon: "ShieldCheck",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-full sm:w-[365px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Trust & Transparency",
       description:
@@ -180,7 +180,7 @@ export const Drive_CONFIG = {
       icon: "Rocket",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-full sm:w-[365px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Velocity Matters",
       description:
@@ -190,7 +190,7 @@ export const Drive_CONFIG = {
       icon: "Microscope",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Research-Driven",
       description:
@@ -200,7 +200,7 @@ export const Drive_CONFIG = {
       icon: "Globe",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Global Impact",
       description:

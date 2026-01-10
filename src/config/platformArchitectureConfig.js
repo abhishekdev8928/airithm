@@ -7,13 +7,14 @@ export const PLATFORM_ARCHITECTURE_HEADER_CONFIG = {
     {
       text: "View Documentation",
       className:
-        "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        " text-[#C44558] bg-white",
       href: "",
+      hoverIcon:false,
         icon: "Eye",
     },
     {
       text: "Explore Architecture",
-      className: "py-5 min-w-[228px] px-6 font-primary font-[600] text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
+      className: " text-white bg-primary-gradient ",
       href: "",
         icon: "CircleArrowOutUpRight",
     },
@@ -120,7 +121,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
       description:
         "Multi-agent orchestration for intelligent tasking workflows, precise planning, decision-making, and coordination.",
       hasBg: true,
- cardClassName:"w-[350px] border-light-sm",
+ cardClassName:" w-full sm:w-[350px] border-light-sm",
       showLink: true,
       linkText: "Learn More",
       href: "/architecture/agentic",
@@ -132,7 +133,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
       description:
         "Persistent context for intelligent testing, decision, vector, graph, and temporal memory systems.",
       hasBg: true,
- cardClassName:"w-[350px] border-light-sm",
+ cardClassName:"w-full sm:w-[350px] border-light-sm",
       showLink: true,
       linkText: "Learn More",
       href: "/architecture/memory",
@@ -144,7 +145,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
       description:
         "Enterprise security built into every layer.Tenant isolation, encryption, and compliance readiness.",
       hasBg: true,
-      cardClassName:"w-[350px] border-light-sm",
+      cardClassName:" w-full sm:w-[350px] border-light-sm",
 href: "/architecture/memory",
       showLink: true, 
     },

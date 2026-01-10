@@ -106,6 +106,8 @@ export const HAMN_USP_CONFIG = {
 
 export const ATTENTION_FLOW_CONFIG = {
   title: "Attention Flow Visualization",
+  bodyclass:"text-[#000]",
+
 
   steps: [
     {

@@ -8,13 +8,13 @@ const FooterSection = () => {
         background: "linear-gradient(180deg, #042539 0%, #000000 100%)",
       }}
     >
-      <div className="px-10 py-12">
+      <div className="px-5 py-12">
         
         {/* MAIN WRAPPER */}
         <div className=" flex justify-between flex-wrap lg:flex-nowrap gap-12 ">
           
           {/* LEFT TEXT BLOCK */}
-          <div className="text-inter-16 leading-[1.2] max-w-[247px] flex-shrink-0">
+          <div className="text-inter-16 leading-[1.2]  max-w-[247px] flex-shrink-0">
             Critical Flows Often Go Untested Because Automation Focuses On
             What’s Documented, Not What Human And.
           </div>

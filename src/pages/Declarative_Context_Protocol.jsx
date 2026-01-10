@@ -34,11 +34,11 @@ const Declarative_Context_Protocol = () => {
                Built for the most demanding compliance requirements with <br /> enterprise-grade security and governance frameworks
               </p>
             </div>
-            <div className="max-w-5xl mx-auto mt-[80px] lg:px-5 px-5 ">
+            <div className="max-w-5xl mx-auto lg:mt-[80px] mt-[40px]  px-5 ">
                 <div className="flex justify-between lg:flex-row flex-col">
                     <div className="soc2 min-w-[419px]">    
                         <div className="flex mb-5">
-                            <span className='inline-block me-6 mt-2'>
+                            <span className='inline-block lg:me-6 me-2 mt-2'>
                                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)"/>
                             <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -51,13 +51,13 @@ const Declarative_Context_Protocol = () => {
                             </svg>
 
                             </span>
-                            <div className='inline-block'>
+                            <div className='inline-block [text-wrap-style:pretty]'>
                                 <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>SOC 2 Type II Complaint</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Comprehensive security controls and continuous monitoring</p>
                             </div>
                         </div>
                           <div className="flex mb-5">
-                            <span className='inline-block me-6 mt-2'>
+                            <span className='inline-block lg:me-6 me-2 mt-2'>
                                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)"/>
                             <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -70,13 +70,13 @@ const Declarative_Context_Protocol = () => {
                             </svg>
 
                             </span>
-                            <div className='inline-block'>
+                            <div className='inline-block [text-wrap-style:pretty]'>
                                 <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>GDPR Ready</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Privacy-by-ready with automated data protection</p>
                             </div>
                         </div>
                           <div className="flex mb-5">
-                            <span className='inline-block me-6 mt-2'>
+                            <span className='inline-block lg:me-6 me-2 mt-2'>
                                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="38.4" height="38.4" rx="19.2" fill="url(#paint0_linear_650_409)"/>
                             <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -89,14 +89,14 @@ const Declarative_Context_Protocol = () => {
                             </svg>
 
                             </span>
-                            <div className='inline-block'>
+                            <div className='inline-block [text-wrap-style:pretty]'>
                                 <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>Zero Trust Architecture</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Never trust always verify with continuous authentication</p>
                             </div>
                         </div>
                         
                     </div>
-                    <div className="min-w-[390px] border border-1 border-[#C6C6C6] rounded-[16px] p-[20px]">
+                    <div className="lg:min-w-[390px] border border-1 border-[#C6C6C6] rounded-[16px] p-[20px]">
                         <h3 className='text-[#C44558] text-[20px] font-primary font-[600]'>Live Network Status</h3>
                         <ul className='mt-8'>
                             <li className='flex justify-between mb-3'><p className='text-[16px] font-primary font-[500] text-[#626161] '>Active Agents</p> <span className='text-[16px] font-primary font-[500] text-[#C44558]'>1,247</span></li>

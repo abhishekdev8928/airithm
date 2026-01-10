@@ -32,12 +32,12 @@ const TimeLine = ({ data }) => {
               </div>
               {step.title  && (
 
-                <h3 dangerouslySetInnerHTML={{ __html:step.title }}  className="font-primary mt-3 text-center lg:text-end font-semibold text-[24px] text-[#C44558]  relative before:hidden  lg:before:block before:content-[''] before:absolute before:right-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]"/>
+                <h3 dangerouslySetInnerHTML={{ __html:step.title }}  className="font-primary mt-3 text-center lg:text-end font-semibold text-[20px] sm:text-[24px] text-[#C44558]  relative before:hidden  lg:before:block before:content-[''] before:absolute before:right-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]"/>
               )
 
               }
                
-                <p className="mt-2 lg:w-[350px] text-center lg:text-end  lg:m-auto mr-0 text-[20px] text-[#626161] leading-[1.6]">
+                <p className="mt-2 lg:w-[350px] text-center lg:text-end  lg:m-auto mr-0 text-[16px] sm:text-[20px] text-[#626161] leading-[1.6]">
                   {step.description}
                 </p>
               </div>
@@ -63,8 +63,8 @@ const TimeLine = ({ data }) => {
                 <div className="flex lg:hidden items-center m-auto justify-center w-[64px] h-[64px] rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] text-white text-[24px] font-semibold">
                 {step.id}
               </div>
-                <h3 className="font-primary mt-3 lg:text-left text-center font-semibold text-[24px] text-[#C44558] relative before:content-[''] before:absolute before:left-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]" dangerouslySetInnerHTML={{ __html:step.title }} />
-                <p className="mt-2  lg:w-[350px] lg:text-left text-center text-[20px] text-[#626161] leading-[1.6]">
+                <h3 className="font-primary mt-3 lg:text-left text-center font-semibold text-[20px] sm:text-[24px] text-[#C44558] relative before:content-[''] before:absolute before:left-[-24%] before:top-1/2 before:w-[80px] before:h-[3px] before:bg-[#D9D9D9]" dangerouslySetInnerHTML={{ __html:step.title }} />
+                <p className="mt-2  lg:w-[350px] lg:text-left text-center text-[16px] sm:text-[20px] text-[#626161] leading-[1.6]">
                   {step.description}
                 </p>
               </div>

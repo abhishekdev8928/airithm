@@ -4,13 +4,12 @@ export const Neuro_Test_HEADER = {
   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
   headclass:"pt-[0px]",
   paragraph:
-    "Airithm test studio revolutionizes testing with two powerful capabilities <br/> NeuroTest for AI/LLM And CoreTest for enterprise applications",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+    "Airithm test studio revolutionizes testing with two powerful capabilities <br class='hidden md:block' /> NeuroTest for AI/LLM And CoreTest for enterprise applications",
   buttons: [
    {
   text: "Explore Documentation",
   className:
-    "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    " text-[#C44558] bg-white",
   icon: "Play",
   hoverIcon:true,
   iconSize: "20px",
@@ -19,7 +18,7 @@ export const Neuro_Test_HEADER = {
 {
   text: "Start Free Trial",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    " bg-primary-gradient text-white",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -40,7 +39,7 @@ export const Core_capabiliti_CONFIG = {
       textColor:"#fff",
       gradent:true,
       iconColor: "",
-        cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
+        cardClassName: " w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
       title: "Unified Evaluation Orchestrator",
       discColor:'#C6C6C6',
       description:
@@ -51,7 +50,7 @@ export const Core_capabiliti_CONFIG = {
       icon: "SearchCheck",
       gradent:true,
       iconColor: "",
-      cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
+      cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        textColor:"#fff",
        gradent:true,
        discColor:'#C6C6C6',
@@ -65,7 +64,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
        textColor:"#fff",
        gradent:true,
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
+       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Agentic AI Testing",
       description:
@@ -78,7 +77,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
       gradent:true,
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
+       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Safety & Robustness Auditing",
       description:
@@ -91,7 +90,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
       gradent:true,
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
+       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Automated CI/CD Quality Gates",
       description:
@@ -104,7 +103,7 @@ export const Core_capabiliti_CONFIG = {
       iconColor: "",
       gradent:true,
        textColor:"#fff",
-       cardClassName: "w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
+       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
        discColor:'#C6C6C6',
       title: "Enterprise Dashboard & Analytics",
       description:
@@ -202,18 +201,21 @@ export const benifits_Config ={
   {
     id: 3,
     title: "Multi-Agent Validation",
+     cardClass:' w-full sm:w-[550px] ',
     description:
       "Ensure multi-agent tool correctness and planning success with specialized testing frameworks.",
   },
   {
     id: 4,
     title: "RAG Quality Assurance",
+     cardClass:' w-full sm:w-[550px] ',
     description:
       "Validate RAG grounding and source attribution with deep context analysis and retrieval scoring.",
   },
   {
     id: 5,
     title: "Centralized Governance",
+     cardClass:' w-full sm:w-[550px] ',
     description:
       "Centralize safety and robustness checks for enterprise governance and compliance requirements.",
   },
@@ -226,31 +228,25 @@ export const benifits_Config ={
     "The gold standard for production-grade AI governance is here.",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
-  // {
-  //   text: "Schedule Demo",
-  //   className: "px-6 py-5 min-w-[228px] flex flex-row-reverse text-[16px] leading-[1.2] font-primary font-medium  tracking-[0.02em] rounded-lg border-2",
-  //   icon: "Play",
-  //   iconSize: "20px",
-  //   href: "",
-  //   hoverIcon:false
-  // },
+  
   {
     text: "Download Whitepaper",
-    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: " text-[#C44558] bg-white ",
     icon: "Download",
     iconSize: "20px",
+    hoverIcon:false,
     href: "",
   },
     {
     text: "Contact Sales",
-    className: "px-9 py-5 bg-primary-gradient  min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#fff] bg-white rounded-lg flex items-center gap-2",
+    className: " bg-primary-gradient   text-[#fff] ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",
   },
     {
     text: "Start Free Trial",
-    className: "px-9 py-5 bg-primary-gradient  min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#fff] bg-white rounded-lg flex items-center gap-2",
+    className: " bg-primary-gradient   text-[#fff] ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",

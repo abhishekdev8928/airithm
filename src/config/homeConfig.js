@@ -128,7 +128,7 @@ export const HOME_PLATFORM_CONFIG = {
       title: "AI Test Platform",
       description:
         "Comprehensive AI Model Testing With Automated Quality Assurance, Performance Monitoring, And Compliance Verification",
-      image: "/home/sample.png",
+      image: "/home/ai-test-platform.webp",
       ctaText: "Learn More",
       ctaLink: "/platforms/ai-test",
       ctaIcon: "CircleArrowOutUpRight",
@@ -142,7 +142,7 @@ export const HOME_PLATFORM_CONFIG = {
       title: "Context Intelligence Platform",
       description:
         "Advanced contextual AI That Understands, Interprets, And Acts On Complex Enterprise Data With Human-Like Comprehension",
-      image: "/home/sample.png",
+      image: "/home/context-intelligence-platform.webp",
       ctaText: "Learn More",
       ctaLink: "/platforms/ai-analytics",
       ctaIcon: "CircleArrowOutUpRight",
@@ -157,7 +157,7 @@ export const HOME_PLATFORM_CONFIG = {
       title: "Predictive Analytics & Anomaly Detection",
       description:
         "Advanced AI For Detecting Patterns, Predicting Trends, And Identifying Anomalies In Complex Enterprise Data",
-      image: "/home/sample.png",
+      image: "/home/predictive-analytics-anomaly-detection.webp",
       ctaText: "Learn More",
       ctaLink: "/platforms/ai-automation",
       ctaIcon: "CircleArrowOutUpRight",

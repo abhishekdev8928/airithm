@@ -274,8 +274,9 @@ const steps = [
   },
 ];
   return (
-    <div className="w-full overflow-x-auto mt-[50px]">
-      <div className="relative flex min-w-[1320px] items-center justify-center px-10">
+    <div className="w-full  mt-[50px]  ">
+      
+      <div className="relative flex min-w-[1320px] bg-[#F9F9F9] py-[100px] rounded-[24px] items-center justify-center mx-10 shadow-[0px_0px_8px_4px_#C4455880]">
 
 
         {steps.map((step, index) => (
@@ -909,7 +910,7 @@ export const USP_CONFIG = {
       icon: "Dices",
       title: "Non-Deterministic Outputs",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "Same input can produce different valid outputs, making traditional assertion-based testing impossible.",
@@ -922,7 +923,7 @@ export const USP_CONFIG = {
       icon: "ChartSpline",
       title: "Configure Test Strategy",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "AI decisions are based on confidence scores and learned patterns, not fixed logic paths.",
@@ -933,7 +934,7 @@ export const USP_CONFIG = {
       icon: "Database",
       title: "Data & Prompt Sensitivity",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "Minor changes in input context or phrasing can significantly alter AI behavior and outputs.",
@@ -944,7 +945,7 @@ export const USP_CONFIG = {
       icon: "RefreshCcw",
       title: "Continuous Evolution",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "Models update, data drifts, and prompts change—requiring ongoing validation, not one-time testing.",

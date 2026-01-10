@@ -35,12 +35,12 @@ const PricingPage = () => {
     <>
       <Navbar />
       <section
-        className="bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] pb-[200px] pt-[140px]    mt-[104px] rounded-t-[50px]  text-white
+        className="bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] pb-[200px] md:pt-[140px] pt-[100px]    md:mt-[104px] mt-[80px] rounded-t-[50px]  text-white
 "
       >
         <div className="max-w-7xl mx-auto">
           <MainBanner data={PRICING_HEADER_CONFIG} />
-          <div className="flex items-center gap-4 mt-8">
+          <div className="flex items-center gap-4 mt-8 md:flex-row flex-col px-5 md:px-0">
             {PRICING_CONFIG.cards.map((pricing) => (
               <PricingCard {...pricing} />
             ))}
@@ -62,7 +62,7 @@ export const PRICING_CONFIG = {
       id: "starter",
       title: "Starter",
       subtitle: "For small teams & pilots",
-      size: "w-[400px] min-h-[400px]",
+      size: "md:w-[400px] w-[100%] min-h-[400px]",
       features: [
         "Core autonomous test generation",
         "Limited agent execution",
@@ -79,7 +79,7 @@ export const PRICING_CONFIG = {
       title: "Growth",
       subtitle: "For scaling engineering teams",
       svgImgPath: "/svg/gradient-check.svg",
-      size: "w-[400px] min-h-[420px]",
+      size: "md:w-[400px] w-[100%] min-h-[420px]",
       badge: "Most Popular",
       highlight: true,
       features: [
@@ -99,7 +99,7 @@ export const PRICING_CONFIG = {
       id: "scale",
       title: "Scale",
       subtitle: "For platform & AI teams",
-      size: "w-[400px] min-h-[400px]",
+      size: "md:w-[400px] w-[100%] min-h-[400px]",
       features: [
         "Unlimited agents",
         "AI testing & RAG validation",
