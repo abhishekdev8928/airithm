@@ -32,7 +32,7 @@ const ReflectiveMemory = () => {
       <UspServices data={CORE_MODULE_CONFIG} />
       <section className='py-[80px] lg:px-0 px-5'>
         <h2 className='font-primary lg:text-[48px] text-[32px] font-[600] text-center'>Cognitive Feedback Loop</h2>
-        <div className="img flex justify-center mt-12">
+        <div className="img  flex max-w-2xl mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] px-12 py-12 justify-center mt-12">
           <img src='/home/loop.png' alt="" />
         </div>
         <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
