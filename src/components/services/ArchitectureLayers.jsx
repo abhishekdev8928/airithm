@@ -6,8 +6,8 @@ export default function ArchitectureLayers() {
   const { layer1, layer2, layer3 } = ARCHITECTURE_LAYER_CONFIG;
 
   return (
-    <section className="w-full pt-[100px] rounded-b-[100px] pb-[200px] px-6 bg-white">
-      <div className="max-w-7xl mx-auto  ">
+    <section className=" pt-[100px] rounded-b-[100px] pb-[200px] px-6 bg-white  px-5">
+      <div className="max-w-7xl mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] p-[60px]">
 
 
         <div className="grid grid-cols-1  sm:grid-cols-5 gap-6">

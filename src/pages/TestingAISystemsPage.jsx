@@ -274,7 +274,7 @@ const steps = [
   },
 ];
   return (
-    <div className="w-full  mt-[50px]  ">
+    <div className="px-5 mt-[50px]  ">
       
       <div className="relative flex min-w-[1320px] bg-[#F9F9F9] py-[100px] rounded-[24px] items-center justify-center mx-10 shadow-[0px_0px_8px_4px_#C4455880]">
 

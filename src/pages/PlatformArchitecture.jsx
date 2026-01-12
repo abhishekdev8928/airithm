@@ -1,11 +1,11 @@
-
+import React from "react";
 import Navbar from "@/components/Navbar";
 import MainBanner from "@/components/services/MainBanner";
 import SectionHeading from "@/components/common/SectionHeading";
 import {
   PLATFORM_ARCHITECTURE_HEADER_CONFIG,
   PLATFORM_ARCHITECTURE_CONFIG,
-
+  PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG
 } from "../config/platformArchitectureConfig";
 import UspServices from "../components/services/UspServices";
 import PlatformHighLevelArchi from "../components/sections/PlatformHighLevelArchi";
@@ -13,14 +13,12 @@ import PlatformHighLevelArchi from "../components/sections/PlatformHighLevelArch
 import FooterSection from "../components/home/FooterSection";
 import ArchitecturalPrinciples from "../components/sections/ArchitecturalPrinciples";
 import { ChevronLeft } from "lucide-react";
-
-
 const PlatformArchitecture = () => {
   return (
     <>
       <Navbar initialTextColor="text-black" />
       <section>
-        <div className="lg:mt-[100px] mt-20 lg:py-[150px] py-[100px] text-white bg-gradient-primary rounded-[50px]  w-full ">
+        <div className="lg:mt-[100px] mt-[80px] lg:py-[150px] py-[100px] text-white bg-gradient-primary rounded-[50px]  w-full ">
           <MainBanner data={PLATFORM_ARCHITECTURE_HEADER_CONFIG} />
         </div>
       </section>
@@ -35,7 +33,7 @@ const PlatformArchitecture = () => {
             
           />
 
-          <div className="high-level-architecture max-w-7xl mx-auto pt-20">
+          <div className="high-level-architecture max-w-7xl mx-auto pt-15">
             <PlatformHighLevelArchi />
           </div>
         </div>
@@ -113,7 +111,5 @@ const PlatformArchitecture = () => {
     </>
   );
 };
-
-
 
 export default PlatformArchitecture;
