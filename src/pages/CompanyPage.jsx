@@ -45,7 +45,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
 
 
             </section>
-            <section className='py-[80px]  px-5 pb-[200px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <section className='py-[80px]  px-5 pb-[200px] rounded-t-[50px]  md:rounded-t-[100px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <p className='font-secondary font-semibold text-[18px] text-[#fff] text-center mb-[10px]'>Our Platforms</p>
                 <SectionHeading
                     title="Two Complementary Solutions"
@@ -54,8 +54,8 @@ Our dual-platform approach combines the precision of autonomous testing with the
                     subtitleClassName="  text-[#C6C6C6] max-w-[950px]"
                 />
 
-                <div className="grid grid-cols-12 lg:gap-4 gap-[30px] max-w-[1224px] mx-auto mt-[50px]" >
-                    <div className="col-span-12 md:col-span-6 border border-[1px] border-[#505050] rounded-[16px] py-5 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full">
+                <div className="flex flex-wrap justify-center md:flex-nowrap gap-[30px] max-w-[1224px] mx-auto mt-[50px]" >
+                    <div className="max-w-[600px] border border-[1px] border-[#505050] rounded-[16px] py-5 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full">
                         <FlaskConical className=' text-[#FD3A84] h-[32px]' />
                         <h2 className='font-primary mt-[40px] text-[24px] font-[600] text-[white]'>Autonomous Testing Platform</h2>
                         <h3 className='font-secandary mt-[14px]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
@@ -84,7 +84,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
                         />
                        </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6 border border-[1px] border-[#505050] rounded-[16px] py-4 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full flex flex-col">
+                    <div className="max-w-[600px] border border-[1px] border-[#505050] rounded-[16px] py-4 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full flex flex-col">
                         <Network className=' text-[#FD3A84] h-[32px]' />
                         <h2 className='font-primary mt-[40px] text-[24px] font-[600] text-[white]'>Context Intelligence Platform</h2>
                         <h3 className='font-secandary mt-[14px]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
@@ -117,7 +117,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     </div>
                 </div>
             </section>
-            <section className='py-[80px] rounded-t-[50px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
+            <section className='py-[80px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
                     <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p>
                 <SectionHeading
                     title="Built by Visionaries"
@@ -150,7 +150,8 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                  
 
             </section>
-            <section className='py-[80px]  pb-[150px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]
+            <section className='py-[80px]  pb-[150px] rounded-t-[50px] md:rounded-t-[100px] rounded-b-0 bg-[linear-gradient(360deg,#000000_0%,#042539_100%)]
+
 '>
                        <p className='font-secondary font-[500] text-[18px] text-[#fff] text-center mb-[10px]'>Our Values</p>
                 <SectionHeading

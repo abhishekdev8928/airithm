@@ -56,7 +56,7 @@ const ResourcesPage = () => {
                 <img src="/slider/atom.png" alt="" className='m-auto' />
             </div>
             <section className='py-[80px] pt-[40px]'>
-                <div className="flex mt-5 flex-wrap px-5 lg:px-5  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
+                <div className="flex mt-5 flex-wrap px-5  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
                     {cards.map((card) => (
                         <FeatureCard key={card.id} {...card} />
                     ))}
@@ -200,15 +200,21 @@ const ResourcesPage = () => {
                 <div className="grid md:px-0 px-5 grid-cols-12 gap-4 max-w-[1224px] mx-auto mt-[50px]">
                     {
                         data1.map((item, id) => {
-                            const Icon = LucideIcons[item.icon]; // ✅ dynamic icon
+                            
                             return (
                                 <div className="col-span-12 md:col-span-4 border border-[1px] border-[#505050] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]
 ">
 
                                     <div className='py-5 pt-2 px-5 background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);'>
-                                        <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
+                                        <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
+
                             w-fit   px-[10px] my-3 h-[48px] w-[48px] flex justify-center  items-center '>
-                                            <span className='font-secondary text-[12px]   text-[#FD3A84]'>    {Icon && <Icon size={32} />}</span></h4>
+                                            <span className='font-secondary text-[12px]   text-[#FD3A84]'>    
+
+                                                <img src="/svg/grid/file-text.svg" alt="" />
+                                                
+                                                
+                                                </span></h4>
                                         <h2 className='font-primary text-[#fff] text-[24px] font-[600]  md:mt-[60px] mt-[28px]'>{item.title}</h2>
                                         <p className='text-[#C6C6C6] text-[16px] font-secondary mt-[10px]'>{item.disc}</p>
                                         <ul className='flex justify-start gap-[20px] mt-[20px]'>

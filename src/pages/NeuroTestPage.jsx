@@ -4,6 +4,7 @@ import UspServices from '../components/services/UspServices';
 import FooterSection from "@/components/home/FooterSection"; 
 import Navbar from "@/components/Navbar.jsx";
 import CtaSection from "../components/common/CtaSection"
+import Realtime from "../components/services/Realtime"
 import {
     Neuro_Test_HEADER,
     Core_capabiliti_CONFIG,
@@ -198,7 +199,7 @@ const NeuroTestPage = () => {
                 </div>
             </section>
             <div className='mb-20'>
-                <TimeLine data={TIMELINE_SECTION_CONFIG} />
+                  <Realtime data={TIMELINE_SECTION_CONFIG} />
 
             </div>
             <section className='py-20 bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]
