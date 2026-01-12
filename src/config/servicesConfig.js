@@ -9,7 +9,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
    {
   text: "View Demo",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    " text-[#C44558] bg-white",
   icon: "Eye",
   hoverIcon:false,
   iconSize: "20px",
@@ -18,7 +18,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
 {
   text: "Explore Module",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    " bg-primary-gradient text-white",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -86,27 +86,28 @@ export const TIMELINE_SECTION_CONFIG = {
       "Agents and devices generate context signals based on their current state and environmental changes",
     align: "right",
   },
-  {
+    {
     id: 2,
+    title: "Channel Broadcasting",
+    description:
+      "Context updates are broadcast through secure channels to relevant subscribers in the network",
+    align: "left",
+  },
+  {
+    id: 3,
     title: "Agent Coordination",
     description:
       "Distributed agents receive and process context updates to maintain synchronized awareness",
     align: "left",
   },
   {
-    id: 3,
+    id: 4,
     title: "Federation Layer",
     description:
       "Secure federation protocols enable cross-organizational context sharing while preserving autonomy",
     align: "right",
   },
-  {
-    id: 4,
-    title: "Channel Broadcasting",
-    description:
-      "Context updates are broadcast through secure channels to relevant subscribers in the network",
-    align: "left",
-  },
+
   ]
 
 }
@@ -146,7 +147,7 @@ export const KEY_FEATURES_CONFIG = {
         cardClassName: "  md:w-[270px] w-[100%] ",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "Infinite Scalability",
+      title: "End-to-end Encryption",
       description:
         "Military-grade security protocals protect sensitive context data throughout the entire distribution chain",
     },
@@ -157,7 +158,7 @@ export const KEY_FEATURES_CONFIG = {
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "High Performance",
+      title: "Intelligent Rounting",
       description:
         "AI-powered context routing ensures optimal delivery paths and minimal resource consumption",
     },

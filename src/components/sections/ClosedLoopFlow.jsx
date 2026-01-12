@@ -58,7 +58,7 @@ subtitleClassName="text-[#626161]
        
 
         {/* Flow */}
-        <div className="mt-20 flex flex-col items-center gap-8 relative">
+        <div className="mt-20 px-6 max-w-2xl mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] py-[50px] flex flex-col items-center gap-8 relative">
           {FLOW_STEPS.map((item, idx) => (
             <div key={idx} className="relative flex flex-col items-center">
               {/* Step Badge */}

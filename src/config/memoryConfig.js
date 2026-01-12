@@ -8,16 +8,17 @@ export const Memory_HEADER = {
    {
   text: "View Documentation",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    " text-[#C44558] bg-white",
   icon: "Eye",
   hoverIcon:true,
   iconSize: "20px",
+  hoverIcon:false,
   href: "",
 },
 {
   text: "Explore Architecture   ",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    "bg-primary-gradient text-white",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -28,24 +29,26 @@ export const Memory_HEADER = {
 
 export const PLANING_CTA_CONFIG = {
   heading: "Ready to Build Smarter AI?",
-  paragraph:"Integrate Graph-RAG into your testing infrastructure and unlock the full <br/> potential of relationship-aware intelligence.",
+  paragraph:"Integrate Graph-RAG into your testing infrastructure and unlock the full <br  class=' hidden md:block'  /> potential of relationship-aware intelligence.",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   wrapperClassName:"",
   buttons: [
     {
   text: "View Docs",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    "text-[#C44558] bg-white",
   icon: "Eye",
   hoverIcon:true,
   iconSize: "20px",
+  hoverIcon:false,
   href: "",
 },
     {
       text: "Start Building",
       icon:"CircleArrowOutUpRight",
+      iconSize:"20px",
       className:
-        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+        " bg-primary-gradient text-white",
       href: "",
     },
   ],
