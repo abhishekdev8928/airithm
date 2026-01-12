@@ -4,7 +4,7 @@ import PricingCard from "../components/card/PricingCard";
 import CtaSection from "@/components/common/CtaSection";
 import FooterSection from "@/components/home/FooterSection";
 const PRICING_HEADER_CONFIG = {
-  heading: "Flexible Pricing for <br /> Autonomous Testing",
+  heading: "Flexible Pricing for <br class=' hidden sm:block' /> Autonomous Testing",
   paragraph:
     "Plans designed to scale from pilot teams to enterprise-wide autonomy.",
   buttons: [],
@@ -13,19 +13,19 @@ const PRICING_HEADER_CONFIG = {
 export const PLANING_CTA_CONFIG = {
   heading: "Not sure which plan fits your needs?",
   paragraph:
-    "We’re looking for exceptional engineers, designers, and thinkers who want to <br /> solve hard problems and redefine what’s possible in software quality.",
+    "Our architects can help you design the perfect solution for your environment.",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
     {
       text: "Schedule Architecture Review",
       className:
-        "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+        " text-[#C44558] bg-white ",
       href: "",
     },
     {
       text: "Contact Sales",
       className:
-        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+        " bg-primary-gradient text-white",
       href: "",
     },
   ],

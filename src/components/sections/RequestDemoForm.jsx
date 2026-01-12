@@ -1,5 +1,6 @@
 import SectionHeading from "@/components/common/SectionHeading";
 import Button from "../ui/Button";
+import { ChevronDown } from "lucide-react";
 
 const RequestDemoForm = () => {
   return (
@@ -24,9 +25,11 @@ const RequestDemoForm = () => {
         />
 
         {/* Form */}
-        <form className="grid grid-cols-1 gap-y-7
+        <form
+          className="grid grid-cols-1 gap-y-7
 gap-x-6
- max-w-[824px] md:grid-cols-2 gap-4  p-6 rounded-2xl shadow-lg">
+ max-w-[824px] md:grid-cols-2 gap-4  p-6 rounded-2xl shadow-lg"
+        >
           {/* Full Name */}
           <div className="flex items-start space-y-2.5 flex-wrap">
             <label
@@ -39,7 +42,7 @@ gap-x-6
     tracking-[0.02em]
     capitalize "
             >
-              Full Name*
+              Full Name *
             </label>
             <input
               type="text"
@@ -60,7 +63,7 @@ gap-x-6
     tracking-[0.02em]
     capitalize"
             >
-              Work Email*
+              Work Email *
             </label>
             <input
               type="email"
@@ -81,12 +84,11 @@ gap-x-6
     tracking-[0.02em]
     capitalize"
             >
-              Company*
+              Company *
             </label>
             <input
               type="text"
               placeholder="acme corp"
-              
               className="py-4 px-6 w-full rounded-lg bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none "
             />
           </div>
@@ -103,11 +105,17 @@ gap-x-6
     tracking-[0.02em]
     capitalize"
             >
-              Role*
+              Role *
             </label>
-            <select className="py-4 px-6 w-full rounded-lg bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none ">
-              <option>select your role</option>
-            </select>
+            <div className="relative w-full">
+              <select className="py-4 px-6 pr-12 w-full rounded-lg bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none appearance-none">
+                <option>Select your role</option>
+              </select>
+
+              <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-gray-300">
+                <ChevronDown className="h-5 w-5" />
+              </span>
+            </div>
           </div>
 
           {/* Industry */}
@@ -124,9 +132,16 @@ gap-x-6
             >
               Industry
             </label>
-            <select className="py-4 px-6 w-full rounded-lg bg-[#FFFFFF14] text-gray-200 border bborder-[#D9D9D9] focus:border-white ">
-              <option>select industry</option>
-            </select>
+
+            <div className="relative w-full">
+              <select className="py-4 px-6 pr-12 w-full rounded-lg bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:border-white focus:outline-none appearance-none">
+                <option>Select industry</option>
+              </select>
+
+              <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-gray-300">
+                <ChevronDown className="h-5 w-5" />
+              </span>
+            </div>
           </div>
 
           {/* Platform Interest */}
@@ -143,28 +158,36 @@ gap-x-6
             >
               Platform Interest
             </label>
-            <select className="px-6 py-4 rounded-lg bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none w-full focus:border-white">
-              <option>select platform</option>
-            </select>
+            <div className="relative w-full">
+              <select className="px-6 py-4 pr-12 rounded-lg bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none w-full focus:border-white appearance-none">
+                <option>Select platform</option>
+              </select>
+
+              <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-gray-300">
+                <ChevronDown className="h-5 w-5" />
+              </span>
+            </div>
           </div>
 
           {/* Message */}
-{/* Message */}
-<div className="flex items-start space-y-2.5 flex-wrap md:col-span-2">
-  <label className="mae-gradient-text font-primary
+          {/* Message */}
+          <div className="flex items-start space-y-2.5 flex-wrap md:col-span-2">
+            <label
+              className="mae-gradient-text font-primary
     font-medium
     text-[20px]
     leading-[120%]
     tracking-[0.02em]
-    capitalize">
-    Message (Optional)
-  </label>
+    capitalize"
+            >
+              Message (Optional)
+            </label>
 
-  <textarea
-    placeholder="tell us about your testing challenges or specific areas of interest..."
-    className="py-4 px-6 rounded-lg w-full bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none focus:border-white min-h-[120px]"
-  />
-</div>
+            <textarea
+              placeholder="tell us about your testing challenges or specific areas of interest..."
+              className="py-4 px-6 rounded-lg w-full bg-[#FFFFFF14] text-gray-200 border border-[#D9D9D9] focus:outline-none focus:border-white min-h-[120px]"
+            />
+          </div>
 
           {/* Submit Button */}
           <div className="md:col-span-2 text-center">
@@ -174,15 +197,14 @@ gap-x-6
             >
               Request Demo
             </button> */}
-             <Button
-                                        btnText="Request Demo"
-                                        className=
-                                        " bg-primary-gradient text-white"
-                                        href=""
-                                        // icon="CircleArrowOutUpRight"
-                                        // iconSize="20px"
-                                    //   useCommonSvg="true"
-                                    />
+            <Button
+              btnText="Request Demo"
+              className=" bg-primary-gradient text-white"
+              href=""
+              // icon="CircleArrowOutUpRight"
+              // iconSize="20px"
+              //   useCommonSvg="true"
+            />
           </div>
         </form>
 

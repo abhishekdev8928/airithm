@@ -73,8 +73,8 @@ const ResourcesPage = () => {
                 <div className="grid grid-cols-12 md:gap-4 gap-6 lg:px-0 px-5 max-w-[1224px] mx-auto mt-[50px]">
                     {
                         data.map((item, id) => (
-                            <div className="col-span-12 md:col-span-4 border border-[1px] border-[#505050] rounded-[16px] overflow-hidden">
-                                <img src={item.img} alt="" />
+                            <div key={id} className="col-span-12 lg:col-span-4 border border-[1px] border-[#505050] rounded-[16px] overflow-hidden">
+                                <img className='w-full' src={item.img} alt="" />
                                 <div className='py-5 pt-2 px-5 background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);'>
                                     <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
                             w-fit p-2 rounded-[100px] px-[20px] my-3 border border[1px] border-[#797979] '><span className='font-secondary text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
@@ -259,12 +259,12 @@ const ResourcesPage = () => {
                         data2.map((item, id) => {
                             const Icon = LucideIcons[item.icon]; // ✅ dynamic icon
                             return (
-                                <div className="col-span-12 md:col-span-4 rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]
+                                <div key={id} className="col-span-12 md:col-span-4 rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]
 ">
 
-                                    <div className='py-5 pt-2 px-5 background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);'>
+                                    <div className='py-5 pt-2 rounded-2xl px-5 border-light-sm background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);'>
                                         <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                            w-fit p-2 rounded-[100px] px-[20px] my-3 border border[1px] border-[#797979] '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                            w-fit p-2 rounded-[100px] px-[20px] my-3  '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                             bg-clip-text
                             text-transparent'>{item.tag}</span></h4>
                                         <h2 className='font-primary text-[#000] text-[24px] font-[600]  md:mt-[40px] mt-[30px]'>{item.title}</h2>
@@ -309,9 +309,7 @@ const ResourcesPage = () => {
                 <div className="max-w-[1250px] m-auto mt-[60px] lg:px-0 px-5">
                     <div className="grid grid-cols-12 gap-4 ">
                         <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
-                            <h2 className='text-[20px] font-primary font-[600] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                                            bg-clip-text
-                                                            text-transparent'>Test Coverage Accuracy</h2>
+                            <h2 className='text-[20px] font-primary inline font-[600] mae-gradient-text'>Test Coverage Accuracy</h2>
                             <div className=" mt-[40px]">
                                 <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous Testing</span> <span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                                             bg-clip-text
@@ -330,7 +328,7 @@ const ResourcesPage = () => {
                                                             text-transparent'>67%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
                                     <div
-                                        className="h-full bg-gradient-to-r from-[#fff] to-[#fff] rounded-full"
+                                        className="h-full bg-[#C7C7C7] rounded-full"
                                         style={{ width: `67%` }}
                                     ></div>
                                 </div>
@@ -351,9 +349,7 @@ const ResourcesPage = () => {
 
 
                         <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
-                            <h2 className='text-[20px] font-primary font-[600] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                                            bg-clip-text
-                                                            text-transparent'>Defect Detection Rate</h2>
+                            <h2 className='text-[20px] font-primary inline font-[600] mae-gradient-text'>Defect Detection Rate</h2>
                             <div className=" mt-[40px]">
                                 <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous Testing</span> <span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                                             bg-clip-text
@@ -372,7 +368,7 @@ const ResourcesPage = () => {
                                                             text-transparent'>67%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
                                     <div
-                                        className="h-full bg-gradient-to-r from-[#fff] to-[#fff] rounded-full"
+                                        className="h-full bg-[#C7C7C7] rounded-full"
                                         style={{ width: `67%` }}
                                     ></div>
                                 </div>
@@ -391,9 +387,7 @@ const ResourcesPage = () => {
                         </div>
 
                         <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
-                            <h2 className='text-[20px] font-primary font-[600] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                                            bg-clip-text
-                                                            text-transparent'>Time to Market</h2>
+                            <h2 className='text-[20px] font-primary inline font-[600] mae-gradient-text'>Time to Market</h2>
                             <div className=" mt-[40px]">
                                 <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous Testing</span> <span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
                                                             bg-clip-text
@@ -412,7 +406,7 @@ const ResourcesPage = () => {
                                                             text-transparent'>67%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
                                     <div
-                                        className="h-full bg-gradient-to-r from-[#fff] to-[#fff] rounded-full"
+                                        className="h-full bg-[#C7C7C7] rounded-full"
                                         style={{ width: `67%` }}
                                     ></div>
                                 </div>

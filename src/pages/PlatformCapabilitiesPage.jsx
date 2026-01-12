@@ -6,28 +6,40 @@ import Navbar from "@/components/Navbar.jsx";
 import MainBanner from '../components/services/MainBanner';
 import CtaSection from "../components/common/CtaSection";
 import {Pc_HEADER, pc_USP_CONFIG , TIMELINE_SECTION_CONFIG} from "./../config/PlatformCapabilitiesConfig"
-import { Cloud, CodeXml, GitBranch, TestTubeDiagonal } from 'lucide-react';
+import { Cloud, CodeXml,TestTubeDiagonal } from 'lucide-react';
 import * as LucideIcons from "lucide-react";
 import Button from '../components/ui/Button';
 import TimeLine from '../components/services/TimeLine';
+import {
+  Bot,
+  Play,
+  Brain,
+  Shield,
+  GraduationCap,
+  BarChart3,
+  GitBranch,
+  ArrowUpRight,
+} from "lucide-react";
+import FeatureGrid from '../components/sections/FeaturedGrid';
+
+
+
+
 
 const PlatformCapabilitiesPage = () => {
   return (
     <>
       <Navbar
-            wrapperClassName="relative "
-            disableScrollHide={true}
-            linkClassName="text-black"
-            iconClassName="invert-0"
+
         />
-            <section className='py-[150px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+            <section className='lg:mt-[100px] mt-20 py-[100px] lg:py-[150px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
        
         <MainBanner data={Pc_HEADER} />
        
     </section>
-    <section className='pb-0 relative bg1  '>
+    <section className='pb-0 relative  '>
         
-        <UspServices data={pc_USP_CONFIG}/>
+       <FeatureGrid />
     </section>
     <section className='py-[70px]'>
            <SectionHeading

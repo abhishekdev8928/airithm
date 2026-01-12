@@ -51,7 +51,7 @@ export const HOW_THEY_WORK_TOGETHER_CONFIG = {
 export const ABOUT_CTA_CONFIG  = {
   heading: "Ready to Explore Our Platforms?",
   paragraph:
-    "Join leading enterprises already leveraging context intelligence to drive <br class='hidden md:block' /> unprecedented business outcomes",
+    "Discover how our dual-platform approach can transform your systems",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
   
@@ -112,13 +112,13 @@ export const ABOUT_CTA_CONFIG  = {
 };
 
 export const WHY_TWO_PLATFORMS_CONFIG = {
-  title: "Why Two Platforms",
+  title: "Why two platforms",
   cards: [
     {
       id: 1,
       icon: "Rocket",
       iconSize: 32,
-      title: "Software Systems\nAre Becoming\nAutonomous",
+      title: "Software systems are becoming autonomous",
       useGradientBg: true,
       roundPill: true,
     },
@@ -126,7 +126,7 @@ export const WHY_TWO_PLATFORMS_CONFIG = {
       id: 2,
       icon: "Brain",
       iconSize: 32,
-      title: "AI Systems Are\nContext-Dependent",
+      title: "Ai systems are context dependent",
       useGradientBg: true,
       roundPill: true,
     },
@@ -134,7 +134,7 @@ export const WHY_TWO_PLATFORMS_CONFIG = {
       id: 3,
       icon: "ShieldCheck",
       iconSize: 32,
-      title: "Quality Without\nContext Is\nIncomplete",
+      title: "Quality without context is incomplete",
       useGradientBg: true,
       roundPill: true,
     },
@@ -142,7 +142,7 @@ export const WHY_TWO_PLATFORMS_CONFIG = {
       id: 4,
       icon: "ShieldAlert",
       iconSize: 32,
-      title: "Context Without\nValidation Is Risky",
+      title: "Context without validation is risky",
       useGradientBg: true,
       roundPill: true,
     },

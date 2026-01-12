@@ -32,7 +32,7 @@ export const resorce_card_CONFIG = {
     cards: [
       {
       id: 1,
-      icon: "Bot",
+      icon: "FileText",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
       cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
@@ -43,7 +43,7 @@ export const resorce_card_CONFIG = {
     },
     {
       id: 2,
-      icon: "ChartLine",
+      icon: "Layers",
       iconColor: "",
         cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
    textColor:"#1E1E1E",
@@ -54,7 +54,7 @@ export const resorce_card_CONFIG = {
     },
     {
       id: 3,
-      icon: "Brain",
+      icon: "BriefcaseBusiness",
       iconColor: "",
         cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
        textColor:"#1E1E1E",
@@ -65,7 +65,7 @@ export const resorce_card_CONFIG = {
     },
     {
       id: 4,
-      icon: "Infinity",
+      icon: "ChartLine",
         cardClassName: "w-full  sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
       iconColor: "",
       textColor:"#1E1E1E",
@@ -74,20 +74,9 @@ export const resorce_card_CONFIG = {
       description:
         "Performance & accuracy metrics",
     },
-    {
+     {
       id: 5,
-      icon: "Brain",
-        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
-      iconColor: "",
-      textColor:"#1E1E1E",
-      discColor:'#626161 ',
-      title: "FAQs",
-      description:
-        "Answers to common questions",
-    },
-    {
-      id: 4,
-      icon: "Infinity",
+      icon: "CirclePlay",
         cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
       iconColor: "",
       textColor:"#1E1E1E",
@@ -96,6 +85,18 @@ export const resorce_card_CONFIG = {
       description:
         "Live & on-demand sessions",
     },
+    {
+      id: 6,
+      icon: "CircleQuestionMark",
+        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+      iconColor: "",
+      textColor:"#1E1E1E",
+      discColor:'#626161 ',
+      title: "FAQs",
+      description:
+        "Answers to common questions",
+    },
+   
    
   ],
 };
@@ -178,7 +179,7 @@ export const BLOG_CONFIG = [
 export const Research_Config=[
     {
         id:1,
-        tags:["Architects","QA Leaders"],
+        tags:["QA Leaders","Architects"],
         title:"Autonomous Testing Architecture for Enterprise",
         disc:"Comprehensive guide to implementing autonomous testing systems in enterprise environments with CI/CD integration",
         location:"Research",
@@ -189,7 +190,7 @@ export const Research_Config=[
     },  {
         id:2,
         img:"/resource/img2.png",
-          tags:["Architects","QA Leaders"],
+          tags:["QA Leaders","AI Teams"],
         title:"AI Quality Engineering Framework",
         disc:"Strategic framework for implementing AI-driven quality assurance processes and autonomous test generation.",
         location:"Research",
@@ -200,7 +201,7 @@ export const Research_Config=[
     },  {
         id:3,
         img:"/resource/img3.png",
-        tags:["Architects","QA Leaders"],
+        tags:["QA Leaders","Architects"],
         title:"ROI Analysis: Autonomous vs Traditional Testing",
         disc:"Detailed cost-benefit analysis comparing autonomous testing systems with traditional manual and scripted approaches.",
         location:"Research",

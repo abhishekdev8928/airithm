@@ -95,7 +95,7 @@ const FeatureCard = ({
       {showLink && href && (
         <a
           href={href}
-          className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
+          className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[16px] font-secondary"
         >
           {linkText}
          {linkIconType === "gradient" && linkIconSrc ? (

@@ -8,7 +8,7 @@ export const Security_HEADER = {
    {
   text: "Request Documentation",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    " text-[#C44558] bg-white",
   icon: "",
   hoverIcon:true,
   iconSize: "20px",
@@ -17,7 +17,7 @@ export const Security_HEADER = {
 {
   text: "Talk to Security Team",
   className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+    " bg-primary-gradient text-white",
   href: "",
   icon: "",
   iconSize: "20px",
@@ -130,23 +130,24 @@ export const SECURITY_FAQ_CONFIG = [
 
 
 export const SECURITY_CTA_CONFIG = {
-  heading: "Security You Can Trust. <br /> Autonomy You Can Scale.",
+  heading: "Security You Can Trust. <br class=' hidden sm:block' /> Autonomy You Can Scale.",
    paragraph:
-    "Ready to implement enterprise-grade <br /> autonomous testing with confidence?",
+    "Ready to implement enterprise-grade <br class=' hidden sm:block' /> autonomous testing with confidence?",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
   {
     text: "Request Enterprise Demo",
-    className: "px-9 py-5 min-w-[228px] font-primary font-[600] leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+    className: " text-[#C44558] bg-white ",
     icon: "CircleArrowOutUpRight",
     href: "",
+    
     
   },
   {
     text: "Talk to Security Team",
     icon: "CircleArrowOutUpRight",
           className:
-        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+        " bg-primary-gradient text-white",
     href: "",
   },
   ],

@@ -34,7 +34,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       title: "Autonomous Test Generation",
       description:
         "Watch AI Agents Analyze Your Systems And Generate Comprehensive Test Suites Automatically.",
-      cardClassName: "md:w-[300px] w-[100%]  border-[#D9D9D9]",
+      cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
       hasBg: true,
     },
     {
@@ -44,7 +44,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       title: "Multi-Agent Execution",
       description:
         "See Coordinated Agents Execute Tests Across Multiple Environments Simultaneously.",
-      cardClassName: "md:w-[300px] w-[100%]  border-[#D9D9D9]",
+      cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
       hasBg: true,
     },
     {
@@ -55,7 +55,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       title: "LLM-Based Evaluation",
       description:
         "Experience Intelligent Test Result Analysis And Automated Quality Scoring.",
-      cardClassName: "md:w-[300px] w-[100%]  border-[#D9D9D9]",
+      cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
       hasBg: true,
     },
     {
@@ -66,7 +66,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       title: "Analytics & Insights",
       description:
         "Explore Enterprise Dashboards With Actionable Quality Intelligence.",
-      cardClassName: "md:w-[300px] w-[100%]  border-[#D9D9D9]",
+      cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
       hasBg: false,
       hasBg: true,
     },
@@ -86,7 +86,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       bgColor: "#C44558", // Background color for the icon
       title: "QA & Quality Engineering Leaders",
       description: "Transform Your Testing Strategy With Autonomous Agents",
-      cardClassName: "md:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
+      cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
     {
@@ -95,7 +95,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       iconColor: "#FFFFFF",
       title: "Engineering & Platform Leaders",
       description: "Scale Quality Across Your Development Lifecycle",
-      cardClassName: "md:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
+      cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
     {
@@ -105,7 +105,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       bgColor: "#C44558", // Maintain consistency with the red background
       title: "AI/ML Teams",
       description: "Ensure AI System Reliability And Performance",
-      cardClassName: "md:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
+      cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
     {
@@ -115,7 +115,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       bgColor: "#C44558", // If no background for the icon
       title: "Product & Delivery Leaders",
       description: "Accelerate Releases With Confidence",
-      cardClassName: "md:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
+      cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
   ],

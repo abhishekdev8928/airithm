@@ -14,7 +14,7 @@ const UspServices = ({ data ,spacing = "" }) => {
           bodyclass === true
             ? "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]"
             : bodyclass
-        }  rounded-[50px] px-5 sm:px-1  sm:rounded-[100px] lg:py-[100px] py-[80px]  z-10 relative   `}
+        }  rounded-[50px] px-5   sm:rounded-[100px] lg:py-[100px] py-[80px]  z-10 relative   `}
       >
         <div className="max-w-7xl mx-auto ">
           <SectionHeading
