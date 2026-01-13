@@ -36,7 +36,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       title: "Automated Pipelines",
       description:
         "Trigger builds, tests, and deployments automatically on every commit. Smart parallel execution reduces wait times by up to 70%.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       title: "Security First",
       description:
         "Built-in vulnerability scanning, compliance checks, and secret management ensure every deployment meets security standards.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
     {
       id: 3,
@@ -55,7 +55,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       title: "Real-time Insights",
       description:
         "Monitor pipeline performance, deployment success rates, and team velocity with comprehensive analytics dashboards.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
   ],
 };
@@ -150,7 +150,7 @@ export const LLM_BASED_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
         "Evaluate chatbot responses for accuracy, helpfulness, and customer satisfaction across thousands of support interactions.",
       points: {
@@ -169,7 +169,7 @@ export const LLM_BASED_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
         "Assess generated marketing copy, articles, and documentation for quality, brand alignment, and engagement potential.",
       points: {
@@ -187,7 +187,7 @@ export const LLM_BASED_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
         "Automatically evaluate AI-generated code for functionality, security, and best practices compliance.",
       points: {

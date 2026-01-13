@@ -24,12 +24,12 @@ const TwoPlatformsOneIntelligenceLoopPage = () => {
                 linkClassName="text-black"
                 iconClassName="invert-0"
             />
-            <section className='py-[150px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+            <section className='md:py-[150px] py-[90px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
   
                 <MainBanner data={tpil_HEADER} />
 
 
-               <div className="max-w-7xl mx-auto">
+               <div className="max-w-7xl md:px-0 px-5 mx-auto">
                  <FeatureCardsGrid />
                </div>
             </section>

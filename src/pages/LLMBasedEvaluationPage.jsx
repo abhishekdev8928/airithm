@@ -15,11 +15,11 @@ const LLMBasedEvaluationPage = () => {
   return (
     <>
       <Navbar />
-      <section className="w-full mt-[104px] relative z-[3]">
-        <section className="pt-[120px] pb-[140px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white">
+      <section className="w-full md:mt-[104px] mt-[90px] relative z-[3]">
+        <section className="md:pt-[120px] pt-[90px] md:pb-[140px] pb-[100px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white">
           <MainBanner data={LLM_BASED_EVALUATION_HEADER} />
 
-          <div className="llm-based-feature gap-20 pt-[60px] flex justify-center items-center">
+          <div className="llm-based-feature md:gap-20 gap-5 pt-[60px] flex md:flex-row flex-col justify-center items-center">
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
               <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
@@ -66,8 +66,8 @@ const LLMBasedEvaluationPage = () => {
 
         {/* Content */}
         <div
-          className="relative px-4 sm:px-0 w-full gap-10 commmunity-section section-overlap
-    flex-col justify-center flex items-center mt-[-100px] z-10"
+          className="relative px-4 sm:px-0 w-full gap-10 commmunity-sectionl pt-[200px] pb-[100px] lsection-overlap 
+            flex-col justify-center flex items-center mt-[-100px] z-10"
         >
           <div className="max-w-7xl relative">
             <SectionHeading
@@ -91,7 +91,7 @@ const LLMBasedEvaluationPage = () => {
 
       <section className="relative z-3">
         <div
-          className="w-full py-[100px] rounded-[100px]
+          className="w-full py-[100px] md:rounded-[100px] rounded-[50px]
     bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]"
         >
           {/* Heading */}
@@ -140,31 +140,31 @@ Measurable impact on your organization's knowledge management.       "
               spacing="space-y-4"
             />
 
-            <div className="flex flex-wrap w-full  gap-6 pt-10 justify-center  mx-auto">
-              <div className="flex flex-wrap w-full  gap-6 pt-10 justify-center  mx-auto">
+            <div className="flex flex-wrap  w-full  gap-6 pt-10 justify-center  mx-auto">
+              {/* <div className="flex flex-wrap w-full   gap-6 pt-10 justify-center  mx-auto"> */}
                 
                   {LLM_BASED_KEY_BENEFITS.map((item) => (
-  <StatsCard key={item.id} {...item} />
-))}
+                      <StatsCard key={item.id} {...item} />
+                    ))}
 
                 
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
       </section>
 
       <section>
-        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] rounded-t-[100px] relative z-3 pt-[100px] pb-[200px]">
+        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
             title={"Real-World Use Cases"}
             titleClassName="text-white"
-            titleSize="sm:text-[48px]"
+            titleSize="sm:text-[40px] text-[32px]"
             subtitle="See how teams across industries leverage our platform to transform their delivery process"
             subtitleClassName="text-[#BCBCBC]"
           />
 
-          <div className="flex flex-wrap w-full  gap-6 pt-10 justify-center  mx-auto">
+          <div className="flex flex-wrap w-full px-5  gap-6 pt-10 justify-center  mx-auto">
             {LLM_BASED_USP_CONFIG?.cards?.map((item) => (
               <FeatureCard {...item} contentClass="gap-[14px]" />
             ))}

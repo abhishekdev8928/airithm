@@ -18,7 +18,7 @@
         icon: "ListCheck",
         title: "Planner Agent",
         discColor: "#D9D9D9",
-        cardClassName:"w-[240px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
+        cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
         textColor: "#fff",
         description:
             "Strategically decides what to test based on system changes and risk.",
@@ -32,7 +32,7 @@
         title: "Generator Agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
-        cardClassName:"w-[240px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
+        cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
         description:
             "Creates intelligent test logic and scenarios automatically.",
 
@@ -45,7 +45,7 @@
         title: "Executor Agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
-        cardClassName:"w-[240px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
+        cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
         description:
             "Runs tests across multiple environments and platforms.",
 
@@ -58,7 +58,7 @@
         title: "Evaluator Agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
-        cardClassName:"w-[240px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
+        cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
         description:
             "Scores and analyzes test results with precision.",
 
@@ -71,7 +71,7 @@
         title: "Memory Agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
-        cardClassName:"w-[240px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
+        cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
         description:
             "Retains context and learns from historical patterns.",
 
@@ -94,7 +94,7 @@
         icon: "TriangleAlert",
         title: "Failure Detection",
         discColor: "#626161",
-        cardClassName:"w-[360px] bg-[#fff   ] p-2",
+        cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         textColor: "#1E1E1E",
         description:
             "When tests fail, the system analyzes root causes and adjusts test strategies to prevent similar issues.",
@@ -108,7 +108,7 @@
         title: "Drift Monitoring",
         discColor: "#626161",
         textColor: "#1E1E1E",
-        cardClassName:"w-[360px] bg-[#fff] p-2",
+        cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         description:
             "Detects behavioral drift in your system and automatically generates new tests to cover edge cases.",
 
@@ -121,7 +121,7 @@
         title: "Feature Learning",
         discColor: "#626161",
         textColor: "#1E1E1E",
-        cardClassName:"w-[360px] bg-[#fff] p-2",
+        cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         description:
             "New features are automatically identified and integrated into the testing suite with minimal human input.",
 

@@ -10,7 +10,7 @@ const FeatureStepCard = ({ number, title, description }) => {
     >
       {/* Number */}
       <div
-        className="mx-auto mb-[40px] flex h-14 w-14 items-center justify-center rounded-full
+        className="mx-auto mb-[24px] flex h-14 w-14 items-center justify-center rounded-full
         bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
         font-secondary text-[24px] font-semibold leading-[140%] tracking-[0.04em] text-white"
       >
@@ -28,7 +28,7 @@ const FeatureStepCard = ({ number, title, description }) => {
 
         {/* Description */}
         <p
-          className="font-secondary text-[20px] font-medium leading-[140%]
+          className="font-secondary text-[14px] font-medium leading-[140%]
         tracking-[0.04em] text-[#C6C6C6]"
         >
           {description}

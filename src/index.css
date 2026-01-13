@@ -242,6 +242,11 @@
 .section-overlap {
   padding-block: 200px;
 }
+@media (max-width:430px) {
+  .section-overlap {
+  padding-block: 150px;
+}
+}
 
 .section-overlap-bottom{
   padding-top: 100px;

@@ -14,7 +14,7 @@ const StatsCard = ({
   return (
     <div
       className={`
-        w-[322px]
+        md:w-[322px] w-[100%]
         rounded-[20px]
         border border-gray-200
         bg-white
@@ -37,7 +37,7 @@ const StatsCard = ({
 
       {/* Content */}
       <div className="space-y-[14px]">
-        <div className="font-primary font-medium text-[48px] leading-[100%] tracking-[0.02em] text-center
+        <div className="font-primary font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] text-center
  capitalize">
           {value} {/* <-- fixed to show value */}
         </div>
@@ -46,7 +46,7 @@ const StatsCard = ({
           {title}
         </div>
 
-        <p className="font-inter font-medium text-[18px] leading-[140%] tracking-[0.02em] text-gray-500 text-center capitalize">
+        <p className="font-inter font-medium text-[14px] leading-[140%] tracking-[0.02em] text-gray-500 text-center capitalize">
           {description}
         </p>
       </div>

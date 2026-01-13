@@ -53,7 +53,7 @@ export const TWO_AUTOMATION_LAYERS_CONFIG = [
   {
     level: "L1",
     title: "Interfaces Layer",
-    headerIconSrc: "/svg/layers.svg",
+    headerIconSrc: "./svg/layers.svg",
     headerIconSize: 28,
     items: [
       { label: "Applications", icon: "Monitor", iconSize: 32 },
