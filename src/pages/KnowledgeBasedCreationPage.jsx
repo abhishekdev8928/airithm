@@ -24,15 +24,7 @@ const KnowledgeBasedCreationPage = () => {
       </section>
 
       <section className="relative  z-2 ">
-        {/* Top-left glow */}
-        {/* <div className="pointer-events-none absolute -top-40 -left-40 w-[500px] h-[500px]
-    bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-    opacity-40 blur-[120px] rounded-full" /> */}
-
-        {/* Bottom-right glow */}
-        {/* <div className="pointer-events-none absolute -bottom-40 -right-40 w-[500px] h-[500px]
-    bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-    opacity-40 blur-[120px] rounded-full" /> */}
+    
 
         <img src="/svg/ellipse.svg" className="absolute  left-0" alt="" />
 
@@ -58,7 +50,7 @@ const KnowledgeBasedCreationPage = () => {
               spacing="space-y-4"
             />
 
-            <div className="flex flex-wrap gap-6 pt-10 justify-center max-w-7xl mx-auto">
+            <div className="flex  flex-wrap gap-6 pt-10 justify-center max-w-7xl mx-auto">
               {KNOWLEDGE_FEATURES_CONFIG_ONE?.cards?.map((item) => (
                 <FeatureCard {...item} />
               ))}
@@ -69,7 +61,7 @@ const KnowledgeBasedCreationPage = () => {
 
       <section className="relative z-3">
         <div
-          className="w-full py-[100px] rounded-[100px]
+          className="w-full py-[100px] md:rounded-[100px] rounded-[50px]
     bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]"
         >
           {/* Heading */}
@@ -133,16 +125,16 @@ Measurable impact on your organization's knowledge management.       "
       </section>
 
       <section>
-        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] rounded-t-[100px] relative z-3 pt-[100px] pb-[200px]">
+        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
             title={"Real-World Use Cases"}
             titleClassName="text-white"
-            titleSize="sm:text-[48px]"
+            titleSize="sm:text-[40px] text-[30px]"
             subtitle="See how teams across industries leverage our platform to transform their delivery process"
             subtitleClassName="text-[#BCBCBC]"
           />
 
-          <div className="flex flex-wrap w-full  gap-6 pt-10 justify-center  mx-auto">
+          <div className="flex flex-wrap w-full px-5 gap-6 pt-10 justify-center  mx-auto">
             {KNOWLEDGE_USP_CONFIG?.cards?.map((item) => (
               <FeatureCard {...item} contentClass="gap-[14px]" />
             ))}

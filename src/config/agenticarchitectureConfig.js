@@ -22,7 +22,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Route",
       textColor:"#000",
       iconColor: "",
-        cardClassName: "w-[600px] bg-[#fff]",
+        cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
       title: "Planning",
       discColor:'#626161',
       description:
@@ -32,7 +32,7 @@ export const CORE_MODULE_CONFIG = {
       id: 2,
       icon: "Wrench",
       iconColor: "",
-      cardClassName: "w-[600px] bg-[#fff]",
+      cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        textColor:"#000",
        discColor:'#626161',
       title: "Tool Usage",
@@ -44,7 +44,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Lightbulb",
       iconColor: "",
        textColor:"#000",
-       cardClassName: "w-[600px] bg-[#fff]",
+       cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        discColor:'#626161',
       title: "Decision Autonomy",
       description:
@@ -55,7 +55,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "MessageCircle",
       iconColor: "",
        textColor:"#000",
-       cardClassName: "w-[600px] bg-[#fff]",
+       cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        discColor:'#626161',
       title: "Inter-agent Communication",
       description:
@@ -79,7 +79,7 @@ export const CORE_MODULE_CONFIG2 = {
       hasBg:false,
       bgColor:"linear-gradient(90deg, rgba(255, 166, 141, 0.15) 0.03%, rgba(253, 58, 132, 0.15) 100%)",
       iconColor: "",
-        cardClassName: "w-[400px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "md:w-[400px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "Task Routing",
       discColor:'#D9D9D9',
       description:
@@ -89,7 +89,7 @@ export const CORE_MODULE_CONFIG2 = {
       id: 2,
       icon: "Wrench",
       iconColor: "",
-      cardClassName: "w-[400px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "md:w-[400px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#D9D9D9',
       title: "Failure Handling",
@@ -101,7 +101,7 @@ export const CORE_MODULE_CONFIG2 = {
       icon: "Lightbulb",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "w-[400px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "md:w-[400px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#D9D9D9',
       title: "Guardrails & Controls",
       description:

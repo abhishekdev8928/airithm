@@ -4,7 +4,7 @@ import SectionHeading from "@/components/common/SectionHeading";
 const Realtime = ({ data }) => {
   const { title, subtitle, cards } = data;
   return (
-    <section className="relative max-w-6xl mx-auto py-24 pb-0">
+    <section className="relative max-w-6xl mx-auto py-24 px-5 md:px-0 pb-0">
 
       {/* Section Heading */}
       <SectionHeading

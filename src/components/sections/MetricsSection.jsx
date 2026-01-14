@@ -35,7 +35,7 @@ const MetricsSection = () => {
           {METRICS_CONFIG.map((item, idx) => (
             <div
               key={idx}
-              className="relative h-80 rounded-[28px]
+              className="relative md:h-80 h-60 rounded-[28px]
               border border-white/10
               bg-white/5 backdrop-blur-xl
               shadow-[inset_0_0_40px_rgba(255,255,255,0.05)]
@@ -44,7 +44,7 @@ const MetricsSection = () => {
             
              <div className="space-y-4">
                  <h3
-                className="font-primary font-medium text-[64px] leading-[120%] tracking-[0.02em] capitalize
+                className="font-primary font-medium md:text-[64px] text-[48px] leading-[120%] tracking-[0.02em] capitalize
 
                 mae-gradient-text"
               >

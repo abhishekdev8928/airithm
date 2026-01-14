@@ -16,14 +16,14 @@ const HowItWorks = () => {
               {/* Step */}
               <div className="flex flex-col items-center text-center max-w-xs">
                 <div className="relative flex flex-col items-center">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] flex items-center justify-center text-white font-semibold text-2xl">
+                  <div className="md:w-16 md:h-16 h-10 w-10 rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] flex items-center justify-center text-white font-semibold mnd:text-2xl text-xl">
                     {item.step}
                   </div>
 
                   <h3 className="mt-6 mb-2 font-semibold text-[20px] leading-[1.2] text-white capitalize">
                     {item.title}
                   </h3>
-                  <p className="text-[18px] leading-[1.4] text-[#D0D0D0] capitalize">
+                  <p className="text-[14px] leading-[1.4] text-[#D0D0D0] capitalize">
                     {item.description}
                   </p>
 

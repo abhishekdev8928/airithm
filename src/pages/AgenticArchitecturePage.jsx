@@ -18,7 +18,7 @@ const AgenticArchitecturePage = () => {
         linkClassName="text-black"
         iconClassName="invert-0"
     />
-    <section className='py-[150px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+    <section className='mb:py-[150px] py-[100px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
            
         <MainBanner data={AgenticArchitectureConfig} />
         
@@ -31,17 +31,17 @@ const AgenticArchitecturePage = () => {
           title="Related Topics"
           titleClassName="sm:text-[48px]"
         />
-        <div className="grid grid-cols-12 gap-6 mt-[40px]">
-          <div className="col-span-4 rounded-[8px] p-6 shadow-[0px_3px_6px_0px_#C445581A]">
-            <h3 className='text-[24px] flex items-center font-primary font-[600]'><Settings className='text-[#C44558] me-2'/> System Configuration</h3>
+        <div className="grid px-5 grid-cols-12 gap-6 mt-[40px]">
+          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#C445581A]">
+            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><Settings className='text-[#C44558] me-2'/> System Configuration</h3>
             <img className='mt-3' src="./public/topics/System Configuration.png" alt="" />
           </div>
-          <div className="col-span-4 rounded-[8px] p-6 shadow-[0px_3px_6px_0px_#C445581A]">
-            <h3 className='text-[24px] flex items-center font-primary font-[600]'><ChartArea className='text-[#C44558] me-2'/> Performance Metrics</h3>
+          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#C445581A]">
+            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><ChartArea className='text-[#C44558] me-2'/> Performance Metrics</h3>
             <img className='mt-3' src="./public/topics/Performance Metrics.png" alt="" />
           </div>
-          <div className="col-span-4 rounded-[8px] p-6 shadow-[0px_3px_6px_0px_#C445581A]">
-            <h3 className='text-[24px] flex items-center font-primary font-[600]'><BookCheck className='text-[#C44558] me-2'/>API Documentation</h3>
+          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#C445581A]">
+            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><BookCheck className='text-[#C44558] me-2'/>API Documentation</h3>
             <img className='mt-3' src="./public/topics/API Documentation.png" alt="" />
           </div>
 

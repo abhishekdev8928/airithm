@@ -90,7 +90,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       value: "95%", 
       description:
         "Test coverage visibility with gap identification and recommendations",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
       flag: {
         text: "Coverage",
@@ -103,7 +103,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       value: "60%",
       description:
         "Reduce deployment time from hours to minutes with intelligent automation.",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
       flag: {
         text: "speed",
@@ -116,7 +116,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       value: "40%",
       description:
         "Reduction in testing costs through automation and resource optimization Risk.",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
       flag: {
         text: "Cost",
@@ -129,7 +129,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       value: "85%",
       description:
         "Early risk detection preventing production issues and downtime",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
       flag: {
         text:"Risk",
@@ -152,7 +152,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
         "Automatically optimize test execution during CI/CD pipelines to reduce build times and improve release velocity.",
      
@@ -165,7 +165,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
         "AI analyzes historical test data and usage patterns to anticipate quality risks before they impact releases.",
      
@@ -178,7 +178,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
         "Optimize testing resources by identifying high-risk areas and focusing efforts where they matter most.",
       

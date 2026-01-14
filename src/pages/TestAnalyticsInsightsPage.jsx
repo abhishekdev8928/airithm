@@ -26,11 +26,11 @@ const TestAnalyticsInsightsPage = () => {
       <section>
         <div className="Analytics_&_Insights py-20 space-y-12">
           <div className="space-y-6">
-            <h2 className="font-primary font-medium text-5xl leading-[1.2] tracking-[0.02em] text-center capitalize">
+            <h2 className="font-primary font-medium md:text-[40px] text-[30px] leading-[1.2] tracking-[0.02em] text-center capitalize">
               What It Does
             </h2>
 
-            <p className="font-secondary text-center max-w-[800px] mx-auto text-[#626161] font-medium text-base leading-[1.4] tracking-[0.04em] ">
+            <p className="font-secondary text-center max-w-[800px] mx-auto text-[#626161] font-[medium] text-[14px] leading-[1.4] tracking-[0.04em] ">
               Our advanced analytics platform transforms raw testing data into
               comprehensive insights, enabling teams to make data-driven
               decisions with confidence. By leveraging machine learning and
@@ -38,7 +38,7 @@ const TestAnalyticsInsightsPage = () => {
               performance, quality trends, and risk patterns.
             </p>
 
-            <p className="font-secondary max-w-[800px] mx-auto text-[#626161] font-medium text-base leading-[1.4] tracking-[0.04em] text-center">
+            <p className="font-secondary max-w-[800px] mx-auto text-[#626161] font-medium text-[14px] leading-[1.4] tracking-[0.04em] text-center">
               The platform automatically correlates test results across
               environments, identifies failure patterns, and predicts potential
               quality issues—helping teams address risks before they impact
@@ -46,7 +46,7 @@ const TestAnalyticsInsightsPage = () => {
             </p>
           </div>
 
-          <div className="px-10  rounded-2xl overflow-hidden h-[500px]">
+          <div className="px-10  rounded-2xl overflow-hidden md:h-[500px] h-[100%]">
             <img
               src="/topics/testing-dashboard.jpg"
               alt=""
@@ -97,7 +97,7 @@ Experience the full autonomous testing lifecycle from agent generation to <br />
             spacing="space-y-4"
           />
 
-          <div className="flex pt-[60px]  flex-wrap gap-6 justify-center">
+          <div className="flex pt-[60px] px-5  flex-wrap gap-6 justify-center">
             {TEST_ANALYTICS_INSIGHTS_CONFIG?.topRow?.map((item) => (
               <InsightCard key={item?.id} {...item} />
             ))}
@@ -108,16 +108,16 @@ Experience the full autonomous testing lifecycle from agent generation to <br />
 
 
          <section>
-        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] rounded-t-[100px] relative z-3 pt-[100px] pb-[200px]">
+        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
             title={"Real-World Use Cases"}
             titleClassName="text-white"
-            titleSize="sm:text-[48px]"
+            titleSize="sm:text-[48px] text-[32px]"
             subtitle="See how teams across industries leverage our platform to transform their delivery process"
             subtitleClassName="text-[#BCBCBC]"
           />
 
-          <div className="flex flex-wrap w-full  gap-6 pt-10 justify-center  mx-auto">
+          <div className="flex flex-wrap w-full px-5  gap-6 pt-10 justify-center  mx-auto">
             {TEST_ANALYTICS_USP_CONFIG?.cards?.map((item) => (
               <FeatureCard {...item} contentClass="gap-[14px]" />
             ))}

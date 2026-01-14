@@ -36,7 +36,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       title: "Automated Ingestion",
       description:
         "Seamlessly captures data from documents, emails, databases, and conversations across your organization.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white border-[#D9D9D9]",
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       title: "Intelligent Search",
       description:
         "Natural language queries return contextually relevant answers with source citations and confidence scores.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white border-[#D9D9D9]",
     },
     {
       id: 3,
@@ -55,7 +55,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       title: "Continuous Learning",
       description:
         "Adapts and improves knowledge accuracy through user feedback and new information patterns.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white border-[#D9D9D9]",
     },
   ],
 };
@@ -142,7 +142,7 @@ export const KNOWLEDGE_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#D9D9D9",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[400px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[400px] w-[100%]",
       description:
         "Consolidate medical protocols, research findings, and patient care guidelines into searchable databases for instant clinical decision support.",
      
@@ -155,7 +155,7 @@ export const KNOWLEDGE_USP_CONFIG = {
       textColor: "#fff",
      discColor: "#D9D9D9",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[400px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[400px] w-[100%]",
       description:
         "Transform curriculum materials, research papers, and administrative procedures into intelligent learning resources accessible to faculty and students.",
       
@@ -168,7 +168,7 @@ export const KNOWLEDGE_USP_CONFIG = {
       textColor: "#fff",
       discColor: "#D9D9D9",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[400px]",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[400px] w-[100%]",
       description:
         "Capture tribal knowledge from retiring employees, process documentation, and best practices into permanent organizational memory.",
       

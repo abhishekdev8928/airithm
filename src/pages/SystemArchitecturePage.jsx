@@ -19,12 +19,12 @@ const SystemArchitecturePage = () => {
       <div
         className="bg-black rounded-t-[100px]"
       >
-        <div className="mt-[100px] rounded-[100px] py-[150px] pb-[60px] bg-gradient-primary space-y-10">
+        <div className="mt-[100px] px-5 md:rounded-[100px] rounded-[50px] md:py-[150px] py-[100px] pb-[60px] bg-gradient-primary space-y-10">
           <MainBanner data={SYSTEM_ARCHI_HEADER_CONFIG} />
           <img
             src="/topics/system-architecture-hero.png"
             alt=""
-            className="m-auto w-[425px] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]"
+            className="m-auto w-[425px]  shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]"
           />
         </div>
       </div>
@@ -45,10 +45,10 @@ const SystemArchitecturePage = () => {
             </div>
 
             <div className="system-architecture-bottom pt-60 pb-[244px]">
-              <h2 class="font-primary mb-[52px] font-medium text-[48px] leading-[100%] tracking-[0.02em] capitalize text-center text-white">
+              <h2 class="font-primary mb-[52px] font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] capitalize text-center text-white">
                 Core Module
               </h2>
-              <div className="max-w-7xl gap-8 flex mx-auto flex-wrap justify-center">
+              <div className="max-w-7xl px-5 gap-8 flex mx-auto flex-wrap justify-center">
                 {SYSTEM_ARCHI_USP_CONFIG_ONE.cards.map((item) => (
                   <FeatureCard {...item} />
                 ))}
@@ -72,13 +72,13 @@ const SystemArchitecturePage = () => {
       </section>
 
       <section>
-        <div className="rounded-[100px] py-[100px] space-y-10  bg-white relative z-4 mt-[-100px]  w-full  ">
+        <div className="md:rounded-[100px] px-5 rounded-[50px] py-[100px] space-y-10  bg-white relative z-4 mt-[-100px]  w-full  ">
           <SectionHeading
             title="Multi-Agent Coordination Diagram"
             titleClassName="text-[#00273A]"
           />
 
-          <div className="image-wrapper max-w-[600px] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] overflow-hidden p-6  mx-auto">
+          <div className="image-wrapper  max-w-[600px] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] overflow-hidden p-6  mx-auto">
             <img
               className="w-full "
               src="/topics/multi-agent-diagram.png"
@@ -96,7 +96,7 @@ const SystemArchitecturePage = () => {
               title="Governance & Security Layer"
             />
 
-            <div className="img-wrapper mx-auto max-w-[640px]">
+            <div className="img-wrapper px-5 mx-auto max-w-[640px]">
               <img
                 className="w-full"
                 src="/topics/goverance-layer-diagram.png"
@@ -112,7 +112,7 @@ const SystemArchitecturePage = () => {
       </section>
 
       <section>
-        <div className="py-[100px] border border-b-[#D9D9D9]  bg-white mt-[-100px] rounded-[100px]">
+        <div className="py-[100px] border border-b-[#D9D9D9]  bg-white mt-[-100px] md:rounded-[100px] rounded-[50px]">
           <SectionHeading
             titleClassName="text-[#00273A]"
             title="Integrate in Minutes. <br /> Scale to Billions of Context Events."
@@ -127,7 +127,7 @@ const SystemArchitecturePage = () => {
 
       <section>
 
-        <div className="pt-[100px]">
+        <div className="pt-[100px] px-5">
           <SectionHeading
 
           title="Deployment Architecture"
@@ -135,7 +135,7 @@ const SystemArchitecturePage = () => {
           />
 
 
-          <div className="wrapper-img mb-[90px] mt-[30px] max-w-[500px] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]">
+          <div className="wrapper-img  mb-[90px] mt-[30px] max-w-[500px] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]">
             <img src="/topics/deployment-diagram.png" className="w-full" alt="" />
           </div>
         </div>
@@ -147,7 +147,7 @@ const SystemArchitecturePage = () => {
           <SectionHeading
             title={"Core Concept"}
             titleClassName="text-white"
-            titleSize="sm:text-[48px]"
+            titleSize="sm:text-[40px] text-[32px] "
            
           />
 

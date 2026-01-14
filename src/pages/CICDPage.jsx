@@ -16,11 +16,11 @@ const CICDPage = () => {
         <div className="bg-gradient-primary py-[100px] mt-[104px] text-white rounded-[50px]">
           <div
             className="mx-auto mb-8 w-fit rounded-full px-6 py-2
-  backdrop-blur-md
-  bg-linear-to-r from-white/10 via-white/5 to-white/10
-  border border-white/20
-  shadow-[0_0_20px_rgba(255,255,255,0.08)]
-"
+                  backdrop-blur-md
+                  bg-linear-to-r from-white/10 via-white/5 to-white/10
+                  border border-white/20
+                  shadow-[0_0_20px_rgba(255,255,255,0.08)]
+                "
           >
             <span className="font-inter font-medium text-[12px] leading-[1.4] tracking-[0.04em] mae-gradient-text">
               Automated Pipeline Excellence
@@ -29,7 +29,7 @@ const CICDPage = () => {
 
           <MainBanner data={AUTOMATION_PIPELINE_HEADER} />
 
-          <div className="llm-based-feature flex-wrap gap-10 md:gap-20  pt-[60px] flex justify-center items-center">
+          <div className="llm-based-feature flex-wrap px-5 gap-10 md:gap-20  pt-[60px] flex justify-center items-center">
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
               <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
@@ -104,12 +104,12 @@ const CICDPage = () => {
             spacing="space-y-4"
           />
 
-          <div className="flex pt-[60px]  flex-wrap gap-6 justify-center">
+          <div className="flex pt-[60px] md:px-0 px-5 flex-wrap gap-6 justify-center">
             {INSIGHTS_DATA?.topRow?.map((item) => (
               <InsightCard key={item?.id} {...item} />
             ))}
           </div>
-          <div className="flex pt-[60px]  flex-wrap gap-6 justify-center">
+          <div className="flex pt-[60px] md:px-0 px-5 flex-wrap gap-6 justify-center">
             {INSIGHTS_DATA?.bottomRow.map((item) => (
               <InfoCard key={item?.id} {...item} />
             ))}
@@ -406,7 +406,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
       title: "Automated Pipelines",
       description:
         "Trigger builds, tests, and deployments automatically on every commit. Smart parallel execution reduces wait times by up to 70%.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
     {
       id: 2,
@@ -415,7 +415,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
       title: "Security First",
       description:
         "Built-in vulnerability scanning, compliance checks, and secret management ensure every deployment meets security standards.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
     {
       id: 3,
@@ -424,7 +424,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
       title: "Real-Time Insights",
       description:
         "Monitor pipeline performance, deployment success rates, and team velocity with comprehensive analytics dashboards.",
-      cardClassName: "w-[320px] bg-white min-h-[300px] border-[#D9D9D9]",
+      cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
   ],
 };
@@ -439,7 +439,7 @@ export const INSIGHTS_DATA = {
       label: "Test Coverage",
       description:
         "Comprehensive automated testing ensures code quality with near-perfect coverage.",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
     },
     {
@@ -449,7 +449,7 @@ export const INSIGHTS_DATA = {
       label: "Faster Deployments",
       description:
         "Reduce deployment time from hours to minutes with intelligent automation.",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
     },
     {
@@ -459,7 +459,7 @@ export const INSIGHTS_DATA = {
       label: "Cost Reduction",
       description:
         "Lower infrastructure costs through optimized resource utilization and efficiency.",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
     },
     {
@@ -469,7 +469,7 @@ export const INSIGHTS_DATA = {
       label: "Risk Mitigation",
       description:
         "Automated rollbacks and canary deployments minimize production incidents.",
-      cardClassName: "w-[293px]",
+      cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
     },
   ],
@@ -480,7 +480,7 @@ export const INSIGHTS_DATA = {
       label: "Time To Market",
       description:
         "Ship features 3× faster with automated pipelines and continuous delivery.",
-      cardClassName: "w-[360px] bg-[#F9F9F9]",
+      cardClassName: "md:w-[360px] w-[100%] bg-[#F9F9F9]",
       iconWrapperClass: "text-[#C44558]",
     },
     {
@@ -489,7 +489,7 @@ export const INSIGHTS_DATA = {
       label: "Team Productivity",
       description:
         "Developers focus on coding while automation handles deployment complexity.",
-      cardClassName: "w-[360px] bg-[#F9F9F9]",
+      cardClassName: "md:w-[360px] w-[100%] bg-[#F9F9F9]",
       iconWrapperClass: "text-[#C44558]",
     },
     {
@@ -498,7 +498,7 @@ export const INSIGHTS_DATA = {
       label: "Quality Assurance",
       description:
         "Catch bugs early with automated testing at every stage of the pipeline.",
-      cardClassName: "w-[360px] bg-[#F9F9F9]",
+      cardClassName: "md:w-[360px] w-[100%] bg-[#F9F9F9]",
       iconWrapperClass: "text-[#C44558]",
     },
   ],

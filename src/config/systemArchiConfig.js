@@ -31,7 +31,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px] border-none",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%] border-none",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
@@ -51,7 +51,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px] border-none",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%] border-none",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
@@ -71,7 +71,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px] border-none",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%] border-none",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
@@ -91,7 +91,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px] border-none",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%] border-none",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
@@ -111,7 +111,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px] border-none",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%] border-none",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
@@ -131,7 +131,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
-        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-[364px] border-none",
+        "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%] border-none",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 

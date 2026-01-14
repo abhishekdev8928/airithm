@@ -33,13 +33,13 @@ const FeatureCard2 = ({
       className={`relative core-feature-card transition-shadow justify-between duration-300 
         hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
         ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
-        rounded-3xl border border-[#9d9d9d] p-5 gap-12 flex flex-col`}
+        rounded-3xl border border-[#9d9d9d] p-5 gap-[24px] flex flex-col`}
       
     >  
     
     {
           num && (
-            <h2 className="absolute top-[-40px] text-[#fff] h-[64px] w-[64px] left-[40%] rounded-[100%] flex justify-center items-center text-[24px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+            <h2 className="absolute md:top-[-40px] top-[-20px] text-[#fff] md:h-[64px] h-[40px] md:w-[64px] w-[40px] left-[40%] rounded-[100%] flex justify-center items-center md:text-[24px] text-[18px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
               {num}
             </h2>
           )
@@ -68,7 +68,7 @@ const FeatureCard2 = ({
       <div className="feature-card-content">
         {
           bigheading && (
-            <h1 className={`${bigheadingclass} text-[48px] font-primary font-[600]`}>{bigheading}</h1>
+            <h1 className={`${bigheadingclass} text-[40px] font-primary font-[600]`}>{bigheading}</h1>
           )
         }
         <h2
@@ -81,7 +81,7 @@ const FeatureCard2 = ({
 
 
         <p
-          className="font-secondary text-[18px] leading-[1.4] pt-4 capitalize"
+          className="font-secondary text-[14px] leading-[1.4] pt-[14px] capitalize"
           style={{ color: discColor || "#626161" }}
         >
           {description}

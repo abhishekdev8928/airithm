@@ -9,7 +9,7 @@ function TechStackGrid() {
   ];
 
   return (
-    <div className="w-full h-full rounded-3xl bg-gradient-to-b from-[#042539] to-black p-6 md:p-10 flex flex-col gap-6">
+    <div className="w-full h-full md:rounded-[100px] rounded-[50px] bg-gradient-to-b from-[#042539] to-black p-6 md:p-10 flex flex-col gap-6">
 
       {/* TOP GRID */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -21,7 +21,7 @@ function TechStackGrid() {
             <img
               src={item.src}
               alt={item.alt}
-              className="size-[64px]  object-contain"
+              className="md:size-[64px] size-[50px]   object-contain"
             />
           </div>
         ))}
@@ -34,13 +34,13 @@ function TechStackGrid() {
           <img
             src="/stack/webhook.png"
             alt="Webhook"
-            className="w-[200px] object-contain"
+            className="md:w-[200px] w-[111px] object-contain"
           />
         </div>
 
         {/* Chart */}
-        <div className="size-[144px] rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center">
-          <BarChart3 className="text-white size-[100px]" />
+        <div className="md:size-[144px] size-[111px] rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center">
+          <BarChart3 className="text-white md:size-[100px] size-[50px]" />
         </div>
       </div>
     </div>
@@ -54,7 +54,7 @@ export default function TechStackSection() {
       <div className="flex flex-col md:flex-row  gap-6 items-stretch">
 
         {/* LEFT — MUST BE RELATIVE */}
-        <div className="w-1/2 relative rounded-3xl overflow-hidden">
+        <div className="md:w-1/2 w-full relative rounded-3xl overflow-hidden">
           <img
             src="/topics/api-call.png"
             alt="API Call"
@@ -63,7 +63,7 @@ export default function TechStackSection() {
         </div>
 
         {/* RIGHT — DEFINES HEIGHT */}
-        <div className="w-1/2">
+        <div className="md:w-1/2 w-full">
           <TechStackGrid />
         </div>
 

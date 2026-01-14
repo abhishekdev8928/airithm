@@ -43,7 +43,7 @@ const DeploymentOptionsPage = () => {
             linkClassName="text-black"
             iconClassName="invert-0"
         />
-            <section className='py-[150px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+            <section className='md:py-[150px] py-[90px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
        
         <MainBanner data={Integrations_HEADER} />
        
@@ -55,13 +55,13 @@ const DeploymentOptionsPage = () => {
                             titleClassName="sm:text-[48px]"
                             subtitleClassName=" sm:text-[16px] text-[#626161]"
                         />
-        <div className="max-w-[1248px] m-auto flex mt-[50px] gap-6">
+        <div className="max-w-[1248px] m-auto flex mt-[50px] flex-wrap md:px-0 px-5 gap-6">
 
               {
                             type.map((item,index, id)=>{
                                     const Icon = LucideIcons?.[item.icon];
                                     return(
-                                           <div id={index} className="w-[400px] rounded-2xl bg-[#fff]   gap-10 p-5 px-6 flex flex-col items-start">
+                                           <div id={index} className="md:w-[400px] w-[100%] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 px-0 flex flex-col items-start">
                                       
                                       <div className="">
                                           
@@ -107,7 +107,7 @@ const DeploymentOptionsPage = () => {
         </div>
 
     </section>
-    <section className='py-[90px] pb-[200px] text-center rounded-t-[100px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+    <section className='py-[90px] md:px-0 px-5 pb-[200px] text-center md:rounded-t-[100px] rounded-t-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
                  <SectionHeading
                             title="Deployment Comparison"
                             subtitle='Compare security, scalability, control, and maintenance across deployment options'
@@ -116,7 +116,7 @@ const DeploymentOptionsPage = () => {
                         />
 
                   
-                    <div className="max-w-[1236px] rounded-2xl mt-[60px] mx-auto border border-[1px] border-[#838383] rounded-2xl p-[1px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]">
+                    <div className="max-w-[1236px]  rounded-2xl mt-[60px] mx-auto border border-[1px] border-[#838383] rounded-2xl p-[1px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]">
                  
 
                             {/* Header */}
