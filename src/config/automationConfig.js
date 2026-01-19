@@ -11,27 +11,27 @@ export const AUTOMATION_Testing_CONFIG  = {
     cards: [
       {
         id: 1,
-        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        bgImgSrc: "/automation/testing-cap/n1.webp",
         title: "Robustness & Reliability",
         description:
           "Adversarial & Robustness Testing, CI/CD & Model Regression, Model Evaluation & Validation",
       },
         {
         id: 3,
-        bgImgSrc: "https://media.istockphoto.com/id/1497881503/photo/alphabets-ai-on-advanced-central-processing-unit-chip-and-gavel-and-sound-block-in-wireframe.jpg?s=1024x1024&w=is&k=20&c=73Gi23mj6Am7q-x1IEZZKHR4tfTn03FUXX3QzKR9rss=",
+        bgImgSrc: "/automation/testing-cap/n2.webp",
         title: "Fairness & Ethics",
         description: "Fairness & Bias Testing, Explainability & Transparency",
       },
         {
         id: 4,
-        bgImgSrc: "/automation/testing-cap/data.jpg",
+        bgImgSrc: "/automation/testing-cap/n3.webp",
         title: "Data & Context Quality",
         description:
           "Data-Centric Testing, LLM-Specific Eval & Prompt Testing",
       },
       {
         id: 2,
-        bgImgSrc: "/automation/testing-cap/security.jpg",
+        bgImgSrc: "/automation/testing-cap/n4.webp",
         title: "Security & Safety",
         description:
           "Security & Safety Testing for AI applications",
@@ -48,30 +48,30 @@ export const AUTOMATION_Testing_CONFIG  = {
     cards: [
        {
         id: 2,
-        bgImgSrc: "/automation/testing-cap/robust.jpg",
+        bgImgSrc: "/automation/testing-cap/c1.webp",
         title: "Functional & Regression Testing",
         description:
           "Unit, Integration, End-to-End Workflow Testing, Regression Automation & CI/CD Validation",
-        bgImgSrc: "https://media.istockphoto.com/id/2157176253/photo/quality-assurance-and-document-control-with-checklist-icons-businessman-mark-off-items-on.jpg?s=1024x1024&w=is&k=20&c=VwlgvhCM-AI870yM-fMHCYcF89FpWaFb5Q1_R4msq4w=",
+        // bgImgSrc: "https://media.istockphoto.com/id/2157176253/photo/quality-assurance-and-document-control-with-checklist-icons-businessman-mark-off-items-on.jpg?s=1024x1024&w=is&k=20&c=VwlgvhCM-AI870yM-fMHCYcF89FpWaFb5Q1_R4msq4w=",
       },
       {
         id: 1,
-        bgImgSrc: "/automation/testing-cap/security.jpg",
+        bgImgSrc: "/automation/testing-cap/c2.webp",
         title: "Security & Compliance Testing",
         description:
           "Vulnerability & Penetration Testing, API Security, Data Privacy & Compliance (GDPR, HIPAA, SOX, PCI)",
-        bgImgSrc: "/automation/testing-cap/c-security.jpg",
+        // bgImgSrc: "/automation/testing-cap/c-security.jpg",
       },
      
       {
         id: 3,
-        bgImgSrc: "/automation/testing-cap/c-usability.jpg",
+        bgImgSrc: "/automation/testing-cap/c3.webp",
         title: "Usability & Accessibility Testing",
         description: "UI/UX Validation, Cross-Browser & Cross-Device Testing, Accessibility (WCAG/ADA)",
       },
       {
         id: 4,
-bgImgSrc: "/automation/testing-cap/c-data.jpg",
+bgImgSrc: "/automation/testing-cap/c4.webp",
         title: "Data & Integrating Testing",
         description: "Database Validation, Data Accuracy & Integrity, System Integration (ERP, CRM, Payment Gateways, APIs)",
       },

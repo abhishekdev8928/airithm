@@ -42,7 +42,7 @@ const NeuroTestPage = () => {
             <section className='pt-[100px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
                 <MainBanner data={Neuro_Test_HEADER} />
                 <div className="h-[308px] w-[917px] bg-[#D9D9D9] rounded-[0px] m-auto mt-[60px] mb-[30px]">
-
+                    <img src="/automation/Neuro-Test.webp" alt="" />
                 </div>
             </section>
             <section className='py-[80px] px-5 max-w-[780px] mx-auto '>

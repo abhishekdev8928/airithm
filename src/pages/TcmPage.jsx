@@ -132,7 +132,7 @@ const TcmPage = () => {
 
           <div className="max-w-4xl  mx-auto">
             <div className="w-full py-7  ">
-              <img className="w-full rounded-3xl" src="/home/tcm.png" alt="" />
+              <img className="w-full rounded-3xl" src="/home/tcm.jpg" alt="" />
             </div>
 
             <p className="text-center tracking-[0.04em] leading-[1.4] lg:text-[20px] text-[16px] font-secondary font-medium text-[#1e1e1e]">

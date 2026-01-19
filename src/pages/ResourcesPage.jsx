@@ -53,7 +53,7 @@ const ResourcesPage = () => {
             />
             <div className='md:mt-[100px] mt-[80px] rounded-[50px] py-[150px] pb-[60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <MainBanner data={Resource_HEADER} />
-                <img src="/slider/atom.png" alt="" className='m-auto' />
+                <img src="/slider/atom.gif" alt="Atom Animation" className='m-auto' />
             </div>
             <section className='py-[80px] pt-[40px]'>
                 <div className="flex mt-5 flex-wrap px-5  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">

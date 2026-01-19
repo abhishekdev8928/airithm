@@ -110,7 +110,9 @@ const ReflectiveMemory = () => {
               </div>
 
             </div>
-            <div className="imgbox h-[270px] lg:w-[434px] w-[100%] bg-[#D9D9D9] rounded-[24px] m-auto"></div>
+            <div className="imgbox h-[270px] overflow-hidden lg:w-[434px] w-[100%] bg-[#D9D9D9] rounded-[24px] m-auto">
+              <img src="./home/meta-prompts.jpg" alt="" />
+            </div>
           </div>
         </div>
 

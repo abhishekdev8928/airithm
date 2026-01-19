@@ -48,7 +48,9 @@ const ContextCapsulePage = () => {
                 flex flex-col lg:flex-row gap-20 items-stretch">
   
   {/* Left box */}
-  <div className="bg-[#D9D9D9] w-full lg:max-w-[452px] min-h-[300px]  rounded-2xl self-stretch "></div>
+  <div className="bg-[#D9D9D9] w-full lg:max-w-[452px] overflow-hidden min-h-[300px]  rounded-2xl self-stretch ">
+    <img src="./home/modular-context.jpg" className="h-full object-cover" alt="" />
+  </div>
 
   {/* Right boxes */}
   <div className="w-full lg:max-w-[380px] flex flex-col justify-between gap-4 h-full">

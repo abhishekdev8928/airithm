@@ -64,11 +64,11 @@ const ContextIntelligencePage = () => {
             </div>
 
             {/* RIGHT */}
-            <div className="flex-1  flex justify-center md:justify-end">
+            <div className="flex-1 rounded-[24px] overflow-hidden border border-[1px] border-[#fff] p-2  flex justify-center md:justify-end">
               <img
-                src="/automation/lce.png"
+                src="/automation/lce.webp"
                 alt=""
-                className="w-full  object-contain"
+                className="w-full rounded-[24px] object-contain"
               />
             </div>
           </div>
@@ -151,7 +151,7 @@ const ContextIntelligencePage = () => {
             <div className="w-full md:w-1/2 overflow-hidden">
               <img
                 className="w-full rounded-xl"
-                src="/automation/code-editor.png"
+                src="/automation/code-editor.webp"
                 alt=""
               />
             </div>

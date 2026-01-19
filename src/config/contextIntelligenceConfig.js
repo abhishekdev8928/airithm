@@ -4,7 +4,7 @@ export const Context_HERO_CONFIG = {
     "Enterprise-grade AI orchestration that understands, adapts, and <br class='hidden sm:block' /> evolves with you data context in real-time.",
 
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
-  imageSrc: "/automation/dashboard.png",
+  imageSrc: "/automation/dashboard.webp",
   buttons: [
    {
   text: "Download Architecture Deck",

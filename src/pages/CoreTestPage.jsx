@@ -26,7 +26,7 @@ const CoreTestPage = () => {
       <section className="pt-[100px] mt-[80px] lg:mt-[100px] overflow-hidden rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white">
         <MainBanner data={CORE_TEST_HEADER_CONFIG} />
           <div className="h-[308px] w-[917px] bg-[#D9D9D9] rounded-[0px] m-auto mt-[60px] ">
-            {/* <img className="w-full" src="https://images.unsplash.com/photo-1761839257349-037aea1d94de?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /> */}
+            <img className="w-full" src="/automation/Core-Test.webp" alt="" />
           </div>
           
         {/* <div className="max-w-[519px] pt-20  pb-10 mx-auto space-y-4 ">
