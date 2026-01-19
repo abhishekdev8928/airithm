@@ -434,7 +434,7 @@ export const INSIGHTS_DATA = {
   topRow: [
     {
       id: "testCoverage",
-      iconName: "ChartSpline",
+      iconName: "CircleCheckBig",
       value: "98%",
       label: "Test Coverage",
       description:
@@ -443,7 +443,7 @@ export const INSIGHTS_DATA = {
       iconWrapperClass: "text-[#C44558]",
     },
     {
-      id: "fasterDeployments",
+      id: "Rocket",
       iconName: "Zap",
       value: "5×",
       label: "Faster Deployments",
@@ -454,7 +454,7 @@ export const INSIGHTS_DATA = {
     },
     {
       id: "costReduction",
-      iconName: "PiggyBank",
+      iconName: "CircleDollarSign",
       value: "40%",
       label: "Cost Reduction",
       description:
@@ -464,7 +464,7 @@ export const INSIGHTS_DATA = {
     },
     {
       id: "riskMitigation",
-      iconName: "AlertCircle",
+      iconName: "ShieldCheck",
       value: "99.9%",
       label: "Risk Mitigation",
       description:

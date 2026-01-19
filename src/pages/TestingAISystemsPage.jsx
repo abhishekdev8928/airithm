@@ -100,7 +100,7 @@ const TestingAISystemsPage = () => {
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
                     />
 
-                    <div className="max-w-[1075px] px-5 m-auto grid grid-cols-12 mt-[60px] gap-4">
+                    <div className="max-w-[1175px] px-5 m-auto grid grid-cols-12 mt-[60px] gap-4">
                       <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 border-1 border-[#D9D9D9] rounded-[16px]">
                         <TriangleAlert className="text-[#C44558]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Hallucination Rate</h3>
@@ -181,9 +181,9 @@ export const Related_Resources = {
       icon: "FileText",
       title: "LLM Testing Framework",
       bigheading:"WHITEPAPER",
-      bigheadingclass:"!text-[16px] mb-5 text-[#626161]",
+      bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
       textColor: "#fff",
       description:
         "Comprehensive guide to evaluating large language models",
@@ -194,9 +194,9 @@ export const Related_Resources = {
       icon: "ChartBar",
       title: "RAG System Evaluation",
       bigheading:"BENCHMARK",
-      bigheadingclass:"!text-[16px] mb-5 text-[#626161]",
+      bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
       textColor: "#fff",
       description:
         "Industry benchmarks for retrieval-augmented generation",
@@ -209,9 +209,9 @@ export const Related_Resources = {
       icon: "Newspaper",
       title: "Detecting Hallucinations",
       bigheading:"BLOG",
-      bigheadingclass:"!text-[16px] mb-5 text-[#626161]",
+      bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
       textColor: "#fff",
       description:
         "Techniques for identifying ungrounded AI outputs",
@@ -221,11 +221,12 @@ export const Related_Resources = {
     },
     {
       id: 4,
+        icon: "Network",
       title: "Testing Architecture",
       bigheading:"ARCHITECTURE",
-      bigheadingclass:"!text-[16px] mb-5 text-[#626161]",
+      bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px] min-h-[258px]",
+      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
       textColor: "#fff",
       description:
         "Reference architecture for autonomous AI testing",

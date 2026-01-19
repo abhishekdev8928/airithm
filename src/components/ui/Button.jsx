@@ -7,12 +7,13 @@ const Button = ({
   icon, 
   iconSize, 
   useCommonSvg = false,
-  hoverIcon = true   
+  hoverIcon = true   ,
+  href
 }) => {
   const IconComponent = LucideIcons[icon];
 
   return (
-    <a href="#!" 
+    <a href={href}
       className={`group py-5 pl-6 pr-5  font-semibold font-primary  leading-[1.2] tracking-[0%] rounded-lg flex gap-2.5 whitespace-nowrap capitalize items-center justify-center ${className}`}
     >
       {btnText}

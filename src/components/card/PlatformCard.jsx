@@ -1,6 +1,7 @@
 import React from "react";
-import { BadgeCheck } from "lucide-react";
+import { BadgeCheck, CircleArrowOutUpRight } from "lucide-react";
 import Button from "../ui/Button"; // ensure correct path
+import { Link } from "react-router-dom";
 
 const PlatformCard = ({
   badge,
@@ -108,12 +109,20 @@ const PlatformCard = ({
         </div>
 
         {/* CTA BUTTON */}
+        {/* <Link
+          className="font-primary flex gap-2 rounded-lg w-full sm:w-fit capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
+          
+          
+          iconSize="20px"
+          to={ctaLink}
+        >{ctaText}<CircleArrowOutUpRight/></Link> */}
         <Button
           className="font-primary rounded-lg w-full sm:w-fit capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
           btnText={ctaText}
           icon={ctaIcon}
           iconSize="20px"
-          onClick={() => (window.location.href = ctaLink)}
+          href={ctaLink}
+          // onClick={() => (window.location.href = ctaLink)}
         />
       </div>
     </div>

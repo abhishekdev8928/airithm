@@ -33,7 +33,7 @@ const PlatformArchitecture = () => {
             
           />
 
-          <div className="high-level-architecture max-w-7xl mx-auto pt-15">
+          <div className="high-level-architecture max-w-7xl md:scale-[0.7] mx-auto md:-mt-[160px] md:-mb-[160px]">
             <PlatformHighLevelArchi />
           </div>
         </div>

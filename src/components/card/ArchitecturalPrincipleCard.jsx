@@ -10,18 +10,18 @@ const ArchitecturalPrincipleCard = ({ icon, title, description, tags }) => {
     >
       {/* Icon */}
       <div className="bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
-                      size-12 p-2 rounded-lg">
+                      size-8 p-1 rounded-lg">
         <img src={icon} alt={title} />
       </div>
 
       {/* Content */}
-      <div className="w-full mt-[70px] space-y-6">
-        <div className="space-y-4">
+      <div className="w-full mt-[24px] space-y-6">
+        <div className="space-y-[14px]">
           <h4 className="font-primary text-white font-medium text-[24px] leading-none tracking-[0.02em] capitalize">
             {title}
           </h4>
 
-          <p className="font-secondary font-medium text-[16px] leading-[1.4] tracking-[0.04em] text-[#D9D9D9]">
+          <p className="font-secondary font-medium text-[14px] leading-[1.4] tracking-[0.04em] text-[#D9D9D9]">
             {description}
           </p>
         </div>

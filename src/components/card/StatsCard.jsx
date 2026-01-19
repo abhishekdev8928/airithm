@@ -14,7 +14,7 @@ const StatsCard = ({
   return (
     <div
       className={`
-        md:w-[322px] w-[100%]
+        md:w-[280px] w-[100%]
         rounded-[20px]
         border border-gray-200
         bg-white

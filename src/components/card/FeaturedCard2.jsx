@@ -32,8 +32,8 @@ const FeatureCard2 = ({
     <div
       className={`relative core-feature-card transition-shadow justify-between duration-300 
         hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
-        ${cardClassName ? cardClassName : "w-full sm:w-[340px] min-h-[258px]"} 
-        rounded-3xl border border-[#9d9d9d] p-5 gap-[24px] flex flex-col`}
+        ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} 
+        rounded-3xl border border-[#9d9d9d] p-5 gap-[0px] flex flex-col`}
       
     >  
     
@@ -65,7 +65,7 @@ const FeatureCard2 = ({
       )}
 
       {/* Content */}
-      <div className="feature-card-content">
+      <div className="feature-card-content mt-[24px]">
         {
           bigheading && (
             <h1 className={`${bigheadingclass} text-[40px] font-primary font-[600]`}>{bigheading}</h1>

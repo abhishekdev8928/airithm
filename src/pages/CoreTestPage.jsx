@@ -95,7 +95,7 @@ const CoreTestPage = () => {
 
       <UspServices data={CORE_TEST_MODULE_CONFIG} />
       <ArchitectureLayers />
-<CtaSection wrapperClassName="mt-[-100px]" {...CORE_TEST_CTA_CONFIG} />
+        <CtaSection wrapperClassName="mt-[-100px]" {...CORE_TEST_CTA_CONFIG} />
 
 <FooterSection />
 

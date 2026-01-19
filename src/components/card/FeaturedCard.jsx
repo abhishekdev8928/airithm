@@ -81,7 +81,7 @@ const FeatureCard = ({
           className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
           style={{ color: textColor || "#1E1E1E" }}
         >
-          {title}.
+          {title}
         </h2>
 
         <p

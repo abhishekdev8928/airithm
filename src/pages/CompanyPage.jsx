@@ -77,7 +77,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
                             btnText="Learn More"
                             className=
                             "text-[16px]  min-w-[100%] mt-[30px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                            href=""
+                            href="/ai-automation"
                             icon="CircleArrowOutUpRight"
                             iconSize="20px"
                         //   useCommonSvg="true"
@@ -108,7 +108,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                             btnText="Learn More"
                             className=
                             "text-[16px]  min-w-[100%] mt-[30px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                            href=""
+                            href="/context-intelligence-platform"
                             icon="CircleArrowOutUpRight"
                             iconSize="20px"
                         //   useCommonSvg="true"
