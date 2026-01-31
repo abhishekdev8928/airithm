@@ -6,6 +6,7 @@ export const AUTOMATION_Testing_CONFIG  = {
   neuroTest: {
     name: "NeuroTest",
     imgSrc: "/automation/creative.png",
+    link:"/neuro-test",
     tagline:
       "Advanced testing for AI/LLM systems <br> with specialized validation capabilities",
     cards: [
@@ -44,6 +45,7 @@ export const AUTOMATION_Testing_CONFIG  = {
   coreTest: {
     name: "CoreTest",
     imgSrc: "/automation/invoation.png",
+     link:"/core-test",
     tagline: "Comprehensive testing for <br> enterprise and non-AI Applications",
     cards: [
        {

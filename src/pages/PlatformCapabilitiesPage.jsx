@@ -108,13 +108,13 @@ const PlatformCapabilitiesPage = () => {
   <div className="flex-1 min-w-[280px] transition-shadow duration-300
                 hover:shadow-[0px_0px_40px_2px_#C4455840] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#C445580D] bg-[#fff] rounded-[16px]">
     <h2 className='font-[600] font-primary text-[24px]'>E-commerce Platform</h2>
-    <p className='text-[#626161] text-[14px] sm:text-[18px] mt-2'>Automatically generates tests for product catalogs, shopping carts, and checkout flows across multiple payment methods.</p>
+    <p className='text-[#626161] text-[14px] sm:text-[14px] mt-2'>Automatically generates tests for product catalogs, shopping carts, and checkout flows across multiple payment methods.</p>
   </div>
 
   <div className="flex-1 min-w-[280px] transition-shadow duration-300
                 hover:shadow-[0px_0px_40px_2px_#C4455840] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#C445580D] bg-[#fff] rounded-[16px]">
     <h2 className='font-[600] font-primary text-[24px]'>Banking Application</h2>
-    <p className='text-[#626161] text-[14px] sm:text-[18px] mt-2'>Create comprehensive test suites for account management, transactions, and security features with regulatory compliance.</p>
+    <p className='text-[#626161] text-[14px] sm:text-[14px] mt-2'>Create comprehensive test suites for account management, transactions, and security features with regulatory compliance.</p>
   </div>
 </div>
 
@@ -122,8 +122,8 @@ const PlatformCapabilitiesPage = () => {
                       <div  className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
                       <Button
                                             icon="CircleArrowOutUpRight"
-                                            iconSize="20px"
-                                            btnText="Request Demo"
+                                            iconSize="20px" btnText="View Architecture"
+                                          
                                             className=" shadow-[0px_30px_12px_0px_#00000005]  bg-white text-[#C44558]"
                                         />
 
@@ -131,7 +131,7 @@ const PlatformCapabilitiesPage = () => {
                                         <Button
                                             icon="CircleArrowOutUpRight"
                                             iconSize="20px"
-                                            btnText="View Architecture"
+                                             btnText="Request Demo"
                                             className="  bg-primary-gradient text-white"
                                         />
 

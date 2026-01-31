@@ -106,7 +106,7 @@ const MemoryPage = () => {
                     subtitleClassName="  text-[#D9D9D9]"
                 />
                 <div className="mt-[40px]">
-                    <img className='m-auto' src="./public/topics/why-graph.png" alt="" />
+                    <img className='m-auto' src="public/topics/why-graph.png" alt="" />
                 </div>
 <div className="flex flex-wrap  justify-center gap-4 mt-[40px]">
   {/* Card 1 */}
@@ -114,14 +114,13 @@ const MemoryPage = () => {
     <div className="icon h-[48px] w-[48px] rounded-[4px] flex items-center justify-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]">
       <LucideIcons.ShieldCheck className="text-[#C44558]" />
     </div>
-    <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-2 mt-6">
+    <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
       Reduced Hallucinations
     </h3>
    <div>
-     <p className="text-[16px] font-secondary text-[#D9D9D9]">
+     <p className="text-[14px] font-secondary text-[#D9D9D9]">
       Ground AI responses in verified, interconnected facts.
-    </p>
-    <p className="text-[16px] font-secondary text-[#D9D9D9] mt-6">
+
       Graph-RAG ensures every answer traces back to concrete relationships and validated data sources, dramatically reducing false or invented information.
     </p>
    </div>
@@ -132,13 +131,11 @@ const MemoryPage = () => {
     <div className="icon h-[48px] w-[48px] rounded-[4px] flex items-center justify-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]">
       <LucideIcons.Route className="text-[#C44558]" />
     </div>
-    <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-2 mt-6">
+    <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
       Complete Traceability
     </h3>
-    <p className="text-[16px] font-secondary text-[#D9D9D9]">
+    <p className="text-[14px] font-secondary text-[#D9D9D9]">
       Follow the reasoning path from question to answer.
-    </p>
-    <p className="text-[16px] font-secondary text-[#D9D9D9] mt-6">
       Visualize how information flows through your knowledge graph, making AI decision-making transparent, auditable, and trustworthy for critical applications.
     </p>
   </div>
@@ -148,13 +145,11 @@ const MemoryPage = () => {
     <div className="icon h-[48px] w-[48px] rounded-[4px] flex items-center justify-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]">
       <LucideIcons.Link className="text-[#C44558]" />
     </div>
-    <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-2 mt-6">
+    <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
       Context Continuity
     </h3>
-    <p className="font-[16px] font-secondary text-[#D9D9D9]">
+    <p className="font-[14px] font-secondary text-[#D9D9D9]">
       Maintain coherent understanding across conversations and sessions.
-    </p>
-    <p className="text-[16px] font-secondary text-[#D9D9D9] mt-6">
       Graph-RAG preserves relationships and context over time, enabling your AI to build on previous interactions and evolve its understanding naturally.
     </p>
   </div>

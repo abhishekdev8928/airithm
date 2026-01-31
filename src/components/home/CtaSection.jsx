@@ -9,9 +9,9 @@ const CtaSection = () => {
           backgroundImage: 'url("/bg/bg-gradient-two.jpg")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
+          // backgroundPosition: "center",
         }}
-        className="rounded-[50px] px-5 sm:px-0 sm:rounded-[100px] bg-img-overlay section-wrapper z-11 overflow-hidden  w-full relative"
+        className="rounded-[50px] px-5 sm:px-0 sm:rounded-[100px] sm:bg-center bg-left bg-img-overlay section-wrapper z-11 overflow-hidden  w-full relative"
       >
         <div className="max-w-7xl mx-auto sm:px-6 relative z-14 ">
           <div className="overlay-content backdrop-blur-[100px]  sm:mx-0 space-y-6 justify-center flex flex-col items-center sm:p-20 w-full h-[350px] sm:h-auto sm:max-w-full rounded-[40px] border border-white cta-banner-content  relative z-13">

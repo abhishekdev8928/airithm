@@ -299,3 +299,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.trans{
+  transition: all .3s linear;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}

@@ -4,7 +4,7 @@ import SectionHeading from "@/components/common/SectionHeading";
 const Realtime = ({ data }) => {
   const { title, subtitle, cards } = data;
   return (
-    <section className="relative max-w-6xl mx-auto py-24 px-5 md:px-0 pb-0">
+    <section className="relative max-w-6xl  mx-auto py-24 px-5 md:px-0 pb-0">
 
       {/* Section Heading */}
       <SectionHeading
@@ -18,7 +18,7 @@ const Realtime = ({ data }) => {
       {/* Center Line */}
       {/* <div className="absolute left-1/2 top-[200px] h-[calc(100%-200px)] w-[2px] bg-[#F2B6BE] -translate-x-1/2" /> */}
 
-      <div className="flex flex-col lg:gap-[100px] gap-[100px] max-w-[700px] m-auto py-[80px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] px-[18px] lg:px-[0]  relative">
+      <div className="flex flex-col lg:gap-[100px] gap-[100px] max-w-[700px] scale-[0.9] mt-[-60px] m-auto py-[80px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] px-[18px] lg:px-[0]  relative">
         {cards.map((step, index) => (
           <div key={step.id} className={`relative border border-[1px] border-[#D9D9D9] px-[50px] rounded-[16px] py-[10px] lg:w-[450px] m-auto  flex flex-col justify-center items-start  justify-center`}>
               {/* CENTER NODE */}

@@ -10,7 +10,10 @@ import UspServices2 from "../components/services/UspServices2";
 import { Atom, Repeat2, Eye, Check, ShieldCheck, Plug, LockOpen, UserRoundPen, TriangleAlert, ChartSpline, Star, Bug, } from 'lucide-react';
 import UspServices from "../components/services/UspServices";
 import CtaSection from "../components/common/CtaSection";
+import { useState } from "react";
 const TestingAISystemsPage = () => {
+
+    const [activeRange, setActiveRange] = useState("7d");
 
   
 
@@ -92,7 +95,7 @@ const TestingAISystemsPage = () => {
              <UspServices2  data={Evaluation_Dimensions_CONFIG}/>
              <UspServices2  data={Enterprise_Use_Cases}/>
              <UspServices  data={Enterprise_Grade_AI_Governance}/>
-             <section className="py-[90px] bg-[#fff] relative z-11 mt-[-100px] rounded-[100px]">
+             <section className="py-[90px] px-5 bg-[#fff] relative z-11 mt-[-100px] rounded-[100px]">
                   <SectionHeading
                         title="How Autonomous AI Testing Works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
@@ -100,26 +103,26 @@ const TestingAISystemsPage = () => {
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
                     />
 
-                    <div className="max-w-[1175px] px-5 m-auto grid grid-cols-12 mt-[60px] gap-4">
-                      <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 border-1 border-[#D9D9D9] rounded-[16px]">
+                    <div className="max-w-[1175px] px-5 m-auto grid grid-cols-12 mt-[60px] pt-6 gap-4 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] py-4">
+                      <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <TriangleAlert className="text-[#C44558]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Hallucination Rate</h3>
                         <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">2.1%</h2>
                         <p className="text-[#626161] text-[20px] font-secondary"> 0.4% from last week</p>
                       </div>
-                          <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 border-1 border-[#D9D9D9] rounded-[16px]">
+                          <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <ChartSpline className="text-[#C44558]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Drift Index</h3>
                         <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">0.08</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">Stable over 30 days</p>
                       </div>
-                          <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 border-1 border-[#D9D9D9] rounded-[16px]">
+                          <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <Star className="text-[#C44558]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Quality Score</h3>
                         <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">94.7</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">+1.2 pts this month</p>
                       </div>
-                          <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 border-1 border-[#D9D9D9] rounded-[16px]">
+                          <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <Bug className="text-[#C44558]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Regressions</h3>
                         <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">3</h2>
@@ -130,6 +133,60 @@ const TestingAISystemsPage = () => {
                       </div>
 
                     </div>
+
+                     <div className="bg-white relative px-6  rounded-xl max-w-[1200px] m-auto  mt-[60px]">
+      
+      {/* Filter Buttons */}
+      <div className="flex gap-3 mb-4 md:absolute right-5 top-6 z-10">
+        {["7d", "30d", "90d"].map((range) => (
+          <button
+            key={range}
+            onClick={() => setActiveRange(range)}
+            className={`px-4 py-1 rounded-full text-[12px] font-medium transition text-[#C44558] bg-[linear-gradient(90deg,_rgba(255,166,141,0.12)_0.03%,_rgba(253,58,132,0.12)_100%)]
+
+               `}
+          >
+            {range}
+          </button>
+        ))}
+      </div>
+
+      {/* Title */}
+   
+
+      {/* Images */}
+      <div className="relative">
+        {activeRange === "7d" && (
+          <div
+            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"
+          >   
+            <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
+              Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
+            </h2>
+          </div>
+        )}
+
+        {activeRange === "30d" && (
+              <div
+            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"
+          >   
+            <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
+              Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
+            </h2>
+          </div>
+        )}
+
+        {activeRange === "90d" && (
+             <div
+            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"
+          >   
+            <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
+              Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
+            </h2>
+          </div>
+        )}
+      </div>
+    </div>
 
 
              </section>
@@ -162,7 +219,7 @@ export const TEST_ANALYTICS_CTA_CONFIG = {
       text: "Request AI Testing Demo ",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },
@@ -353,8 +410,9 @@ const steps = [
 export const Enterprise_Use_Cases = {
   title: "Enterprise Use Cases",
   subtitle: "Validate AI systems across mission-critical business applications",
-  bodyclass: "bg-[#fff] text-black mt-[-90px]",
+  bodyclass: "bg-[#fff] text-black mt-[-90px] !px-5",
   // tags:"How it works",
+    bggradient:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] px-5 py-5 max-w-auto lg:max-w-[1270px] ",
 
   cards: [
     {
@@ -362,7 +420,7 @@ export const Enterprise_Use_Cases = {
       icon: "Headset",
       title: "AI Customer Support Validation",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[600px] min-h-[258px]",
+      cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
       description:
         "Ensure chatbots and virtual agents deliver accurate, helpful, and safe customer interactions.",
@@ -406,7 +464,7 @@ export const Enterprise_Use_Cases = {
       icon: "Brain",
       title: "AI Decision Support Systems",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[600px] min-h-[258px]",
+      cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
       description:
         "Validate AI recommendations in high-stakes domains like finance, healthcare, and legal.",
@@ -450,7 +508,7 @@ export const Enterprise_Use_Cases = {
       icon: "Search",
       title: "RAG-Powered Search & Knowledge Assistants",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[600px] min-h-[258px]",
+      cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
       description:
         "Test retrieval accuracy and generation quality for enterprise knowledge systems.",
@@ -494,7 +552,7 @@ export const Enterprise_Use_Cases = {
       icon: "FileCheck",
       title: "Compliance-Sensitive AI Workflows",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[600px] min-h-[258px]",
+      cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
       description:
         "Ensure AI systems meet regulatory requirements and internal governance policies.",
@@ -702,7 +760,7 @@ export const Evaluation_Dimensions_CONFIG = {
             text: "Measured: Reasoning transparency",
           },
           {
-            text: "Scored: Traceability + explanation quality",
+            text: "Scored: Chain-of-thought clarity + traceability",
           },
         ],
 
@@ -812,6 +870,7 @@ export const Testing_USP_CONFIG = {
   title: "Comprehensive AI System Validation",
   subtitle: "End-to-end validation from input to impact across every dimension that matters",
   bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none rounded-t-[100px] !pb-[200px]",
+ 
 
   cards: [
     {
@@ -886,7 +945,7 @@ export const Testing_USP_CONFIG = {
       description:
         "Maintain compliance and explainability for enterprise AI systems",
       points: {
-        labels: ["Intent recogComplete audit trailsnition accuracy", "Decision explainability", "Regulatory compliance"],
+        labels: ["Complete audit trails", "Decision explainability", "Regulatory compliance"],
         showDisc: false,
         textGradientColor:
         "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
@@ -904,6 +963,7 @@ export const USP_CONFIG = {
   title: "Why Traditional Testing Fails for AI Systems",
   subtitle: "AI systems require fundamentally different validation approaches than deterministic software",
   bodyclass: "",
+   bggradient:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px]",
 
   cards: [
     {
@@ -911,7 +971,7 @@ export const USP_CONFIG = {
       icon: "Dices",
       title: "Non-Deterministic Outputs",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
+      cardClassName:"bg-[#fff] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "Same input can produce different valid outputs, making traditional assertion-based testing impossible.",
@@ -924,7 +984,7 @@ export const USP_CONFIG = {
       icon: "ChartSpline",
       title: "Configure Test Strategy",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
+      cardClassName:"bg-[#fff] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "AI decisions are based on confidence scores and learned patterns, not fixed logic paths.",
@@ -935,7 +995,7 @@ export const USP_CONFIG = {
       icon: "Database",
       title: "Data & Prompt Sensitivity",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
+      cardClassName:"bg-[#fff] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "Minor changes in input context or phrasing can significantly alter AI behavior and outputs.",
@@ -946,7 +1006,7 @@ export const USP_CONFIG = {
       icon: "RefreshCcw",
       title: "Continuous Evolution",
       discColor: "#626161",
-      cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[295px] ",
+      cardClassName:"bg-[#fff] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
         "Models update, data drifts, and prompts change—requiring ongoing validation, not one-time testing.",
@@ -979,7 +1039,7 @@ export const Testing_HEADER = {
             text: "Request AI Testing Demo",
             className:
                 "text-[16px]  min-w-[228px] py-5 px-6 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-            href: "",
+            href: "/demo",
             icon: "CircleArrowOutUpRight",
             iconSize: "20px",
         }

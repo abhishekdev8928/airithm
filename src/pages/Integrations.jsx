@@ -34,11 +34,11 @@ const Integrations = () => {
     <section className='py-[90px] bg-[#fff]'>
         <div className='max-w-[1100px] m-auto px-5 md:grid flex flex-wrap grid-cols-12 justify-center gap-10'>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
-                <span className='h-[48px] flex justify-center items-center rounded-[4px] w-[48px] '>
+                <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <GitBranch className='text-[#c44558]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[30px] font-[600] font-primary'>CI/CD Tools</h3>
-                <p className='text-[#626161] mt-[10px] text-[18px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD Tools</h3>
+                <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
@@ -61,11 +61,11 @@ const Integrations = () => {
                 </div>
             </div>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
-                <span className='h-[48px] flex justify-center items-center rounded-[4px] w-[48px] '>
+                <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <Cloud className='text-[#c44558]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[30px] font-[600] font-primary'>Cloud Platforms</h3>
-                <p className='text-[#626161] mt-[10px] text-[18px] font-[500] font-secondary'>Deploy and scale your testing infrastructure across major cloud providers with native integrations.</p>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Cloud Platforms</h3>
+                <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Deploy and scale your testing infrastructure across major cloud providers with native integrations.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
@@ -88,11 +88,11 @@ const Integrations = () => {
                 </div>
             </div>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
-                <span className='h-[48px] flex justify-center items-center rounded-[4px] w-[48px] '>
+                <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <TestTubeDiagonal className='text-[#c44558]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[30px] font-[600] font-primary'>Test Frameworks</h3>
-                <p className='text-[#626161] mt-[10px] text-[18px] font-[500] font-secondary'>Connect with popular testing frameworks and tools to leverage existing test suites and methodologies.</p>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Test Frameworks</h3>
+                <p className='text-[#626161] mt-[10px] text-[14px] font-[500] font-secondary'>Connect with popular testing frameworks and tools to leverage existing test suites and methodologies.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 w-[100%]  border border-[1px] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
@@ -115,11 +115,11 @@ const Integrations = () => {
                 </div>
             </div>
                  <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
-                <span className='h-[48px] flex justify-center items-center rounded-[4px] w-[48px] '>
+                <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <CodeXml className='text-[#c44558]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[30px] font-[600] font-primary'>CI/CD Tools</h3>
-                <p className='text-[#626161] mt-[10px] text-[18px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD Tools</h3>
+                <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap  grid-cols-12 gap-4'>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">

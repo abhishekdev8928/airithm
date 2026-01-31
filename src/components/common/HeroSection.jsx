@@ -10,6 +10,7 @@ const HeroSection = ({
   imageSrc,
   rounded = "50px",
   badges,
+ 
 }) => {
   return (
     <section>
@@ -58,9 +59,7 @@ const HeroSection = ({
                       icon={btn.icon}
                       iconSize={btn.iconSize}
                       useCommonSvg={btn.useCommonSvg}
-                      onClick={() =>
-                        btn.href && (window.location.href = btn.href)
-                      }
+                      href={btn.href}
                     />
                   </Wrapper>
                 );

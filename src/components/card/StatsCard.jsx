@@ -37,7 +37,7 @@ const StatsCard = ({
 
       {/* Content */}
       <div className="space-y-[14px]">
-        <div className="font-primary font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] text-center
+        <div className="font-primary font-medium  text-[32px] leading-[100%] tracking-[0.02em] text-center
  capitalize">
           {value} {/* <-- fixed to show value */}
         </div>

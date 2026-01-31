@@ -214,7 +214,7 @@ export const Company_CTA_CONFIG  = {
   heading: "Build the Future with Us",
   subheading:"Join Our Mission",
   paragraph:
-    "We’re looking for exceptional engineers, designers, and thinkers who want to solve hard problems and redefine what’s possible in software quality.",
+    "We’re looking for exceptional engineers, designers, and thinkers who want <br> to solve hard problems and redefine what’s possible in software quality.",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
   // {
@@ -225,27 +225,27 @@ export const Company_CTA_CONFIG  = {
   //   href: "",
   //   hoverIcon:false
   // },
-  {
-    text: "Download Whitepaper",
-    className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
-    icon: "Download",
-    iconSize: "20px",
-    href: "",
-  },
-    {
-    text: "Contact Sales",
-    className: "px-9 py-5 bg-primary-gradient  min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#fff] bg-white rounded-lg flex items-center gap-2",
-    icon: "CircleArrowOutUpRight",
-    iconSize: "20px",
-    href: "",
-  },
-    {
-    text: "Start Free Trial",
-    className: "px-9 py-5 bg-primary-gradient  min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#fff] bg-white rounded-lg flex items-center gap-2",
-    icon: "CircleArrowOutUpRight",
-    iconSize: "20px",
-    href: "",
-  }
+  // {
+  //   text: "Download Whitepaper",
+  //   className: "px-9 py-5 min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#C44558] bg-white rounded-lg flex items-center gap-2",
+  //   icon: "Download",
+  //   iconSize: "20px",
+  //   href: "",
+  // },
+  //   {
+  //   text: "Contact Sales",
+  //   className: "px-9 py-5 bg-primary-gradient  min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#fff] bg-white rounded-lg flex items-center gap-2",
+  //   icon: "CircleArrowOutUpRight",
+  //   iconSize: "20px",
+  //   href: "",
+  // },
+  //   {
+  //   text: "Start Free Trial",
+  //   className: "px-9 py-5 bg-primary-gradient  min-w-[228px] font-primary font-medium leading-[1.2] text-[16px] tracking-[0.02em] text-[#fff] bg-white rounded-lg flex items-center gap-2",
+  //   icon: "CircleArrowOutUpRight",
+  //   iconSize: "20px",
+  //   href: "",
+  // }
   
 ]
  }

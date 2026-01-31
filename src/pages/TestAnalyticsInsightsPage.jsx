@@ -48,7 +48,7 @@ const TestAnalyticsInsightsPage = () => {
 
           <div className="px-10  rounded-2xl overflow-hidden md:h-[500px] h-[100%]">
             <img
-              src="/topics/testing-dashboard.jpg"
+              src="/topics/testing-dashboard.webp"
               alt=""
               className="w-full h-full rounded-2xl object-cover object-center"
             />
@@ -88,11 +88,11 @@ const TestAnalyticsInsightsPage = () => {
         />
 
           <SectionHeading
-            subtitle="
-Experience the full autonomous testing lifecycle from agent generation to <br /> enterprise insights.       "
+//             subtitle="
+// Experience the full autonomous testing lifecycle from agent generation to <br /> enterprise insights.       "
             subtitleClassName=" font-secondary text-[#626161]"
             titleClassName="font-primary   text-[#00273A] captialize"
-            title="What You'll See in the Demo."
+            title="Key Benefits"
             wrapperClassName=""
             spacing="space-y-4"
           />
@@ -110,10 +110,10 @@ Experience the full autonomous testing lifecycle from agent generation to <br />
          <section>
         <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
-            title={"Real-World Use Cases"}
+            title={"Real-World Use"}
             titleClassName="text-white"
             titleSize="sm:text-[48px] text-[32px]"
-            subtitle="See how teams across industries leverage our platform to transform their delivery process"
+            // subtitle="See how teams across industries leverage our platform to transform their delivery process"
             subtitleClassName="text-[#BCBCBC]"
           />
 

@@ -3,10 +3,12 @@ import { AUTOMATION_Testing_CONFIG } from "@/config/automationConfig";
 import TestingCard from "@/components/card/automation/TestingCard";
 
 import SectionHeading from "@/components/common/SectionHeading";
+import { Link } from "react-router-dom";
 
 const TestingSection = ({ sectionData, sectionType }) => {
   return (
-    <div className="mx-auto pt-10 md:pt-18">
+    <Link to={`${sectionData.link}`}>
+    <div className="mx-auto pt-10 md:pt-18 bg-[#F9F9F9] lg:py-[100px] py-[50px] rounded-[24px] shadow-[0px_0px_8px_4px_#C4455880] mt-[60px]" >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
 
         {/* LEFT CONTENT */}
@@ -47,6 +49,7 @@ const TestingSection = ({ sectionData, sectionType }) => {
 
       </div>
     </div>
+    </Link>
   );
 };
 

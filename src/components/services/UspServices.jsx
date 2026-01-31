@@ -4,7 +4,7 @@ import FeatureCard from "@/components/card/FeaturedCard.jsx";
 
 
 const UspServices = ({ data ,spacing = "" }) => {
-  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon} = data;
+  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, bggradient} = data;
     
 
   return (
@@ -16,7 +16,7 @@ const UspServices = ({ data ,spacing = "" }) => {
             : bodyclass
         }  rounded-[50px] px-5   sm:rounded-[100px] lg:py-[100px] py-[80px]  z-10 relative   `}
       >
-        <div className="max-w-7xl mx-auto ">
+        <div className=" max-w-[1350px] mx-auto ">
           <SectionHeading
               title={title}
               subtitle={subtitle}
@@ -30,7 +30,7 @@ const UspServices = ({ data ,spacing = "" }) => {
               wrapperClassName="w-full  lg:max-w-[909px] mx-auto"
             />
 
-          <div className="flex flex-wrap  flex-wrap mt-6  gap-6  pt-5 justify-center max-w-7xl mx-auto">
+          <div className={`flex flex-wrap  flex-wrap mt-6  gap-6  p-5 justify-center max-w-[1400px] mx-auto ${bggradient}`}>
             {data.cards.map((card) => (
 
               <FeatureCard key={card.id} {...card} />

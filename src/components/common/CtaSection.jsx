@@ -7,6 +7,7 @@ const CtaSection = ({
   backgroundImage,
   buttons = [],
   wrapperClassName,
+  href,
 }) => {
   return (
     <section>
@@ -47,9 +48,7 @@ const CtaSection = ({
                       icon={btn.icon}
                       iconSize={btn.iconSize}
                       useCommonSvg={btn.useCommonSvg}
-                      onClick={() => {
-                        if (btn.href) window.location.href = btn.href;
-                      }}
+                      href={btn.href}
                     />
                   </Wrapper>
                 );

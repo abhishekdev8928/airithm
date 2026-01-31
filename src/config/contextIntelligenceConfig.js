@@ -13,6 +13,7 @@ export const Context_HERO_CONFIG = {
   icon: "Download",
   hoverIcon:false,
   iconSize: "20",
+  href:"",
   wrapperClass:
     "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
 }
@@ -22,6 +23,8 @@ export const Context_HERO_CONFIG = {
   className:
     "py-5 px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
   icon: "CircleArrowOutUpRight",
+
+  href:"/system-architecture-overview",
   iconSize: "20",
 }
 

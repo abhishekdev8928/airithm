@@ -94,7 +94,7 @@ const FooterSection = () => {
 
         {/* COPYRIGHT */}
         <div className="max-w-[1440px] mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
-          Copyright © {year}
+          Copyright © {year} AIRITHM. All Rights Reserved. Powered By : <a href="https://www.digihost.in/" target="_blank">DIIGIIHOST</a>  
         </div>
       </div>
 

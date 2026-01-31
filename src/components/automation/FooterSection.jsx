@@ -60,7 +60,7 @@ export const FooterSection = () => {
 
         {/* COPYRIGHT */}
         <div className="max-w-[1440px]  mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
-          Copyright © {year}
+         Copyright © {year} 3NS. All Rights Reserved. Powered By : DIIGIIHOST 
         </div>
       </div>
 

@@ -10,7 +10,7 @@ export const Security_HEADER = {
   className:
     "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
   icon: "Eye",
-  hoverIcon:true,
+  hoverIcon:false,
   iconSize: "20px",
   href: "",
 },

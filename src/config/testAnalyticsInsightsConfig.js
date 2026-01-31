@@ -1,7 +1,7 @@
 export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
   heading: "Test Analytics & Insights",
   paragraph:
-    "Turn test execution data into actionable insights with real-time dashboards and reporting.",
+    "Transform your testing data into actionable intelligence with real-time analytics and predictive insights..",
     headclass:false,
   buttons: [
     {
@@ -15,7 +15,7 @@ export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
         
     },
     {
-      text: "View Analytics",
+      text: "View Architecture",
       useCommonSvg:true,
       className: "py-5 min-w-[228px] px-6 font-primary font-[600] text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
       href: "",
@@ -60,25 +60,25 @@ export const TEST_ANALYTICS_STEPS_CONFIG = [
     step: "1",
     title: "Data Collection",
     description:
-      "Autonomously ingest test results, logs, and quality signals across environments and tools.",
+      "Automatically ingests test data from multiple sources including CI/CD pipelines, test frameworks, and monitoring tools.",
   },
   {
     step: "2",
     title: "Data Processing",
     description:
-      "Clean, normalize, and analyze data streams to ensure accurate and consistent insights.",
+      "Processes and normalizes data using advanced algorithms to identify patterns, trends, and anomalies across test suites.",
   },
   {
     step: "3",
     title: "Insight Generation",
     description:
-      "Apply machine learning models to identify patterns, anomalies, and quality risks.",
+      "Applies machine learning models to generate actionable insights, predictions, and recommendations for optimization.",
   },
   {
     step: "4",
     title: "Reporting & Alerts",
     description:
-      "Deliver actionable dashboards, reports, and real-time alerts to support informed decision-making.",
+      "Delivers real-time dashboards, automated reports, and intelligent alerts to keep teams informed and proactive.",
   },
 ];
 
@@ -102,7 +102,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       iconName: "Rocket",
       value: "60%",
       description:
-        "Reduce deployment time from hours to minutes with intelligent automation.",
+        "Faster test execution through intelligent optimization and parallelization",
       cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
       flag: {
@@ -115,7 +115,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       iconName: "DollarSign",
       value: "40%",
       description:
-        "Reduction in testing costs through automation and resource optimization Risk.",
+        "Reduction in testing costs through automation and resource optimization",
       cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#C44558]",
       flag: {
@@ -154,7 +154,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
       cardClassName:
         "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
-        "Automatically optimize test execution during CI/CD pipelines to reduce build times and improve release velocity.",
+        "A fintech company reduced their deployment time by 50% by identifying bottlenecks in their test suite and optimizing test execution order based on failure probability.",
      
     },
 
@@ -167,7 +167,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
       cardClassName:
         "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
-        "AI analyzes historical test data and usage patterns to anticipate quality risks before they impact releases.",
+        "An e-commerce platform prevented 33 major outages by using predictive analytics to identify high-risk code changes before they reached production.",
      
     },
 
@@ -180,7 +180,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
       cardClassName:
         "bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] md:w-[364px] w-[100%]",
       description:
-        "Optimize testing resources by identifying high-risk areas and focusing efforts where they matter most.",
+        "A healthcare software company optimized their testing resources by 35% using data-driven insights to allocate testing efforts based on risk and impact analysis.",
       
     },
   ],

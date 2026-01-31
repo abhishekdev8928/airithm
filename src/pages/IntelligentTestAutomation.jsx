@@ -33,7 +33,7 @@ const IntelligentTestAutomation = () => {
                 </div>
             </section>
             <section className="relative bg1 py-[90px] px-5 ">
-                <h4 className="bg-[#C445581A] text-[#C44558] text-[12px] w-fit m-auto font-secondary rounded-[100px] px-4 mb-6 p-3">What it does</h4>
+                {/* <h4 className="bg-[#C445581A] text-[#C44558] text-[12px] w-fit m-auto font-secondary rounded-[100px] px-4 mb-6 p-3">What it does</h4> */}
                 <SectionHeading
                     subtitle="Our platform combines machine learning with advanced test orchestration to create, execute, and maintain test suites that evolve with your application. Eliminate brittle tests and reduce maintenance overhead by up to 80%."
                     subtitleClassName=" font-secondary text-[#626161]"
@@ -55,20 +55,7 @@ const IntelligentTestAutomation = () => {
             <UspServices2 data={Pipeline}/>
 
             <section className="py-[90px] mb-[60px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] md:rounded-[100px] rounded-[50px]">
-                   <span
-      className="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                 text-center m-auto mb-8 w-fit rounded-[100px]
-                 px-[15px] border border-[#797979]
-                 flex justify-center items-center"
-    >
-      <span
-        className="font-secondary block text-[12px]
-                   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                   bg-clip-text text-transparent font-[600] p-2"
-      >
-        How it works
-      </span>
-    </span>
+          
        <SectionHeading
                     subtitle="Real-world results from teams across key industries"
                     subtitleClassName=" font-secondary text-[#C6C6C6]"
@@ -185,7 +172,7 @@ export const Pipeline = {
   title: "Measurable Impact on Your Pipeline",
   subtitle: "Real metrics from production deployments across enterprise teams",
   bodyclass: false,
-  tags:"Key benefits",
+  // tags:"Key benefits",
 
   cards: [
     {
@@ -317,10 +304,10 @@ export const Pipeline = {
   ],
 };
 export const USP_CONFIG = {
-  title: "Two Complementary Solutions",
-  subtitle: "Purpose-built platforms that work independently or together to transform your testing and intelligence capabilities",
+  title: "Simple Three-Step Process",
+  subtitle: "From integration to execution, our platform streamlines your entire testing workflow",
   bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white md:rounded-[100px] rounded-[50px]",
-  tags:"How it works",
+  // tags:"How it works",
 
   cards: [
     {

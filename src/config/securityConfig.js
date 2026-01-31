@@ -13,6 +13,7 @@ export const Security_HEADER = {
   hoverIcon:true,
   iconSize: "20px",
   href: "",
+      icon: "CircleArrowOutUpRight",
 },
 {
   text: "Talk to Security Team",
@@ -21,6 +22,7 @@ export const Security_HEADER = {
   href: "",
   icon: "",
   iconSize: "20px",
+      icon: "CircleArrowOutUpRight",
 }
 
   ],

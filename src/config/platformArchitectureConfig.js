@@ -124,7 +124,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
  cardClassName:" w-full sm:w-[350px] border-light-sm",
       showLink: true,
       linkText: "Learn More",
-      href: "/architecture/agentic",
+      href: "/security-by-design",
     },
     {
       id: 2,
@@ -136,7 +136,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
  cardClassName:"w-full sm:w-[350px] border-light-sm",
       showLink: true,
       linkText: "Learn More",
-      href: "/architecture/memory",
+      href: "/memory-and-graph-rag",
     },
     {
       id: 3,
@@ -146,7 +146,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
         "Enterprise security built into every layer.Tenant isolation, encryption, and compliance readiness.",
       hasBg: true,
       cardClassName:" w-full sm:w-[350px] border-light-sm",
-href: "/architecture/memory",
+      href: "/security-by-design",
       showLink: true, 
     },
   ],

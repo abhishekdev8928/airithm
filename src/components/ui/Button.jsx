@@ -11,6 +11,8 @@ const Button = ({
   href
 }) => {
   const IconComponent = LucideIcons[icon];
+  console.log(href);
+  
 
   return (
     <a href={href}

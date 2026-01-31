@@ -4,7 +4,7 @@ import FeatureCard2 from "@/components/card/FeaturedCard2.jsx";
 
 
 const UspServices2 = ({ data ,spacing = "" }) => {
-  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, tags , num, bigheading, bigheadingclass} = data;
+  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, tags , num, bigheading, bigheadingclass, bggradient} = data;
     
 
   return (
@@ -54,10 +54,10 @@ const UspServices2 = ({ data ,spacing = "" }) => {
               subtitleClassName={`${
                 bodyclass ? `text-[${headcolor}]` : "text-black"
               }`}
-              wrapperClassName="w-full  lg:max-w-[1360px] mx-auto"
+              wrapperClassName="w-full  mx-auto"
             />
 
-          <div className={`flex ${num ? " ": "mt-5"} flex-wrap  gap-4 lg:pt-16 pt-5 justify-center  mx-auto`}>
+          <div className={`flex ${num ? " ": "mt-9"} flex-wrap  gap-4 lg:pt-6  lg:py-6 lg:max-w-[1360px] pt-5 justify-center  mx-auto ${bggradient}`}>
             {data.cards.map((card) => (
 
               <FeatureCard2 key={card.id} {...card} />

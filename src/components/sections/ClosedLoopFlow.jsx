@@ -7,16 +7,16 @@ const FLOW_STEPS = [
     step: 1,
     title: "Context Intelligence",
     desc: [
-      "Maintains Semantic & Temporal Memory",
-      "Enables Context-Rich Understanding",
+      "Builds knowledge graphs",
+      "Maintains semantic & temporal memory",
     ],
   },
   {
     step: 2,
     title: "Autonomous Testing",
     desc: [
-      "Generates And Executes Tests",
-      "Evaluates Outcomes With Agents",
+      "Generates and executes tests",
+      "Evaluates outcomes with agents",
     ],
   },
   {
@@ -26,11 +26,11 @@ const FLOW_STEPS = [
   },
   {
     step: 4,
-    title: "Regressions",
+    title: " Context Update",
     desc: [
-      "Graph Enrichment",
-      "Memory Reinforcement",
-      "Relationship Refinement",
+      "Graph enrichment",
+      "Memory reinforcement",
+      "Relationship refinement",
     ],
   },
 ];
@@ -45,13 +45,13 @@ const ClosedLoopFlow = () => {
 
         spacing="space-y-4"
 
-        title="Closed–Loop Intelligence Flow"
+        title="Closed-Loop Intelligence Flow"
 
         titleClassName=" text-[#00273A]
-"
-subtitleClassName="text-[#626161]
-"
-        subtitle="Our CI/CD platform seamlessly integrates with your existing development workflow to automate the entire software delivery lifecycle. From code commit to production deployment, we orchestrate testing, building, security scanning, and deployment with intelligent automation that learns from your team's patterns."
+          "
+          subtitleClassName="text-[#626161]
+          "
+        subtitle="Context informs testing. Testing validates context. Together, they create measurable trust."
         
         />
         </div>

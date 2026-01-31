@@ -9,17 +9,19 @@ export const at_HEADER = {
   text: "View Architecture",
   className:
     " text-[#C44558] bg-white",
-  icon: "",
+
   hoverIcon:true,
   iconSize: "20px",
-  href: "",
+    icon: "CircleArrowOutUpRight",
+  href: "/how-autonomous-testing-works",
 },
 {
   text: "Request a Demo",
   className:
     "bg-primary-gradient text-white",
-  href: "",
-  icon: "",
+  href: "/demo",
+  
+  icon: "CircleArrowOutUpRight",
   iconSize: "20px",
 }
 

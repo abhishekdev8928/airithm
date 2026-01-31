@@ -16,7 +16,7 @@ const DeploymentOptionsPage = () => {
         {
             id:1,
             title:"Cloud",
-            dis:"Fully managed SaaS deployment.",
+            dis:"Fully managed SaaS deployment. <br><br>",
             points:["Zero infrastructure management", "Automatic updates and scaling", "Global CDN and high availability", "Enterprise security and compliance"],
             icon:"Cloud"
         },
@@ -72,7 +72,7 @@ const DeploymentOptionsPage = () => {
                                         <h3 className="text-[24px] capitalize font-primary font-[600] tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-4">
                                           {item.title}
                                         </h3>
-                                        <p className='text-[#626161] text-[18px] font-secondary font-[500]'>{item.dis}</p>
+                                        <p className='text-[#626161] text-[18px] font-secondary font-[500]'   dangerouslySetInnerHTML={{ __html: item.dis }}></p>
                                 
                                         {/* Points list */}
                                         <ul className="space-y-2.5 mt-8">

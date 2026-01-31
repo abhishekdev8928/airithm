@@ -5,7 +5,7 @@ export const LLM_BASED_EVALUATION_HEADER = {
     "Automate and scale your AI model evaluation with intelligent, context-aware <br /> assessment frameworks.",
   buttons: [
     {
-      text: "Request Demo",
+   text: "View Architecture", 
       className:
         "py-5 px-6 min-w-[253px]  w-full font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Play",
@@ -14,10 +14,10 @@ export const LLM_BASED_EVALUATION_HEADER = {
       href: "",
     },
     {
-      text: "View Architecture",
+        text: "Request Demo",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },
@@ -26,25 +26,25 @@ export const LLM_BASED_EVALUATION_HEADER = {
 export const LLM_BASED_FEATURES_CONFIG_ONE = {
   title: "What It Does",
   subtitle:
-    "Our CI/CD platform seamlessly integrates with your existing development workflow to automate the entire software delivery lifecycle. From code commit to production deployment, we orchestrate testing, building, security scanning, and deployment with intelligent automation that learns from your team's patterns.",
+    "Our LLM-based evaluation system provides comprehensive, automated assessment of AI models and their outputs through advanced natural language understanding and contextual analysis.",
 
   cards: [
     {
       id: 1,
       icon: "Search",
       iconColor: "#C44558", // icon white because hasBg is true
-      title: "Automated Pipelines",
+      title: "Intelligent Analysis",
       description:
-        "Trigger builds, tests, and deployments automatically on every commit. Smart parallel execution reduces wait times by up to 70%.",
+        "Automatically evaluates model outputs for accuracy, relevance, and quality using advanced language models.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
     {
       id: 2,
       icon: "ChartSpline",
       iconColor: "#C44558",
-      title: "Security First",
+      title: "Performance Metrics",
       description:
-        "Built-in vulnerability scanning, compliance checks, and secret management ensure every deployment meets security standards.",
+        "Generates detailed performance reports with actionable insights and improvement recommendations.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
     {
@@ -52,9 +52,9 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       icon: "Settings",
       iconColor: "#C44558",
 
-      title: "Real-time Insights",
+      title: "Continuous Monitoring",
       description:
-        "Monitor pipeline performance, deployment success rates, and team velocity with comprehensive analytics dashboards.",
+        "Real-time evaluation and monitoring of model performance across different scenarios and datasets.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
     },
   ],
@@ -208,7 +208,7 @@ export const LLM_BASED_CTA_CONFIG = {
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
     {
-      text: "Request Demo",
+  text: "View Architecture",
       className:
         "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Play",
@@ -217,10 +217,10 @@ export const LLM_BASED_CTA_CONFIG = {
       href: "",
     },
     {
-      text: "View Architecture",
+    
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",      text: "Request Demo",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },

@@ -275,13 +275,13 @@ export  const CORE_TEST_HEADER_CONFIG = {
     "A unified automation platform that accelerates quality, <br class='hidden sm:block' /> ensures reliability, and delivers continuous validation across mission-critical systems.",
   buttons: [
     {
-      text: "View Documentation",
+      text: "View Architecture",
       className:
         "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
-      icon: "Play",
+           icon: "CircleArrowOutUpRight",
       hoverIcon: true,
       iconSize: "20px",
-      href: "",
+      href: "/platform-architecture",
     },
     {
       text: "Start Free Trial",

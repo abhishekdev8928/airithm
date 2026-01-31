@@ -9,11 +9,13 @@ export const DEMO_HEADER_CONFIG = {
       className:
         "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       href: "",
+          icon: "CircleArrowOutUpRight",
     },
     {
       text: "Request Demo",
       className: "py-5 min-w-[228px] px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
       href: "",
+          icon: "CircleArrowOutUpRight",
     },
   ],
 };
@@ -21,7 +23,7 @@ export const DEMO_HEADER_CONFIG = {
 // useBg.js
 
 export const PLATFORM_FEATURES_CONFIG = {
-  title: "Who This Demo Is For",
+  title: "What You'll See in the Demo",
   subtitle:
     "Designed for leaders driving quality transformation at enterprise scale",
 
@@ -85,7 +87,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       iconColor: "#FFFFFF", // White icon for contrast
       bgColor: "#C44558", // Background color for the icon
       title: "QA & Quality Engineering Leaders",
-      description: "Transform Your Testing Strategy With Autonomous Agents",
+      description: "Transform your testing strategy with autonomous agents",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
@@ -94,7 +96,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       icon: "WandSparkles", // Choose another relevant icon
       iconColor: "#FFFFFF",
       title: "Engineering & Platform Leaders",
-      description: "Scale Quality Across Your Development Lifecycle",
+      description: "Scale quality across your development lifecycle",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
@@ -104,7 +106,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       iconColor: "#FFFFFF",
       bgColor: "#C44558", // Maintain consistency with the red background
       title: "AI/ML Teams",
-      description: "Ensure AI System Reliability And Performance",
+      description: "Ensure ai system reliability and performance",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },
@@ -114,7 +116,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       iconColor: "#FFFFFF",
       bgColor: "#C44558", // If no background for the icon
       title: "Product & Delivery Leaders",
-      description: "Accelerate Releases With Confidence",
+      description: "Accelerate releases with confidence",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
     },

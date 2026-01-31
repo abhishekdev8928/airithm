@@ -71,7 +71,7 @@ const HowAutonomousTestingWorks = () => {
                 <MainBanner data={Memory_HEADER} />
             </section>
 
-            <section className='py-[90px]'>
+            <section className='py-[90px] px-5'>
                 <SectionHeading
                     title="End-to-End Flow"
                     subtitle='A seamless autonomous testing pipeline'
@@ -80,7 +80,7 @@ const HowAutonomousTestingWorks = () => {
                 />
 
                 <div>
-                    <div className="flex items-center flex-wrap justify-center md:pt-16 mt-6 px-4 md:px-16 bg-white md:flex-row flex-col">
+                    <div className="flex shadow-[0px_0px_8px_4px_#C4455880] rounded-[16px] max-w-[1284px]  m-auto items-center flex-wrap justify-center md:py-8 mt-12 px-4 md:px-6 bg-white md:flex-row flex-col">
                         {steps.map((step, index) => {
                             const Icon = LucideIcons?.[step.icon];
                             return(
@@ -129,7 +129,7 @@ const HowAutonomousTestingWorks = () => {
               <UspServices data={feedback_USP_CONFIG}/>
 
               <div className='mb-[90px]'>
-                    <div className="flex md:flex-row lg:gap-0 gap-6 lg:flex-nowrap flex-wrap flex-col  items-center justify-center py-16 max-w-[1084px] m-auto md:px-16 bg-[#F9F9F9]">
+                    <div className="flex md:flex-row lg:gap-0 gap-6 lg:flex-nowrap flex-wrap flex-col  items-center justify-center shadow-[0px_0px_8px_4px_#C4455880] rounded-[16px] py-16 max-w-[1084px] m-auto md:px-16 bg-[#F9F9F9]">
                         {steps2.map((step2, index) => {
                             const Icon = LucideIcons?.[step2.icon];
                             return(

@@ -7,7 +7,7 @@ import { TWO_AUTOMATION_LAYERS_CONFIG } from "@/config/twoplatformsoneintelligen
 const LayeredArchitecture = () => {
   return (
     <section className="w-full bg-white py-20">
-      <div className="mx-auto  max-w-7xl ">
+      <div className="mx-auto  max-w-7xl px-5 ">
 
         <SectionHeading title="Layered Intelligence Architecture" titleClassName=" font-medium    text-[#00273A]
 " titleSize=" text-[32px]  sm:text-[40px]" subtitle={"Each layer operates independently, but shares signals through governed interfaces."} subtitleClassName="   text-[#626161] text-center
@@ -16,7 +16,8 @@ const LayeredArchitecture = () => {
 
 
 
-        <div className="mt-[60px] px-5"> {TWO_AUTOMATION_LAYERS_CONFIG.map((layer, index) => (
+        <div className=" md:p-12 p-5 mt-8 md:my-[-60px] md:scale-[0.8] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]"> 
+          {TWO_AUTOMATION_LAYERS_CONFIG.map((layer, index) => (
           <div key={layer.level} className="flex  flex-col items-center">
             {/* Layer Card */}
             <div className="w-full rounded-[24px] bg-gradient-to-r from-[rgba(255,166,141,0.4)] to-[rgba(253,58,132,0.4)]">

@@ -256,15 +256,15 @@ export const USP_CONFIG = {
 
 
 export const CICD_DATA = {
-  title: "CI/CD Pipeline",
-  subtitle: "Automated delivery from commit to production",
+  title: "How It Works",
+  subtitle: "A streamlined process that takes your code from development to production with confidence.",
   cards: [
     {
       id: 1,
       align: "left",
       title: "Code Commit & Trigger",
       description:
-        "Developers push code to your repository. Our system instantly detects changes and triggers the appropriate pipeline based on branch, tags, or custom rules.",
+        "Developers push code to your repository. Your system instantly detects changes and triggers the appropriate pipeline based on branch, tags, or custom rules you've configured.",
       card: (
         <>
         <div className="mb-3">
@@ -286,7 +286,7 @@ export const CICD_DATA = {
       align: "right",
       title: "Build & Test",
       description:
-        "Code is compiled, dependencies resolved, and test suites run in parallel for fast feedback.",
+        "Code is compiled, dependencies are resolved, and comprehensive test suites run in parallel. Unit tests, integration tests, and security scans execute simultaneously for faster feedback.",
       card: (
         <>
         
@@ -310,7 +310,7 @@ export const CICD_DATA = {
       align: "left",
       title: "Quality Gates",
       description:
-        "Automated checks ensure coverage, performance, and security standards before deployment.",
+        "Automated quality checks ensure code coverage thresholds, performance benchmarks, and security standards are met before proceeding to deployment stages.",
       card: (
         <div className="grid grid-cols-2 gap-4 text-center">
           <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
@@ -337,7 +337,7 @@ export const CICD_DATA = {
       align: "right",
       title: "Deploy & Monitor",
       description:
-        "Zero-downtime deployments with real-time monitoring and automated rollback.",
+        "Automated deployment to staging and production environments with zero-downtime strategies. Real-time monitoring tracks application health and automatically rolls back if issues are detected.",
       card: (
         <>
           <div className="flex justify-between text-[16px] bg-[#FFFFFF1F] p-2 rounded-[8px]">
@@ -374,19 +374,19 @@ export const AUTOMATION_PIPELINE_HEADER = {
     "Streamline your development workflow with intelligent automation that accelerates <br class='hidden md:block' /> delivery while maintaining code quality and security.",
   buttons: [
     {
-      text: "Request Demo",
+     
       className:
         "py-5 px-6 min-w-[253px] w-full font-primary font-semibold text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "",text: "View Architecture", 
     },
     {
-      text: "View Architecture",
+      text: "Request Demo",
       className:
         "text-[16px] min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },

@@ -198,7 +198,7 @@ const NeuroTestPage = () => {
 
                 </div>
             </section>
-            <div className='mb-20'>
+            <div className='mb-20 '>
                   <Realtime data={TIMELINE_SECTION_CONFIG} />
 
             </div>
@@ -221,8 +221,8 @@ const NeuroTestPage = () => {
                         );
                         transition-shadow duration-300   hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0  w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#505050] p-5 gap-12 flex flex-col ${item.cardClass}`}>
                                 <div class="feature-card-content">
-                                    <h2 class="font-primary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[20px] sm:mb-[60px]" >{item.title}</h2>
-                                    <p class="font-secondary text-[14px] sm:text-[18px] leading-[1.4] pt-4 capitalize text-white" >{item.description}</p>
+                                    <h2 class="font-primary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[24px] sm:mb-[24px]" >{item.title}</h2>
+                                    <p class="font-secondary text-[14px] sm:text-[18px] leading-[1.4]  capitalize text-white" >{item.description}</p>
                                 </div>
                             </div>
 

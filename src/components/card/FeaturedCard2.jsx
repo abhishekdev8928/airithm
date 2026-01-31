@@ -68,11 +68,11 @@ const FeatureCard2 = ({
       <div className="feature-card-content mt-[24px]">
         {
           bigheading && (
-            <h1 className={`${bigheadingclass} text-[40px] font-primary font-[600]`}>{bigheading}</h1>
+            <h1 className={`${bigheadingclass} text-[32px]  mb-[18px] font-primary font-[600]`}>{bigheading}</h1>
           )
         }
         <h2
-          className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
+          className="font-primary font-medium text-[24px]  leading-[1.2] capitalize"
           style={{ color: textColor || "#1E1E1E" }}
         >
           {title}
@@ -105,7 +105,7 @@ const FeatureCard2 = ({
       {/* Points */}
     
       {points?.labels && (
-        <ul className="points space-y-2">
+        <ul className="points space-y-2 mt-4">
           {points.labels.map((item, index) => {
             const isGradient =
               typeof points.textGradientColor === "string" &&
@@ -115,7 +115,7 @@ const FeatureCard2 = ({
               item.icon?.name && LucideIcons[item.icon.name];
 
             return (
-              <li key={index} className="flex items-start gap-2 font-[600]">
+              <li key={index} className={`flex items-start  ${points.discGradientColor ? "gap-2" : ""} font-[600]`}>
                 {/* Icon */}
                 {ItemIcon ? (
                   <ItemIcon
@@ -125,9 +125,9 @@ const FeatureCard2 = ({
                   />
                 ) : (
                   <span
-                    className="mt-2 h-2 w-2 rounded-full shrink-0"
+                    className={`${points.discGradientColor ? "h-2 w-2" : "none h-0 w-0"} mt-2  rounded-full shrink-0`}
                     style={{ background: points.discGradientColor }}
-                  />
+                  ></span>
                 )}
 
                 {/* Text */}

@@ -5,7 +5,7 @@ export const KNOWLEDGE_EVALUATION_HEADER = {
     "Transform your organization's scattered information into intelligent, searchable <br class='hidden md:block' />  knowledge bases that learn and evolve automatically.",
   buttons: [
     {
-      text: "Request Demo",
+ text: "View Architecture",
       className:
         "py-5 px-6 min-w-[253px]  w-full font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Play",
@@ -14,10 +14,10 @@ export const KNOWLEDGE_EVALUATION_HEADER = {
       href: "",
     },
     {
-      text: "View Architecture",
+           text: "Request Demo",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },
@@ -177,13 +177,13 @@ export const KNOWLEDGE_USP_CONFIG = {
 };
 
 export const KNOWLEDGE_CTA_CONFIG = {
-  heading: "Ready to Transform Your Testing?",
+  heading: "Ready to Transform Your Knowledge Management?",
   paragraph:
-    "Join hundreds of engineering teams who trust our platform to deliver <br class='md:block hidden' /> better software faster with data-driven insights.",
+    "Join hundreds of organizations already leveraging AI-powered knowledge bases to accelerate decision-making and preserve institutional knowledge.",
   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
     {
-      text: "Request Demo",
+     text: "View Architecture",
       className:
         "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
       icon: "Play",
@@ -192,10 +192,10 @@ export const KNOWLEDGE_CTA_CONFIG = {
       href: "",
     },
     {
-      text: "View Architecture",
+       text: "Request Demo",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },

@@ -20,12 +20,14 @@ export const PLANING_CTA_CONFIG = {
       text: "Schedule Architecture Review",
       className:
         " text-[#C44558] bg-white ",
+            icon: "CircleArrowOutUpRight",
       href: "",
     },
     {
       text: "Contact Sales",
       className:
         " bg-primary-gradient text-white",
+            icon: "CircleArrowOutUpRight",
       href: "",
     },
   ],
@@ -91,6 +93,7 @@ export const PRICING_CONFIG = {
       ],
       cta: {
         text: "Request Demo",
+        href:"/demo",
         bgClass:
           "bg-[linear-gradient(85.9deg,_#C44558_62.74%,_#FF7F7F_95.09%)]",
       },

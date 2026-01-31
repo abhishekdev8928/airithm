@@ -56,7 +56,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
       showLink: true,
-      href: "/hybrid-attention-memory",
+      href: "/hybrid-attention-memory-network",
       linkText: "Learn More",
       linkTextClass: "mae-gradient-text",
       linkIconType: "gradient",
@@ -87,7 +87,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 4,
       icon: "Network",
       iconSrc: "/svg/system-architecture/git-pull-request.svg",
-      title: "Federated Context Channels",
+      title: "Real-time Context ",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -96,7 +96,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
       showLink: true,
-      href: "/federated-context-channels",
+      href: "/real-time-context",
       linkText: "Learn More",
       linkTextClass: "mae-gradient-text",
       linkIconType: "gradient",
@@ -136,7 +136,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
         "Zero trust architecture with end-to-end encryption and context aware access controls",
 
       showLink: true,
-      href: "/dcp-x-governance",
+      href: "/declarative-context-protocol",
       linkText: "Learn More",
       linkTextClass: "mae-gradient-text",
       linkIconType: "gradient",

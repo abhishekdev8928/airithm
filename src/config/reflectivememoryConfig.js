@@ -7,25 +7,25 @@ paragraph:
 
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
-   {
-  text: "Documentation",
-  className:
-    "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
-  icon: "",
-  hoverIcon:true,
-  iconSize: "20px",
-  href: "",
-  hoverIcon:false,
-  icon:"Play"
-},
-{
-  text: "View Policy Recipe",
-  className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-  href: "",
-  icon: "CircleArrowOutUpRight",
-  iconSize: "20px",
-}
+//    {
+//   text: "Documentation",
+//   className:
+//     "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+//   icon: "",
+//   hoverIcon:true,
+//   iconSize: "20px",
+//   href: "",
+//   hoverIcon:false,
+//   icon:"Play"
+// },
+// {
+//   text: "View Policy Recipe",
+//   className:
+//     "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+//   href: "",
+//   icon: "CircleArrowOutUpRight",
+//   iconSize: "20px",
+// }
 
   ],
 };

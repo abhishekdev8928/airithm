@@ -202,7 +202,7 @@ const SecurityPage = () => {
                     subtitleClassName=" sm:text-[16px] text-[#D9D9D9] max-w-[587px]"
                 />
 
-                <div className="max-w-[1080px] m-auto mt-[40px]">
+                <div className="max-w-[1080px] m-auto mt-[90px]">
                     <div className="grid grid-cols-12 gap-8">
                         <div className="lg:col-span-4 col-span-12 text-center">
                             <h2 className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Deployment Options</h2>
@@ -216,7 +216,7 @@ const SecurityPage = () => {
                             <h2 className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Security Questionnaires</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Pre-completed vendor assessments</p>
                         </div>
-                        <div className='flex gap-5 md:flex-row flex-col px-5 mt-8 justify-center col-span-12'>
+                        <div className='flex gap-5 md:flex-row flex-col px-5 mt-18 justify-center col-span-12'>
                          <Button
                             btnText="Request Security Documentation"
                             className=
@@ -280,14 +280,7 @@ const SecurityPage = () => {
               </div>
             </div>
           ))}
-          <Button
-            btnText="View All"
-            className="text-[20px]  min-w-[188px] m-auto font-[600] mt-[40px] py-5 px-4 font-primary  leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-            href=""
-            icon="CircleArrowOutUpRight"
-            iconSize="20px"
-            //   useCommonSvg="true"
-          />
+        
         </div>
       </section>
 

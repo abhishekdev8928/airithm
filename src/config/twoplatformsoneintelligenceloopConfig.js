@@ -12,6 +12,7 @@ export const TWO_AUTOMATION_FEATURES_CONFIG = [
   {
     iconSrc: "/svg/brain.svg",
     title: "Context Intelligence Platform",
+    src:"public/topics/cip.webp",
     items: [
       "Context Graphs",
       "Semantic Memory",
@@ -25,6 +26,7 @@ export const TWO_AUTOMATION_FEATURES_CONFIG = [
   {
     iconSrc: "/svg/database.svg",
     title: "Shared Intelligence Core",
+    src:"public/topics/sic.webp",
     items: [
       "Context-Aware Test Decisions",
       "Evidence-Backed Reasoning",
@@ -37,6 +39,7 @@ export const TWO_AUTOMATION_FEATURES_CONFIG = [
   {
     iconSrc: "/svg/test-tube-diagonal.svg",
     title: "Autonomous Testing Platform",
+    src:"public/topics/atp.webp",
     items: [
       "Test Generation",
       "Multi-Agent Execution",

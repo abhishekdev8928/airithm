@@ -55,11 +55,11 @@ const router = createBrowserRouter([
     element: <Declarative_Context_Protocol />
   },
   {
-    path: "/tcm",
+    path: "/temporal-context-memory",
     element: <TcmPage />,
   },
   {
-    path: "/context-capsule",
+    path: "/context-capsules",
     element: <ContextCapsulePage />
   },
   {
@@ -69,7 +69,7 @@ const router = createBrowserRouter([
     path: "/neuro-test",
     element: <NeuroTestPage />
   }, {
-    path: "/hybrid-attention-memory-network-page",
+    path: "/hybrid-attention-memory-network",
     element: <HamnPage />
   },
   {
@@ -107,7 +107,7 @@ const router = createBrowserRouter([
 
   
   {
-    path:"/integrations",
+    path:"/platform-integrations",
     element:<Integrations/>
   },{
     path:"/agentic-architecture",
@@ -116,7 +116,7 @@ const router = createBrowserRouter([
     path:"/memory-and-graph-rag",
     element:<MemoryPage/>
   },{
-    path:"/deployment-options",
+    path:"/platform-deployment",
     element:<DeploymentOptionsPage/>
   },{
     path:"/platform-capabilities",
@@ -126,7 +126,7 @@ const router = createBrowserRouter([
     element:<HowAutonomousTestingWorks/>
   }
   ,{
-    path:"/security-by-design",
+    path:"/arhitecture-security",
     element:<SecuritybyDesignPage/>
   },{
     path:"/two-platforms-one-intelligence-loop",
