@@ -336,7 +336,7 @@ export default function Navbar({
                 <h2 className="text-[#C44558] font-[600] text-[24px]">Resources</h2>
                 <div className="menu mt-6 flex gap-6">
                   <div className="w-[50%]">
-                    <Link className="flex gap-3">
+                    <Link to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
                         <FileText color="#C44558" className="mt-[5px]" />
                       </div>
@@ -345,7 +345,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Thought leadership on agents, AI testing, and reliability</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <Layers color="#C44558" className="mt-[5px]" />
                       </div>
@@ -354,7 +354,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">In-depth research and technical frameworks</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <BriefcaseBusiness color="#C44558" className="mt-[5px]" />
                       </div>
@@ -365,7 +365,7 @@ export default function Navbar({
                     </Link>
                   </div>
                   <div className="w-[50%]">
-                    <Link className="flex gap-3">
+                    <Link to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
                         <ChartLine color="#C44558" className="mt-[5px]" />
                       </div>
@@ -374,7 +374,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Aenean consectetur.</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <CirclePlay color="#C44558" className="mt-[5px]" />
                       </div>
@@ -383,7 +383,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <CircleQuestionMark color="#C44558" className="mt-[5px]" />
                       </div>
@@ -619,7 +619,7 @@ export default function Navbar({
                       <h2 className="text-[#C44558] font-[600] text-[24px]">Resources</h2>
                 <div className="menu mt-6 ">
       
-                    <Link className="flex gap-3">
+                    <Link to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
                         <FileText color="#C44558" className="mt-[5px]"/>
                       </div>
@@ -628,7 +628,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Thought leadership on agents, AI testing, and reliability</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                       <Layers color="#C44558" className="mt-[5px]"/>
                       </div>
@@ -637,7 +637,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">In-depth research and technical frameworks</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                       <BriefcaseBusiness color="#C44558" className="mt-[5px]"/>
                       </div>
@@ -647,7 +647,7 @@ export default function Navbar({
                       </div>
                     </Link>
              
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <ChartLine color="#C44558" className="mt-[5px]"/>
                       </div>
@@ -656,7 +656,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Aenean consectetur.</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                       <CirclePlay color="#C44558" className="mt-[5px]"/>
                       </div>
@@ -665,7 +665,7 @@ export default function Navbar({
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
                       </div>
                     </Link>
-                    <Link className="flex gap-3 mt-5">
+                    <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                       <CircleQuestionMark color="#C44558" className="mt-[5px]"/>
                       </div>
