@@ -236,7 +236,6 @@ export default function Navbar({
                     </div>
                   </Link>
                 </div>
-                {/* ?? */}
                 <div>
                   <Link to='/context-capsules' className="flex gap-3">
                     <div className="w-[39px]">
