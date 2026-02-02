@@ -208,7 +208,7 @@ export default function Navbar({
               <h2 className="text-[#C44558] font-[600] text-[24px]">Context Intelligent Platform</h2>
               <div className="menu mt-6 flex gap-6">
                 <div>
-                  <Link to="real-time-context" className="flex gap-3">
+                  <Link to="/real-time-context" className="flex gap-3">
                     <div className="w-[39px]">
                       <Network color="#C44558" className="mt-[5px]" />
                     </div>
@@ -237,7 +237,7 @@ export default function Navbar({
                   </Link>
                 </div>
                 <div>
-                  <Link to='/context-capsule' className="flex gap-3">
+                  <Link to='/context-capsules' className="flex gap-3">
                     <div className="w-[39px]">
                       <ShieldCheck color="#C44558" className="mt-[5px]" />
                     </div>
@@ -513,7 +513,7 @@ export default function Navbar({
                       </div>
                     </Link>
                
-                    <Link to="/context-capsule" className="flex gap-3 mt-5">
+                    <Link to="/context-capsules" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <ShieldCheck color="#C44558" className="mt-[5px]"/>
                       </div>

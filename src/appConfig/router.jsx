@@ -33,6 +33,7 @@ import TestAnalyticsInsightsPage from "../pages/TestAnalyticsInsightsPage";
 import IntelligentTestAutomation from "../pages/IntelligentTestAutomation";
 import TestingAISystemsPage from "../pages/TestingAISystemsPage";
 import SystemArchitecturePage from "../pages/SystemArchitecturePage";
+import Contact from "../pages/Contact";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -81,6 +82,10 @@ const router = createBrowserRouter([
   }, {
     path: "/resources",
     element: <ResourcesPage />
+  },
+  {
+    path: "/contact-us",
+    element: <Contact />
   },
   {
     path: "/about",

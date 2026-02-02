@@ -8,7 +8,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Functional & Regression Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] w-full sm:w-[300px]",
+      cardClassName: "border-[#D9D9D9] coretext",
       description:
         "Ensure flawless performance across all user journeys with intelligent, automated, and repeatable testing.",
       points: {
@@ -34,7 +34,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Security & Compliance Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] w-full sm:w-[300px]",
+      cardClassName: "border-[#D9D9D9] coretext",
       description:
         "Validate application safety, protect sensitive data, and meet industry-grade standards.",
       points: {
@@ -60,7 +60,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Usability & Accessibility Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] w-full sm:w-[300px]",
+      cardClassName: "border-[#D9D9D9] coretext",
       description:
         "Deliver outstanding user experiences across devices with automated UX validation.",
       points: {
@@ -86,7 +86,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Data & Integration Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] w-full sm:w-[300px]",
+      cardClassName: "border-[#D9D9D9] coretext",
       description:
         "Ensure every integration point is accurate, reliable, and fully synchronized.",
       points: {

@@ -137,7 +137,7 @@ const TestingAISystemsPage = () => {
                      <div className="bg-white relative px-6  rounded-xl max-w-[1200px] m-auto  mt-[60px]">
       
       {/* Filter Buttons */}
-      <div className="flex gap-3 mb-4 md:absolute right-5 top-6 z-10">
+      <div className="flex gap-3 mb-4 md:absolute right-8 top-6 z-10">
         {["7d", "30d", "90d"].map((range) => (
           <button
             key={range}

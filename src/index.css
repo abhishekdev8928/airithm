@@ -310,3 +310,17 @@
   -ms-overflow-style: none;  /* IE & Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
+.coretext{
+  width: 300px;
+}
+@media (max-width:1230px) {
+  .coretext{
+  width: 260px;
+}
+}
+@media (max-width:430px) {
+  .coretext{
+  width: 100%;
+}
+}
