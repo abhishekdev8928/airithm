@@ -13,9 +13,9 @@ const Contact = () => {
                     iconClassName="text-dark"
                 />
       <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[90px] py-[100px] bg-[linear-gradient(180deg,#042539_0%,#000000_55.42%)]'>
-             <div className='max-w-[813px] m-auto'>
-                    <h1 className='text-[64px] font-primary text-white text-center  leading-[1.2] tracking-[2%] capitalize  font-[600]'>Get in Touch. Redefine What's Possible</h1>
-                    <p className='text-[#999999] text-center font-medium leading-[1.4] tracking-[2%] mt-2 text-[18px] '>Ready to elevate your business with AI? <br /> Contact us today to explore innovative solutions tailored to your success.</p>
+             <div className='max-w-[813px] m-auto px-5'>
+                    <h1 className='md:text-[64px] text-[40px] font-primary text-white text-center  leading-[1.2] tracking-[2%] capitalize  font-[600]'>Get in Touch. Redefine What's Possible</h1>
+                    <p className='text-[#999999] text-center font-medium leading-[1.4] tracking-[2%] mt-2 md:text-[18px] text-[16px] '>Ready to elevate your business with AI? <br /> Contact us today to explore innovative solutions tailored to your success.</p>
              </div>
              <div className="max-w-[813px] m-auto mt-8 px-6">
                 <form className="space-y-6">
@@ -74,11 +74,16 @@ const Contact = () => {
                         Contact No
                         </label>
                         <div className="flex gap-3">
-                        <select className="rounded-lg border border-white/40 bg-white/5 px-4 py-3 text-white outline-none focus:border-white">
+                            <div className="customselect relative ">
+                               <svg className='absolute right-3 top-5' width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L7 7L13 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg> 
+                        <select className=" appearance-none pr-8 rounded-lg border border-white/40 bg-white/5 px-4 py-3 text-white outline-none focus:border-white">
                             <option className="text-black">India</option>
                             <option className="text-black">USA</option>
                             <option className="text-black">UK</option>
                         </select>
+                            </div>
 
                         <input
                             type="tel"
