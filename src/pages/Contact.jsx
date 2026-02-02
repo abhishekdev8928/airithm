@@ -17,7 +17,7 @@ const Contact = () => {
                     <h1 className='text-[64px] font-primary text-white text-center  leading-[1.2] tracking-[2%] capitalize  font-[600]'>Get in Touch. Redefine What's Possible</h1>
                     <p className='text-[#999999] text-center font-medium leading-[1.4] tracking-[2%] mt-2 text-[18px] '>Ready to elevate your business with AI? <br /> Contact us today to explore innovative solutions tailored to your success.</p>
              </div>
-             <div className="max-w-[813px] m-auto mt-8">
+             <div className="max-w-[813px] m-auto mt-8 px-6">
                 <form className="space-y-6">
                   {/* Email */}
                     <div>
