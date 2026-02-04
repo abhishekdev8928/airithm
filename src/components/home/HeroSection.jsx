@@ -21,16 +21,17 @@ export default function HeroHeader() {
       />
 
       <Swiper
-        loop={true}
-        speed={800} // 👈 smooth slide speed
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination, Autoplay]}
+  loop={true}
+  speed={800}
+  autoplay={{
+    delay: 4000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true, // 👈 stops on hover
+  }}
+  pagination={{
+    clickable: true,
+  }}
+  modules={[Pagination, Autoplay]}
         className="hero-swiper w-full h-[904px] "
       >
         {/* Slide 2 */}
@@ -100,6 +101,7 @@ export default function HeroHeader() {
                       btnText=" Explore Platforms "
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                      href="/agentic-architecture"
                       useCommonSvg="true"
                     />
 
@@ -109,6 +111,7 @@ export default function HeroHeader() {
                   btnText="Request Demo"
                   className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
+                  href="/demo"
                   icon="CircleArrowOutUpRight"
                   
                 />
@@ -141,6 +144,7 @@ export default function HeroHeader() {
                       btnText="Explore AI Test Platform"
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                      href="/ai-automation"
                       useCommonSvg="true"
                     />
 
@@ -150,6 +154,7 @@ export default function HeroHeader() {
                   btnText="Request Demo"
                   className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
+                   href="/demo"
                   icon="CircleArrowOutUpRight"
                   
                 />
@@ -183,6 +188,7 @@ export default function HeroHeader() {
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
                       useCommonSvg="true"
+                       href="/context-intelligence-platform"
                     />
 
                 </div>
@@ -192,6 +198,7 @@ export default function HeroHeader() {
                   className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
                   icon="CircleArrowOutUpRight"
+                    href="/demo"
                   
                 />
               </div>
@@ -223,6 +230,7 @@ export default function HeroHeader() {
                       btnText="Explore the Architecture"
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                      href="/system-architecture-overview"
                       useCommonSvg="true"
                     />
 
@@ -232,6 +240,7 @@ export default function HeroHeader() {
                   btnText="See How the Platforms Work Together"
                   className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
+                  href="/two-platforms-one-intelligence-loop"
                   icon="CircleArrowOutUpRight"
                   
                 />

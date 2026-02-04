@@ -325,7 +325,7 @@ export default function Navbar({
             <div className="col-span-1 px-6 py-9">
               <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="">AI Governance</Link></h2>
               <div className="menu mt-4">
-               
+
                 <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
                   <div className="w-[16px]">
                     <GitCompare color="#C44558" width="16px" className="mt-[0px]" />
@@ -340,8 +340,8 @@ export default function Navbar({
                     <Infinity color="#C44558" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Two Platforms. 
-One Intelligence Loop</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Two Platforms.
+                      One Intelligence Loop</h3>
 
                   </div>
                 </Link>
@@ -358,7 +358,7 @@ One Intelligence Loop</h3>
               </div>
               <h2 className="text-[#C44558] font-[600] text-[24px] mt-8"><Link to="/platform-capabilities">Platform Capabilities</Link></h2>
               <div className="menu mt-4">
-                <Link className="flex gap-3 " to="">
+                <Link className="flex gap-3 " to="/platform-deployment">
                   <div className="w-[16px]">
                     <CloudUpload color="#C44558" width="16px" className="mt-[0px]" />
                   </div>
@@ -385,7 +385,7 @@ One Intelligence Loop</h3>
 
                   </div>
                 </Link>
-             
+
 
               </div>
 
@@ -538,129 +538,206 @@ One Intelligence Loop</h3>
                     : "max-h-0 opacity-0"
                     }`}
                 >
-                  <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-2 mt-4"><Link to="/ai-automation">AI Test Platform</Link></h2>
-                  <div className="menu mt-6">
-                    <Link to="/neuro-test" className="flex gap-3">
-                      <div className="w-[39px]">
-                        <Brain color="#C44558" className="" />
+                  <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-0 mt-2"><Link to="/ai-automation">AI Test Platform</Link></h2>
+                  <div className="menu mt-2">
+                    <h2 className="text-[#C44558] font-[600] text-[20px] mb-4">
+                      <Link to="/core-text">Core Test</Link>
+                    </h2>
+                    <Link to="/intelligent-test-automation" className="flex gap-3">
+                      <div className="w-[16px]">
+                        <Atom color="#C44558" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Neuro Test</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Advanced testing for AI/LLM systems with specialized validation capabilities</p>
-                      </div>
-                    </Link>
-                    <Link to="/core-test" className="flex gap-3 mt-5">
-                      <div className="w-[39px]">
-                        <FlaskConicalIcon color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Core Test</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Comprehensive testing for enterprise and non-AI Applications</p>
-                      </div>
-                    </Link>
-                  </div>
-
-
-                  <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-2 mt-4"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
-
-                  <div className="mt-6">
-                    <Link to="/real-time-context" className="flex gap-3">
-                      <div className="w-[39px]">
-                        <Network color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Real-time Context</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Ensure smooth synchronization of agents and devices with secure, scalable, event-driven AI across organizations.</p>
-                      </div>
-                    </Link>
-                    <Link to="/declarative-context-protocol" className="flex gap-3 mt-5">
-                      <div className="w-[39px]">
-                        <Settings color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Declarative Context Protocol</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for multiagent AI systems. </p>
-                      </div>
-                    </Link>
-                    <Link to="/temporal-context-memory" className="flex gap-3 mt-5">
-                      <div className="w-[39px]">
-                        <Rocket color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Temporal Context Memory</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture for better contextual understanding and retrieval performance.</p>
-                      </div>
-                    </Link>
-
-                    <Link to="/context-capsules" className="flex gap-3 mt-5">
-                      <div className="w-[39px]">
-                        <ShieldCheck color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Context Capsules</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona, tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p>
-                      </div>
-                    </Link>
-                    <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-5">
-                      <div className="w-[39px]">
-                        <Puzzle color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Attention Memory Network</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Revolutionary AI routing engine with policy-gated multi-head attention mechanism.</p>
-                      </div>
-                    </Link>
-                    <Link to="/reflective-memory" className="flex gap-3 mt-5">
-                      <div className="w-[39px]">
-                        <Expand color="#C44558" className="" />
-                      </div>
-                      <div>
-                        <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Reflective Memory</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis, reflection, and intelligent adaptation.</p>
-                      </div>
-                    </Link>
-
-                  </div>
-
-                  <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-2 mt-4"><Link to="">AI Governance</Link></h2>
-                  {/* <h2 className="text-[#C44558] font-[600] text-[24px]"></h2> */}
-                  <div className="menu mt-6">
-                    <Link className="flex ">
-                      <div className="w-[39px]">
-                        <Brain color="#C44558" className="mt-[0px]" />
-                      </div>
-                      <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Agent Architecture</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Intelligent Test Automation</h3>
 
                       </div>
                     </Link>
-                    <Link className="flex mt-3">
-                      <div className="w-[39px]">
-                        <Brain color="#C44558" className="mt-[0px]" />
+                    <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <BookCheck color="#C44558" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Agent Security</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Knowledge Base Creation</h3>
 
                       </div>
                     </Link>
-                    <Link className="flex  mt-3">
-                      <div className="w-[39px]">
-                        <Brain color="#C44558" className="mt-[0px]" />
+                    <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <AudioWaveform color="#C44558" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">GenSecOps</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">How Autonomous Testing Works</h3>
 
                       </div>
                     </Link>
-                    <Link className="flex  mt-3">
-                      <div className="w-[39px]">
-                        <Brain color="#C44558" className="mt-[0px]" />
+
+
+                    <h2 className="text-[#C44558] font-[600] text-[20px] mb-4 mt-6">
+                      <Link to="/neuro-test">Neuro Test</Link>
+                    </h2>
+                    <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
+                      <div className="w-[16px]">
+                        <Building color="#C44558" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">GenDevOps</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Testing AI Systems at Enterprise Scale</h3>
 
                       </div>
                     </Link>
+                    <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <ChartPie color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LLM Based Evaluation</h3>
+
+                      </div>
+                    </Link>
+
+
+
+                <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-0 mt-6"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
+
+                    <Link to="/real-time-context" className="flex gap-3 mt-4">
+                      <div className="w-[16px]">
+                        <Network color="#C44558" width="16px" className="" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Real-time Context</h3>
+                        {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Ensure smooth synchronization of agents and
+    devices with secure, scalable, event-driven AI across organizations.</p> */}
+                      </div>
+                    </Link>
+                    <Link to='/context-capsules' className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <ShieldCheck color="#C44558" width="16px" className="" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Context Capsules</h3>
+                        {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona,
+    tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p> */}
+                      </div>
+                    </Link>
+
+
+                    <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <Settings color="#C44558" width="16px" className="" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Declarative Context Protocol</h3>
+                        {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for
+    multiagent AI systems. </p> */}
+                      </div>
+                    </Link>
+                    <Link to='/reflective-memory' className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <Expand color="#C44558" width="16px" className="" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Reflective Memory</h3>
+                        {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis,
+    reflection, and intelligent adaptation.</p> */}
+                      </div>
+                    </Link>
+
+
+                    <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <Rocket color="#C44558" width="16px" className="" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Temporal Context Memory</h3>
+                        {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture
+    for better contextual understanding and retrieval performance.</p> */}
+                      </div>
+                    </Link>
+
+
+
+
+                    <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
+                      <div className="w-[16px]">
+                        <Puzzle color="#C44558" width="16px" className="" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Attention Memory Network</h3>
+                        {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Revolutionary AI routing engine with
+    policy-gated multi-head attention mechanism.</p> */}
+                      </div>
+                    </Link>
+
+
+
+
+
+
+
+
+                    <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
+                      <div className="w-[16px]">
+                        <GitCompare color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">CI/CD & Devops Integration</h3>
+
+                      </div>
+                    </Link>
+                    <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
+                      <div className="w-[16px]">
+                        <Infinity color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Two Platforms.
+                          One Intelligence Loop</h3>
+
+                      </div>
+                    </Link>
+                    <Link className="flex gap-3  mt-3" to="/security">
+                      <div className="w-[16px]">
+                        <ShieldBan color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Security</h3>
+
+                      </div>
+                    </Link>
+
+
+
+
+                    <h2 className="text-[#C44558] font-[600] text-[24px] mt-8 mb-4">
+                      <Link to="/platform-capabilities">Platform Capabilities</Link>
+                    </h2>
+
+                    <Link className="flex gap-3 " to="/platform-deployment">
+                      <div className="w-[16px]">
+                        <CloudUpload color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Deployment</h3>
+
+                      </div>
+                    </Link>
+                    <Link className="flex gap-3 mt-3" to="/platform-integrations">
+                      <div className="w-[16px]">
+                        <GitPullRequestArrow color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Integrations</h3>
+
+                      </div>
+                    </Link>
+                    <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
+                      <div className="w-[16px]">
+                        <FlaskRound color="#C44558" width="16px" className="mt-[0px]" />
+                      </div>
+                      <div>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Test Analytics & Insights</h3>
+
+                      </div>
+                    </Link>
+
 
                   </div>
                 </div>
