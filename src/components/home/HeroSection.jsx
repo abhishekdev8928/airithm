@@ -60,6 +60,7 @@ export default function HeroHeader() {
                       btnText="Join Partner Program"
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                       icon="CircleArrowOutUpRight"
                       useCommonSvg="true"
                     />
 
@@ -101,6 +102,7 @@ export default function HeroHeader() {
                       btnText=" Explore Platforms "
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                       icon="CircleArrowOutUpRight"
                       href="/agentic-architecture"
                       useCommonSvg="true"
                     />
@@ -146,6 +148,7 @@ export default function HeroHeader() {
                       iconSize="20"
                       href="/ai-automation"
                       useCommonSvg="true"
+                       icon="CircleArrowOutUpRight"
                     />
 
                 </div>
@@ -187,6 +190,7 @@ export default function HeroHeader() {
                       btnText="Explore Context Intelligence"
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                       icon="CircleArrowOutUpRight"
                       useCommonSvg="true"
                        href="/context-intelligence-platform"
                     />
@@ -230,6 +234,7 @@ export default function HeroHeader() {
                       btnText="Explore the Architecture"
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
+                       icon="CircleArrowOutUpRight"
                       href="/system-architecture-overview"
                       useCommonSvg="true"
                     />
