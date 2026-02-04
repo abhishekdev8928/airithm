@@ -124,7 +124,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
  cardClassName:" w-full sm:w-[350px] border-light-sm",
       showLink: true,
       linkText: "Learn More",
-      href: "/security-by-design",
+      href: "/arhitecture-security",
     },
     {
       id: 2,
@@ -146,7 +146,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
         "Enterprise security built into every layer.Tenant isolation, encryption, and compliance readiness.",
       hasBg: true,
       cardClassName:" w-full sm:w-[350px] border-light-sm",
-      href: "/security-by-design",
+      href: "/arhitecture-security",
       showLink: true, 
     },
   ],

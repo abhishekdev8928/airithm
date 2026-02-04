@@ -50,9 +50,7 @@ export default function HeroHeader() {
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
-                AIRITHM Core Powers Next-Generation AI Platforms With Advanced
-                Agentic AI, GenAI, And ML Capabilities Designed For Enterprise
-                Scale
+               AIRITHM is building the infrastructure layer for the agentic era — with Context Intelligence to run agents reliably, and an AI Test Platform to prove they are safe, aligned, and ready for production.
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
@@ -78,7 +76,7 @@ export default function HeroHeader() {
           </div>
         </SwiperSlide>
 
-             <SwiperSlide>
+        <SwiperSlide>
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
@@ -89,19 +87,17 @@ export default function HeroHeader() {
 
             <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
-                Enterprise Intelligence, Reimagined
+              The Intelligence Control Plane for the Agentic Enterprise 
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
-                AIRITHM Core Powers Next-Generation AI Platforms With Advanced
-                Agentic AI, GenAI, And ML Capabilities Designed For Enterprise
-                Scale
+               A unified control plane that governs context, coordinates intelligent systems, and validates behavior across enterprise-scale agentic AI. 
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
                 <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
                   <Button
-                      btnText="Join Partner Program"
+                      btnText=" Explore Platforms "
                       className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
                       iconSize="20"
                       useCommonSvg="true"
@@ -110,7 +106,130 @@ export default function HeroHeader() {
                 </div>
 
                 <Button
-                  btnText="Explore Products"
+                  btnText="Request Demo"
+                  className="text-[16px]     bg-primary-gradient text-white"
+                  iconSize="20"
+                  icon="CircleArrowOutUpRight"
+                  
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+          <SwiperSlide>
+          <div
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: 'url("/home/carousel/slide1.webp")',
+            }}
+          >
+            <div className="absolute inset-0 bg-black/5" />
+
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+              <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
+             Agentic Testing for Enterprise and AI Applications 
+              </h1>
+
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
+               A patent-pending unified platform that uses intelligent agents to test, evaluate, and validate modern software and AI applications autonomously. 
+              </p>
+
+              <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
+                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                  <Button
+                      btnText="Explore AI Test Platform"
+                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      iconSize="20"
+                      useCommonSvg="true"
+                    />
+
+                </div>
+
+                <Button
+                  btnText="Request Demo"
+                  className="text-[16px]     bg-primary-gradient text-white"
+                  iconSize="20"
+                  icon="CircleArrowOutUpRight"
+                  
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+          <SwiperSlide>
+          <div
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: 'url("/home/carousel/carousel-two.jpg")',
+            }}
+          >
+            <div className="absolute inset-0 bg-black/5" />
+
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+              <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
+            Context Intelligence for Reliable Autonomous AI 
+              </h1>
+
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
+               Built on patent-pending technology for governed memory, continuity, and shared context across enterprise intelligent systems. 
+              </p>
+
+              <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
+                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                  <Button
+                      btnText="Explore Context Intelligence"
+                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      iconSize="20"
+                      useCommonSvg="true"
+                    />
+
+                </div>
+
+                <Button
+                  btnText="Request Demo"
+                  className="text-[16px]     bg-primary-gradient text-white"
+                  iconSize="20"
+                  icon="CircleArrowOutUpRight"
+                  
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+             <SwiperSlide>
+          <div
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: 'url("/home/carousel/slide1.webp")',
+            }}
+          >
+            <div className="absolute inset-0 bg-black/5" />
+
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+              <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
+                Two Platforms. One Intelligence Loop. 
+              </h1>
+
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
+               Independently powerful platforms that can exchange governed intelligence signals to continuously improve trust, quality, and reliability. 
+              </p>
+
+              <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
+                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                  <Button
+                      btnText="Explore the Architecture"
+                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      iconSize="20"
+                      useCommonSvg="true"
+                    />
+
+                </div>
+
+                <Button
+                  btnText="See How the Platforms Work Together"
                   className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
                   icon="CircleArrowOutUpRight"

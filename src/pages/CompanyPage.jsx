@@ -136,14 +136,14 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     <h3 className='text-[#1E1E1E] text-[18px] font-secondary font-[500]'>{item.designation}</h3>
                     <p className='text-[#626161] text-[18px] mt-[20px] font-secondary font-[300] '>{item.discription}</p>
 
-                    <div className='flex gap-[15px] mt-[30px]'>
+                    {/* <div className='flex gap-[15px] mt-[30px]'>
                         <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
                             <Linkedin className='h-[24px] text-[#C44558]'/>
                         </span>
                         <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
                             <X className='h-[24px] text-[#C44558]'/>
                         </span>
-                    </div>
+                    </div> */}
                     </div>
                 ))}
                 </div>
