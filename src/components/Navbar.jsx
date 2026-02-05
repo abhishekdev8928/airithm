@@ -672,7 +672,9 @@ export default function Navbar({
 
 
 
-
+                      <h2 className="text-[#C44558] font-[600] text-[24px] mt-8 mb-4">
+                      <Link to="">AI Governance</Link>
+                    </h2> 
 
                     <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
                       <div className="w-[16px]">

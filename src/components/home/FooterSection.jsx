@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 const year = new Date().getFullYear();
 const FooterSection = () => {
   return (
@@ -15,80 +17,241 @@ const FooterSection = () => {
           
           {/* LEFT TEXT BLOCK */}
           <div className="text-inter-16 leading-[1.2]  max-w-[247px] flex-shrink-0">
-            Critical Flows Often Go Untested Because Automation Focuses On
-            What’s Documented, Not What Human And.
+           AIRITHM powers enterprise-grade autonomous testing and intelligent platforms for confident software releases.
           </div>
 
           {/* RIGHT NAVIGATION BLOCK */}
           <div className="flex  flex-wrap    gap-10 text-[14px] leading-[22px]">
             
             {/* Column 1 */}
-            <div className="flex  flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Platform
+            <div className="flex  flex-col gap-4 w-[200px]">
+              <h3 className="text-inter-20 font-semibold leading-[1.2]">AI Test Platform</h3>
+              <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
+                <Link to="/core-text">Core Test</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li>Test Studio</li>
-                <li>Fore Sight</li>
-                <li>Detect</li>
-                <li>Integration</li>
+                <li> <Link to="/intelligent-test-automation" className="flex gap-3">
+                  
+                    <div>
+                      <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Intelligent Test Automation</h3>
+
+                    </div>
+                  </Link></li>
+                <li>  <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
+                   
+                    <div>
+                      <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Knowledge Base Creation</h3>
+
+                    </div>
+                  </Link></li>
+                <li> <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
+                    
+                    <div>
+                      <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">How Autonomous Testing Works</h3>
+
+                    </div>
+                  </Link></li>
+        
+              </ul>
+               <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
+               <Link to="/neuro-test">Neuro Test</Link>
+              </h4>
+              <ul className="space-y-3.5 text-inter-16">
+                <li>
+                   <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
+                  
+                    <div>
+                      <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Testing AI Systems at Enterprise Scale</h3>
+
+                    </div>
+                  </Link>
+                </li>
+                <li>    <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
+                  
+                    <div>
+                      <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LLM Based Evaluation</h3>
+
+                    </div>
+                  </Link></li>
               </ul>
             </div>
 
             {/* Column 2 */}
-            <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Solutions
+            <div className="flex flex-col gap-4 w-[250px]">
+              <h4 className="text-inter-20 font-semibold leading-[1.2]">
+               <Link to="/context-intelligence-platform">Context Intelligent Platform</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li>By Role</li>
-                <li>By Industry</li>
-                <li>By Use Case</li>
+                <li>       <Link to="/real-time-context" className="flex gap-3">
+                
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Real-time Context</h3>
+                    {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Ensure smooth synchronization of agents and devices with secure, scalable, event-driven AI across organizations.</p> */}
+                  </div>
+                </Link></li>
+                <li>
+                    <Link to='/context-capsules' className="flex gap-3 mt-3">
+                 
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Context Capsules</h3>
+                    {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona, tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p> */}
+                  </div>
+                </Link>
+                </li>
+                <li>                <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
+                  
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Declarative Context Protocol</h3>
+                    {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for multiagent AI systems. </p> */}
+                  </div>
+                </Link></li>
+                <li><Link to='/reflective-memory' className="flex gap-3 mt-3">
+            
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Reflective Memory</h3>
+                    {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis, reflection, and intelligent adaptation.</p> */}
+                  </div>
+                </Link></li>
+                <li>    <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
+                  
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Temporal Context Memory</h3>
+                    {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture for better contextual understanding and retrieval performance.</p> */}
+                  </div>
+                </Link></li>
+                <li> <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
+               
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Hybrid Attention Memory Network</h3>
+                    {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Revolutionary AI routing engine with policy-gated multi-head attention mechanism.</p> */}
+                  </div>
+                </Link></li>
               </ul>
             </div>
 
             {/* Column 3 */}
-            <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Resources
+            <div className="flex flex-col gap-4 w-[200px]">
+              <h4 className="text-inter-20 font-semibold leading-[1.2]">
+                <Link to="">AI Governance</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
+                <li> <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
+                
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">CI/CD & Devops Integration</h3>
+
+                  </div>
+                </Link></li>
+                <li>      <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
+                  
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Two Platforms.
+                      One Intelligence Loop</h3>
+
+                  </div>
+                </Link></li>
+                <li> <Link className="flex gap-3  mt-3" to="/security">
+              
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Security</h3>
+
+                  </div>
+                </Link></li>
+              </ul>
+
+               <h4 className="text-inter-20 font-semibold leading-[1.2] mt-3">
+              <Link to="/platform-capabilities">Platform Capabilities</Link>
+              </h4>
+              <ul>
+                <li>
+                          <Link className="flex gap-3 " to="/platform-deployment">
+                
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Platform Deployment</h3>
+
+                  </div>
+                </Link>
+                </li>
+                <li>
+                   <Link className="flex gap-3 mt-3" to="/platform-integrations">
+              
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Platform Integrations</h3>
+
+                  </div>
+                </Link>
+                </li>
+                <li>
+                          <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
+                  
+                  <div>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Test Analytics & Insights</h3>
+
+                  </div>
+                </Link>
+                </li>
+              </ul>
+            </div>
+
+              {/* Column 5 */}
+            <div className="flex flex-col gap-4 w-[150px]">
+              <h4 className="text-inter-20 font-semibold leading-[1.2]">
+                <Link to="">Resources</Link>
+              </h4>
+              <ul className="space-y-3.5 text-inter-16 text-white/90">
                 <li>Blog</li>
+                <li>Whitepapers</li>
                 <li>Case Studies</li>
-                <li>Community Forum</li>
-                <li>Whitepapers & Ebooks</li>
-                <li>Webinars & Videos</li>
-                <li>Documentation</li>
+                <li>Benchmarks</li>
+                <li>Webinars & Events</li>
+                <li>FAQs</li>
               </ul>
             </div>
 
             {/* Column 4 */}
             <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Support
+              <h4 className="text-inter-20 font-semibold leading-[1.2]">
+                Quick Link
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li>Documentation</li>
-                <li>Sample Projects On Github</li>
-                <li>Technical Support</li>
-                <li>Training & Certification</li>
-                <li>Community Forum</li>
+                <li>          <Link
+                  to="/company"
+                  className="w-full flex justify-between items-center"
+                >
+                
+                    Company
+                  
+
+
+                </Link></li>
+                <li> <Link
+                  to="/pricing"
+
+                  className="w-full flex justify-between items-center"
+                >
+                 
+                    Pricing
+           
+
+
+                </Link></li>
+                <li>  <Link
+                  to="/contact-us"
+
+                  className="w-full flex justify-between items-center"
+                >
+                
+                    Contact
+                
+
+
+                </Link></li>
+                <li></li>
+                
               </ul>
             </div>
 
-            {/* Column 5 */}
-            <div className="flex flex-col gap-4 w-[150px]">
-              <h4 className="text-inter-16 font-semibold leading-[1.2]">
-                Company
-              </h4>
-              <ul className="space-y-3.5 text-inter-16 text-white/90">
-                <li>About Airithm</li>
-                <li>Careers</li>
-                <li>Events</li>
-                <li>News</li>
-                <li>Partners</li>
-              </ul>
-            </div>
+          
           </div>
         </div>
 
