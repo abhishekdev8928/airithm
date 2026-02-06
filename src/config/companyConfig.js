@@ -133,6 +133,24 @@ export const members_CONFIG = {
             Twitter:"",
             profile:"/slider/profile.png"
         },
+        {
+            id:7,
+             title:"Alex Morrison",
+            designation:"CEO & Co-Founder",
+            discription:"Former VP Engineering at TestCorp, 15+ years in QA automation",
+            linkdin:"",
+            Twitter:"",
+            profile:"/slider/profile.png"
+        },
+        {
+            id:8,
+             title:"Alex Morrison",
+            designation:"CEO & Co-Founder",
+            discription:"Former VP Engineering at TestCorp, 15+ years in QA automation",
+            linkdin:"",
+            Twitter:"",
+            profile:"/slider/profile.png"
+        },
 
     ]
 }

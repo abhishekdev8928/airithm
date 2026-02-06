@@ -193,12 +193,12 @@ export default Contact
          {
             id: 4,
             icon: "Building",
-            title: "Reston, VA, USA",
+            title: "AIRITHM INC",
             discColor: "#626161",
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
             description:
-                "Lorem ipsum dolor sit amet consectetur. Sagittis ornare.",
+                "Dominion Plaza 17304 Preston Road Suite 800 Dallas, TX 75252",
         }
         , {
             id: 5,

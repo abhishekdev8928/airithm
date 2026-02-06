@@ -25,7 +25,7 @@ const FooterSection = () => {
             
             {/* Column 1 */}
             <div className="flex  flex-col gap-4 w-[200px]">
-              <h3 className="text-inter-20 font-semibold leading-[1.2]">AI Test Platform</h3>
+              <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link to="/ai-automation">AI Test Platform</Link></h3>
               <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
                 <Link to="/core-text">Core Test</Link>
               </h4>
@@ -196,15 +196,15 @@ const FooterSection = () => {
               {/* Column 5 */}
             <div className="flex flex-col gap-4 w-[150px]">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
-                <Link to="">Resources</Link>
+                <Link to="/resources">Resources</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16 text-white/90">
-                <li>Blog</li>
-                <li>Whitepapers</li>
-                <li>Case Studies</li>
-                <li>Benchmarks</li>
-                <li>Webinars & Events</li>
-                <li>FAQs</li>
+                <li><Link to="/resources">Blog</Link></li>
+                <li><Link to="/resources">Whitepapers</Link></li>
+                <li><Link to="/resources">Case Studies</Link></li>
+                <li><Link to="/resources">Benchmarks</Link></li>
+                <li><Link to="/resources">Webinars & Events</Link></li>
+                <li><Link to="/resources">FAQs</Link></li>
               </ul>
             </div>
 
@@ -246,7 +246,17 @@ const FooterSection = () => {
 
 
                 </Link></li>
-                <li></li>
+                <li><Link
+                  to="/demo"
+
+                  className="w-full flex justify-between items-center"
+                >
+                
+                    Book A Demo
+                
+
+
+                </Link></li>
                 
               </ul>
             </div>
