@@ -5,8 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useRef } from "react";
 
 export default function HeroHeader() {
+
+  const swiperRef = useRef(null);
+
   return (
     <header className="w-full text-white min-h-[904px]  rounded-b-[50px]  sm:rounded-b-[100px] overflow-hidden relative">
       <style
@@ -21,18 +25,16 @@ export default function HeroHeader() {
       />
 
       <Swiper
-  loop={true}
+   loop={true}
   speed={800}
   autoplay={{
     delay: 4000,
     disableOnInteraction: false,
-    pauseOnMouseEnter: true, // 👈 stops on hover
   }}
-  pagination={{
-    clickable: true,
-  }}
+  pagination={{ clickable: true }}
   modules={[Pagination, Autoplay]}
-        className="hero-swiper w-full h-[904px] "
+  onSwiper={(swiper) => (swiperRef.current = swiper)}
+  className="hero-swiper w-full h-[904px]"
       >
         {/* Slide 2 */}
 
@@ -45,7 +47,9 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10" 
+            onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+            onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
                 Enterprise Intelligence, Reimagined
               </h1>
@@ -87,7 +91,9 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10" 
+            onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+            onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
               The Intelligence Control Plane for the Agentic Enterprise 
               </h1>
@@ -131,7 +137,9 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10" 
+            onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+            onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
              Agentic Testing for Enterprise and AI Applications 
               </h1>
@@ -175,7 +183,9 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10" 
+            onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+            onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
             Context Intelligence for Reliable Autonomous AI 
               </h1>
@@ -219,7 +229,9 @@ export default function HeroHeader() {
           >
             <div className="absolute inset-0 bg-black/5" />
 
-            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10">
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10" 
+            onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+            onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
                 Two Platforms. One Intelligence Loop. 
               </h1>
