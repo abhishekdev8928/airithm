@@ -10,7 +10,7 @@ import {
 
 export default function ReflectiveMemoryLoop() {
   return (
-    <div className="w-fit  mx-auto flex flex-col justify-center items-center  h-[600px]">
+    <div className="w-fit  mx-auto flex flex-col justify-center items-center  h-[600px] md:scale-[0.7] md:my-[-70px]">
       <div className="memory-loop-top gap-2 flex items-center ">
         {/* Step 1 */}
         <div className="flex items-center gap-6">
@@ -49,36 +49,36 @@ export default function ReflectiveMemoryLoop() {
         </div>
       </div>
 
-<div className="memory-loop-middle  h-[200px] flex items-center justify-between w-full mx-auto px-2 overflow-hidden relative">
-  {/* Left Arrow */}
-  <div className="w-[40px] h-full flex  justify-center">
-    <img
-      src="/svg/demo.png"
-      alt="arrow"
-      className="h-full  rotate-180"
-    />
-  </div>
+      <div className="memory-loop-middle  h-[200px] flex items-center justify-between w-full mx-auto px-2 overflow-hidden relative">
+        {/* Left Arrow */}
+        <div className="w-[40px] h-full flex  justify-center">
+          <img
+            src="/svg/demo.png"
+            alt="arrow"
+            className="h-full  rotate-180"
+          />
+        </div>
 
-  {/* Text */}
-  <h3 className="font-primary text-white font-light text-[48px] leading-[100%] tracking-[0.02em] text-center capitalize">
-    Reflective <br /> Memory Loop
-  </h3>
+        {/* Text */}
+        <h3 className="font-primary text-white font-light text-[42px] leading-[100%] tracking-[0.02em] text-center capitalize">
+          Reflective <br /> Memory Loop
+        </h3>
 
-  {/* Right Arrow */}
-  <div className="w-[60px] h-full  flex items-center justify-center">
-    <img
-      src="/svg/demo.png"
-      alt="arrow"
-      className="h-full w-auto"
-    />
-  </div>
-</div>
+        {/* Right Arrow */}
+        <div className="w-[60px] h-full  flex items-center justify-center">
+          <img
+            src="/svg/demo.png"
+            alt="arrow"
+            className="h-full w-auto"
+          />
+        </div>
+      </div>
 
       <div className="memory-loop-top gap-2  flex items-center ">
         {/* Step 1 */}
         <div className="flex items-center gap-6">
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] capitalize">
-           Better Retrieval
+            Better Retrieval
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
             <SearchCheck size={32} color="#fff" />

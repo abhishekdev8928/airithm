@@ -79,13 +79,7 @@ const TestAnalyticsInsightsPage = () => {
       <section>
         <div className="py-[100px] relative">
 
-          <img src="/svg/ellipse.svg" className="absolute top-0 left-0" alt="" />
-
-        <img
-          src="/svg/ellipse-bottom.svg"
-          className="absolute bottom-[-200px] right-0"
-          alt=""
-        />
+        
 
           <SectionHeading
 //             subtitle="

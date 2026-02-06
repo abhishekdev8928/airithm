@@ -24,10 +24,10 @@ const Integrations = () => {
                     text-transparent'>Platform Integrations</span></h4>
         <MainBanner data={Integrations_HEADER} />
         <div className="flex gap-4 justify-center mt-[10px]">
-            <img src="/public/integration/git.png" alt="" />
-            <img src="/public/integration/aws.png" alt="" />
-            <img src="/public/integration/setting.png" alt="" />
-            <img src="/public/integration/code.png" alt="" />
+            <img src="/integration/git.png" alt="" />
+            <img src="/integration/aws.png" alt="" />
+            <img src="/integration/setting.png" alt="" />
+            <img src="/integration/code.png" alt="" />
 
         </div>
     </section>
@@ -42,19 +42,19 @@ const Integrations = () => {
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/public/integration/Jenkins.png" alt="" />
+                        <img src="/integration/Jenkins.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Jenkins</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/public/integration/git.png" alt="" />
+                        <img src="/integration/git.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>GitHub Actions</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/public/integration/GitLab.png" alt="" />
+                        <img src="/integration/GitLab.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>GitLab</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3's src="/public/integration/Azure.png" alt="" />
+                        <img className='me-3's src="/integration/Azure.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Azure DevOps</span>
                     </div>
 
@@ -69,19 +69,19 @@ const Integrations = () => {
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/public/integration/AWS.png" alt="" />
+                        <img src="/integration/AWS.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>AWS</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img  className='me-3' src="/public/integration/GCP.png" alt="" />
+                        <img  className='me-3' src="/integration/GCP.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>GCP</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3' src="/public/integration/Azure.png" alt="" />
+                        <img className='me-3' src="/integration/Azure.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Azure</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3' src="/public/integration/Kubernetes.png" alt="" />
+                        <img className='me-3' src="/integration/Kubernetes.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Kubernetes</span>
                     </div>
 
@@ -96,19 +96,19 @@ const Integrations = () => {
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 w-[100%]  border border-[1px] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/public/integration/Selenium.png" alt="" />
+                        <img src="/integration/Selenium.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Selenium</span>
                     </div>
                     <div className="col-span-6 w-[100%]  border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img  className='me-3' src="/public/integration/Playwright.png" alt="" />
+                        <img  className='me-3' src="/integration/Playwright.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Playwright</span>
                     </div>
                     <div className="col-span-6 w-[100%]  border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3' src="/public/integration/Cypress.png" alt="" />
+                        <img className='me-3' src="/integration/Cypress.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Cypress</span>
                     </div>
                     <div className="col-span-6 w-[100%]  border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3' src="/public/integration/API Tools.png" alt="" />
+                        <img className='me-3' src="/integration/API Tools.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>API Tools</span>
                     </div>
 
@@ -123,19 +123,19 @@ const Integrations = () => {
 
                 <div className='mt-[30px] md:grid flex flex-wrap  grid-cols-12 gap-4'>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/public/integration/REST APIs.png" alt="" />
+                        <img src="/integration/REST APIs.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>REST APIs</span>
                     </div>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img  className='me-3' src="/public/integration/SDKs.png" alt="" />
+                        <img  className='me-3' src="/integration/SDKs.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>SDKs</span>
                     </div>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3' src="/public/integration/Webhooks.png" alt="" />
+                        <img className='me-3' src="/integration/Webhooks.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Webhooks</span>
                     </div>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img className='me-3' src="/public/integration/Extensibility.png" alt="" />
+                        <img className='me-3' src="/integration/Extensibility.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Extensibility</span>
                     </div>
 

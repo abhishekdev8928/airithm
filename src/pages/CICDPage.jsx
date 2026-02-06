@@ -56,13 +56,7 @@ const CICDPage = () => {
       </section>
 
       <section className="relative  z-2 ">
-        <img src="/svg/ellipse.svg" className="absolute  left-0" alt="" />
-
-        <img
-          src="/svg/ellipse-bottom.svg"
-          className="absolute bottom-[-200px] right-0"
-          alt=""
-        />
+      
 
         {/* Content */}
         <div

@@ -24,7 +24,7 @@ const SystemArchitecturePage = () => {
           <img
             src="/topics/system-architecture-hero.png"
             alt=""
-            className="m-auto w-[425px]  shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]"
+            className="m-auto w-[285px]  shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]"
           />
         </div>
       </div>
@@ -41,7 +41,7 @@ const SystemArchitecturePage = () => {
                 title="Context Flow Diagram"
               />
 
-              <img src="/svg/control-flow.png" className="mx-auto" alt="" />
+              <img src="/svg/control-flow.png" className="max-w-[830px] m-auto" alt="" />
             </div>
 
             <div className="system-architecture-bottom pt-60 pb-[244px]">
@@ -67,7 +67,7 @@ const SystemArchitecturePage = () => {
             titleClassName="text-white"
           />
 
-          <img src="/svg/control-flow.png" className="mx-auto" alt="" />
+          <img src="/svg/control-flow.png" className="max-w-[830px] m-auto" alt="" />
         </div>
       </section>
 
@@ -80,7 +80,7 @@ const SystemArchitecturePage = () => {
 
           <div className="image-wrapper  max-w-[600px] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] overflow-hidden p-6  mx-auto">
             <img
-              className="w-full "
+              className="max-w-[410px] m-auto object-contain "
               src="/topics/multi-agent-diagram.png"
               alt=""
             />
@@ -98,7 +98,7 @@ const SystemArchitecturePage = () => {
 
             <div className="img-wrapper px-5 mx-auto max-w-[640px]">
               <img
-                className="w-full"
+                className="max-w-[420px] m-auto"
                 src="/topics/goverance-layer-diagram.png"
                 alt=""
               />
@@ -136,7 +136,7 @@ const SystemArchitecturePage = () => {
 
 
           <div className="wrapper-img  mb-[90px] mt-[30px] max-w-[500px] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]">
-            <img src="/topics/deployment-diagram.png" className="w-full" alt="" />
+            <img src="/topics/deployment-diagram.png" className="max-w-[400px] m-auto" alt="" />
           </div>
         </div>
       </section>

@@ -106,7 +106,7 @@ const MemoryPage = () => {
                     subtitleClassName="  text-[#D9D9D9]"
                 />
                 <div className="mt-[40px]">
-                    <img className='m-auto' src="public/topics/why-graph.png" alt="" />
+                    <img className='m-auto' src="/topics/why-graph.png" alt="" />
                 </div>
 <div className="flex flex-wrap  justify-center gap-4 mt-[40px]">
   {/* Card 1 */}

@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar.jsx";
 import MainBanner from '../components/services/MainBanner';
 import { REFLECTIVE_MEMORY_HEADER, CORE_MODULE_CONFIG, LOOP_CARD_CONFIG, Memory_CONFIG, ATTENTION_FLOW_CONFIG } from "../config/reflectivememoryConfig"
 import { Atom, Repeat2, Eye, ShieldCheck, LockOpen, UserRoundPen } from 'lucide-react';
-// import {loop} from "../../public/home/loop"
+// import {loop} from "../../home/loop"
 import FeatureCard from "@/components/card/FeaturedCard.jsx";
 import * as Icons from "lucide-react";
 

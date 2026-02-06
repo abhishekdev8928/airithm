@@ -293,12 +293,12 @@
   overflow-x: hidden;
   
 }
-.bg1{
+/* .bg1{
   background-image: url("/bg/bg-1.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .trans{
   transition: all .3s linear;
 }

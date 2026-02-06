@@ -6,13 +6,15 @@ function TechStackGrid() {
     { src: "/stack/Typescript.png", alt: "TypeScript" },
     { src: "/stack/Js.png", alt: "JavaScript" },
     { src: "/stack/Atom.png", alt: "React" },
+    { src: "/stack/webhook.png",  alt :"Webhook"},
+    { src: "/stack/graph.png",  alt :"graph"},
   ];
 
   return (
-    <div className="w-full h-full md:rounded-[100px] rounded-[50px] bg-gradient-to-b from-[#042539] to-black p-6 md:p-10 flex flex-col gap-6">
+    <div className="w-full h-full  md:rounded-[100px] rounded-[50px] bg-gradient-to-b from-[#042539] to-black p-6 md:p-10 flex flex-col justify-center gap-6">
 
       {/* TOP GRID */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-10 scale-[0.9]">
         {stackItems.map((item, i) => (
           <div
             key={i}
@@ -28,21 +30,20 @@ function TechStackGrid() {
       </div>
 
       {/* BOTTOM */}
-      <div className="flex gap-10 items-start">
-        {/* Webhook */}
+      {/* <div className="flex gap-4 items-start">
+
         <div className=" rounded-3xl bg-white/10 backdrop-blur-md flex items-center justify-center">
           <img
             src="/stack/webhook.png"
             alt="Webhook"
-            className="md:w-[200px] w-[111px] object-contain"
+            className="md:size-[121px] size-[50px] object-contain"
           />
         </div>
 
-        {/* Chart */}
-        <div className="md:size-[144px] size-[111px] rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center">
+        <div className="md:size-[121px] size-[111px] rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center">
           <BarChart3 className="text-white md:size-[100px] size-[50px]" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

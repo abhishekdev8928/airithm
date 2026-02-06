@@ -26,13 +26,7 @@ const KnowledgeBasedCreationPage = () => {
       <section className="relative  z-2 ">
     
 
-        <img src="/svg/ellipse.svg" className="absolute  left-0" alt="" />
-
-        <img
-          src="/svg/ellipse-bottom.svg"
-          className="absolute bottom-[-200px] right-0"
-          alt=""
-        />
+        
 
         {/* Content */}
         <div
@@ -91,13 +85,7 @@ const KnowledgeBasedCreationPage = () => {
       </section>
 
       <section className="relative">
-        <img src="/svg/ellipse.svg" className="absolute  left-0" alt="" />
-
-        <img
-          src="/svg/ellipse-bottom.svg"
-          className="absolute bottom-[-200px] right-0"
-          alt=""
-        />
+       
         <div className="relative px-4 sm:px-0   w-full gap-10 commmunity-section section-overlap flex-col justify-center flex items-center mt-[-100px] z-5">
           <div className=" relative ">
             <SectionHeading

@@ -48,20 +48,21 @@ const DeploymentOptionsPage = () => {
         <MainBanner data={Integrations_HEADER} />
        
     </section>
-    <section className=' bg1 py-[190px] mt-[-100px] mb-[-100px] z-[-10] relative'>
+    <section className=' bg1 py-[190px] mt-[-100px] mb-[-100px]  relative'>
           <SectionHeading
                             title="Choose Your Deployment Model"
                             subtitle='Select the deployment option that best fits your security requirements, compliance <br/> needs, and operational preferences.'
                             titleClassName="sm:text-[48px]"
                             subtitleClassName=" sm:text-[16px] text-[#626161]"
                         />
-        <div className="max-w-[1248px] m-auto flex mt-[50px] flex-wrap md:px-0 px-5 gap-6">
+        <div className="max-w-[1248px] m-auto flex mt-[50px] flex-wrap md:px-0 px-5 gap-6 relative z-100">
 
               {
                             type.map((item,index, id)=>{
                                     const Icon = LucideIcons?.[item.icon];
                                     return(
-                                           <div id={index} className="md:w-[400px] w-[100%] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 px-0 flex flex-col items-start">
+                                           <div id={index} className="md:w-[400px] border border-[1px] border-[#bfbfbf]  w-[100%] transition-shadow duration-300
+  hover:shadow-[0px_0px_40px_2px_#C4455840] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 px-0 flex flex-col items-start">
                                       
                                       <div className="">
                                           
@@ -79,7 +80,7 @@ const DeploymentOptionsPage = () => {
                                           {item.points?.map((list, i) => (
                                             <li key={i} className="flex items-center gap-3 text-[#C44558]">
                                            
-                                                {/* <img src="./public/svg/check.svg" alt="icon" className="w-5 h-5" /> */}
+                                                {/* <img src="./svg/check.svg" alt="icon" className="w-5 h-5" /> */}
                                                 <LucideIcons.Check/>
                                              
                                 

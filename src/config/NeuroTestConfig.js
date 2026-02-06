@@ -36,7 +36,7 @@ export const Core_capabiliti_CONFIG = {
     {
       id: 1,
       // icon: "Settings",
-      linkIconSrc:"public/svg/grid/settings.svg",
+      linkIconSrc:"/svg/grid/settings.svg",
       textColor:"#fff",
       gradent:true,
       iconColor: "",
@@ -48,7 +48,7 @@ export const Core_capabiliti_CONFIG = {
     },
     {
       id: 2,
-      linkIconSrc:"public/svg/grid/search.svg",
+      linkIconSrc:"/svg/grid/search.svg",
       gradent:true,
       iconColor: "",
       cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-0 ",
@@ -61,7 +61,7 @@ export const Core_capabiliti_CONFIG = {
     },
     {
       id: 3,
-       linkIconSrc:"public/svg/grid/bot.svg",
+       linkIconSrc:"/svg/grid/bot.svg",
       iconColor: "",
        textColor:"#fff",
        gradent:true,
@@ -87,7 +87,7 @@ export const Core_capabiliti_CONFIG = {
     ,
     {
       id: 5,
-       linkIconSrc:"public/svg/grid/git-branch.svg",
+       linkIconSrc:"/svg/grid/git-branch.svg",
       iconColor: "",
       gradent:true,
        textColor:"#fff",
@@ -100,7 +100,7 @@ export const Core_capabiliti_CONFIG = {
     ,
     {
       id: 6,
-  linkIconSrc:"public/svg/grid/chart-spline.svg",
+  linkIconSrc:"/svg/grid/chart-spline.svg",
       iconColor: "",
       gradent:true,
        textColor:"#fff",
