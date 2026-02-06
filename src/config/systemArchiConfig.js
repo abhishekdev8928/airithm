@@ -26,7 +26,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
     {
       id: 1,
       icon: "Clock",
-      linkIconSrc: "/svg/system-architecture/clock.svg",
+      iconSrc: "/svg/system-architecture/clock.svg",
       title: "Temporal Context Memory",
       textColor: "#fff",
       discColor: "#FFFFFF",
