@@ -265,6 +265,52 @@ export default function HeroHeader() {
             </div>
           </div>
         </SwiperSlide>
+
+            <SwiperSlide>
+          <div
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: 'url("/home/carousel/slider3.webp")',
+            }}
+          >
+            <div className="absolute inset-0 bg-black/5" />
+
+            <div className="relative text-center px-4 lg:px-0  pt-[154px] md:pt-[220px]  z-10" 
+            onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+            onMouseLeave={() => swiperRef.current?.autoplay.start()}>
+              <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[64px] tracking-[0.02em]">
+                Context Intelligence for Reliable Autonomous AI 
+              </h1>
+
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
+               A patent-pending platform enabling policy-governed memory and shared context across enterprise intelligent systems.
+              </p>
+
+              <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
+                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                  <Button
+                      btnText="Explore Context Intelligence"
+                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      iconSize="20"
+                       icon="CircleArrowOutUpRight"
+                      href="/"
+                      useCommonSvg="true"
+                    />
+
+                </div>
+
+                <Button
+                  btnText="Request Demo"
+                  className="text-[16px]     bg-primary-gradient text-white"
+                  iconSize="20"
+                  href="/demo"
+                  icon="CircleArrowOutUpRight"
+                  
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </header>
   );
