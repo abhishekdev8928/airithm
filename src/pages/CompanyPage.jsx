@@ -6,9 +6,11 @@ import UspServices from '../components/services/UspServices';
 import { Comapny_HEADER, KEY_FEATURES_CONFIG,  members_CONFIG , Drive_CONFIG , Company_CTA_CONFIG} from "../config/companyConfig"
 import SectionHeading from "@/components/common/SectionHeading";
 import FeatureCard from "@/components/card/FeaturedCard.jsx";
-import { Check, FlaskConical, Linkedin, Network, Twitter, X } from 'lucide-react';
+import { Check, FlaskConical, Link, Linkedin, Network, Twitter, X } from 'lucide-react';
 import Button from '../components/ui/Button';
 import CtaSection from "../components/common/CtaSection"
+// import { Link } from 'react-router-dom';
+
 
 const CompanyPage = () => {
     const { cards } = KEY_FEATURES_CONFIG;
@@ -116,6 +118,36 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                        </div>
                     </div>
                 </div>
+            </section>
+            <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
+                    {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
+                <SectionHeading
+                    title="Engineering the Future"
+                    subtitle='Founder'
+                    titleClassName="text-[#000]"
+                    subtitleClassName=" text-[#626161] max-w-[100%]"
+                />
+              <div className="grid grid-cols-12 justify-center gap-6 mt-[60px] max-w-[1120px] mx-auto">
+                <div className="md:col-span-3 col-span-12">
+                    <img src="/founder.png" className='md:h-[373px] w-full object-cover rounded-[16px]' alt="" />
+                </div>
+                <div className="md:col-span-9 col-span-12">
+                    <div className='flex justify-between items-center'>
+                    <h3 className='text-[#C44558] md:text-[36px] text-[28px] font-primary font-[600]'>Sucharitha Patil</h3>
+                    <ul className='flex gap-3 items-center'>
+                        <li><a className='text-[#C44558]'><X/></a></li>
+                        <li><a className='text-[#C44558]'><Linkedin/></a></li>
+                    </ul>
+                    </div>
+                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & Ceo</p>
+                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha is a senior engineering and technology leader with over 20 years of experience guiding enterprise-scale AI strategy, operating models, and governance across Fortune 500 companies and highly regulated sectors, including finance, healthcare, travel, and supply chain.</p>
+                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
+                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
+                </div>
+                    
+                </div>
+                 
+
             </section>
             <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
                     {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
