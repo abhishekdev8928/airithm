@@ -4,7 +4,25 @@
     paragraph:
         "A closed-loop system powered by agents, AI, and continuous learning.",
     //   backgroundImage: "/bg/bg-gradient-four.jpg",
-    buttons: [  ],
+   buttons: [
+    {
+      text: "View Documentation",
+      className:
+        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+      icon: "Eye",
+      hoverIcon: false,
+      iconSize: "20px",
+      href: "",
+    },
+    {
+      text: "Explore Technology",
+      className:
+        "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+      href: "",
+      icon: "CircleArrowOutUpRight",
+      iconSize: "20px",
+    },
+  ],
     };
 
     export const at_USP_CONFIG = {

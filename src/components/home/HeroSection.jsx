@@ -42,7 +42,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slide1.webp")',
+              backgroundImage: 'url("/home/carousel/slider1.webp")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -86,7 +86,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/carousel-two.jpg")',
+              backgroundImage: 'url("/home/carousel/slider2.webp")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -132,7 +132,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slide1.webp")',
+              backgroundImage: 'url("/home/carousel/slider3.webp")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -178,7 +178,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/carousel-two.jpg")',
+              backgroundImage: 'url("/home/carousel/slider4.webp")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -224,7 +224,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slide1.webp")',
+              backgroundImage: 'url("/home/carousel/slider5.webp")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />

@@ -16,8 +16,11 @@ const StatsCard = ({
       className={`
         md:w-[280px] w-[100%]
         rounded-[20px]
-        border border-gray-200
         bg-white
+
+        transition-shadow duration-300
+  hover:shadow-[0px_0px_40px_2px_#C4455840] border border-[#D9D9D9]
+
         px-4 py-6
         text-center
         space-y-[40px]

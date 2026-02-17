@@ -26,8 +26,8 @@ const FooterSection = () => {
             {/* Column 1 */}
             <div className="flex  flex-col gap-4 w-[200px]">
               <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link to="/ai-automation">AI Test Platform</Link></h3>
-              <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
-                <Link to="/core-text">Core Test</Link>
+              <h4 className="text-inter-18  font-semibold leading-[1.2]">
+                <Link to="/core-test">Core Test</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li> <Link to="/intelligent-test-automation" className="flex gap-3">
@@ -77,7 +77,7 @@ const FooterSection = () => {
             </div>
 
             {/* Column 2 */}
-            <div className="flex flex-col gap-4 w-[250px]">
+            <div className="flex flex-col gap-4 w-[270px]">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
                <Link to="/context-intelligence-platform">Context Intelligent Platform</Link>
               </h4>
@@ -135,7 +135,7 @@ const FooterSection = () => {
                 <Link to="">AI Governance</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li> <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
+                <li> <Link className="flex gap-3" to="/ci-cd-devops-integration">
                 
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">CI/CD & Devops Integration</h3>

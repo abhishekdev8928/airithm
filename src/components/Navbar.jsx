@@ -196,7 +196,7 @@ export default function Navbar({
               <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="/ai-automation">AI Test Platform</Link></h2>
               <div className="menu mt-4 flex">
                 <div className="w-[50%]">
-                  <h2 className="text-[#C44558] font-[600] text-[20px] mb-4"><Link to="/core-text">Core Test</Link></h2>
+                  <h2 className="text-[#C44558] font-[600] text-[20px] mb-4"><Link to="/core-test">Core Test</Link></h2>
                   <Link to="/intelligent-test-automation" className="flex gap-3">
                     <div className="w-[16px]">
                       <Atom color="#C44558" width="16px" className="mt-[0px]" />
@@ -541,7 +541,7 @@ export default function Navbar({
                   <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-0 mt-2"><Link to="/ai-automation">AI Test Platform</Link></h2>
                   <div className="menu mt-2">
                     <h2 className="text-[#C44558] font-[600] text-[20px] mb-4">
-                      <Link to="/core-text">Core Test</Link>
+                      <Link to="/core-test">Core Test</Link>
                     </h2>
                     <Link to="/intelligent-test-automation" className="flex gap-3">
                       <div className="w-[16px]">

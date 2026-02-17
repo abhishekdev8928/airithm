@@ -75,7 +75,7 @@ const HowAutonomousTestingWorks = () => {
                 <SectionHeading
                     title="End-to-End Flow"
                     subtitle='A seamless autonomous testing pipeline'
-                    titleClassName="sm:text-[48px]"
+                    titleClassName=""
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
 

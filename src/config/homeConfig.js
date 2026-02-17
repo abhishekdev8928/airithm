@@ -197,38 +197,38 @@ export const HOME_TESTIMONIAL_CONFIG  = {
   testimonials: [
     {
       id: 1,
-      name: "Loganathan D.",
-      title: "QA DevOps, Liberty Latin America",
+      name: "Head of AI Governance",
+      title: "Financial Services Enterprise",
       quote:
-        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+        "Working with AIRITHM was a great decision for our team. Their Core AI testing process was structured and clear, and it gave us confidence before moving forward. We’re glad we partnered with them.",
     },
     {
       id: 2,
-      name: "Loganathan D.",
-      title: "QA DevOps, Liberty Latin America",
+      name: "Director of Data Strategy",
+      title: "Global Bank",
       quote:
-        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+        "We assumed our predictive models were stable because they performed well in controlled testing. AIRITHM’s Neuro AI validation revealed subtle reasoning inconsistencies when exposed to real-world data drift.",
     },
     {
       id: 3,
-      name: "Loganathan D.",
-      title: "QA DevOps, Liberty Latin America",
+      name: "CTO",
+      title: "Enterprise SaaS Provider",
       quote:
-        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+        "Before our launch in 202s, we worked with AIRITHM to run testing through their AI Test Platform. The process was smooth, and it helped us feel prepared before going live. Looking back, it was the right decision.",
     },
     {
       id: 4,
-      name: "Loganathan D.",
-      title: "QA DevOps, Liberty Latin America",
+      name: "VP Digital Innovation",
+      title: "Regional Enterprise Group",
       quote:
-        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+        "We engaged AIRITHM to review our intelligent agent workflows using their Core + Neuro testing framework. The collaboration was straightforward, and the overall process was handled professionally from start to finish.",
     },
     {
       id: 5,
-      name: "Loganathan D.",
-      title: "QA DevOps, Liberty Latin America",
+      name: "Director of Clinical Technology",
+      title: "Healthcare Enterprise",
       quote:
-        "Katalon's Consistent Framework Has Reduced The Effort Required For Building Automated Tests And Increased Our Regression Test Coverage By Around 60%. Since Adopting Katalon, We Have Reduced Costs And Cut Regression Testing Timelines By 50%.",
+        "We can’t take risks with AI in healthcare. Testing the system under realistic conditions helped us understand how it would behave before deployment. Their testing platform gave us measurable assurance in accuracy and compliance readiness.",
     },
   ],
 
@@ -277,28 +277,24 @@ export const Home_BLOGS_CONFIG = [
   {
     id: 1,
     title:
-      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+      "From Automation to Autonomy: QA in the Age of GenAI",
   },
   {
     id: 2,
     title:
-      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+      "Identity in AI: Building Data Privacy and Trust",
   },
   {
     id: 3,
     title:
-      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+      "Trust, Test, Transform: How Evaluation Frameworks Shape Better AI",
   },
   {
     id: 4,
     title:
-      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
+      "Agentic AI - The Next Evolution Beyond Chatbots",
   },
-  {
-    id: 5,
-    title:
-      "Critical Flows Often Go Untested Because Automation Focuses On What's Documented",
-  },
+ 
 ];
 
 export const testingCapabilitiesConfig = {

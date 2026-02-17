@@ -157,17 +157,17 @@ const NeuroTestPage = () => {
                 </div>
 
             </div>
-            <section className='py-[80px] max-w-[991px] mx-auto '>
+            <section className='py-[80px] max-w-[891px] mx-auto '>
                 <SectionHeading
                     title="Key Features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
                     titleClassName="sm:text-[40px] text-[32px]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
-                <div className="pt-[40px] lg:px-0 px-5 grid grid-cols-1 md:grid-cols-2 gap-[40px]">
+                <div className="py-[40px] lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]">
 
                     {/* Column 1 */}
-                    <ul>
+                    <ul className=''>
                         {list.map((item, index) => (
                             <li
                                 key={index}
