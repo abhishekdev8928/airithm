@@ -270,7 +270,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider3.webp")',
+              backgroundImage: 'url("/home/carousel/slider6.jpeg")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
