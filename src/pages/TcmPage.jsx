@@ -130,21 +130,24 @@ const TcmPage = () => {
             Temporal Context Memory (TCM)
           </h2>
 
-          <div className="max-w-4xl  mx-auto">
-            <div className="w-full py-7  ">
-              <img className="w-full rounded-3xl" src="/home/tcm.jpg" alt="" />
+          <div className="max-w-6xl mt-[40px] grid grid-cols-2 gap-7 mx-auto">
+            <div className="h-full md:col-span-1 col-span-2   ">
+              <img className="h-full w-full object-cover rounded-3xl" src="/home/tcm.jpg" alt="" />
             </div>
+            <div className="md:col-span-1 col-span-2 items-center flex">
+              
 
-            <p className="text-center tracking-[0.04em] leading-[1.4] lg:text-[20px] text-[16px] font-secondary font-medium text-[#1e1e1e]">
-              Temporal Context Memory (TCM) is a dual-tiered AI memory system
-              integrating short-term/episodic cache and long-term semantic
-              storage. A promotion engine evaluates recency, frequency, and
-              user-pinned indicators to transfer high-value items from fast
-              cache to persistent vector memory. During query resolution, the
-              composer merges both tiers into a policy-scoped contextual view.
-              The system continuously demotes stale data, ensuring efficient,
-              accurate, and evolving memory performance.
-            </p>
+              <p className="text-center tracking-[0.04em] leading-[1.4] lg:text-[18px] text-[16px] font-secondary font-medium text-[#1e1e1e]">
+                Temporal Context Memory (TCM) is a dual-tiered AI memory system
+                integrating short-term/episodic cache and long-term semantic
+                storage. A promotion engine evaluates recency, frequency, and
+                user-pinned indicators to transfer high-value items from fast
+                cache to persistent vector memory. During query resolution, the
+                composer merges both tiers into a policy-scoped contextual view.
+                The system continuously demotes stale data, ensuring efficient,
+                accurate, and evolving memory performance.
+              </p>
+            </div>
           </div>
         </div>
       </section>

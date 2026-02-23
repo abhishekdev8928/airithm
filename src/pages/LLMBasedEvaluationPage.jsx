@@ -119,8 +119,7 @@ const LLMBasedEvaluationPage = () => {
         <div className="relative px-4 sm:px-0   w-full gap-10 commmunity-section section-overlap flex-col justify-center flex items-center mt-[-100px] z-5">
           <div className=" relative ">
             <SectionHeading
-              subtitle="
-Measurable impact on your organization's knowledge management.       "
+              subtitle="Transform information into a strategic, high-impact asset."
               subtitleClassName=" font-secondary text-[#626161]"
               titleClassName="font-primary   text-[#00273A] captialize"
               title="Key Benefits"

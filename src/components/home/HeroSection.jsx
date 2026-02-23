@@ -55,7 +55,7 @@ export default function HeroHeader() {
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto pt-2.5 text-[#C6C6C6]">
-               AIRITHM is building the infrastructure layer for the agentic era — with Context Intelligence to run agents reliably, and an AI Test Platform to prove they are safe, aligned, and ready for production.
+               AIRITHM is building the infrastructure layer for the agentic era with Context Intelligence to run agents reliably, and an AI Test Platform to prove they are safe, aligned, and ready for production.
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">

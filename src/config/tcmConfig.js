@@ -74,6 +74,8 @@ export const Query_TIME_CONFIG = {
 
 export const CAPSULE_CONFIG = {
    bodyclass:true,
+    title:"Key Features",
+    headcolor:"#fff",
   
     cards: [
       {

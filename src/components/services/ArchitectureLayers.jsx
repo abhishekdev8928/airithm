@@ -1,13 +1,20 @@
 import React from "react";
 import { ARCHITECTURE_LAYER_CONFIG } from "../../config/coreTestConfig";
+import SectionHeading from "@/components/common/SectionHeading";
 
 
 export default function ArchitectureLayers() {
   const { layer1, layer2, layer3 } = ARCHITECTURE_LAYER_CONFIG;
 
   return (
-    <section className=" md:pt-[0px] pt-[100px] rounded-b-[100px] md:pb-[100px] pb-[200px] px-6 bg-white  px-5">
-      <div className="max-w-7xl md:scale-[0.7] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] md:p-[60px] p-[30px]" >
+    <section className=" md:pt-[60px] pt-[100px] rounded-b-[100px] md:pb-[100px] pb-[200px] px-6 bg-white  px-5">
+        <SectionHeading
+                          titleClassName=" text-[#00273A] text-center"
+                          title="System Architecture Overview’"
+                          
+                          subtitleClassName=" text-[#626161] "
+                      />
+      <div className="max-w-7xl lg:mt-[-90px] md:mt-[-80px] mt-[40px] md:scale-[0.7] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] md:p-[60px] p-[30px]" >
 
 
         <div className="grid grid-cols-1  sm:grid-cols-5 gap-6">

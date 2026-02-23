@@ -10,6 +10,8 @@ import Button from '../components/ui/Button';
 import { ArrowUpRight } from "lucide-react";
 import * as LucideIcons from "lucide-react";
 import { ChevronDown } from "lucide-react";
+import BlogFilter from '../components/sections/BlogFilter';
+import Webinars from '../components/sections/Webinars';
 
 
 const ResourcesPage = () => {
@@ -103,92 +105,9 @@ const ResourcesPage = () => {
 
 
             </section>
-            <section className="py-[100px] mt-[-60px] bg-white rounded-[60px] ">
-                <div className='max-w-[1200px] mx-auto'>
-
-                    {/* Heading */}
-                    <SectionHeading
-                        title="Latest from Our Blog"
-                        // subtitle='Purpose-built platforms that work independently or together to transform <br/> your testing and intelligence capabilities'
-                        titleClassName="sm:text-[48px] text-[#000]"
-                        subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
-                    />
-                    <div className="text-center mb-[60px] ">
-
-                        {/* Filters */}
-                        <div className="flex flex-wrap justify-center gap-3 mt-6">
-                            {categories.map((item) => (
-                                <button
-                                    key={item}
-                                    onClick={() => setActiveCategory(item)}
-                                    className={`px-4 py-1 rounded-full text-[13px] border transition
-                                ${activeCategory === item
-                                            ? "bg-[#C44558] text-white border-[#C44558]"
-                                            : "border-[#E5E5E5] text-[#C44558] hover:bg-[#C44558]/10"
-                                        }`}
-                                >
-                                    {item}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Grid */}
-                    <div className="grid px-5 md:px-0 grid-cols-1 md:grid-cols-2 gap-[20px]">
-                        {filteredBlogs.map((item) => (
-                            <div
-                                key={item.id}
-                                className="flex lg:flex-row flex-col md:w-[600px] w-[100%] bg-white rounded-[20px] border border-[#E5E5E5] overflow-hidden hover:shadow-lg transition"
-                            >
-                                {/* IMAGE */}
-                                <div
-                                    className="md:w-[45%] w-[100%] lg:h-[390px] h-[300px] bg-cover bg-center"
-                                    style={{ backgroundImage: `url(${item.img})` }}
-                                />
-
-                                {/* CONTENT */}
-                                <div className="md:w-[55%] w-[100%] p-6 flex flex-col justify-between">
-                                    <div>
-                                        <span className="inline-block mb-3 px-3 py-1 rounded-full text-[12px]
-                                        bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0%,rgba(253,58,132,0.15)_100%)]
-                                        text-[#C44558] font-medium">
-                                            {item.tag}
-                                        </span>
-
-                                        <h3 className="text-[24px] font-primary font-semibold text-[#1E1E1E]">
-                                            {item.title}
-                                        </h3>
-
-                                        <p className="text-[16px] text-[#626161] mt-2">
-                                            {item.desc}
-                                        </p>
-                                        <ul className="flex items-center justify-between mt-4">
-                                            <li className="text-[14px] text-[#8A8A8A]">
-                                                {item.category}
-                                            </li>
-                                            <li className="text-[14px] text-[#8A8A8A]">
-                                                {item.time}
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <Button
-                                        btnText="Learn More"
-                                        className=
-                                        "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                                        href=""
-                                        icon="CircleArrowOutUpRight"
-                                        iconSize="20px"
-                                    //   useCommonSvg="true"
-                                    />
+            <BlogFilter/>
 
 
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
             <section className='py-[100px] pt-[150px] mt-[-60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] relative z-[-11]'>
 
                 <SectionHeading
@@ -431,67 +350,7 @@ const ResourcesPage = () => {
 
             </section>
 
-            <section className='py-[80px] mt-[-100px]  pb-[100px] md:rounded-t-[100px] rounded-t-[50px] rounded-b-0 bg-[#fff]'>
-                <SectionHeading
-                    title="Webinars & Events"
-                    subtitle='Live and on-demand sessions with experts in autonomous testing and agentic AI.'
-                    titleClassName="sm:text-[48px] text-[#000]"
-                    subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
-                />
-                <div className="flex gap-4 justify-center  mt-8">
-                    <span className='text-[12px] font-seconadry py-3 px-5 bg-[#C44558] rounded-[100px] text-[#fff] font-[500]'>Upcoming</span>
-                    <span className='text-[12px] font-seconadry py-3 px-5 bg-[#fff]  border border-[1px] border-[#44558] rounded-[100px] text-[#C44558] font-[500]'>On-Demand</span>
-                </div>
-                <div className="max-w-[1224px] m-auto mt-[40px]">
-                    <div className="grid grid-cols-12 gap-4 md:px-0 px-5">
-                        <div className="md:col-span-6 col-span-12 p-5 border border-[1px] border-[#D9D9D9] rounded-[18px]">
-                            <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                            w-fit p-2 rounded-[100px] px-[20px]  '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                            bg-clip-text
-                            text-transparent'>Upcoming</span></h4>
-                            <h2 className='font-primary text-[#1E1E1E] text-[24px] font-[600] mt-8'>Implementing Autonomous Testing at Scale</h2>
-                            <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Learn how to deploy autonomous testing across large enterprise environments.</p>
-                            <ul className='md:mt-7 mt-3'>
-                                <li className='text-[#626161] mb-[4px] font-[600]'>Speaker: <span className="text-[#FD3A84]"> Dr. Sarah Chen, VP Engineering</span></li>
-                                <li className='text-[#626161] mb-[4px]  font-[600]'>Date: <span className="text-[#FD3A84]">Dec 15, 2024</span></li>
-                                <li className='text-[#626161] mb-[4px] font-[600]'>Duration: <span className="text-[#FD3A84]"> 60 min</span></li>
-                            </ul>
-                            <Button
-                                btnText="Register"
-                                className=
-                                "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px]  py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                                href=""
-                                icon=""
-                                iconSize="20px"
-                            //   useCommonSvg="true"
-                            />
-                        </div>
-                        <div className="md:col-span-6 col-span-12 p-5 border border-[1px] border-[#D9D9D9] rounded-[18px]">
-                            <h4 className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                            w-fit p-2 rounded-[100px] px-[20px]  '><span className='font-secondary text-[12px] font-[600]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                            bg-clip-text
-                            text-transparent'>Upcoming</span></h4>
-                            <h2 className='font-primary text-[#1E1E1E] text-[24px] font-[600] mt-8'>AI Quality Engineering Best Practices</h2>
-                            <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Explore advanced techniques for implementing AI-driven quality assurance.</p>
-                            <ul className='md:mt-7 mt-3'>
-                                <li className='text-[#626161] mb-[4px] font-[600]'>Speaker: <span className="text-[#FD3A84]"> Dr. Sarah Chen, VP Engineering</span></li>
-                                <li className='text-[#626161] mb-[4px]  font-[600]'>Date: <span className="text-[#FD3A84]">Dec 15, 2024</span></li>
-                                <li className='text-[#626161] mb-[4px] font-[600]'>Duration: <span className="text-[#FD3A84]"> 60 min</span></li>
-                            </ul>
-                            <Button
-                                btnText="Register"
-                                className=
-                                "text-[16px]  min-w-[100%] md:mt-[40px] mt-[20px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                                href=""
-                                icon=""
-                                iconSize="20px"
-                            //   useCommonSvg="true"
-                            />
-                        </div>
-                    </div>
-                </div>
-
-            </section>
+                <Webinars/>
             <section className='py-[80px] pt-0'>
                 <SectionHeading
                     title="Frequently Asked Questions"

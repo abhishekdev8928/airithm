@@ -1,9 +1,9 @@
 
 export const REAL_TIME_CONTEXT_HEADER = {
-  heading: "Real-time Context Distribution Across Federated Systems",
+  heading: "Seamless Context Flow Across Federated Systems",
    headclass:true,
   paragraph:
-    "Enable seamless synchronization of distributed agents, devices and subsystems with secure, scalable event- driven, and subsystems with secure, scalable event-driven AI behaviors acorss organizational boundaries.",
+    "Enable seamless synchronization of distributed agents, devices and subsystems with secure, scalable event-driven, and subsystems with secure, scalable event-driven AI behaviors acorss organizational boundaries.",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
    {
@@ -31,7 +31,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
 
 
 export const CORE_MODULE_CONFIG = {
-   title: "What is Context <br class='hidden md:block' />Broadcasting & Federation ?",
+   title: "What is Context <br class='hidden md:block' />Broadcasting & Federation",
    bodyclass:true,
    headcolor:"#fff",
    

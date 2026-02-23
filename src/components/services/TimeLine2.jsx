@@ -18,7 +18,7 @@ const TimeLine2 = ({ data }) => {
                 {/* CENTER LINE */}
                 {/* <div className="absolute left-1/2 top-[260px] h-[calc(100%-260px)] w-px bg-white/20 -translate-x-1/2" /> */}
 
-                <div className="flex px-5 flex-col md:gap-[220px] gap-[100px] relative">
+                <div className="flex px-5 flex-col md:gap-[140px] gap-[100px] relative">
                     {cards.map((step, index) => (
                         <React.Fragment key={step.id}>
                             <div

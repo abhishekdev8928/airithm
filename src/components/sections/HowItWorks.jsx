@@ -10,11 +10,11 @@ const HowItWorks = () => {
         </h2>
 
         {/* Steps */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4">
           {TEST_ANALYTICS_STEPS_CONFIG.map((item, index) => (
             <React.Fragment key={item.step}>
               {/* Step */}
-              <div className="flex flex-col items-center text-center max-w-xs">
+              <div className="flex flex-col items-center text-center max-w-xs border rounded-[24px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] border-[#ffffff34] p-4">
                 <div className="relative flex flex-col items-center">
                   <div className="md:w-16 md:h-16 h-10 w-10 rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] flex items-center justify-center text-white font-semibold mnd:text-2xl text-xl">
                     {item.step}

@@ -854,7 +854,7 @@ export const Enterprise_Grade_AI_Governance = {
       description:
         "Pre-configured compliance frameworks for global AI regulations.",
       points: {
-        labels: ["EU AI Act alignment", "SOC 2 / ISO compliance", "Industry-specific governance frameworks"],
+        labels: ["EU AI Act alignment", "Security Compliant / ISO compliance", "Industry-specific governance frameworks"],
         showDisc: false,
         textGradientColor:
         "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
@@ -1009,7 +1009,7 @@ export const USP_CONFIG = {
       cardClassName:"bg-[#fff] w-full sm:w-[295px] ",
       textColor: "#000",
       description:
-        "Models update, data drifts, and prompts change—requiring ongoing validation, not one-time testing.",
+        "Models update, data drifts, and prompts change requiring ongoing validation, not one-time testing.",
     
     }
    

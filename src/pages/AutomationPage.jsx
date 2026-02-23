@@ -13,7 +13,7 @@ import MainBanner from "../components/services/MainBanner";
 
 
 export const AI_AUTOMATION_HEADER = {
-  heading: "AI Enabled Intelligent Test. <br class='md:block hidden' />  Automation Platform",
+  heading: "AI Enabled Intelligent Test <br class='md:block hidden' />  Automation Platform",
    headclass:"pt-0 text-white",
   paragraph:
     "AIRITHM Test Studio revolutionizes testing with two powerful capabilities: NeuroTest for AI/ <br class='md:block hidden' /> LLM and CoreTest for enterprise applications.",

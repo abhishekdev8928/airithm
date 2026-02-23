@@ -188,7 +188,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
 
 
 export const TEST_ANALYTICS_CTA_CONFIG = {
-  heading: "Ready to Transform Your Testing?",
+  heading: "Ready to Transform Your Enterprise",
   paragraph:
     "Join hundreds of engineering teams who trust our platform to deliver better software faster with data-driven insights.",
   backgroundImage: "/bg/bg-gradient-four.jpg",

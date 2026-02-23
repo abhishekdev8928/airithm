@@ -6,23 +6,7 @@ export const HEADER = {
     "Enterprise-grade governance framework for multiagent AI systems. Policy Driven <br className='lg:block hidden'/> context flow that ensures safety, auditability, and explainable AI operations",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
-   {
-  text: "Documentation",
-  className:
-    "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
-hoverIcon: false,
-  iconSize: "20px",
-  icon:"Eye",
-  href: "",
-},
-{
-  text: "View Policy Recipe",
-  className:
-    "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-  href: "",
-  icon: "CircleArrowOutUpRight",
-  iconSize: "20px",
-}
+
 
   ],
 };

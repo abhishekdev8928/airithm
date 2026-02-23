@@ -29,10 +29,9 @@ const CommunitySection = () => {
             </div> */}
 
           <SectionHeading
-            subtitle="
-    Join the world's largest automated software testing product community.
+            subtitle="Join the new aged technology community
    <br class='hidden sm:block' />
-    Collaborate with 120,301 testing pros like you. Ask questions, get answers.
+   Collaborate with professionals globally to share insights, ask questions, and find the answers you need.
  "
             subtitleClassName=" font-secondary text-[#DADADA]"
             titleClassName="font-primary   text-white captialize"

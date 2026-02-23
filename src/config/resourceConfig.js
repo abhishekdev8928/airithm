@@ -1,5 +1,5 @@
 export const Resource_HEADER = {
-  heading: "Resources for Autonomous Testing & Agentic AI Quality Engineering",
+  heading: "Resources for AIRITHM",
    headclass:"pt-0 text-white",
   paragraph:
     "Deep insights, research, benchmarks, and real-world examples to help enterprises build reliable AI and software systems.",
@@ -152,7 +152,7 @@ export const BLOG_CONFIG = [
     tag: "Autonomous Testing",
     title: "Identity in AI: Building Data Privacy and Trust",
     desc: "Context Intelligence The Missing Layer in Modern AI Systems",
-    category: "Research",
+    category: "Autonomous",
     time: "6 min read",
   },
   {
@@ -170,7 +170,7 @@ export const BLOG_CONFIG = [
     tag: "Whitepaper",
     title: "Agentic AI - The Next Evolution Beyond Chatbots",
     desc: "Designing validation pipelines for enterprise-scale AI systems",
-    category: "Research",
+    category: "Whitepaper",
     time: "8 min read",
   },
 ];

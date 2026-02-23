@@ -412,7 +412,7 @@ export default function Navbar({
               <div className="col-span-1 "></div>
 
               <div className="col-span-2 px-6 py-3 ">
-                <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="">Resources</Link></h2>
+                <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
                 <div className="menu mt-6 flex gap-6">
                   <div className="w-[50%]">
                     <Link to="/resources" className="flex gap-3">
@@ -439,7 +439,7 @@ export default function Navbar({
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Sagittis ornare.</p>
+                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.</p>
                       </div>
                     </Link>
                   </div>
@@ -450,7 +450,7 @@ export default function Navbar({
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Aenean consectetur.</p>
+                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Comparative performance insights and data-driven evaluations to help assess efficiency, quality, and scalability.</p>
                       </div>
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
@@ -459,7 +459,7 @@ export default function Navbar({
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
+                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert-led sessions, product discussions, and live events exploring trends, innovations, and best practices.</p>
                       </div>
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
@@ -803,7 +803,7 @@ export default function Navbar({
                         </div>
                         <div>
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
-                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Sagittis ornare.</p>
+                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.</p>
                         </div>
                       </Link>
 
@@ -813,7 +813,7 @@ export default function Navbar({
                         </div>
                         <div>
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
-                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Aenean consectetur.</p>
+                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Comparative performance insights and data-driven evaluations to help assess efficiency, quality, and scalability.</p>
                         </div>
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
@@ -822,7 +822,7 @@ export default function Navbar({
                         </div>
                         <div>
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
-                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
+                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert-led sessions, product discussions, and live events exploring trends, innovations, and best practices.</p>
                         </div>
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">

@@ -26,7 +26,7 @@ export const KNOWLEDGE_EVALUATION_HEADER = {
 export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
   title: "What It Does",
   subtitle:
-    "Our AI-powered platform automatically ingests, processes, and organizes your organizational knowledge into intelligent, searchable databases that continuously improve through machine learning..",
+    "Our AI-powered platform automatically ingests, processes, and organizes your organizational knowledge into intelligent, searchable databases that continuously improve through machine learning.",
 
   cards: [
     {

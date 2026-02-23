@@ -31,7 +31,7 @@ const { cards: members } = members_CONFIG;
             <section className='py-20 px-5 md:px-0 '>
            <SectionHeading
   title="Building Tomorrow’s Testing Infrastructure"
-  subtitle={`We envision a world where software testing is fully autonomous, context-aware, and predictive—where quality assurance evolves from reactive validation to proactive intelligence.
+  subtitle={`We envision a world where software testing is fully autonomous, context-aware, and predictive where quality assurance evolves from reactive validation to proactive intelligence.
 <br class="hidden md:block" />
 Our dual-platform approach combines the precision of autonomous testing with the insight of context intelligence, creating a unified ecosystem that adapts, learns, and scales with your organization.`}
  
@@ -133,13 +133,13 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                 </div>
                 <div className="md:col-span-9 col-span-12">
                     <div className='flex justify-between items-center'>
-                    <h3 className='text-[#C44558] md:text-[36px] text-[28px] font-primary font-[600]'>Sucharitha Patil</h3>
+                    <h3 className='text-[#C44558] md:text-[36px] text-[28px] font-primary font-[600]'>Sucharitha Pati</h3>
                     <ul className='flex gap-3 items-center'>
                         <li><a className='text-[#C44558]'><X/></a></li>
                         <li><a className='text-[#C44558]'><Linkedin/></a></li>
                     </ul>
                     </div>
-                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & Ceo</p>
+                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & CEO</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha is a senior engineering and technology leader with over 20 years of experience guiding enterprise-scale AI strategy, operating models, and governance across Fortune 500 companies and highly regulated sectors, including finance, healthcare, travel, and supply chain.</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>

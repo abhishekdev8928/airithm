@@ -115,7 +115,7 @@ const FeatureCard2 = ({
               item.icon?.name && LucideIcons[item.icon.name];
 
             return (
-              <li key={index} className={`flex items-start  ${points.discGradientColor ? "gap-2" : ""} font-[600]`}>
+              <li key={index} className={`flex items-start gap-2  ${points.discGradientColor ? "gap-2" : ""} font-[600]`}>
                 {/* Icon */}
                 {ItemIcon ? (
                   <ItemIcon

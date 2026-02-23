@@ -166,7 +166,7 @@ export const Drive_CONFIG = {
       icon: "Lightbulb",
       textColor:"#fff",
       iconColor: "",
-        cardClassName: "w-full sm:w-[365px] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "w-full sm:w-[365px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "Innovation First",
       discColor:'#C6C6C6',
       description:
@@ -176,7 +176,7 @@ export const Drive_CONFIG = {
       id: 2,
       icon: "UsersRound",
       iconColor: "",
-      cardClassName: "w-full sm:w-[365px] h-[100%] justify-between bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "w-full sm:w-[365px] h-[100%]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
       title: "Customer Obsession",
@@ -202,7 +202,7 @@ export const Drive_CONFIG = {
        discColor:'#C6C6C6',
       title: "Velocity Matters",
       description:
-        "Speed without sacrificing quality—we move fast and iterate relentlessly.",
+        "Speed without sacrificing quality we move fast and iterate relentlessly.",
     }, {
       id: 5,
       icon: "Microscope",

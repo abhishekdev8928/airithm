@@ -5,6 +5,27 @@ import Navbar from "@/components/Navbar.jsx";
 import FeatureCard from "@/components/card/FeaturedCard.jsx";
 import UspServices from '../components/services/UspServices';
 import FooterSection from "@/components/home/FooterSection"; 
+import Button from '../components/ui/Button';
+
+
+//    {
+//   text: "Documentation",
+//   className:
+//     "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+// hoverIcon: false,
+//   iconSize: "20px",
+//   icon:"Eye",
+//   href: "",
+// },
+// {
+//   text: "Documentation",
+//   className:
+//     "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
+//   href: "",
+//   icon: "CircleArrowOutUpRight",
+//   iconSize: "20px",
+// }
+   
 
 const Declarative_Context_Protocol = () => {
     const { cards } = CARD_CONFIG;
@@ -17,12 +38,36 @@ const Declarative_Context_Protocol = () => {
             iconClassName="text-dark"
           />
           <MainBanner  data={HEADER} />
-          <div className="flex mt-5 lg:px-0 px-5 flex-wrap  gap-6 lg:pt-10 justify-center max-w-[1200px] mx-auto mb-[100px]">
+          <div className="flex mt-1 lg:px-0 pt-2 flex-wrap  gap-6 lg:pt-2 justify-center max-w-[1200px] mx-auto mb-[50px]">
             {cards.map((card) => (
                 <FeatureCard key={card.id} {...card} />
             ))}
             </div>
+               <div className="flex justify-center gap-4 mb-[90px]">
+                 <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                   <Button
+                        icon="Eye"
+                        iconSize="20px"
+                        hoverIcon= {false}
+                        btnText="Documentation"
+                        className="text-[#C44558] bg-white p-2.5 font-dm-sans font-semibold leading-[1.2] tracking-[0.02em]"
+                    />
+                    </div>
+                       <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                   <Button
+                        icon="CircleArrowOutUpRight"
+                        iconSize="20px"
+                        btnText="View Policy Recipe"
+                        className="text-[#fff] p-2.5 font-dm-sans font-semibold leading-[1.2] tracking-[0.02em]"
+                    />
+                    </div>
+                     
+            </div>
             <UspServices data={KEY_FEATURE_CONFIG} />
+         
+
+        
+     
 
             <section className="py-[100px]">
                    <div className="relative text-center px-4 lg:px-0  z-10">
@@ -52,7 +97,7 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>SOC 2 Type II Complaint</h3>
+                                <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>Security Compliant</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Comprehensive security controls and continuous monitoring</p>
                             </div>
                         </div>

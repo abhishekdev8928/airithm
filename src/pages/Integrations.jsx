@@ -32,6 +32,14 @@ const Integrations = () => {
         </div>
     </section>
     <section className='py-[90px] bg-[#fff]'>
+          {/* Section Heading */}
+              <SectionHeading
+                titleClassName="text-dark capitalize"
+                title="Built to Work With Your Stack’"
+                subtitleClassName="text-dark"
+                // subtitle="{subtitle}"
+                wrapperClassName="w-full sm:max-w-[909px] mx-auto mb-15"
+              />
         <div className='max-w-[1100px] m-auto px-5 md:grid flex flex-wrap grid-cols-12 justify-center gap-10'>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>

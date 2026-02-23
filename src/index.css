@@ -271,6 +271,7 @@
 }
 .swiper-wrapper {
   transition-timing-function: ease-in-out !important;
+  align-items: center;
 }
 
 .mae-gradient-text {

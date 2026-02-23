@@ -48,7 +48,7 @@ const HamnPage = () => {
           subtitleClassName="sm:text-[16px] text-[#626161]"
         />
 
-        <div className="mt-16 flex  justify-between gap-0 flex-wrap sm:flex-nowrap">
+        <div className="mt-16 flex p-9 shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]  justify-between gap-0 flex-wrap sm:flex-nowrap">
           {steps.map((step, index) => {
             const Icon = icons[step.icon.name];
 

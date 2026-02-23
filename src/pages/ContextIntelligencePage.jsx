@@ -56,11 +56,15 @@ const ContextIntelligencePage = () => {
               </h3>
 
               <p className="font-secondary text-center max-w-full sm:text-left text-[16px] sm:text-[18px] font-medium text-[#FFF9F9] leading-[1.4] sm:max-w-[520px]">
-                Our platform doesn’t just process data—it understands the
-                intricate relationships, temporal patterns, and contextual
-                nuances that traditional AI systems miss. Experience
-                intelligence that truly comprehends your business context.
+               Our platform doesn’t just process data, it understands the intricate relationships, temporal patterns, and contextual nuances that traditional AI systems miss. Experience intelligence that truly comprehends your business context.
               </p>
+              <p className="font-secondary text-center max-w-full sm:text-left text-[16px] sm:text-[18px] font-medium text-[#FFF9F9] leading-[1.4] sm:max-w-[520px]">
+               Built on a multi-layered architecture, it unifies data across systems and maps connections in real time.
+Advanced context modelling interprets intent, detects anomalies, and adapts as your business evolves.
+The result is a self-improving intelligence layer powering smarter automation and resilient performance.
+
+              </p>
+             
             </div>
 
             {/* RIGHT */}

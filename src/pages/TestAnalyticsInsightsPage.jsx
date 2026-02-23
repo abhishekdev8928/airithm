@@ -41,7 +41,7 @@ const TestAnalyticsInsightsPage = () => {
             <p className="font-secondary max-w-[800px] mx-auto text-[#626161] font-medium text-[14px] leading-[1.4] tracking-[0.04em] text-center">
               The platform automatically correlates test results across
               environments, identifies failure patterns, and predicts potential
-              quality issues—helping teams address risks before they impact
+              quality issues helping teams address risks before they impact
               production systems.
             </p>
           </div>

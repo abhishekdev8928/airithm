@@ -26,10 +26,10 @@ const SecurityPage = () => {
                 <MainBanner data={Security_HEADER} />
                 <div className=" mt-[40px]">
                     <ul className="flex justify-center px-5 gap-5 md:flex-row flex-col">
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>SOC 2 Ready</span></li>
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>GDPR Aligned</span></li>
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>HIPAA Capable</span></li>
-                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c6] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>ISO Standards</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c630] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>Security Compliance Ready</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c630] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>GDPR Aligned</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c630] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>HIPAA Capable</span></li>
+                        <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] border border-[1px] px-5 py-2  border-[#c6c6c630] md:rounded-[100px] rounded-lg md:h-auto w-full sm:w-fit h-[100px] md:m-0 m-auto flex justify-center items-center min-w-[200px]'><span className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[12px] font-[500] font-primary '>ISO Standards</span></li>
                     </ul>
                 </div>
                 <div className="max-w-[680px] m-auto mt-[60px] px-5 md:px-0 " >
@@ -104,7 +104,7 @@ const SecurityPage = () => {
             </div>
             <div className="py-[40px]">
                 <ul className="flex justify-center md:flex-row flex-col text-center lg:px-0 px-5 gap-5">
-                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>SOC 2 Ready</span></li>
+                    <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>Security Compliance Ready</span></li>
                     <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>GDPR Aligned</span></li>
                     <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>HIPAA Capable</span></li>
                     <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>ISO Standards</span></li>
@@ -202,21 +202,21 @@ const SecurityPage = () => {
                     subtitleClassName=" sm:text-[16px] text-[#D9D9D9] max-w-[587px]"
                 />
 
-                <div className="max-w-[1080px] m-auto mt-[90px]">
+                <div className="max-w-[1080px] m-auto mt-[60px]">
                     <div className="grid grid-cols-12 gap-8">
-                        <div className="lg:col-span-4 col-span-12 text-center">
+                        <div className="lg:col-span-4 border-[#ffffff3e] border p-4 rounded-[24px] col-span-12 text-center">
                             <h2 className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Deployment Options</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Cloud, On-Premises, Hybrid, Air-Gapped</p>
                         </div>
-                        <div className="lg:col-span-4 col-span-12 text-center">
+                        <div className="lg:col-span-4 border-[#ffffff3e] border p-4 rounded-[24px] col-span-12 text-center">
                             <h2 className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Third-Party Audits</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Independent security assessments available</p>
                         </div>
-                        <div className="lg:col-span-4 col-span-12 text-center">
+                        <div className="lg:col-span-4 border-[#ffffff3e] border p-4 rounded-[24px] col-span-12 text-center">
                             <h2 className='bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Security Questionnaires</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Pre-completed vendor assessments</p>
                         </div>
-                        <div className='flex gap-5 md:flex-row flex-col px-5 mt-18 justify-center col-span-12'>
+                        <div className='flex gap-5 md:flex-row flex-col px-5 mt-10 justify-center col-span-12'>
                          <Button
                             btnText="Request Security Documentation"
                             className=

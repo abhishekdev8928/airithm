@@ -118,7 +118,7 @@ export const HOME_CAPABILITY_CONFIG  = {
 export const HOME_PLATFORM_CONFIG = {
   title: "Our Flagship Platforms",
   subtitle:
-    "Powered by AIRITHM Core, delivering intelligent solutions for every enterprise need",
+    "‘Powered by AIRITHM Core, delivering intelligent solutions for <br/> every enterprise need - built to scale with your business.",
   cards: [
     {
       id: 1,
@@ -175,20 +175,20 @@ export const HOME_ENTERPRISE_CONFIG = {
     {
       id: 1,
       icon: "Globe",
-      title: "Global Data Centers",
-      description: "Worldwide Infrastructure With Local Data Residency",
+      title: "Global Multi-Region Infrastructure",
+      description: "Active-active deployments across geographically distributed data centers with local data residency controls.",
     },
     {
       id: 2,
       icon: "ShieldCheck",
-      title: "SOC 2 Type II Compliant",
-      description: "Enterprise Security And Compliance Standards",
+      title: "Zero-Trust Security Architecture",
+      description: "End-to-End Encryption With Secure Access Controls",
     },
     {
       id: 3,
       icon: "CheckCircle",
-      title: "99.9% Uptime SLA",
-      description: "Mission-Critical Reliability With Enterprise Support",
+      title: "Auto-Scaling &amp; High Availability",
+      description: "Scalable Infrastructure With Automatic Failover &amp; Monitoring",
     },
   ],
 };

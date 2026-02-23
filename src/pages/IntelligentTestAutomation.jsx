@@ -189,7 +189,7 @@ export const Pipeline = {
       points: {
         labels: [
           {
-            text: "+38% vs manual testing",
+            text: "+40% vs. traditional testing",
             icon: {
               name: "ArrowUp",
               color: "#C44558",
@@ -216,12 +216,12 @@ export const Pipeline = {
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[322px] ",
       textColor: "#000",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Pellentesque nibh purus turpis mus urna varius at viverra ac. Sagittis neque.",
+        "AI-optimized test orchestration and parallelization for rapid feedback",
 
         points: {
         labels: [
           {
-            text: "Average: 8 min runtime",
+            text: "Average runtime: under 8 minutes",
             icon: {
               name: "Clock",
               color: "#C44558",
@@ -247,11 +247,11 @@ export const Pipeline = {
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[322px] ",
       textColor: "#000",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Pellentesque nibh purus turpis mus urna varius at viverra ac. Sagittis neque.",
+        "Reduce maintenance overhead with self-healing scripts and smart test pruning.",
         points: {
         labels: [
           {
-            text: "ROI in 3 months",
+            text: "ROI achieved in 3 months",
             icon: {
               name: "Check",
               color: "#C44558",
@@ -282,7 +282,7 @@ export const Pipeline = {
         points: {
         labels: [
           {
-            text: "Zero critical escapes",
+            text: "Zero critical production leakages",
             icon: {
               name: "Check",
               color: "#C44558",
