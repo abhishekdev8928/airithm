@@ -249,7 +249,7 @@ const NeuroTestPage = () => {
                         disableOnInteraction: false,
                     }}
                     loop={true}
-                    className="flex items-center justify-center logo-sloder mt-[50px]"
+                    className="flex items-center justify-center logo-sloder mt-[50px] logosiider"
                 >
                     <SwiperSlide>
                         <div className="flex justify-center items-center">

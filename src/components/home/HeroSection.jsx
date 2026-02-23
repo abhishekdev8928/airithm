@@ -25,7 +25,7 @@ export default function HeroHeader() {
       />
 
       <Swiper
-   loop={true}
+   loop={false}
   speed={800}
   autoplay={{
     delay: 4000,

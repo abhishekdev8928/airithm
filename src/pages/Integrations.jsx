@@ -77,7 +77,7 @@ const Integrations = () => {
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
-                        <img src="/integration/AWS.png" alt="" />
+                        <img src="/integration/aws.png" alt="" />
                         <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>AWS</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">

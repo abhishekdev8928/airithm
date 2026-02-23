@@ -271,7 +271,7 @@
 }
 .swiper-wrapper {
   transition-timing-function: ease-in-out !important;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .mae-gradient-text {
@@ -283,7 +283,9 @@
 }
 
 
-
+.logosiider .swiper-wrapper{
+  align-items: center;
+}
 
 @media (max-width:560px) {
   .section-wrapper {
