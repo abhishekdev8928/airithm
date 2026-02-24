@@ -118,7 +118,7 @@ export const HOME_CAPABILITY_CONFIG  = {
 export const HOME_PLATFORM_CONFIG = {
   title: "Our Flagship Platforms",
   subtitle:
-    "‘Powered by AIRITHM Core, delivering intelligent solutions for <br/> every enterprise need - built to scale with your business.",
+    "Powered by AIRITHM Core, delivering intelligent solutions for <br/> every enterprise need - built to scale with your business.",
   cards: [
     {
       id: 1,
@@ -187,8 +187,8 @@ export const HOME_ENTERPRISE_CONFIG = {
     {
       id: 3,
       icon: "CheckCircle",
-      title: "Auto-Scaling &amp; High Availability",
-      description: "Scalable Infrastructure With Automatic Failover &amp; Monitoring",
+      title: "Auto-Scaling & High Availability",
+      description: "Scalable Infrastructure With Automatic Failover & Monitoring",
     },
   ],
 };

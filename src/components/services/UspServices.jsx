@@ -16,7 +16,7 @@ const UspServices = ({ data ,spacing = "" }) => {
             : bodyclass
         }  rounded-[50px] px-5   sm:rounded-[100px] lg:py-[100px] py-[80px]  z-10 relative   `}
       >
-        <div className=" max-w-[1350px] mx-auto ">
+        <div className=" max-w-[1385px] mx-auto ">
           <SectionHeading
               title={title}
               subtitle={subtitle}

@@ -29,7 +29,7 @@ const CommunitySection = () => {
             </div> */}
 
           <SectionHeading
-            subtitle="Join the new aged technology community
+            subtitle="Join the new aged technology community.
    <br class='hidden sm:block' />
    Collaborate with professionals globally to share insights, ask questions, and find the answers you need.
  "

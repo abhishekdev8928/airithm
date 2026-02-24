@@ -10,7 +10,7 @@ export default function ArchitectureLayers() {
     <section className=" md:pt-[60px] pt-[100px] rounded-b-[100px] md:pb-[100px] pb-[200px] px-6 bg-white  px-5">
         <SectionHeading
                           titleClassName=" text-[#00273A] text-center"
-                          title="System Architecture Overview’"
+                          title="System Architecture Overview"
                           
                           subtitleClassName=" text-[#626161] "
                       />

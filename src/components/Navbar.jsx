@@ -437,7 +437,7 @@ export default function Navbar({
                       <div className="w-[39px]">
                         <BriefcaseBusiness color="#C44558" className="" />
                       </div>
-                      <div>
+                      <div className="w-auto">
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.</p>
                       </div>
@@ -783,7 +783,7 @@ export default function Navbar({
                         <div className="w-[39px]">
                           <FileText color="#C44558" className="" />
                         </div>
-                        <div>
+                        <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Thought leadership on agents, AI testing, and reliability</p>
                         </div>
@@ -792,7 +792,7 @@ export default function Navbar({
                         <div className="w-[39px]">
                           <Layers color="#C44558" className="" />
                         </div>
-                        <div>
+                        <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">In-depth research and technical frameworks</p>
                         </div>
@@ -801,7 +801,7 @@ export default function Navbar({
                         <div className="w-[39px]">
                           <BriefcaseBusiness color="#C44558" className="" />
                         </div>
-                        <div>
+                        <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.</p>
                         </div>
@@ -811,7 +811,7 @@ export default function Navbar({
                         <div className="w-[39px]">
                           <ChartLine color="#C44558" className="" />
                         </div>
-                        <div>
+                        <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Comparative performance insights and data-driven evaluations to help assess efficiency, quality, and scalability.</p>
                         </div>
@@ -820,7 +820,7 @@ export default function Navbar({
                         <div className="w-[39px]">
                           <CirclePlay color="#C44558" className="" />
                         </div>
-                        <div>
+                        <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert-led sessions, product discussions, and live events exploring trends, innovations, and best practices.</p>
                         </div>
@@ -829,7 +829,7 @@ export default function Navbar({
                         <div className="w-[39px]">
                           <CircleQuestionMark color="#C44558" className="" />
                         </div>
-                        <div>
+                        <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
                         </div>

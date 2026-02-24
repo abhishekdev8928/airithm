@@ -5,6 +5,7 @@ import FooterSection from "@/components/home/FooterSection";
 import Navbar from "@/components/Navbar.jsx";
 import CtaSection from "../components/common/CtaSection"
 import Realtime from "../components/services/Realtime"
+import LogoSlider from "../components/sections/LogoSlider"
 import {
     Neuro_Test_HEADER,
     Core_capabiliti_CONFIG,
@@ -231,59 +232,14 @@ const NeuroTestPage = () => {
 
                 </div>
             </section>
-            <section className="py-20 max-w-[1100px] mx-auto px-4">
+            <section className="py-20 max-w-[1300px] mx-auto px-4">
                    <SectionHeading
                     title="Integrations"
                     
                    
                     subtitleClassName="  text-[#fff]"
                 />
-                <Swiper
-                    modules={[Navigation, Pagination, Autoplay]}
-                    spaceBetween={30}
-                    slidesPerView={6}
-                    navigation
-                    pagination={{ clickable: true }}
-                    autoplay={{
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    }}
-                    loop={true}
-                    className="flex items-center justify-center logo-sloder mt-[50px] logosiider"
-                >
-                    <SwiperSlide>
-                        <div className="flex justify-center items-center">
-                            <img className='object-contain' src="/slider/slide1.png" alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="flex justify-center items-center">
-                            <img className='object-contain' src="/slider/slide2.png" alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="flex justify-center items-center">
-                            <img className='object-contain' src="/slider/slide3.png" alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='h-[100%]'>
-                        <div className="flex justify-center items-center">
-                            <img className='object-contain' src="/slider/slide4.png" alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="flex justify-center items-center">
-                            <img className='object-contain' src="/slider/slide5.png" alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="flex justify-center items-center">
-                            <img className='object-contain' src="/slider/slide6.png" alt="" />
-                        </div>
-                    </SwiperSlide>
-
-
-                </Swiper>
+               <LogoSlider/>
             </section>
 
                 <div className='pt-[80px]'>

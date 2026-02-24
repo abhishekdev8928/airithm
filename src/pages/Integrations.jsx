@@ -35,7 +35,7 @@ const Integrations = () => {
           {/* Section Heading */}
               <SectionHeading
                 titleClassName="text-dark capitalize"
-                title="Built to Work With Your Stack’"
+                title="Built to Work With Your Stack"
                 subtitleClassName="text-dark"
                 // subtitle="{subtitle}"
                 wrapperClassName="w-full sm:max-w-[909px] mx-auto mb-15"

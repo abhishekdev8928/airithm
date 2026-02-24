@@ -38,18 +38,16 @@ const PlatformCapabilitiesPage = () => {
         <MainBanner data={Pc_HEADER} />
        
     </section>
-    <section className='pb-0 relative  '>
-        
-       <FeatureGrid />
-    </section>
-    <section className='py-[70px]'>
-           <SectionHeading
+    <section className='pt-[90px] relative  '>
+             <SectionHeading
                         title="Feature Deep Dive"
                         subtitle='Explore how each capability transforms your testing workflow'
                        
                         subtitleClassName="  text-[#626161]"
                     />
+       <FeatureGrid />
     </section>
+
     <section className='py-[70px] rounded-[50px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]'>
            <SectionHeading
                         title="Autonomous Test Generation"
@@ -75,26 +73,30 @@ const PlatformCapabilitiesPage = () => {
                         // subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[819px]"
                     />
                    <div className="max-w-[1360px] px-5 mx-auto mt-[40px] flex flex-wrap gap-6 justify-center">
-  <div className="flex-1 min-w-[250px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-2xl border border-[#747474] text-center">
-    <h2 className='mae-gradient-text w-fit mx-auto  text-[48px] font-primary font-[600]'>95%</h2>
-    <p className='text-[20px] text-white font-secondary'>Coverage Increase</p>
-  </div>
+                    <div className="flex-1 min-w-[250px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-2xl border border-[#747474] text-center">
+                      <h2 className='mae-gradient-text w-fit mx-auto  text-[48px] font-primary font-[600]'>95%</h2>
+                      <p className='text-[20px] text-white font-secondary'>Coverage Increase</p>
+                      <p className='text-[14px] mt-2 text-white font-secondary'>Expand operational visibility with broader, more consistent process reach.</p>
+                    </div>
 
-  <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
-    <h2 className=' mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>10x</h2>
-    <p className='text-[20px] text-[#fff] font-secondary'>Faster Creation</p>
-  </div>
+                    <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
+                      <h2 className=' mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>10x</h2>
+                      <p className='text-[20px] text-[#fff] font-secondary'>Faster Creation</p>
+                        <p className='text-[14px] mt-2 text-white font-secondary'> Accelerate development cycles without compromising precision or quality.</p>
+                    </div>
 
-  <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
-    <h2 className='mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>70%</h2>
-    <p className='text-[20px] text-[#fff] font-secondary'>Cost Reduction</p>
-  </div>
+                    <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
+                      <h2 className='mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>70%</h2>
+                      <p className='text-[20px] text-[#fff] font-secondary'>Cost Reduction</p>
+                        <p className='text-[14px] mt-2 text-white font-secondary'> Optimize resource use to lower operational spend sustainably.</p>
+                    </div>
 
-  <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
-    <h2 className='mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>85%</h2>
-    <p className='text-[20px] text-[#fff] font-secondary'>Risk Mitigation</p>
-  </div>
-</div>
+                    <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
+                      <h2 className='mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>85%</h2>
+                      <p className='text-[20px] text-[#fff] font-secondary'>Risk Mitigation</p>
+                        <p className='text-[14px] mt-2 text-white font-secondary'> Strengthen safeguards and reduce exposure through proactive controls.</p>
+                    </div>
+                  </div>
 
      </section>
      <section className='py-[90px] px-5'>

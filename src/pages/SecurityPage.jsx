@@ -21,7 +21,7 @@ const SecurityPage = () => {
                 
                
             />
-            <div className='md:mt-[100px] mt-[70px] rounded-[50px] py-[150px] pb-[80px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='md:mt-[100px] mt-[70px] rounded-t-[50px] py-[150px] pb-[150px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 {/* <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[15px]'>Two Platforms. One Vision.</p> */}
                 <MainBanner data={Security_HEADER} />
                 <div className=" mt-[40px]">
@@ -102,7 +102,7 @@ const SecurityPage = () => {
                 </div>
 
             </div>
-            <div className="py-[40px]">
+            {/* <div className="py-[40px]">
                 <ul className="flex justify-center md:flex-row flex-col text-center lg:px-0 px-5 gap-5">
                     <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>Security Compliance Ready</span></li>
                     <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>GDPR Aligned</span></li>
@@ -110,8 +110,8 @@ const SecurityPage = () => {
                     <li className='bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]  px-7 py-3   rounded-[100px]'><span className='text-[#C44558] font-[20px] font-secondary fonr-[600]'>ISO Standards</span></li>
                 </ul>
 
-            </div>
-            <div className="md:rounded-t-[100px] rounded-t-[50px]  pb-[200px] py-[80px] pb-[100px] bg-[linear-gradient(360deg,#000000_0%,#042539_100%)]">
+            </div> */}
+            <div className=" rounded-t-[50px] mt-[-50px] pb-[200px] py-[80px] pb-[100px] bg-[linear-gradient(360deg,#000000_0%,#042539_100%)]">
                 <SectionHeading
                     title="Defense-in-Depth Security Architecture"
                     subtitle='Multi-layered security controls across platform, infrastructure, and operational layers ensure <br/> comprehensive protection.'
