@@ -1,6 +1,6 @@
 export const Security_HEADER = {
   heading: "Enterprise-Grade Security & <br/> Compliance by Design",
-   headclass:"pt-0 text-white",
+   headclass:"pt-0  text-white",
   paragraph:
     "Security, privacy, and governance embedded across every layer of the autonomous testing platform.",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",

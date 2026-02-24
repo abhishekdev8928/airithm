@@ -21,7 +21,7 @@ const SecurityPage = () => {
                 
                
             />
-            <div className='md:mt-[100px] mt-[70px] rounded-t-[50px] py-[150px] pb-[150px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='md:mt-[100px] mt-[70px] rounded-t-[50px] py-[150px] pb-[150px] bg-[#000]'>
                 {/* <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[15px]'>Two Platforms. One Vision.</p> */}
                 <MainBanner data={Security_HEADER} />
                 <div className=" mt-[40px]">
