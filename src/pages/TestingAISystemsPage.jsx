@@ -971,7 +971,7 @@ export const USP_CONFIG = {
       icon: "Dices",
       title: "Non-Deterministic Outputs",
       discColor: "#626161",
-      cardClassName:"bg-[#fff] w-full sm:w-[318px] ",
+      cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
         "Same input can produce different valid outputs, making traditional assertion-based testing impossible.",
@@ -984,7 +984,7 @@ export const USP_CONFIG = {
       icon: "ChartSpline",
       title: "Configure Test Strategy",
       discColor: "#626161",
-      cardClassName:"bg-[#fff] w-full sm:w-[318px] ",
+      cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
         "AI decisions are based on confidence scores and learned patterns, not fixed logic paths.",
@@ -995,7 +995,7 @@ export const USP_CONFIG = {
       icon: "Database",
       title: "Data & Prompt Sensitivity",
       discColor: "#626161",
-      cardClassName:"bg-[#fff] w-full sm:w-[318px] ",
+      cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
         "Minor changes in input context or phrasing can significantly alter AI behavior and outputs.",
@@ -1006,7 +1006,7 @@ export const USP_CONFIG = {
       icon: "RefreshCcw",
       title: "Continuous Evolution",
       discColor: "#626161",
-      cardClassName:"bg-[#fff] w-full sm:w-[318px] ",
+      cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
         "Models update, data drifts, and prompts change requiring ongoing validation, not one-time testing.",

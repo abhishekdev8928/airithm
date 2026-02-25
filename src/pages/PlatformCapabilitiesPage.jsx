@@ -68,9 +68,9 @@ const PlatformCapabilitiesPage = () => {
      <section className='py-[70px] rounded-[50px] bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] mt-[70px]'>
                <SectionHeading
                         title="Key Benefits"
-                        // subtitle='Our autonomous test generation engine analyzes your application’s structure, user flows, and business logic to automatically create comprehensive test suites. It identifies critical paths, edge cases, and potential failure points without manual intervention.'
+                        subtitle='Deliver measurable efficiency, speed, and resilience across workflows <br/> with outcomes designed to scale alongside enterprise demands.'
                         titleClassName="sm:text-[48px] text-[#fff]"
-                        // subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[819px]"
+                        subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[819px]"
                     />
                    <div className="max-w-[1360px] px-5 mx-auto mt-[40px] flex flex-wrap gap-6 justify-center">
                     <div className="flex-1 min-w-[250px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-2xl border border-[#747474] text-center">

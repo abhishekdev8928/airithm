@@ -61,7 +61,7 @@ export const resorce_card_CONFIG = {
       discColor:'#626161 ',
       title: "Case Studies",
       description:
-        "Real-world success stories",
+        "Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.",
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ export const resorce_card_CONFIG = {
       discColor:'#626161 ',
       title: "Benchmarks",
       description:
-        "Performance & accuracy metrics",
+        "Comparative performance insights and data-driven evaluations to help assess efficiency, quality, and scalability.",
     },
      {
       id: 5,
@@ -83,7 +83,7 @@ export const resorce_card_CONFIG = {
       discColor:'#626161 ',
       title: "Webinars & Events",
       description:
-        "Live & on-demand sessions",
+        "Expert-led sessions, product discussions, and live events exploring trends, innovations, and best practices.",
     },
     {
       id: 6,
