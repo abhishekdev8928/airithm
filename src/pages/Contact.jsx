@@ -158,11 +158,12 @@ export default Contact
         id: 1,
         icon: "Headset",
         title: "Sales Enquiries",
+        mail:"sales@airithm.ai ",
         discColor: "#626161",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         textColor: "#1E1E1E",
         description:
-            "Thought leadership on agents, AI testing, and reliability",
+            "<a className='!text-[#C44558]' href='mailto:sales@airithm.ai'>sales@airithm.ai</a>",
 
             
         
@@ -171,11 +172,12 @@ export default Contact
         id: 2,
         icon: "HandFist",
         title: "Support Enquiries",
+        mail:"support@airithm.ai",
         discColor: "#626161",
         textColor: "#1E1E1E",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         description:
-            "In-depth research and technical frameworks",
+                    "<a className='!text-[#C44558]' href='support@airithm.ai'>support@airithm.ai</a>",
 
             
         
@@ -184,11 +186,12 @@ export default Contact
             id: 3,
             icon: "Handshake",
             title: "Partnership Enquiries",
+            mail:"corporate@airithm.ai",
             discColor: "#626161",
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
-            description:
-                "Lorem ipsum dolor sit amet consectetur. Sagittis ornare.",
+        description:
+                    "<a className='!text-[#C44558]' href='corporate@airithm.ai'>corporate@airithm.ai</a>",
         },
          {
             id: 4,
@@ -208,7 +211,7 @@ export default Contact
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
             description:
-                "Lorem ipsum dolor sit amet consectetur. Sagittis ornare.",
+                "Raheja- World Trade Centre, Unit 2703-2706, 27th Floor, Juinagar, Navi Mumbai 400703",
         }
         , {
             id: 6,
@@ -218,7 +221,7 @@ export default Contact
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
             description:
-                "Lorem ipsum dolor sit amet consectetur. Sagittis ornare.",
+                "R-ONE Diamond Towers, 18th floor, Financial District, Hyderabad, Telangana - 500032",
         }
 
     

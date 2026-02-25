@@ -88,8 +88,9 @@ const FeatureCard = ({
         <p
           className="font-secondary text-[14px] text-[#A1A1A1] tracking-[0.02em] font-medium leading-[1.4]"
           style={{ color: discColor || "#626161" }}
+            dangerouslySetInnerHTML={{ __html: description }}
         >
-          {description}
+          {/* {description} */}
         </p>
       </div>
 
