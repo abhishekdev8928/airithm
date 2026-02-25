@@ -49,7 +49,7 @@ const NeuroTestPage = () => {
             <section className='py-[80px] px-5 max-w-[780px] mx-auto '>
                 <SectionHeading
                     title="What is NeuroTest?"
-                    subtitle="The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant, <br class='hidden md:block' /> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide  <br class='hidden md:block' /> comprehensive quality assurance for your AI systems."
+                    subtitle="The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,  governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide   comprehensive quality assurance for your AI systems."
                    
                     subtitleClassName="  text-[#626161]"
                 />

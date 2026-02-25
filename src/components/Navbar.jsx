@@ -421,7 +421,7 @@ export default function Navbar({
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Thought leadership on agents, AI testing, and reliability</p>
+                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert insights, product thinking, and industry analysis on AI testing, system reliability, and intelligent automation.</p>
                       </div>
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
@@ -430,7 +430,7 @@ export default function Navbar({
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">In-depth research and technical frameworks</p>
+                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Deep technical research covering benchmarking strategies, system validation, and performance assurance for enterprise-grade AI platforms.</p>
                       </div>
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
@@ -468,7 +468,7 @@ export default function Navbar({
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
-                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
+                        <p className="text-[14px] text-[#797979] font-secondary font-[400]">Answers covering platform capabilities, integrations, and usage.</p>
                       </div>
                     </Link>
                   </div>
@@ -785,7 +785,7 @@ export default function Navbar({
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
-                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Thought leadership on agents, AI testing, and reliability</p>
+                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert insights, product thinking, and industry analysis on AI testing, system reliability, and intelligent automation.</p>
                         </div>
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
@@ -794,7 +794,7 @@ export default function Navbar({
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
-                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">In-depth research and technical frameworks</p>
+                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Deep technical research covering benchmarking strategies, system validation, and performance assurance for enterprise-grade AI platforms.</p>
                         </div>
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
@@ -831,7 +831,7 @@ export default function Navbar({
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
-                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Lorem ipsum dolor sit amet consectetur. Neque ut tellus.</p>
+                          <p className="text-[14px] text-[#797979] font-secondary font-[400]">Answers covering platform capabilities, integrations, and usage.</p>
                         </div>
                       </Link>
                     </div>

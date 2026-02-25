@@ -8,7 +8,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Functional & Regression Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
       description:
         "Ensure flawless performance across all user journeys with intelligent, automated, and repeatable testing.",
       points: {
@@ -34,7 +34,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Security & Compliance Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
       description:
         "Validate application safety, protect sensitive data, and meet industry-grade standards.",
       points: {
@@ -60,7 +60,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Usability & Accessibility Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
       description:
         "Deliver outstanding user experiences across devices with automated UX validation.",
       points: {
@@ -86,7 +86,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Data & Integration Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
       description:
         "Ensure every integration point is accurate, reliable, and fully synchronized.",
       points: {
@@ -122,7 +122,7 @@ export const CORE_TEST_MODULE_CONFIG = {
       linkIconSrc:"./svg/grid/book-check.svg",
       textColor:"#fff",
       gradient:true,
-      cardClassName:" w-full sm:w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
+      cardClassName:" w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
       title: "Learn",
       discColor:'#A1A1A1',
@@ -133,7 +133,7 @@ export const CORE_TEST_MODULE_CONFIG = {
       id: 2,
       icon: "PencilRuler",
       linkIconSrc:"./svg/grid/pencil-ruler.svg",
-      cardClassName:"w-full sm:w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
+      cardClassName:"w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
        textColor:"#fff",
        discColor:'#A1A1A1',
@@ -145,7 +145,7 @@ export const CORE_TEST_MODULE_CONFIG = {
       id: 3,
       icon: "CirclePlay",
       linkIconSrc:"./svg/grid/circle-plus.svg",
-      cardClassName:"w-full sm:w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
+      cardClassName:"w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
        textColor:"#fff",
        discColor:'#A1A1A1',
@@ -158,7 +158,7 @@ export const CORE_TEST_MODULE_CONFIG = {
       icon: "ChartBarBig",
       linkIconSrc:"./svg/grid/chart-bar-big.svg",
       iconColor: "",
-      cardClassName:"w-full sm:w-[300px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
+      cardClassName:"w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
 
        textColor:"#fff",
        discColor:'#A1A1A1',

@@ -39,7 +39,7 @@ export const resorce_card_CONFIG = {
       iconColor: "",
       title: "Blog",
       description:
-        "Thought leadership on agents, AI testing, and reliability",
+        "Expert insights, product thinking, and industry analysis on AI testing, system reliability, and intelligent automation.",
     },
     {
       id: 2,
@@ -50,7 +50,7 @@ export const resorce_card_CONFIG = {
       discColor:'#626161 ',
       title: "Whitepapers",
       description:
-        "In-depth research and technical frameworks",
+        "Deep technical research covering benchmarking strategies, system validation, and performance assurance for enterprise-grade AI platforms.",
     },
     {
       id: 3,
@@ -94,7 +94,7 @@ export const resorce_card_CONFIG = {
       discColor:'#626161 ',
       title: "FAQs",
       description:
-        "Answers to common questions",
+        "Answers covering platform capabilities, integrations, and usage.",
     },
    
    
