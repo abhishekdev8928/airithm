@@ -66,7 +66,7 @@ const TcmPage = () => {
 
 
             <SectionHeading 
-            title={"TCM.Module.DualTierMemory"}
+            title={"ContextVault"}
             titleClassName="text-[40px] font-600 sm:text-[64px] break-all"
             subtitle={
                 
