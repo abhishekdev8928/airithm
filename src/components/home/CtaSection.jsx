@@ -17,7 +17,7 @@ const CtaSection = () => {
           <div className="overlay-content backdrop-blur-[100px]  sm:mx-0 space-y-6 justify-center flex flex-col items-center sm:p-20 w-full h-[350px] sm:h-auto sm:max-w-full rounded-[40px] border border-white cta-banner-content  relative z-13">
             <SectionHeading
               titleClassName=" text-white"
-              title="‘Ready to Modernize <br class='sm:hidden' /> Your Enterprise?"
+              title="Ready to Modernize <br class='sm:hidden' /> Your Enterprise?"
             />
 
              <Button
