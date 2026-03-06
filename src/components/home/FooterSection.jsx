@@ -13,18 +13,18 @@ const FooterSection = () => {
       <div className="px-5 py-12">
         
         {/* MAIN WRAPPER */}
-        <div className=" flex justify-between flex-wrap lg:flex-nowrap gap-12 ">
+        <div className=" flex justify-between flex-wrap lg:flex-nowrap ">
           
           {/* LEFT TEXT BLOCK */}
-          <div className="text-inter-16 leading-[1.2]  max-w-[247px] flex-shrink-0">
+          {/* <div className="text-inter-16 leading-[1.2]  max-w-[247px] flex-shrink-0">
            AIRITHM powers enterprise-grade autonomous testing and intelligent platforms for confident software releases.
-          </div>
+          </div> */}
 
           {/* RIGHT NAVIGATION BLOCK */}
-          <div className="flex  flex-wrap    gap-10 text-[14px] leading-[22px]">
+          <div className="flex w-[100%] flex-wrap md:justify-between px-6 gap-10 text-[14px] leading-[22px]">
             
             {/* Column 1 */}
-            <div className="flex  flex-col gap-4 w-[200px]">
+            <div className="flex  flex-col gap-4 ">
               <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link to="/ai-automation">AI Test Platform</Link></h3>
               <h4 className="text-inter-18  font-semibold leading-[1.2]">
                 <Link to="/core-test">Core Test</Link>
@@ -77,7 +77,7 @@ const FooterSection = () => {
             </div>
 
             {/* Column 2 */}
-            <div className="flex flex-col gap-4 w-[270px]">
+            <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
                <Link to="/context-intelligence-platform">Context Intelligent Platform</Link>
               </h4>
@@ -130,7 +130,7 @@ const FooterSection = () => {
             </div>
 
             {/* Column 3 */}
-            <div className="flex flex-col gap-4 w-[200px]">
+            <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
                 <Link to="">AI Governance</Link>
               </h4>
@@ -194,7 +194,7 @@ const FooterSection = () => {
             </div>
 
               {/* Column 5 */}
-            <div className="flex flex-col gap-4 w-[150px]">
+            <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
                 <Link to="/resources">Resources</Link>
               </h4>
@@ -209,7 +209,7 @@ const FooterSection = () => {
             </div>
 
             {/* Column 4 */}
-            <div className="flex flex-col gap-4 w-[150px]">
+            <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
                 Quick Link
               </h4>
@@ -267,7 +267,7 @@ const FooterSection = () => {
 
         {/* COPYRIGHT */}
         <div className="max-w-[1440px] mx-auto mt-[60px] text-[#FFF9F9] text-[14px]">
-          Copyright © {year} AIRITHM. All Rights Reserved. Powered By : <a href="https://www.digihost.in/" target="_blank">DIIGIIHOST</a>  
+          Copyright © {year} AIRITHM. All Rights Reserved. 
         </div>
       </div>
 

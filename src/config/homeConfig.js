@@ -118,7 +118,7 @@ export const HOME_CAPABILITY_CONFIG  = {
 export const HOME_PLATFORM_CONFIG = {
   title: "Our Flagship Platforms",
   subtitle:
-    "Powered by AIRITHM Core, delivering intelligent solutions for <br/> every enterprise need - built to scale with your business.",
+    "Powered by AIRITHM Core, Delivering Intelligent Solutions Across the Enterprise - Architected to Scale With Your Business",
   cards: [
     {
       id: 1,
