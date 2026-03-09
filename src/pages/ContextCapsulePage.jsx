@@ -49,7 +49,7 @@ const ContextCapsulePage = () => {
   
   {/* Left box */}
   <div className="bg-[#D9D9D9] w-full lg:max-w-[452px] overflow-hidden min-h-[300px]  rounded-2xl self-stretch ">
-    <img src="./home/modular-context.jpg" className="h-full object-cover" alt="" />
+    <img src="/home/modular-context.jpg" className="h-full object-cover" alt="" />
   </div>
 
   {/* Right boxes */}
@@ -57,25 +57,25 @@ const ContextCapsulePage = () => {
     
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#C44558] text-[20px] font-medium">
-        Persona/role profile definition
+      	Persona/ Role Profile Definition
       </h2>
     </div>
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#C44558] text-[20px] font-medium">
-        Tools and system permissions
+       Tools and System Permissions
       </h2>
     </div>
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#C44558] text-[20px] font-medium">
-        Scoped memory and history
+       	Scoped Memory and History
       </h2>
     </div>
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#C44558] text-[20px] font-medium">
-        TTL and expiration management
+       	TTL and Expiration Management
       </h2>
     </div>
 

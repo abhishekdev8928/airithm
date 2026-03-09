@@ -34,7 +34,7 @@ export const CORE_MODULE_CONFIG = {
    title: "Core Concept",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-[#fff]",
   subtitle:
-    "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
+    "The Reflective Memory Module represents a breakthrough in AI <br/>self-awareness and continuous learning.",
     cards: [
     {
       id: 1,
@@ -127,7 +127,7 @@ export const Memory_CONFIG = {
    title: "Memory Distillation",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
   subtitle:
-    "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
+    "The Reflective Memory Module represents a breakthrough in AI<br/> self-awareness and continuous learning.",
     cards: [
     {
       id: 1,

@@ -13,8 +13,8 @@ const Contact = () => {
                     iconClassName="text-dark"
                 />
       <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[90px] py-[100px] bg-[linear-gradient(180deg,#042539_0%,#000000_55.42%)]'>
-             <div className='max-w-[813px] m-auto px-5'>
-                    <h1 className='md:text-[64px] text-[40px] font-primary text-white text-center  leading-[1.2] tracking-[2%] capitalize  font-[600]'>Get in Touch. Redefine What's Possible</h1>
+             <div className='max-w-[913px] m-auto px-5'>
+                    <h1 className='md:text-[64px] text-[40px] font-primary text-white text-center  leading-[1.2] tracking-[2%] capitalize  font-[600]'>Get in Touch. <br /> Redefine What's Possible</h1>
                     <p className='text-[#999999] text-center font-medium leading-[1.4] tracking-[2%] mt-2 md:text-[18px] text-[16px] '>Ready to elevate your business with AI? <br /> Contact us today to explore innovative solutions tailored to your success.</p>
              </div>
              <div className="max-w-[813px] m-auto mt-8 px-6">
@@ -109,7 +109,7 @@ const Contact = () => {
                     <div className="flex items-center gap-3">
                         <input type="checkbox" className="mt-1 accent-white" />
                         <p className="text-[18px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-sm">
-                        I Allow Supervity To Contact Me For Scheduling And Marketing, As Per Its Privacy Policy.
+                        I Allow AIRITHM To Contact Me For Scheduling And Marketing, As Per Its Privacy Policy.
                         </p>
                     </div>
 
@@ -196,7 +196,7 @@ export default Contact
          {
             id: 4,
             icon: "Building",
-            title: "AIRITHM INC",
+            title: "USA",
             discColor: "#626161",
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
@@ -206,7 +206,7 @@ export default Contact
         , {
             id: 5,
             icon: "Building2",
-            title: "Mumbai, India",
+            title: "India",
             discColor: "#626161",
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
@@ -216,7 +216,7 @@ export default Contact
         , {
             id: 6,
             icon: "University",
-            title: "Hyderabad, India",
+            title: "India",
             discColor: "#626161",
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",

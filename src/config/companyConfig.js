@@ -1,5 +1,5 @@
 export const Comapny_HEADER = {
-  heading: "Pioneering the Future of Autonomous Intelligence",
+  heading: "Pioneering the Future of <br/> Autonomous Intelligence",
    headclass:"pt-0 text-white",
   paragraph:
     "AIRITHM builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",

@@ -57,8 +57,14 @@ const ResourcesPage = () => {
                 <MainBanner data={Resource_HEADER} />
                 <img src="/slider/atom.gif" alt="Atom Animation" className='m-auto' />
             </div>
-            <section className='py-[80px] pt-[40px]'>
-                <div className="flex mt-5 flex-wrap px-5  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">
+            <section className='py-[80px] pt-[80px]'>
+                  <SectionHeading
+                    title="Multiple Resources for AIRITHM"
+                    // subtitle='Real-world results achieved using autonomous and agentic testing systems.'
+                    titleClassName="sm:text-[48px] text-[#000]"
+                    // subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
+                />
+                <div className="flex flex-wrap px-5  gap-6 mt-8 justify-center max-w-[1200px] mx-auto">
                     {cards.map((card) => (
                         <FeatureCard key={card.id} {...card} />
                     ))}

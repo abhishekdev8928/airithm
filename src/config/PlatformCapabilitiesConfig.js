@@ -5,7 +5,22 @@ export const Pc_HEADER = {
   paragraph:
     "Autonomous intelligence across the testing lifecycle.",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
-  buttons: []
+  buttons: [
+    {
+      text: "View Documentation",
+      className:
+        " text-[#C44558] bg-white",
+      href: "",
+      hoverIcon:false,
+        icon: "Eye",
+    },
+    {
+      text: "Explore Architecture",
+      className: " text-white bg-primary-gradient ",
+      href: "",
+        icon: "CircleArrowOutUpRight",
+    },
+  ],
 };
 
 

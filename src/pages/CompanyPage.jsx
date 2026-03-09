@@ -142,7 +142,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & CEO</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha is a senior engineering and technology leader with over 20 years of experience guiding enterprise-scale AI strategy, operating models, and governance across Fortune 500 companies and highly regulated sectors, including finance, healthcare, travel, and supply chain.</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
-                    <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
+                    {/* <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p> */}
                 </div>
                     
                 </div>
@@ -232,7 +232,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                                 <p className='text-[#626161] text-[16px]'>Total Funding Raised</p>
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
-                   <h2 className='text-[#C44558] text-[24px] font-primary'>2021</h2>
+                   <h2 className='text-[#C44558] text-[24px] font-primary'>2020</h2>
                                 <p className='text-[#626161] text-[16px]'>Year Founded</p>
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">

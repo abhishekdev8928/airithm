@@ -1,5 +1,5 @@
 export const tpil_HEADER = {
-  heading: "Two Platforms. One<br/> Intelligence Loop.",
+  heading: "Two Platforms.<br/> One Intelligence Loop.",
    headclass:"",
   paragraph:
     "Independently powerful.  Exponentially stronger together.",
