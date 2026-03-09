@@ -14,28 +14,30 @@ export const AUTOMATION_Testing_CONFIG  = {
         id: 1,
         bgImgSrc: "/automation/testing-cap/n1.webp",
         title: "Robustness & Reliability",
-        description:
-          "Adversarial & Robustness Testing, CI/CD & Model Regression, Model Evaluation & Validation",
+        // description:
+          list:["Adversarial & Robustness Testing","CI/CD & Model Regression","Model Evaluation & Validation"]
       },
         {
         id: 3,
         bgImgSrc: "/automation/testing-cap/n2.webp",
         title: "Fairness & Ethics",
-        description: "Fairness & Bias Testing, Explainability & Transparency",
+        // description: ", ",
+        list:["Fairness & Bias Testing","Explainability & Transparency"]
       },
         {
         id: 4,
         bgImgSrc: "/automation/testing-cap/n3.webp",
         title: "Data & Context Quality",
-        description:
-          "Data-Centric Testing, LLM-Specific Eval & Prompt Testing",
+        // description:
+        //   ", ",
+          list:["Data-Centric Testing","LLM-Specific Eval & Prompt Testing"]
       },
       {
         id: 2,
         bgImgSrc: "/automation/testing-cap/n4.webp",
         title: "Security & Safety",
-        description:
-          "Security & Safety Testing for AI applications",
+        // description:"",
+          list:["Security & Safety Testing for AI applications",]
       },
     
     
@@ -52,16 +54,17 @@ export const AUTOMATION_Testing_CONFIG  = {
         id: 2,
         bgImgSrc: "/automation/testing-cap/c1.webp",
         title: "Functional & Regression Testing",
-        description:
-          "Unit, Integration, End-to-End Workflow Testing, Regression Automation & CI/CD Validation",
+        // description:", , ,  ",
+          list:["Unit testing","Integration testing","End-to-End Workflow Testing","Regression Automation & CI/CD Validation"]
+          
         // bgImgSrc: "https://media.istockphoto.com/id/2157176253/photo/quality-assurance-and-document-control-with-checklist-icons-businessman-mark-off-items-on.jpg?s=1024x1024&w=is&k=20&c=VwlgvhCM-AI870yM-fMHCYcF89FpWaFb5Q1_R4msq4w=",
       },
       {
         id: 1,
         bgImgSrc: "/automation/testing-cap/c2.webp",
         title: "Security & Compliance Testing",
-        description:
-          "Vulnerability & Penetration Testing, API Security, Data Privacy & Compliance (GDPR, HIPAA, SOX, PCI)",
+        // description:",, ",
+        list:["Vulnerability & Penetration Testing"," API Security","Data Privacy & Compliance (GDPR, HIPAA, SOX, PCI)"]
         // bgImgSrc: "/automation/testing-cap/c-security.jpg",
       },
      
@@ -69,13 +72,15 @@ export const AUTOMATION_Testing_CONFIG  = {
         id: 3,
         bgImgSrc: "/automation/testing-cap/c3.webp",
         title: "Usability & Accessibility Testing",
-        description: "UI/UX Validation, Cross-Browser & Cross-Device Testing, Accessibility (WCAG/ADA)",
+        // description: ", , ",
+        list:["UI/UX Validation","Cross-Browser & Cross-Device Testing","Accessibility (WCAG/ADA)"]
       },
       {
         id: 4,
-bgImgSrc: "/automation/testing-cap/c4.webp",
+        bgImgSrc: "/automation/testing-cap/c4.webp",
         title: "Data & Integrating Testing",
-        description: "Database Validation, Data Accuracy & Integrity, System Integration (ERP, CRM, Payment Gateways, APIs)",
+        // description: ", ",
+        list:["Database Validation, Data Accuracy & Integrity","System Integration (ERP, CRM, Payment Gateways, APIs)"]
       },
     ],
   },

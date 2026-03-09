@@ -8,7 +8,7 @@ import Button from "../ui/Button";
 
 const TestingSection = ({ sectionData, sectionType }) => {
   return (
-   
+
     <div className="mx-auto pt-10 md:pt-18 p-6 bg-[#F9F9F9] lg:py-[50px] py-[50px] rounded-[24px] shadow-[0px_0px_8px_4px_#C4455880] mt-[60px]" >
       <div className="flex flex-col lg:flex-row  items-center justify-center gap-10">
 
@@ -25,15 +25,15 @@ const TestingSection = ({ sectionData, sectionType }) => {
             className="text-[#797979] mt-4"
             dangerouslySetInnerHTML={{ __html: sectionData.tagline }}
           />
-              <Button
-                            btnText="Learn More"
-                            className=
-                            "text-[16px] !w-fit md:flex hidden m-auto mt-[30px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                            href={`${sectionData.link}`} 
-                            icon="CircleArrowOutUpRight"
-                            iconSize="20px"
-                        //   useCommonSvg="true"
-                        />
+          <Button
+            btnText="Learn More"
+            className=
+            "text-[16px] !w-fit md:flex hidden m-auto mt-[30px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+            href={`${sectionData.link}`}
+            icon="CircleArrowOutUpRight"
+            iconSize="20px"
+          //   useCommonSvg="true"
+          />
         </div>
 
         {/* RIGHT CARDS */}
@@ -57,20 +57,20 @@ const TestingSection = ({ sectionData, sectionType }) => {
           ))}
         </div>
         <Button
-                            btnText="Learn More"
-                            className=
-                            "text-[16px] !w-fit md:hidden flex m-auto mt-[0px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
-                            href={`${sectionData.link}`} 
-                            icon="CircleArrowOutUpRight"
-                            iconSize="20px"
-                        //   useCommonSvg="true"
-                        />
+          btnText="Learn More"
+          className=
+          "text-[16px] !w-fit md:hidden flex m-auto mt-[0px] py-5 px-4 font-primary font-medium leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+          href={`${sectionData.link}`}
+          icon="CircleArrowOutUpRight"
+          iconSize="20px"
+        //   useCommonSvg="true"
+        />
 
       </div>
-     
-    
+
+
     </div>
-    
+
   );
 };
 
@@ -83,7 +83,7 @@ const TestingCapabilitiesSection = () => {
         <div className=" pb-[120px] mx-auto">
           <SectionHeading
             subtitleClassName="text-[#626161] "
-            
+
             title={title}
             subtitle={subtitle}
           />

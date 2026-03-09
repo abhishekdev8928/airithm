@@ -1,4 +1,4 @@
-const TestingCard = ({ title, description, bgImgSrc }) => {
+const TestingCard = ({ title, description, bgImgSrc, list }) => {
   return (
     <div
       className="
@@ -64,9 +64,40 @@ const TestingCard = ({ title, description, bgImgSrc }) => {
     min-[900px]:transition-all
     min-[900px]:duration-700
   "
+
+   dangerouslySetInnerHTML={{ __html: description }}
 >
-  {description}
+  {/* {description} */}
 </p>
+<ul  className="
+    text-white text-[16px] leading-[140%] tracking-[0.04em] 
+    font-secondary font-medium mt-2
+
+    /* Default: visible on mobile */
+    opacity-100 max-h-none translate-y-0
+
+    /* Hover only above 900px */
+    min-[900px]:overflow-hidden
+    min-[900px]:max-h-0
+    min-[900px]:opacity-0
+    min-[900px]:translate-y-2
+
+    min-[900px]:group-hover:max-h-[180px]
+    min-[900px]:group-hover:opacity-100
+    min-[900px]:group-hover:translate-y-0
+
+    min-[900px]:transition-all
+    min-[900px]:duration-700
+  ">
+    {
+      list?.map((item)=>(
+          <li key={item.id} className="text-white flex">  <span className="mt-2 me-1 h-2  w-2 block rounded-full shrink-0"
+                    style={{  background: "#fff", }}
+                  />{item}</li>
+      ))
+    }
+
+</ul>
 
       </div>
     </div>
