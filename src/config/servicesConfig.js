@@ -3,7 +3,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
   heading: "Seamless Context Flow <br/> Across Federated Systems",
    headclass:true,
   paragraph:
-    "Enable seamless synchronization of distributed agents, devices and subsystems with secure, <br/> scalable event-driven AI behaviors It's Across organizational boundaries.",
+    "Enable seamless synchronization of distributed agents, devices and subsystems with secure, <br/> scalable event-driven AI behaviors It's across organizational boundaries.",
 //   backgroundImage: "/bg/bg-gradient-four.jpg",
   buttons: [
    {

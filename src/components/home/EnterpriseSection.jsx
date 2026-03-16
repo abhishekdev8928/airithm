@@ -19,7 +19,7 @@ const EnterpriseSection = () => {
             wrapperClassName="w-full  sm:max-w-[709px] mx-auto"
           />
 
-          <div className="group-icon py-20 justify-center flex flex-wrap mx-auto gap-[42px] max-w-[1224px]">
+          <div className="group-icon py-4 justify-center flex flex-wrap mx-auto gap-[42px] max-w-[1224px]">
             {/* {HOME_LOGOS.map((logo, index) => (
               <img
                 key={index}
