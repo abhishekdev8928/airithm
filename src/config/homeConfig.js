@@ -176,7 +176,7 @@ export const HOME_ENTERPRISE_CONFIG = {
       id: 1,
       icon: "Globe",
       title: "Global Multi-Region Infrastructure",
-      description: "Active-active deployments across geographically distributed data centers with local data residency controls.",
+      description: "Active deployments across geographically distributed data centers with local data residency controls.",
     },
     {
       id: 2,
@@ -197,39 +197,39 @@ export const HOME_TESTIMONIAL_CONFIG  = {
   testimonials: [
     {
       id: 1,
-      name: "Head of AI Governance",
-      title: "Financial Services Enterprise",
+      name: "Rohan Mehta",
+      // title: "Financial Services Enterprise",
       quote:
         "Working with AIRITHM was a great decision for our team. Their Core AI testing process was structured and clear, and it gave us confidence before moving forward. We’re glad we partnered with them.",
     },
     {
       id: 2,
-      name: "Director of Data Strategy",
-      title: "Global Bank",
+      name: "Daniel Brooks",
+      // title: "Global Bank",
       quote:
         "We assumed our predictive models were stable because they performed well in controlled testing. AIRITHM’s Neuro AI validation revealed subtle reasoning inconsistencies when exposed to real-world data drift.",
     },
     {
       id: 3,
-      name: "CTO",
-      title: "Enterprise SaaS Provider",
+      name: "Maya Patel",
+      // title: "Enterprise SaaS Provider",
       quote:
         "Before our launch in 202s, we worked with AIRITHM to run testing through their AI Test Platform. The process was smooth, and it helped us feel prepared before going live. Looking back, it was the right decision.",
     },
     {
       id: 4,
-      name: "VP Digital Innovation",
-      title: "Regional Enterprise Group",
+      name: "Ethan Walker",
+      // title: "Regional Enterprise Group",
       quote:
         "We engaged AIRITHM to review our intelligent agent workflows using their Core + Neuro testing framework. The collaboration was straightforward, and the overall process was handled professionally from start to finish.",
     },
-    {
-      id: 5,
-      name: "Director of Clinical Technology",
-      title: "Healthcare Enterprise",
-      quote:
-        "We can’t take risks with AI in healthcare. Testing the system under realistic conditions helped us understand how it would behave before deployment. Their testing platform gave us measurable assurance in accuracy and compliance readiness.",
-    },
+    // {
+    //   id: 5,
+    //   name: "Director of Clinical Technology",
+    //   title: "Healthcare Enterprise",
+    //   quote:
+    //     "We can’t take risks with AI in healthcare. Testing the system under realistic conditions helped us understand how it would behave before deployment. Their testing platform gave us measurable assurance in accuracy and compliance readiness.",
+    // },
   ],
 
   profileImages: [
