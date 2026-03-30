@@ -14,8 +14,8 @@ const EnterpriseSection = () => {
         <div className="max-w-12xl mx-auto ">
           <SectionHeading
             title={title}
-            titleClassName=""
-            subtitleClassName=" text-[#626161]"
+            titleClassName="text-[#015190]"
+            subtitleClassName=" text-[#757575]"
             subtitle={subtitle}
             wrapperClassName="w-full  sm:max-w-[709px] mx-auto"
           />
@@ -41,8 +41,8 @@ const EnterpriseSection = () => {
         <div className="max-w-12xl mx-auto ">
           <SectionHeading
             title="Secure and Resilient by Design"
-            titleClassName=""
-            subtitleClassName=" text-[#626161]"
+            titleClassName="text-[#015190]"
+            subtitleClassName=" text-[#757575]"
             subtitle={subtitle}
             wrapperClassName="w-full  sm:max-w-[709px] mx-auto"
           />

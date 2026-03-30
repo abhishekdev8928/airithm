@@ -26,11 +26,13 @@ const CapabilityCard = ({
           ${roundPill ? "rounded-full" : "rounded-md"}
           ${
             useGradientBg
-              ? "bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]"
+              ? "bg-[linear-gradient(86deg,#015190_10.85%,#6AC0E6_84.93%)]"
               : "bg-[#C44558]"
           }
         `}
       >
+
+
         <IconComponent
           size={iconSize}
           className="text-white"

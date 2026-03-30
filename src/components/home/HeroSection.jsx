@@ -42,7 +42,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider1.webp")',
+              backgroundImage: 'url("/home/carousel/slider1.png")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -59,10 +59,10 @@ export default function HeroHeader() {
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                <div className=" overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Join Partner Program"
-                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full border border-[2px] border-[#015190] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                       iconSize="20"
                        icon="CircleArrowOutUpRight"
                       useCommonSvg="true"
@@ -86,7 +86,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider2.webp")',
+              backgroundImage: 'url("/home/carousel/slider1.png")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -103,10 +103,10 @@ export default function HeroHeader() {
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                <div className=" overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText=" Explore Platforms "
-                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full border border-[2px] border-[#015190] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                       iconSize="20"
                        icon="CircleArrowOutUpRight"
                       href="/agentic-architecture"
@@ -132,7 +132,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider3.webp")',
+              backgroundImage: 'url("/home/carousel/slider1.png")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -149,10 +149,10 @@ export default function HeroHeader() {
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                <div className="overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Explore AI Test Platform"
-                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full border border-[2px] border-[#015190] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                       iconSize="20"
                       href="/ai-automation"
                       useCommonSvg="true"
@@ -178,7 +178,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider4.webp")',
+              backgroundImage: 'url("/home/carousel/slider1.png")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -195,10 +195,10 @@ export default function HeroHeader() {
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                <div className=" overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Explore Context Intelligence"
-                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full border border-[2px] border-[#015190] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                       iconSize="20"
                        icon="CircleArrowOutUpRight"
                       useCommonSvg="true"
@@ -224,7 +224,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider5.webp")',
+              backgroundImage: 'url("/home/carousel/slider1.png")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -241,10 +241,10 @@ export default function HeroHeader() {
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                <div className="overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Explore the Architecture"
-                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full border border-[2px] border-[#015190] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                       iconSize="20"
                        icon="CircleArrowOutUpRight"
                       href="/system-architecture-overview"
@@ -270,7 +270,7 @@ export default function HeroHeader() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: 'url("/home/carousel/slider6.jpeg")',
+              backgroundImage: 'url("/home/carousel/slider1.png")',
             }}
           >
             <div className="absolute inset-0 bg-black/5" />
@@ -287,10 +287,10 @@ export default function HeroHeader() {
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                <div className=" overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Explore Context Intelligence"
-                      className="w-full font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                      className="w-full font-primary  border border-[2px] border-[#015190] font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                       iconSize="20"
                        icon="CircleArrowOutUpRight"
                       href="/"

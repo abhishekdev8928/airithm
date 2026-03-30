@@ -21,7 +21,7 @@ export const BlogCard = ({ blog }) => {
         icon="CircleArrowOutUpRight"
         iconSize="20px"
         btnText="Read Blog"
-        className="text-[#C44558] p-2.5 font-dm-sans font-semibold leading-[1.2] tracking-[0.02em]"
+        className="text-[#015190] p-2.5 font-dm-sans font-semibold leading-[1.2] tracking-[0.02em]"
       />
 
     </div>

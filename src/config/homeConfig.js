@@ -12,7 +12,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Unified Infrastructure",
       description:
         "Integrated AI Services Delivering Enterprise-Grade Reliability And Performance",
-      cardClassName:"border-[#D9D9D9] w-full sm:w-[340px]"
+      cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Enterprise Security",
       description:
         "Advanced Security Protocols With Full Compliance And Data Governance",
-        cardClassName:"border-[#D9D9D9] w-full sm:w-[340px]"
+        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Infinite Scalability",
       description:
         "Dynamic Scaling Capabilities To Meet Growing Enterprise AI Demands",
-        cardClassName:"border-[#D9D9D9] w-full sm:w-[340px]"
+        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "High Performance",
       description:
         "Optimized AI Workflows That Deliver Speed And Accuracy At Scale",
-        cardClassName:"border-[#D9D9D9] w-full sm:w-[340px]"
+        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Real-Time Insights",
       description:
         "Actionable Analytics Delivered Instantly Across Enterprise Systems",
-        cardClassName:"border-[#D9D9D9] w-full sm:w-[340px]"
+        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Cloud-Ready",
       description:
         "Flexible Deployment Across Public, Private, Or Hybrid Cloud Environments",
-        cardClassName:"border-[#D9D9D9] w-full sm:w-[340px]"
+        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
   ],
 };
@@ -89,6 +89,7 @@ export const HOME_CAPABILITY_CONFIG  = {
       id: 1,
       icon: "Bot",
       iconColor: "#C44558",
+      useGradientBg:true,
       title: "Agentic AI",
       description: "Autonomous intelligent agents",
     },
@@ -96,6 +97,7 @@ export const HOME_CAPABILITY_CONFIG  = {
       id: 2,
       icon: "Wand2",
       iconColor: "#dc2626",
+      useGradientBg:true,
       title: "GenAI",
       description: "Creative content generation",
     },
@@ -103,6 +105,7 @@ export const HOME_CAPABILITY_CONFIG  = {
       id: 3,
       icon: "TrendingUp",
       iconColor: "#2563EB",
+      useGradientBg:true,
       title: "ML Analytics",
       description: "Predictive insights",
     },
@@ -110,6 +113,7 @@ export const HOME_CAPABILITY_CONFIG  = {
       id: 4,
       icon: "Settings",
       iconColor: "#F59E0B",
+      useGradientBg:true,
       title: "Automation",
       description: "Process optimization",
     },

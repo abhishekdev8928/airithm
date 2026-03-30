@@ -162,10 +162,10 @@ export default function Navbar({
             ))}
           </nav>
 
-          <div className="hidden lg:block p-px rounded-lg bg-gradient-to-r from-[#C44558] via-[#FF7F7F] to-[#FF7F7F]">
+          <div className="hidden lg:block p-px ">
             <Button
               btnText="Book A Demo"
-              className="bg-white text-[#C44558] px-6 py-4 rounded-lg"
+              className="bg-white text-[#015190] px-6 py-4 rounded-lg  border-[2px] border border-[#015190]"
               useCommonSvg
               href="/demo"
             />

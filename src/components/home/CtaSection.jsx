@@ -6,7 +6,7 @@ const CtaSection = () => {
     <section >
       <div
         style={{
-          backgroundImage: 'url("/bg/bg-gradient-two.jpg")',
+          backgroundImage: 'url("/bg/gradient.png")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           // backgroundPosition: "center",
@@ -42,7 +42,7 @@ const CtaSection = () => {
 <Button
               btnText="Download 2025 Report"
               hoverIcon={false}
-              className="py-5 px-6 w-full md:w-fit items-center  mx-auto sm:mx-0 font-primary font-medium text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              className="py-5 px-6 w-full md:w-fit items-center  mx-auto sm:mx-0 font-primary font-medium text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
               iconSize="20"
               icon="Download"
             />

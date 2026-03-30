@@ -21,7 +21,7 @@ const BlogsSection = () => {
           {/* Section Header */}
 
           <SectionHeading
-            titleClassName=" text-[#00273A] capitalize  pt-[36px]"
+            titleClassName=" text-[#015190] capitalize  pt-[36px]"
             title="insight, ideas, and innovation"
             wrapperClassName="max-w-[274px] sm:max-w-full mx-auto"
           />

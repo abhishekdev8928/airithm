@@ -8,7 +8,7 @@ const CommunitySection = () => {
       <div
         className="relative px-4 sm:px-0 bg-img-overlay  w-full gap-10 commmunity-section section-overlap flex-col justify-center flex items-center mt-[-100px] z-5"
         style={{
-          backgroundImage: 'url("/bg/gradient.jpg")',
+          backgroundImage: 'url("/bg/gradient.png")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
@@ -46,7 +46,7 @@ const CommunitySection = () => {
             />
             <Button
               btnText="Meet the community"
-              className="py-5 px-6 w-full min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+              className="py-5 px-6 w-full min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
               iconSize="20"
               icon="CircleArrowOutUpRight"
             />

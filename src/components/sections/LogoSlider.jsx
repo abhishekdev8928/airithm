@@ -200,8 +200,8 @@ function DualRingTechnologyBall({ label, outerRing, innerRing, size = 310 }) {
       className="relative flex items-center justify-center"
       style={{ width: size, height: size }}
     >
-      <div className="absolute inset-0 rounded-full border-2 border-orange-300 shadow-[0px_0px_1px_19px_#fff7ed]" />
-      <div className="absolute inset-6 rounded-full border-2 border-orange-200" />
+      <div className="absolute inset-0 rounded-full border-2 border-[#015190] shadow-[0px_0px_1px_19px_#0151900d]" />
+      <div className="absolute inset-6 rounded-full border-2 border-[#015190]" />
 
       <div className="absolute inset-12 rounded-full bg-white flex items-center justify-center shadow-inner">
         <span className="text-xs font-bold text-[#E13D1C] uppercase tracking-widest text-center">

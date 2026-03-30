@@ -14,7 +14,7 @@ const TestimonialCarousel = () => {
     <section>
       <div className="rounded-[50px] sm:rounded-[100px]  section-wrapper  bg-white relative z-10 mt-[-100px]  w-full">
         <SectionHeading
-          titleClassName="pt-9 text-[#00273A]   "
+          titleClassName="pt-9 text-[#015190]   "
           title="Over 1,000 <br class=' sm:hidden' />  five-star reviews"
         />
 

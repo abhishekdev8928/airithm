@@ -191,7 +191,9 @@
 
 /* gradients & misc */
 .bg-primary-gradient {
-  background: linear-gradient(85.9deg, #c44558 62.74%, #ff7f7f 95.09%);
+  /* background: linear-gradient(85.9deg, #c44558 62.74%, #ff7f7f 95.09%); */
+  background: radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%);
+
 }
 
 .shadow-primary {
@@ -201,7 +203,8 @@
 .border-gradient {
   border-radius: 9999px;
   padding: 1px;
-  background: linear-gradient(90deg, #ffa68d 0.03%, #fd3a84 100%);
+  background:  linear-gradient(86.66deg, #015190 10.85%, #6AC0E6 84.93%);
+  
 }
 
 .border-gradient-inner {
@@ -267,7 +270,9 @@
   border-radius: 50%;
 }
 .hero-swiper .swiper-pagination-bullet-active {
-  background: linear-gradient(86.66deg, #c44558 10.85%, #ff7f7f 84.93%);
+  /* background: linear-gradient(86.66deg, #c44558 10.85%, #ff7f7f 84.93%); */
+  background: linear-gradient(86.66deg, #015190 10.85%, #6AC0E6 84.93%);
+
 }
 .swiper-wrapper {
   transition-timing-function: ease-in-out !important;

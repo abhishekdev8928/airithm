@@ -30,14 +30,14 @@ const FeatureCard = ({
   const ArrowIconComponent = LucideIcons["ArrowRight"];
 
   // Determine final icon color
-  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#C44558";
+  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#00508D";
 
   return (
    <div
   className={`core-feature-card transition-shadow duration-300
   hover:shadow-[0px_0px_40px_2px_#C4455840]
   shrink-0  !h-[-webkit-fill-available]
-   rounded-lg sm:rounded-3xl border border-[#9d9d9d] space-y-5  p-4 flex flex-col
+   rounded-lg sm:rounded-3xl border border-[#D9D9D9] space-y-5  p-4 flex flex-col
    ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} `}
 >
 

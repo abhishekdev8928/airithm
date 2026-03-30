@@ -6,12 +6,12 @@ const PlatformSection = () => {
   const { title, subtitle, cards } = HOME_PLATFORM_CONFIG;
 
   return (
-    <section className=" rounded-b-[50px] overflow-x-hidden bg-white   relative z-10 px-5 lg:px-0 sm:rounded-b-[100px] ">
+    <section className=" rounded-b-[50px] overflow-x-hidden bg-white pt-[90px]  relative z-10 px-5 lg:px-0 sm:rounded-b-[100px] ">
       <div className="platform-section   rounded-[100px]">
         <SectionHeading
           title={title}
-          titleClassName="text-[#00273A]"
-          subtitleClassName=" text-[#626161]"
+          titleClassName="text-[#015190]"
+          subtitleClassName=" text-[#757575]"
           wrapperClassName={"max-w-[408px] sm:max-w-full   mx-auto"}
           subtitle={subtitle}
         />
