@@ -15,14 +15,15 @@ import MainBanner from "../components/services/MainBanner";
 export const AI_AUTOMATION_HEADER = {
   heading: "AI Enabled Intelligent <br class='md:block hidden' />Test Automation Platform",
    headclass:"pt-0 text-white",
+   headingclass:"text-[#fff]",
   paragraph:
     "AIRITHM Test Studio revolutionizes testing with two powerful capabilities- NeuroTest for AI/ <br class='md:block hidden' /> LLM and CoreTest for enterprise applications.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "Watch Demo",
   className:
-    "   text-[#C44558] bg-white",
+    "text-[#015190] border border-[2px] border-[#015190] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",

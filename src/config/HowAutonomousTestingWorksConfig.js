@@ -1,14 +1,15 @@
     export const Memory_HEADER = {
     heading: "How Autonomous Testing Works",
     headclass:"",
+    headingclass:"text-[#fff]",
     paragraph:
         "A closed-loop system powered by agents, AI, and continuous learning.",
-    //   backgroundImage: "/bg/bg-gradient-four.jpg",
+    //   backgroundImage: "/bg/gradient.png",
    buttons: [
     {
       text: "View Documentation",
       className:
-        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Eye",
       hoverIcon: false,
       iconSize: "20px",
@@ -104,13 +105,14 @@
      export const feedback_USP_CONFIG = {
     title: "Continuous Feedback Loop",
     subtitle: "Learn from every test run to continuously improve quality and coverage",
-    bodyclass: "py-[90px]",
+    // bodyclass: "py-[90px]",
 
     cards: [
         {
         id: 1,
         icon: "TriangleAlert",
         title: "Failure Detection",
+        iconColor:"#015190",
         discColor: "#626161",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         textColor: "#1E1E1E",
@@ -124,6 +126,7 @@
         id: 2,
         icon: "RefreshCcw",
         title: "Drift Monitoring",
+         iconColor:"#015190",
         discColor: "#626161",
         textColor: "#1E1E1E",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
@@ -137,6 +140,7 @@
         id: 3,
         icon: "CircleAlert",
         title: "Feature Learning",
+         iconColor:"#015190",
         discColor: "#626161",
         textColor: "#1E1E1E",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
@@ -155,13 +159,13 @@
 export const PLANING_CTA_CONFIG = {
   heading: "Ready to Experience Autonomous Testing?",
   paragraph:"Join teams that have reduced testing time by 80% with AI-powered automation.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",
   buttons: [
     {
         text: "Schedule Demo",
         className:
-            "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+            "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
         icon: "CircleArrowOutUpRight",
         hoverIcon:true,
         iconSize: "20px",

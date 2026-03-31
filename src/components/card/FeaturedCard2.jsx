@@ -26,12 +26,12 @@ const FeatureCard2 = ({
   const ArrowIconComponent = LucideIcons["ArrowRight"];
 
   // Determine final icon color
-  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#C44558";
+  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#015190";
 
   return (
     <div
       className={`relative core-feature-card transition-shadow justify-between duration-300 
-        hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0 
+        hover:shadow-[0px_0px_40px_2px_#01519040] shrink-0 
         ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} 
         rounded-3xl border border-[#9d9d9d] p-5 gap-[0px] flex flex-col`}
       
@@ -39,7 +39,7 @@ const FeatureCard2 = ({
     
     {
           num && (
-            <h2 className="absolute md:top-[-40px] top-[-20px] text-[#fff] md:h-[64px] h-[40px] md:w-[64px] w-[40px] left-[40%] rounded-[100%] flex justify-center items-center md:text-[24px] text-[18px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+            <h2 className="absolute md:top-[-40px] top-[-20px] text-[#fff] md:h-[64px] h-[40px] md:w-[64px] w-[40px] left-[40%] rounded-[100%] flex justify-center items-center md:text-[24px] text-[18px] font-primary bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
               {num}
             </h2>
           )
@@ -53,7 +53,7 @@ const FeatureCard2 = ({
               : "w-auto h-auto"
           }`}
           style={{
-            background: hasBg ? bgColor || "#C44558" : "transparent",
+            background: hasBg ? bgColor || "#015190" : "transparent",
           }}
         >
           <IconComponent size={32} color={finalIconColor} />
@@ -91,7 +91,7 @@ const FeatureCard2 = ({
       {showLink && href && (
         <a
           href={href}
-          className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
+          className="text-[#015190] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
         >
           {linkText}
           { linkicon !== "CircleArrowOutUpRight"?
@@ -121,7 +121,7 @@ const FeatureCard2 = ({
                   <ItemIcon
                     size={16}
                     className="mt-1 shrink-0"
-                    color={item.icon.color || "#C44558"}
+                    color={item.icon.color || "#015190"}
                   />
                 ) : (
                   <span

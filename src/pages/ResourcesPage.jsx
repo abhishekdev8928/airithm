@@ -375,13 +375,13 @@ const ResourcesPage = () => {
                                 onClick={() => toggle(index)}
                                 className="w-full flex justify-between items-center px-6 py-4 text-left"
                             >
-                                <h3 className="font-primary text-[#C44558] font-[600] text-[20px]   ">
+                                <h3 className="font-primary text-[#015190] font-[600] text-[20px]   ">
                                     {item.question}
                                 </h3>
 
                                 <ChevronDown
                                     size={24}
-                                    className={`transition-transform duration-300 text-[#C44558] ${activeIndex === index ? "rotate-180" : ""
+                                    className={`transition-transform duration-300 text-[#015190] ${activeIndex === index ? "rotate-180" : ""
                                         }`}
                                 />
                             </button>

@@ -1,5 +1,6 @@
 export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
   heading: "Test Analytics & Insights",
+  headingclass:"text-[#fff]",
   paragraph:
     "Transform your testing data into actionable intelligence with real-time analytics and predictive insights..",
     headclass:false,
@@ -7,7 +8,7 @@ export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
     {
       text: "Request Demo",
       className:
-        "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       href: "",
         icon: "Play",
         hoverIcon:false
@@ -42,7 +43,7 @@ export  const ANALYTICS_TABS_CONFIG = [
   {
     id: "ml-powered-insights",
     label: "ML-Powered Insights",
-    iconSrc: "/svg/brain.svg",
+    iconSrc: "/svg/braindark.svg",
     iconSize: 20,
   },
   {
@@ -91,10 +92,10 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       description:
         "Test coverage visibility with gap identification and recommendations",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
       flag: {
         text: "Coverage",
-        className: "bg-[#FDEDEE] rounded-[100px] py-2 px-3 text-[#C44558] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
+        className: "bg-[#42ABDF40] rounded-[100px] py-2 px-3 text-[#015190] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
       },
     },
     {
@@ -104,10 +105,10 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       description:
         "Faster test execution through intelligent optimization and parallelization",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
       flag: {
         text: "speed",
-        className: "bg-[#FDEDEE] rounded-[100px] py-2 px-3 text-[#C44558] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
+        className: "bg-[#42ABDF40] rounded-[100px] py-2 px-3 text-[#015190] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
       }
     },
     {
@@ -117,10 +118,10 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       description:
         "Reduction in testing costs through automation and resource optimization",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
       flag: {
         text: "Cost",
-        className: "bg-[#FDEDEE] rounded-[100px] py-2 px-3 text-[#C44558] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
+        className: "bg-[#42ABDF40] rounded-[100px] py-2 px-3 text-[#015190] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
       }
     },
     {
@@ -130,10 +131,10 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       description:
         "Early risk detection preventing production issues and downtime",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
       flag: {
         text:"Risk",
-        className: "bg-[#FDEDEE] rounded-[100px] py-2 px-3 text-[#C44558] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
+        className: "bg-[#42ABDF40] rounded-[100px] py-2 px-3 text-[#015190] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
       }
     },
   ],
@@ -191,12 +192,12 @@ export const TEST_ANALYTICS_CTA_CONFIG = {
   heading: "Ready to Transform Your Enterprise",
   paragraph:
     "Join hundreds of engineering teams who trust our platform to deliver better software faster with data-driven insights.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
     {
       text: "Request Demo",
       className:
-        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",

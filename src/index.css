@@ -191,13 +191,13 @@
 
 /* gradients & misc */
 .bg-primary-gradient {
-  /* background: linear-gradient(85.9deg, #c44558 62.74%, #ff7f7f 95.09%); */
+  /* background: linear-gradient(85.9deg, #015190 62.74%, #ff7f7f 95.09%); */
   background: radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%);
 
 }
 
 .shadow-primary {
-  box-shadow: 0px 0px 40px 2px #c4455840;
+  box-shadow: 0px 0px 40px 2px #01519040;
 }
 
 .border-gradient {
@@ -215,7 +215,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(86.66deg, #c44558 10.85%, #ff7f7f 84.93%);
+  background: linear-gradient(86.66deg, #015190 10.85%, #ff7f7f 84.93%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -270,7 +270,7 @@
   border-radius: 50%;
 }
 .hero-swiper .swiper-pagination-bullet-active {
-  /* background: linear-gradient(86.66deg, #c44558 10.85%, #ff7f7f 84.93%); */
+  /* background: linear-gradient(86.66deg, #015190 10.85%, #ff7f7f 84.93%); */
   background: linear-gradient(86.66deg, #015190 10.85%, #6AC0E6 84.93%);
 
 }
@@ -280,7 +280,7 @@
 }
 
 .mae-gradient-text {
-    background: linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%);
+    background: linear-gradient(90deg, #6AC0E6 0.03%, #015190 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

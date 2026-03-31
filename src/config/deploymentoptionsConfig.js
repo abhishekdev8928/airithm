@@ -4,12 +4,12 @@ export const Integrations_HEADER = {
   headclass:"pt-[0px]",
   paragraph:
     "Flexible deployment models for enterprise environments.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
      {
   text: "Request Demo",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",
@@ -31,13 +31,13 @@ export const Integrations_HEADER = {
 export const PLANING_CTA_CONFIG = {
   heading: "Ready to Deploy?",
   paragraph:"Get expert guidance on choosing the right deployment model for your<br/> organization.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",
   buttons: [
     {
   text: "Request Demo",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",

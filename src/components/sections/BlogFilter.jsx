@@ -39,8 +39,8 @@ const BlogFilter = () => {
                   className={`px-4 py-1 rounded-full text-[13px] border transition-all duration-300
                   ${
                     activeCategory === item
-                      ? "bg-[#C44558] text-white border-[#C44558] scale-105"
-                      : "border-[#E5E5E5] text-[#C44558] hover:bg-[#C44558]/10"
+                      ? "bg-[#015190] text-white border-[#015190] scale-105"
+                      : "border-[#E5E5E5] text-[#015190] hover:bg-[#015190]/10"
                   }`}
                 >
                   {item}
@@ -70,7 +70,7 @@ const BlogFilter = () => {
                     <span
                       className="inline-block mb-3 px-3 py-1 rounded-full text-[12px]
                       bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0%,rgba(253,58,132,0.15)_100%)]
-                      text-[#C44558] font-medium"
+                      text-[#015190] font-medium"
                     >
                       {item.tag}
                     </span>

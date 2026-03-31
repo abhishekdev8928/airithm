@@ -133,10 +133,10 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                 </div>
                 <div className="md:col-span-9 col-span-12">
                     <div className='flex justify-between items-center'>
-                    <h3 className='text-[#C44558] md:text-[36px] text-[28px] font-primary font-[600]'>Sucharitha Pati</h3>
+                    <h3 className='text-[#015190] md:text-[36px] text-[28px] font-primary font-[600]'>Sucharitha Pati</h3>
                     <ul className='flex gap-3 items-center'>
-                        <li><a className='text-[#C44558]'><X/></a></li>
-                        <li><a className='text-[#C44558]'><Linkedin/></a></li>
+                        <li><a className='text-[#015190]'><X/></a></li>
+                        <li><a className='text-[#015190]'><Linkedin/></a></li>
                     </ul>
                     </div>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & CEO</p>
@@ -164,16 +164,16 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     className="col-span-12 md:col-span-3 py-5 px-7 border border-[1px] border-[#D9D9D9] rounded-[24px]"
                     >
                         <img src={item.profile} alt="" />
-                    <h2 className='font-primary mt-[35px] font-[600] text-[#C44558] text-[24px]'>{item.title}</h2>
+                    <h2 className='font-primary mt-[35px] font-[600] text-[#015190] text-[24px]'>{item.title}</h2>
                     <h3 className='text-[#1E1E1E] text-[18px] font-secondary font-[500]'>{item.designation}</h3>
                     {/* <p className='text-[#626161] text-[18px] mt-[20px] font-secondary font-[300] '>{item.discription}</p> */}
 
                     {/* <div className='flex gap-[15px] mt-[30px]'>
                         <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
-                            <Linkedin className='h-[24px] text-[#C44558]'/>
+                            <Linkedin className='h-[24px] text-[#015190]'/>
                         </span>
                         <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
-                            <X className='h-[24px] text-[#C44558]'/>
+                            <X className='h-[24px] text-[#015190]'/>
                         </span>
                     </div> */}
                     </div>
@@ -209,34 +209,34 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     <div className="col-span-12 md:col-span-12 border border-[#C6C6C6] rounded-[16px] border-[1px]">
                         <div className="grid grid-cols-12 gap-6">
                             <div className="col-span-12 md:col-span-3 text-center py-8">
-                                <h2 className='text-[#C44558] text-[24px] font-primary'>Sequoia</h2>
+                                <h2 className='text-[#015190] text-[24px] font-primary'>Sequoia</h2>
                                 <p className='text-[#626161] text-[16px]'>Lead Investor</p>
                             </div>
                             <div className="col-span-12 md:col-span-3 text-center py-8">
-                                <h2 className='text-[#C44558] text-[24px] font-primary'>a16z</h2>
+                                <h2 className='text-[#015190] text-[24px] font-primary'>a16z</h2>
                                 <p className='text-[#626161] text-[16px]'>Series A</p>
                             </div>
                             <div className="col-span-12 md:col-span-3 text-center py-8">
-                                <h2 className='text-[#C44558] text-[24px] font-primary'>Accel</h2>
+                                <h2 className='text-[#015190] text-[24px] font-primary'>Accel</h2>
                                 <p className='text-[#626161] text-[16px]'>Strategic Partner</p>
                             </div>
                             <div className="col-span-12 md:col-span-3 text-center py-8">
-                                <h2 className='text-[#C44558] text-[24px] font-primary'>Index</h2>
+                                <h2 className='text-[#015190] text-[24px] font-primary'>Index</h2>
                                 <p className='text-[#626161] text-[16px]'>Growth Stage</p>
                             </div>
                         </div>
 
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
-                   <h2 className='text-[#C44558] text-[24px] font-primary'>$45M</h2>
+                   <h2 className='text-[#015190] text-[24px] font-primary'>$45M</h2>
                                 <p className='text-[#626161] text-[16px]'>Total Funding Raised</p>
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
-                   <h2 className='text-[#C44558] text-[24px] font-primary'>2020</h2>
+                   <h2 className='text-[#015190] text-[24px] font-primary'>2020</h2>
                                 <p className='text-[#626161] text-[16px]'>Year Founded</p>
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
-                   <h2 className='text-[#C44558] text-[24px] font-primary'>120+</h2>
+                   <h2 className='text-[#015190] text-[24px] font-primary'>120+</h2>
                                 <p className='text-[#626161] text-[16px]'>Team Members</p>
                     </div>
                   

@@ -1,9 +1,10 @@
 export const tpil_HEADER = {
   heading: "Two Platforms.<br/> One Intelligence Loop.",
    headclass:"",
+   headingclass:"text-[#fff]",
   paragraph:
     "Independently powerful.  Exponentially stronger together.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [  ],
 };
 
@@ -24,7 +25,7 @@ export const TWO_AUTOMATION_FEATURES_CONFIG = [
     iconSize: 32,
   },
   {
-    iconSrc: "/svg/database.svg",
+    iconSrc: "/svg/share-2.svg",
     title: "Shared Intelligence Core",
     src:"/topics/sic.webp",
     items: [
@@ -56,7 +57,7 @@ export const TWO_AUTOMATION_LAYERS_CONFIG = [
   {
     level: "L1",
     title: "Interfaces Layer",
-    headerIconSrc: "./svg/layers.svg",
+    headerIconSrc: "./svg/layersdark.svg",
     headerIconSize: 28,
     items: [
       { label: "Applications", icon: "Monitor", iconSize: 32 },
@@ -68,7 +69,7 @@ export const TWO_AUTOMATION_LAYERS_CONFIG = [
   {
     level: "L2",
     title: "Context Intelligence Layer",
-    headerIconSrc: "/svg/brain.svg",
+    headerIconSrc: "/svg/braindark.svg",
     headerIconSize: 28,
     items: [
       { label: "Graph-RAG" },
@@ -80,7 +81,7 @@ export const TWO_AUTOMATION_LAYERS_CONFIG = [
   {
     level: "L3",
     title: "Autonomous Testing Layer",
-    headerIconSrc: "/svg/test-tube-diagonal.svg",
+    headerIconSrc: "/svg/test-tube-diagonaldark.svg",
     headerIconSize: 28,
     items: [
       { label: "Planner Agents" },

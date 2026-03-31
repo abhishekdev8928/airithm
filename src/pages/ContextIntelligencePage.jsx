@@ -83,7 +83,7 @@ The result is a self-improving intelligence layer powering smarter automation an
         <div className="lg:rounded-[100px] rounded-[50px] py-[100px]  bg-white    relative z-14 mt-[-100px]">
           <div className="max-w-7xl px-4 lg:px-0 mx-auto">
             <SectionHeading
-              titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
+              titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#015190] text-center"
               title="Enterprise Use Cases"
             />
 
@@ -99,7 +99,7 @@ The result is a self-improving intelligence layer powering smarter automation an
       <section>
         <div
           style={{
-            backgroundImage: `url(/bg/bg-gradient-four.jpg)`,
+            backgroundImage: `url(/bg/gradient.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

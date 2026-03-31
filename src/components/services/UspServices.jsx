@@ -22,7 +22,7 @@ const UspServices = ({ data ,spacing = "" }) => {
               subtitle={subtitle}
               spacing={spacing}
               titleClassName={`${
-                bodyclass ? ` text-[${headcolor}]` : "text-black"
+                bodyclass ? ` text-[${headcolor}]` : "text-[#015190]"
               } capitalize`}
               subtitleClassName={`${
                 bodyclass ? `text-[${headcolor}]` : "text-black"

@@ -11,7 +11,7 @@ const FeatureStepCard = ({ number, title, description }) => {
       {/* Number */}
       <div
         className="mx-auto mb-[24px] flex h-14 w-14 items-center justify-center rounded-full
-        bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+        bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]
         font-secondary text-[24px] font-semibold leading-[140%] tracking-[0.04em] text-white"
       >
         {number}

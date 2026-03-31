@@ -9,7 +9,7 @@ import Button from "../ui/Button";
 const TestingSection = ({ sectionData, sectionType }) => {
   return (
 
-    <div className="mx-auto pt-10 md:pt-18 p-6 bg-[#F9F9F9] lg:py-[50px] py-[50px] rounded-[24px] shadow-[0px_0px_8px_4px_#C4455880] mt-[60px]" >
+    <div className="mx-auto pt-10 md:pt-18 p-6 bg-[#F9F9F9] lg:py-[50px] py-[50px] rounded-[24px] shadow-[0px_0px_8px_4px_#01519080] mt-[60px]" >
       <div className="flex flex-col lg:flex-row  items-center justify-center gap-10">
 
         {/* LEFT CONTENT */}
@@ -17,7 +17,7 @@ const TestingSection = ({ sectionData, sectionType }) => {
           <img className="w-16 mb-6" src={sectionData.imgSrc} alt="" />
 
           <h2
-            className="leading-none font-medium text-[#00273A] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] tracking-[0.02em] font-primary"
+            className="leading-none font-medium text-[#015190] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] tracking-[0.02em] font-primary"
             dangerouslySetInnerHTML={{ __html: sectionData.name }}
           />
 
@@ -83,6 +83,7 @@ const TestingCapabilitiesSection = () => {
         <div className=" pb-[120px] mx-auto">
           <SectionHeading
             subtitleClassName="text-[#626161] "
+            titleClassName="text-[#015190] "
 
             title={title}
             subtitle={subtitle}

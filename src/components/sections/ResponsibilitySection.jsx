@@ -75,7 +75,7 @@ const ResponsibilitySection = () => {
                       p-5 text-sm text-white/90. font-primary font-medium text-white md:text-[20px] text-[16px] leading-[120%] tracking-[0.02em] capitalize
                       "
                   >
-                    <span className="size-4 rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84]
+                    <span className="size-4 rounded-full bg-[#6AC0E6]
                       " />
                     {item}
                   </li>
@@ -87,8 +87,7 @@ const ResponsibilitySection = () => {
       </div>
 
       {/* Footer CTA */}
-      <div className=" max-w-7xl  mx-auto bg-[linear-gradient(85.9deg,#C44558_62.74%,#FF7F7F_95.09%)] 
-shadow-[0px_2px_4px_0px_#00000029,0px_8px_8px_0px_#00000024,0px_17px_10px_0px_#00000014,0px_30px_12px_0px_#00000005,0px_47px_13px_0px_#00000000]
+      <div className=" max-w-7xl  mx-auto bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)]
 font-primary font-semibold text-center rounded-[16px] md:text-[24px] text-[22px] py-[40px] leading-[120%] tracking-[0] text-white
 ">
         Independently powerful. Exponentially stronger together.

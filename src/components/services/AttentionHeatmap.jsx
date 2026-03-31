@@ -6,7 +6,7 @@ const GradientBar = ({ label, value }) => {
           {label}
         </span>
 
-        <span className="text-[16px] font-inter leading-[1.4] tracking-[0.04em] font-medium text-[#C44C5C]">
+        <span className="text-[16px] font-inter leading-[1.4] tracking-[0.04em] font-medium text-[#015190]">
           {value}%
         </span>
       </div>
@@ -16,7 +16,7 @@ const GradientBar = ({ label, value }) => {
           className="h-full rounded-full"
           style={{
             width: `${value}%`,
-            background: "linear-gradient(90deg, #FFA68D 0%, #FD3A84 100%)",
+            background: "linear-gradient(90deg, #6AC0E6 0%, #015190 100%)",
           }}
         />
       </div>
@@ -27,7 +27,7 @@ const GradientBar = ({ label, value }) => {
 export default function AttentionHeatmapCard() {
   return (
     <div className="max-w-[488px] w-full bg-white rounded-3xl border border-gray-300 p-5 ">
-      <h2 className="text-[20px] capitalize leading-none tarcking-[0.04em]  font-primary font-medium text-[#C44558]">
+      <h2 className="text-[20px] capitalize leading-none tarcking-[0.04em]  font-primary font-medium text-[#015190]">
         Attention Heatmap
       </h2>
 
@@ -46,7 +46,7 @@ export default function AttentionHeatmapCard() {
 
       <div className="flex justify-between items-center">
         <span className="text-[16px] text-[#626161] font-primary leading-none tracking-[0.04em] ">Confidence Score</span>
-        <span className="text-16px] font-primary leading-none tracking-[0.04em] font-medium text-[#C44C5C]">0.94</span>
+        <span className="text-16px] font-primary leading-none tracking-[0.04em] font-medium text-[#015190]">0.94</span>
       </div>
     </div>
   );

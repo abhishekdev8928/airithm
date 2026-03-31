@@ -11,7 +11,7 @@ import Button from '../components/ui/Button';
 //    {
 //   text: "Documentation",
 //   className:
-//     "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+//     "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
 // hoverIcon: false,
 //   iconSize: "20px",
 //   icon:"Eye",
@@ -44,16 +44,16 @@ const Declarative_Context_Protocol = () => {
             ))}
             </div>
                <div className="flex justify-center gap-4 mb-[90px]">
-                 <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                 <div className="bg-[#015190] overflow-hidden   rounded-lg  p-0.5">
                    <Button
                         icon="Eye"
                         iconSize="20px"
                         hoverIcon= {false}
                         btnText="Documentation"
-                        className="text-[#C44558] bg-white p-2.5 font-dm-sans font-semibold leading-[1.2] tracking-[0.02em]"
+                        className="text-[#015190] bg-white p-2.5 font-dm-sans font-semibold leading-[1.2] tracking-[0.02em]"
                     />
                     </div>
-                       <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                       <div className="bg-[radial-gradient(66.19%_497.1%_at_50%_50%,#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] overflow-hidden   rounded-lg  p-0.5">
                    <Button
                         icon="CircleArrowOutUpRight"
                         iconSize="20px"
@@ -89,15 +89,15 @@ const Declarative_Context_Protocol = () => {
                             <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             <defs>
                             <linearGradient id="paint0_linear_650_409" x1="0.0112518" y1="19.2049" x2="38.4" y2="19.2049" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#FFA68D"/>
-                            <stop offset="1" stop-color="#FD3A84"/>
+                            <stop stop-color="#6AC0E6"/>
+                            <stop offset="1" stop-color="#015190"/>
                             </linearGradient>
                             </defs>
                             </svg>
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>Security Compliant</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Security Compliant</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Comprehensive security controls and continuous monitoring</p>
                             </div>
                         </div>
@@ -108,15 +108,15 @@ const Declarative_Context_Protocol = () => {
                             <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             <defs>
                             <linearGradient id="paint0_linear_650_409" x1="0.0112518" y1="19.2049" x2="38.4" y2="19.2049" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#FFA68D"/>
-                            <stop offset="1" stop-color="#FD3A84"/>
+                           <stop stop-color="#6AC0E6"/>
+                            <stop offset="1" stop-color="#015190"/>
                             </linearGradient>
                             </defs>
                             </svg>
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>GDPR Ready</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>GDPR Ready</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Privacy-by-ready with automated data protection</p>
                             </div>
                         </div>
@@ -127,27 +127,27 @@ const Declarative_Context_Protocol = () => {
                             <path d="M16.8031 19.1992L18.4031 20.7992L21.6031 17.5992M27.2031 19.1992C27.2031 23.6175 23.6214 27.1992 19.2031 27.1992C14.7848 27.1992 11.2031 23.6175 11.2031 19.1992C11.2031 14.7809 14.7848 11.1992 19.2031 11.1992C23.6214 11.1992 27.2031 14.7809 27.2031 19.1992Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
                             <defs>
                             <linearGradient id="paint0_linear_650_409" x1="0.0112518" y1="19.2049" x2="38.4" y2="19.2049" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#FFA68D"/>
-                            <stop offset="1" stop-color="#FD3A84"/>
+                         <stop stop-color="#6AC0E6"/>
+                            <stop offset="1" stop-color="#015190"/>
                             </linearGradient>
                             </defs>
                             </svg>
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#C44558] text-[20px] font-primary font-[600] mb-2'>Zero Trust Architecture</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Zero Trust Architecture</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Never trust always verify with continuous authentication</p>
                             </div>
                         </div>
                         
                     </div>
                     <div className="lg:min-w-[390px] border border-1 border-[#C6C6C6] rounded-[16px] p-[20px]">
-                        <h3 className='text-[#C44558] text-[20px] font-primary font-[600]'>Live Network Status</h3>
+                        <h3 className='text-[#015190] text-[20px] font-primary font-[600]'>Live Network Status</h3>
                         <ul className='mt-8'>
-                            <li className='flex justify-between mb-3'><p className='text-[16px] font-primary font-[500] text-[#626161] '>Active Agents</p> <span className='text-[16px] font-primary font-[500] text-[#C44558]'>1,247</span></li>
-                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Policy Handshakes</p> <span className='text-[16px] font-primary font-[500] text-[#C44558]'>98.7%</span></li>
-                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Security incidents</p> <span className='text-[16px] font-primary font-[500] text-[#C44558]'>0</span></li>
-                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Compliance Score</p> <span className='text-[16px] font-primary font-[500] text-[#C44558]'>100%</span></li>
+                            <li className='flex justify-between mb-3'><p className='text-[16px] font-primary font-[500] text-[#626161] '>Active Agents</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>1,247</span></li>
+                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Policy Handshakes</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>98.7%</span></li>
+                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Security incidents</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>0</span></li>
+                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Compliance Score</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>100%</span></li>
                         </ul>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ const FeatureSection = ({ config, className, featureCardClassName }) => {
      <div className="max-w-7xl mx-auto">
          <SectionHeading
         title={title}
-        titleClassName="text-[#00273A]"
+        titleClassName="text-[#015190]"
         subtitleClassName=" text-[#626161]"
         wrapperClassName={"max-w-[408px] sm:max-w-full   mx-auto"} subtitle={subtitle}
       />

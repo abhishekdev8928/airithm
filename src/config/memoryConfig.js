@@ -3,12 +3,12 @@ export const Memory_HEADER = {
    headclass:"",
   paragraph:
     "Persistent, relationship-aware context for testing intelligence.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "View Documentation",
   className:
-    " text-[#C44558] bg-white",
+    " text-[#015190] bg-white",
   icon: "Eye",
   hoverIcon:true,
   iconSize: "20px",
@@ -30,13 +30,13 @@ export const Memory_HEADER = {
 export const PLANING_CTA_CONFIG = {
   heading: "Ready to Build Smarter AI?",
   paragraph:"Integrate Graph-RAG into your testing infrastructure and unlock the full <br  class=' hidden md:block'  /> potential of relationship-aware intelligence.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",
   buttons: [
     {
   text: "View Docs",
   className:
-    "text-[#C44558] bg-white",
+    "text-[#015190] bg-white",
   icon: "Eye",
   hoverIcon:true,
   iconSize: "20px",

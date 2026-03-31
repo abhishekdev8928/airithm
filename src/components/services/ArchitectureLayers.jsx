@@ -9,19 +9,19 @@ export default function ArchitectureLayers() {
   return (
     <section className=" md:pt-[60px] pt-[100px] rounded-b-[100px] md:pb-[100px] pb-[200px] px-6 bg-white  px-5">
         <SectionHeading
-                          titleClassName=" text-[#00273A] text-center"
+                          titleClassName=" text-[#015190] text-center"
                           title="System Architecture Overview"
                           
                           subtitleClassName=" text-[#626161] "
                       />
-      <div className="max-w-7xl lg:mt-[-90px] md:mt-[-80px] mt-[40px] md:scale-[0.7] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] md:p-[60px] p-[30px]" >
+      <div className="max-w-7xl lg:mt-[-90px] md:mt-[-80px] mt-[40px] md:scale-[0.7] mx-auto shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] md:p-[60px] p-[30px]" >
 
 
         <div className="grid grid-cols-1  sm:grid-cols-5 gap-6">
           {layer1.items.map((item) => (
             <div
               key={item.id}
-              className="relative border border-[#F2A3B0] rounded-2xl p-6 text-center flex flex-col items-center gap-4"
+              className="relative border border-[#015190] rounded-2xl p-6 text-center flex flex-col items-center gap-4"
             >
               <img
                 src={item.iconSrc}
@@ -48,7 +48,7 @@ export default function ArchitectureLayers() {
 
 
 
-          <div className="relative border border-[#F2A3B0] rounded-3xl space-y-4 px-10 py-12 text-center">
+          <div className="relative border border-[#015190] rounded-3xl space-y-4 px-10 py-12 text-center">
           <h2 className=" text-[24px] md:text-[40px] text-[#1e1e1e] font-primary font-medium  ">
             {layer2.title}
           </h2>
@@ -57,7 +57,7 @@ export default function ArchitectureLayers() {
             {layer2.points?.labels?.map((point, index) => (
               <div
                 key={index}
-                className="flex items-center gap-3 text-[#C44558]"
+                className="flex items-center gap-3 text-[#015190]"
               >
                 <img
                   src={layer2.iconSrc}
@@ -75,7 +75,7 @@ export default function ArchitectureLayers() {
 
 
 
-        <div className="border border-[#F2A3B0] rounded-3xl px-10 space-y-4 py-12 text-center">
+        <div className="border border-[#015190] rounded-3xl px-10 space-y-4 py-12 text-center">
 
           <h2 className=" text-[24px] md:text-[40px] text-[#1e1e1e] font-primary font-medium ">
             {layer3.title}
@@ -85,7 +85,7 @@ export default function ArchitectureLayers() {
             {layer3.points?.labels?.map((point, index) => (
               <div
                 key={index}
-                className="flex items-center  gap-2 text-[#C44558]"
+                className="flex items-center  gap-2 text-[#015190]"
               >
                 <img
                   src={layer3?.iconSrc}

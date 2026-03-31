@@ -1,13 +1,14 @@
 export const HAMN_HEADER = {
   heading: "Hybrid Attention Memory Network",
   headClass: "pt-[0]",
+  headingclass:"text-[#015190]",
   paragraph:
     "Revolutionary AI routing engine with policy-gated multi-head attention mechanism. Explainable, enterprise-grade artificial intelligence for complex decision making.",
   buttons: [
     {
       text: "View Documentation",
       className:
-        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Eye",
       hoverIcon: false,
       iconSize: "20px",
@@ -64,9 +65,9 @@ export const HAMN_USP_CONFIG = {
       points: {
         labels: ["Text Processing", "Structured Data"],
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
       },
     },
     {
@@ -80,9 +81,9 @@ export const HAMN_USP_CONFIG = {
       points: {
         labels: ["Multi-Head Attention", "Policy Gating"],
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
       },
     },
     {
@@ -96,9 +97,9 @@ export const HAMN_USP_CONFIG = {
       points: {
         labels: ["Relevance Scoring", "Context Ranking"],
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
       },
     },
   ],
@@ -106,6 +107,7 @@ export const HAMN_USP_CONFIG = {
 
 export const ATTENTION_FLOW_CONFIG = {
   title: "Attention Flow Visualization",
+  titleClassName: "text-[#015190]",
   bodyclass:false,
  titleClassName:" text-[#00273A]",
 

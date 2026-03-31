@@ -52,7 +52,7 @@ const SecuritybyDesignPage = () => {
             />
             <section className='md:py-[150px] py-[100px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
                 <h4 class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                            w-fit py-2 px-1 rounded-[100px] m-auto px-[20px] my-3 flex items-center gap-2 border border[1px] border-[#797979] "><Lock className='text-[#C44558] h-[19px]' /> <span class="font-secondary text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] font-[500]
+                            w-fit py-2 px-1 rounded-[100px] m-auto px-[20px] my-3 flex items-center gap-2 border border[1px] border-[#797979] "><Lock className='text-[#015190] h-[19px]' /> <span class="font-secondary text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] font-[500]
                             bg-clip-text
                             text-transparent">Security Architecture</span></h4>
                 <MainBanner data={Security_HEADER} />
@@ -69,11 +69,11 @@ const SecuritybyDesignPage = () => {
                             type.map((item,index, id)=>{
                                     const Icon = LucideIcons?.[item.icon];
                                     return(
-                                           <div id={index} className="w-[590px] rounded-2xl bg-[#fff] shadow-[0px_26px_16px_0px_#C445580D]  gap-[24px] p-5 px-6 flex flex-col items-start">
+                                           <div id={index} className="w-[590px] rounded-2xl bg-[#fff] shadow-[0px_26px_16px_0px_#0151900D]  gap-[24px] p-5 px-6 flex flex-col items-start">
                                       
                                       <div className="">
                                           
-                                          {Icon && <Icon size={32} className="text-[#C44558]" />}
+                                          {Icon && <Icon size={32} className="text-[#015190]" />}
                                       </div>
                                 
                                       <div className="sidecard-group sapce-y-6">
@@ -85,7 +85,7 @@ const SecuritybyDesignPage = () => {
                                         {/* Points list */}
                                         <ul className="space-y-2.5 mt-5">
                                           {item.points?.map((list, i) => (
-                                            <li key={i} className="flex items-center gap-3 text-[#C44558]">
+                                            <li key={i} className="flex items-center gap-3 text-[#015190]">
                                            
                                                 <img src="./svg/circle-check1.svg" alt="icon" className="w-5 h-5" />
                                                 {/* <LucideIcons.Check/> */}

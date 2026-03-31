@@ -14,12 +14,12 @@ export const PLANING_CTA_CONFIG = {
   heading: "Not sure which plan fits your needs?",
   paragraph:
     "Our architects can help you design the perfect solution for your environment.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
     {
       text: "Schedule Architecture Review",
       className:
-        " text-[#C44558] bg-white ",
+        " text-[#015190] bg-white ",
             icon: "CircleArrowOutUpRight",
       href: "",
     },
@@ -95,7 +95,7 @@ export const PRICING_CONFIG = {
         text: "Request Demo",
         href:"/demo",
         bgClass:
-          "bg-[linear-gradient(85.9deg,_#C44558_62.74%,_#FF7F7F_95.09%)]",
+          "bg-[linear-gradient(85.9deg,_#015190_62.74%,_#FF7F7F_95.09%)]",
       },
     },
     {

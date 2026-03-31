@@ -55,7 +55,7 @@ const PlatformArchitecture = () => {
 
           <div className="platform-archi-stats gap-6 mt-[60px] w-full flex flex-wrap justify-center ">
             <div className=" w-full md:max-w-[250px]  space-y-4   p-4 rounded-2xl flex flex-col items-center border border-light-lg">
-              <h4 className="text-[#C44558]  uppercase leading-[1.2] text-[48px] font-primary font-medium">
+              <h4 className="text-[#015190]  uppercase leading-[1.2] text-[48px] font-primary font-medium">
                 10K+
               </h4>
               <p
@@ -67,7 +67,7 @@ const PlatformArchitecture = () => {
             </div>
 
             <div className="w-full md:max-w-[250px]  space-y-4   p-4 rounded-2xl flex flex-col items-center border border-light-lg">
-              <h4 className="text-[#C44558] flex items-center   leading-[1.2] text-[48px] font-primary font-medium">
+              <h4 className="text-[#015190] flex items-center   leading-[1.2] text-[48px] font-primary font-medium">
                 { <ChevronLeft size={40} strokeWidth="2" />}
 
                 <span className="shrink-0">50ms</span>
@@ -81,7 +81,7 @@ const PlatformArchitecture = () => {
             </div>
 
             <div className="  space-y-4 w-full md:max-w-[250px]  p-4 rounded-2xl flex flex-col items-center border border-light-lg">
-              <h4 className="text-[#C44558]  uppercase leading-[1.2] text-[48px] font-primary font-medium">
+              <h4 className="text-[#015190]  uppercase leading-[1.2] text-[48px] font-primary font-medium">
                 99.9%
               </h4>
               <p
@@ -93,7 +93,7 @@ const PlatformArchitecture = () => {
             </div>
 
             <div className="  space-y-4 w-full md:max-w-[250px]   p-4 rounded-2xl flex flex-col items-center border border-light-lg">
-              <h4 className="text-[#C44558]  uppercase leading-[1.2] text-[48px] font-primary font-medium">
+              <h4 className="text-[#015190]  uppercase leading-[1.2] text-[48px] font-primary font-medium">
                 12+
               </h4>
               <p

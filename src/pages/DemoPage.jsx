@@ -25,10 +25,10 @@ const DemoPage = () => {
 
           <div className="demo-hero-bottom space-y-6 flex flex-col justify-center items-center text-center lg:mt-[60px] mt-[40px]">
             <div className="demo-badges flex justify-center">
-              <div className="w-fit py-2 px-3 rounded-full bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
+              <div className="w-fit py-2 px-3 rounded-full bg-[#42ABDF40]">
                 <span
-                  className="font-secondary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent
- leading-none tracking-[0.04em] font-medium text-xs"
+                  className="font-secondary  bg-[#6AC0E6] bg-clip-text text-transparent
+                leading-none tracking-[0.04em] font-medium text-xs"
                 >
                   Demo Flow Active
                 </span>
@@ -45,7 +45,7 @@ const DemoPage = () => {
 
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
-                    className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] inline-block bg-clip-text text-transparent
+                    className="bg-[#6AC0E6] inline-block bg-clip-text text-transparent
              font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
                   >
                     Agents Analyzing
@@ -71,7 +71,7 @@ const DemoPage = () => {
 
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
-                    className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] inline-block bg-clip-text text-transparent
+                    className="bg-[#6AC0E6] inline-block bg-clip-text text-transparent
                       font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
                   >
                   Executing Tests
@@ -91,12 +91,12 @@ const DemoPage = () => {
 
 "
                 >
-                  <img src="/svg/chart-line.svg" className="size-[32]" alt="" />
+                  <img src="/svg/chart-linedark.svg" className="size-[32]" alt="" />
                 </div>
 
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
-                    className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] inline-block bg-clip-text text-transparent
+                    className="bg-[#6AC0E6] inline-block bg-clip-text text-transparent
                       font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
                   >
                   Evaluating Results

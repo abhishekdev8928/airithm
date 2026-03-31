@@ -1,5 +1,6 @@
 export const KNOWLEDGE_EVALUATION_HEADER = {
   heading: "Knowledge Base Creation <br class='hidden md:block' /> from Self-Learning",
+  headingclass:"text-[#fff]",
   headclass: "pt-[0px]",
   paragraph:
     "Transform your organization's scattered information into intelligent, searchable <br class='hidden md:block' />  knowledge bases that learn and evolve automatically.",
@@ -7,7 +8,7 @@ export const KNOWLEDGE_EVALUATION_HEADER = {
     {
  text: "View Architecture",
       className:
-        "py-5 px-6 min-w-[253px]  w-full font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]  w-full font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
@@ -32,7 +33,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
     {
       id: 1,
       icon: "Bot",
-      iconColor: "#C44558", // icon white because hasBg is true
+      iconColor: "#015190", // icon white because hasBg is true
       title: "Automated Ingestion",
       description:
         "Seamlessly captures data from documents, emails, databases, and conversations across your organization.",
@@ -41,7 +42,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
     {
       id: 2,
       icon: "Search",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Intelligent Search",
       description:
         "Natural language queries return contextually relevant answers with source citations and confidence scores.",
@@ -50,7 +51,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
     {
       id: 3,
       icon: "ChartSpline",
-      iconColor: "#C44558",
+      iconColor: "#015190",
 
       title: "Continuous Learning",
       description:
@@ -180,12 +181,12 @@ export const KNOWLEDGE_CTA_CONFIG = {
   heading: "Ready to Transform Your Knowledge Management?",
   paragraph:
     "Join hundreds of organizations already leveraging AI-powered knowledge bases to accelerate decision-making and preserve institutional knowledge.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
     {
      text: "View Architecture",
       className:
-        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",

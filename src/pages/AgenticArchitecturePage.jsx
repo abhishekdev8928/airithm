@@ -32,16 +32,16 @@ const AgenticArchitecturePage = () => {
           titleClassName="sm:text-[48px]"
         />
         <div className="grid px-5 grid-cols-12 gap-6 mt-[40px]">
-          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#C445581A]">
-            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><Settings className='text-[#C44558] me-2'/> System Configuration</h3>
+          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#0151901A]">
+            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><Settings className='text-[#015190] me-2'/> System Configuration</h3>
             <img className='mt-3' src="./topics/System Configuration.png" alt="" />
           </div>
-          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#C445581A]">
-            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><ChartArea className='text-[#C44558] me-2'/> Performance Metrics</h3>
+          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#0151901A]">
+            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><ChartArea className='text-[#015190] me-2'/> Performance Metrics</h3>
             <img className='mt-3' src="./topics/Performance Metrics.png" alt="" />
           </div>
-          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#C445581A]">
-            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><BookCheck className='text-[#C44558] me-2'/>API Documentation</h3>
+          <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#0151901A]">
+            <h3 className='md:text-[24px] text-[18px] flex items-center font-primary font-[600]'><BookCheck className='text-[#015190] me-2'/>API Documentation</h3>
             <img className='mt-3' src="./topics/API Documentation.png" alt="" />
           </div>
 

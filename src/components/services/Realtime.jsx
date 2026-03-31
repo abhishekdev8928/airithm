@@ -8,7 +8,7 @@ const Realtime = ({ data }) => {
 
       {/* Section Heading */}
       <SectionHeading
-        titleClassName="text-dark capitalize"
+        titleClassName="text-[#015190] capitalize"
         title={title}
         subtitleClassName="text-dark"
         subtitle={subtitle}
@@ -18,12 +18,12 @@ const Realtime = ({ data }) => {
       {/* Center Line */}
       {/* <div className="absolute left-1/2 top-[200px] h-[calc(100%-200px)] w-[2px] bg-[#F2B6BE] -translate-x-1/2" /> */}
 
-      <div className="flex flex-col lg:gap-[100px] gap-[100px] max-w-[700px] scale-[0.9] mt-[-60px] m-auto py-[80px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] px-[18px] lg:px-[0]  relative">
+      <div className="flex flex-col lg:gap-[100px] gap-[100px] max-w-[700px] scale-[0.9] mt-[-60px] m-auto py-[80px] bg-[#E9F6FB] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] px-[18px] lg:px-[0]  relative">
         {cards.map((step, index) => (
-          <div key={step.id} className={`relative border border-[1px] border-[#D9D9D9] px-[50px] rounded-[16px] py-[10px] lg:w-[450px] m-auto  flex flex-col justify-center items-start  justify-center`}>
+          <div key={step.id} className={`relative border bg-[#fff] border-[1px] border-[#D9D9D9] px-[50px] rounded-[16px] py-[10px] lg:w-[450px] m-auto  flex flex-col justify-center items-start  justify-center`}>
               {/* CENTER NODE */}
             <div className={`absolute top-[-20px] z-10 flex flex-col items-center  left-0 w-full   m-auto  `}>
-              <div className="flex items-center justify-center w-[32px] h-[32px] rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] text-white text-[14px] font-semibold">
+              <div className="flex items-center justify-center w-[32px] h-[32px] rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] text-white text-[14px] font-semibold">
                 {step.id}
               </div>
 
@@ -33,7 +33,7 @@ const Realtime = ({ data }) => {
 
             <div className=" m-auto text-left relative">
           
-              <h3 className="font-primary mt-3  text-center font-semibold text-[20px] text-[#C44558] relative " dangerouslySetInnerHTML={{ __html: step.title }} />
+              <h3 className="font-primary mt-3  text-center font-semibold text-[20px] text-[#015190] relative " dangerouslySetInnerHTML={{ __html: step.title }} />
               <p className="mt-2  lg:w-[350px] text-center text-[16px] text-[#626161] leading-[1.6]">
                 {step.description}
               </p>
@@ -46,8 +46,8 @@ const Realtime = ({ data }) => {
                     <path d="M8.66406 64L17.3243 49H0.0038085L8.66406 64ZM4.16406 6H5.66406C5.66406 4.32843 6.99249 3 8.66406 3V1.5V0C5.33564 0 2.66406 2.67157 2.66406 6H4.16406ZM8.66406 1.5V3C10.3356 3 11.6641 4.32843 11.6641 6H13.1641H14.6641C14.6641 2.67157 11.9925 0 8.66406 0V1.5ZM13.1641 6H11.6641C11.6641 7.67157 10.3356 9 8.66406 9V10.5V12C11.9925 12 14.6641 9.32843 14.6641 6H13.1641ZM8.66406 10.5V9C6.99249 9 5.66406 7.67157 5.66406 6H4.16406H2.66406C2.66406 9.32843 5.33564 12 8.66406 12V10.5ZM8.66406 10.5H7.16406V50.5H8.66406H10.1641V10.5H8.66406Z" fill="url(#paint0_linear_2510_1093)"/>
                     <defs>
                     <linearGradient id="paint0_linear_2510_1093" x1="4.1667" y1="32.758" x2="13.1641" y2="32.758" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#FFA68D"/>
-                    <stop offset="1" stop-color="#FD3A84"/>
+                    <stop stop-color="#6AC0E6"/>
+                    <stop offset="1" stop-color="#015190"/>
                     </linearGradient>
                     </defs>
                     </svg>

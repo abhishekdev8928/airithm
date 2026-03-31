@@ -32,7 +32,7 @@ const TimeLine2 = ({ data }) => {
                                     <>
                               
                         
-                                            <div className="w-[64px] h-[64px] m-auto mb-4 md:hidden block rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] flex items-center justify-center text-[24px] font-semibold text-white">
+                                            <div className="w-[64px] h-[64px] m-auto mb-4 md:hidden block rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] flex items-center justify-center text-[24px] font-semibold text-white">
                                                 {step.id}
                                             </div>
 
@@ -52,7 +52,7 @@ const TimeLine2 = ({ data }) => {
 
                                 {/* CENTER NODE */}
                                 <div className="absolute md:block hidden  md:left-1/2 left-auto md:-translate-x-1/2 -translate-x-0 z-10">
-                                    <div className="w-[64px] h-[64px] rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] flex items-center justify-center text-[24px] font-semibold text-white">
+                                    <div className="w-[64px] h-[64px] rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] flex items-center justify-center text-[24px] font-semibold text-white">
                                         {step.id}
                                     </div>
 
@@ -67,7 +67,7 @@ const TimeLine2 = ({ data }) => {
                                 {/* RIGHT CONTENT */}
                                 {step.align === "right" && (
                                     <>
-                                        <div className="w-[64px] h-[64px] m-auto mb-4 md:hidden block rounded-full bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] flex items-center justify-center text-[24px] font-semibold text-white">
+                                        <div className="w-[64px] h-[64px] m-auto mb-4 md:hidden block rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] flex items-center justify-center text-[24px] font-semibold text-white">
                                                 {step.id}
                                             </div>
                                 

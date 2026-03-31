@@ -98,7 +98,7 @@ export const AUTOMATION_LIFECYCLE_CONFIG  = {
     {
       id: 1,
       icon: "GraduationCap",
-            iconpath:"./svg/grid/graduation-cap.svg",
+      iconpath:"./svg/grid/graduation-cap.svg",
       title: "Learn",
       description: "Analyze and understand system behavior patterns",
     },
@@ -144,11 +144,11 @@ export const AUTOMATION_HERO_CONFIG  = {
   buttons: [
    {
   text: "Watch Demo",
-  className: "py-5 min-w-[228px] px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#C44558] bg-white",
+  className: "py-5 min-w-[228px] px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#015190] bg-white",
   icon: "Play",
   iconSize: "20",
   hoverIcon:false,
-  wrapperClass: "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
+  wrapperClass: "bg-[linear-gradient(86.66deg,#015190_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
 }
 ,
     {
@@ -177,7 +177,7 @@ export const AUTOMATION_HERO_CONFIG  = {
   heading: "Ready to Transform your Testing?",
   paragraph:
     "Experience the power of AI-Enabled intelligent test automation and <br className='lg:block hidden'/> revolutionize your development workflow",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
   {
     text: "Schedule Demo",
@@ -189,7 +189,7 @@ export const AUTOMATION_HERO_CONFIG  = {
   },
   {
     text: "Start Free Trial",
-    className: " text-[#C44558] bg-white ",
+    className: " text-[#015190] bg-white ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",

@@ -24,7 +24,7 @@ const SystemArchitecturePage = () => {
           <img
             src="/topics/system-architecture-hero.png"
             alt=""
-            className="m-auto w-[285px]  shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]"
+            className="m-auto w-[285px]  shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]"
           />
         </div>
       </div>
@@ -78,7 +78,7 @@ const SystemArchitecturePage = () => {
             titleClassName="text-[#00273A]"
           />
 
-          <div className="image-wrapper  max-w-[600px] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] overflow-hidden p-6  mx-auto">
+          <div className="image-wrapper  max-w-[600px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] overflow-hidden p-6  mx-auto">
             <img
               className="max-w-[410px] m-auto object-contain "
               src="/topics/multi-agent-diagram.png"
@@ -135,7 +135,7 @@ const SystemArchitecturePage = () => {
           />
 
 
-          <div className="wrapper-img  mb-[90px] mt-[30px] max-w-[500px] mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]">
+          <div className="wrapper-img  mb-[90px] mt-[30px] max-w-[500px] mx-auto shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
             <img src="/topics/deployment-diagram.png" className="max-w-[400px] m-auto" alt="" />
           </div>
         </div>

@@ -3,12 +3,12 @@ export const Security_HEADER = {
    headclass:"",
   paragraph:
     "Enterprise-grade protection embedded at every layer of our platform architecture,<br/> ensuring your data remains secure from foundation to interface.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "View Documentation",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
   icon: "Eye",
   hoverIcon:false,
   iconSize: "20px",

@@ -62,11 +62,11 @@ const DeploymentOptionsPage = () => {
                                     const Icon = LucideIcons?.[item.icon];
                                     return(
                                            <div id={index} className="md:w-[400px] border border-[1px] border-[#bfbfbf]  w-[100%] transition-shadow duration-300
-  hover:shadow-[0px_0px_40px_2px_#C4455840] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 px-0 flex flex-col items-start">
+  hover:shadow-[0px_0px_40px_2px_#01519040] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 px-0 flex flex-col items-start">
                                       
                                       <div className="">
                                           
-                                          {Icon && <Icon size={32} className="text-[#C44558]" />}
+                                          {Icon && <Icon size={32} className="text-[#015190]" />}
                                       </div>
                                 
                                       <div className="sidecard-group sapce-y-6">
@@ -78,7 +78,7 @@ const DeploymentOptionsPage = () => {
                                         {/* Points list */}
                                         <ul className="space-y-2.5 mt-8">
                                           {item.points?.map((list, i) => (
-                                            <li key={i} className="flex items-center gap-3 text-[#C44558]">
+                                            <li key={i} className="flex items-center gap-3 text-[#015190]">
                                            
                                                 {/* <img src="./svg/check.svg" alt="icon" className="w-5 h-5" /> */}
                                                 <LucideIcons.Check/>

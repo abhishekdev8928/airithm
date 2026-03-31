@@ -20,7 +20,7 @@ const UspServices2 = ({ data ,spacing = "" }) => {
          {
             tags && (
               bodyclass === false ? (
-              <h4 className="bg-[#C445581A] text-[#C44558] text-[12px] w-fit font-[600]  m-auto font-secondary rounded-[100px] px-4 mb-6 p-3">
+              <h4 className="bg-[#0151901A] text-[#015190] text-[12px] w-fit font-[600]  m-auto font-secondary rounded-[100px] px-4 mb-6 p-3">
                 {tags}
               </h4>
             ) : (
@@ -49,7 +49,7 @@ const UspServices2 = ({ data ,spacing = "" }) => {
               subtitle={subtitle}
               spacing={spacing}
               titleClassName={`${
-                bodyclass ? ` text-[${headcolor}]` : "text-black"
+                bodyclass ? ` text-[${headcolor}]` : "text-[#015190]"
               } capitalize`}
               subtitleClassName={`${
                 bodyclass ? `text-[${headcolor}]` : "text-black"

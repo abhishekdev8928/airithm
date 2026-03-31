@@ -53,26 +53,26 @@ const AutonomousTestingPage = () => {
                 />
 
                 <div className="max-w-7xl flex flex-wrap mx-auto gap-[40px] justify-center max-w-[1080px] m-auto mt-12 ">
-                    <div className="max-w-[500px] w-full border border-[#D9D9D9] rounded-[16px] p-4 shadow-[0px_12px_12px_0px_#C4455817]">
+                    <div className="max-w-[500px] w-full border border-[#D9D9D9] rounded-[16px] p-4 shadow-[0px_12px_12px_0px_#01519017]">
                         <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Autonomous Testing</h3>
                         <p className="text-[#626161] text-[16px]">Next-generation testing approach</p>
 
                         <ul className="mt-[30px]">
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>Self-learning test generation</li>
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>No script maintenance</li>
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>Continuous evaluation</li>
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>Scales with system complexity</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>Self-learning test generation</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>No script maintenance</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>Continuous evaluation</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3"><span className=""><img className="size-6" src="/svg/circle-check1.svg" alt="" /></span>Scales with system complexity</li>
                         </ul>
                     </div>
-                    <div className=" max-w-[500px] w-full border border-[#D9D9D9] shadow-[0px_12px_12px_0px_#C4455817] rounded-[16px] p-4 px-5">
+                    <div className=" max-w-[500px] w-full border border-[#D9D9D9] shadow-[0px_12px_12px_0px_#01519017] rounded-[16px] p-4 px-5">
                         <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Traditional Testing</h3>
                         <p className="text-[#626161] text-[16px]">Legacy script-based approach</p>
 
                         <ul className="mt-[30px]">
                             <li className="text-[#b5001b] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Manual script creation</li>
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Constant maintenance overhead</li>
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Limited adaptability</li>
-                            <li className="text-[#C44558] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>High long-term costs</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Constant maintenance overhead</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Limited adaptability</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>High long-term costs</li>
                         </ul>
                     </div>
                 </div>
@@ -179,9 +179,9 @@ const AutonomousTestingPage = () => {
                     
                     subtitleClassName=" text-[#626161] "
                 />
-                <div className="max-w-[941px] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] pt-[40px]  space-y-12 m-auto mt-[60px] mx-auto lg:gap-0 gap-6 grid grid-cols-12">
+                <div className="max-w-[941px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] pt-[40px]  space-y-12 m-auto mt-[60px] mx-auto lg:gap-0 gap-6 grid grid-cols-12">
                     <div className="lg:col-span-6 col-span-12 flex flex-col  text-center">
-                        <h3 className="text-[#C44558]  text-[24px] font-[600] font-primary">
+                        <h3 className="text-[#015190]  text-[24px] font-[600] font-primary">
                             Traditional Testing Flow
                         </h3>
                         <div >
@@ -213,7 +213,7 @@ const AutonomousTestingPage = () => {
                         </div>
                     </div>
                      <div className="lg:col-span-6  col-span-12 flex flex-col text-center">
-                        <h3 className="text-[#C44558] text-[24px] font-[600] font-primary">Autonomous Testing Flow</h3>
+                        <h3 className="text-[#015190] text-[24px] font-[600] font-primary">Autonomous Testing Flow</h3>
                         <div>
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
                                             before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">

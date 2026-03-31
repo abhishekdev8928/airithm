@@ -4,7 +4,7 @@ export const HEADER = {
   headclass:true,
   paragraph:
     "Enterprise-grade governance framework for multiagent AI systems. Policy Driven <br className='lg:block hidden'/> context flow that ensures safety, auditability, and explainable AI operations",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
 
 
@@ -16,10 +16,10 @@ export const CARD_CONFIG = {
       {
       id: 1,
       icon: "Server",
-      textColor:"#C44558",
+      textColor:"#015190",
       discColor:'#626161 ',
       cardClassName: " h-[100%] md:w-[275px] w-[100%]",
-      iconColor: "",
+      iconColor: "#015190",
       title: "Authentication Layer",
       description:
         "Identify verification and access control",
@@ -27,9 +27,9 @@ export const CARD_CONFIG = {
     {
       id: 2,
       icon: "ShieldCheck",
-      iconColor: "",
+      iconColor: "#015190",
         cardClassName: " h-[100%] md:w-[275px] w-[100%]",
-   textColor:"#C44558",
+    textColor:"#015190",
       discColor:'#626161 ',
       title: "Validation Layer",
       description:
@@ -38,9 +38,9 @@ export const CARD_CONFIG = {
     {
       id: 3,
       icon: "Maximize2",
-      iconColor: "",
+      iconColor: "#015190",
         cardClassName: " h-[100%] md:w-[275px] w-[100%]",
-       textColor:"#C44558",
+       textColor:"#015190",
       discColor:'#626161 ',
       title: "Execution Layer",
       description:
@@ -50,8 +50,8 @@ export const CARD_CONFIG = {
       id: 4,
       icon: "Cpu",
         cardClassName: " h-[100%] md:w-[275px] w-[100%]",
-      iconColor: "",
-      textColor:"#C44558",
+      iconColor: "#015190",
+      textColor:"#015190",
       discColor:'#626161 ',
       title: "Audit Layer",
       description:

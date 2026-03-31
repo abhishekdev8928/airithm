@@ -52,12 +52,12 @@ export const ABOUT_CTA_CONFIG  = {
   heading: "Ready to Explore Our Platforms?",
   paragraph:
     "Discover how our dual-platform approach can transform your systems",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
   
   {
     text: "Explore Our Platforms",
-    className: " tracking-[0.02em] text-[#C44558] bg-green-900 bg-white rounded-lg flex items-center ",
+    className: " tracking-[0.02em] text-[#015190] bg-green-900 bg-white rounded-lg flex items-center ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
     href: "",
@@ -77,7 +77,7 @@ export const ABOUT_CTA_CONFIG  = {
     {
       id: 1,
       icon: "TestTubes",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Autonomous Testing Platform",
       description: "Ensuring software and AI systems behave correctly",
       cardClassName: " w-full sm:w-[400px] border-[#D9D9D9]",
@@ -85,7 +85,7 @@ export const ABOUT_CTA_CONFIG  = {
     {
       id: 2,
       icon: "Network",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Context Intelligence Platform",
       description:
         "Enabling systems to understand, reason, and retain context over time",

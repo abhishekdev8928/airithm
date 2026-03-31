@@ -3,12 +3,12 @@ export const Comapny_HEADER = {
    headclass:"pt-0 text-white",
   paragraph:
     "AIRITHM builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "View Leadership",
   className:
-    "   text-[#C44558] bg-white",
+    "   text-[#015190] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",
@@ -233,12 +233,12 @@ export const Company_CTA_CONFIG  = {
   subheading:"Join Our Mission",
   paragraph:
     "We’re looking for exceptional engineers, designers, and thinkers who want <br> to solve hard problems and redefine what’s possible in software quality.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
      {
       text: "Request Demo",
       className:
-        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",

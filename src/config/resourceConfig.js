@@ -3,12 +3,12 @@ export const Resource_HEADER = {
    headclass:"pt-0 text-white",
   paragraph:
     "Deep insights, research, benchmarks, and real-world examples to help enterprises build reliable AI and software systems.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "Download Whitepapers",
   className:
-    " text-[#C44558] bg-white",
+    " text-[#015190] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",
@@ -35,7 +35,7 @@ export const resorce_card_CONFIG = {
       icon: "FileText",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+      cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#0151901A]",
       iconColor: "",
       title: "Blog",
       description:
@@ -45,7 +45,7 @@ export const resorce_card_CONFIG = {
       id: 2,
       icon: "Layers",
       iconColor: "",
-        cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#0151901A]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Whitepapers",
@@ -56,7 +56,7 @@ export const resorce_card_CONFIG = {
       id: 3,
       icon: "BriefcaseBusiness",
       iconColor: "",
-        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#0151901A]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Case Studies",
@@ -66,7 +66,7 @@ export const resorce_card_CONFIG = {
     {
       id: 4,
       icon: "ChartLine",
-        cardClassName: "w-full  sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: "w-full  sm:w-[350px] shadow-[0px_8px_6px_0px_#0151901A]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
@@ -77,7 +77,7 @@ export const resorce_card_CONFIG = {
      {
       id: 5,
       icon: "CirclePlay",
-        cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: " w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#0151901A]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
@@ -88,7 +88,7 @@ export const resorce_card_CONFIG = {
     {
       id: 6,
       icon: "CircleQuestionMark",
-        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#C445581A]",
+        cardClassName: "w-full sm:w-[350px] shadow-[0px_8px_6px_0px_#0151901A]",
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',

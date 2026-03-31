@@ -193,7 +193,7 @@ gap-x-6
           <div className="md:col-span-2 text-center">
             {/* <button
               type="submit"
-              className="mt-6 h-[60px] max-w-[300px] font-primary  text-[18px] leading-[1.2] tracking-normal  rounded-lg text-white font-semibold bg-[linear-gradient(85.9deg,#C44558_62.74%,#FF7F7F_95.09%)] hover:opacity-90 transition"
+              className="mt-6 h-[60px] max-w-[300px] font-primary  text-[18px] leading-[1.2] tracking-normal  rounded-lg text-white font-semibold bg-[linear-gradient(85.9deg,#015190_62.74%,#FF7F7F_95.09%)] hover:opacity-90 transition"
             >
               Request Demo
             </button> */}

@@ -51,16 +51,17 @@ const NeuroTestPage = () => {
                     title="What is NeuroTest?"
                     subtitle="The single plugin-based, architecture-aware hub that unifies AI testing into one compliant,  governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide   comprehensive quality assurance for your AI systems."
                    
+                    titleClassName="  text-[#015190]"
                     subtitleClassName="  text-[#626161]"
                 />
                 <div className="mt-[50px]">
                     <ul className='flex flex-wrap gap-[20px] justify-center'>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#FD3A84] w-fit text-[#C44558]  font-primary text-[16px]'><Brain className='me-3 inline-flex' /><span className="font-[600]">LLM Correctness</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#FD3A84] w-fit text-[#C44558]  font-primary text-[16px]'><MemoryStick className='me-3 inline-flex' /><span className="font-[600]">Planning & Memory</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#FD3A84] w-fit text-[#C44558]  font-primary text-[16px]'><ShieldCheck className='me-3 inline-flex' /><span className="font-[600]">Safety & Robustness</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#FD3A84] w-fit text-[#C44558]  font-primary text-[16px]'><Network className='me-3 inline-flex' /><span className="font-[600]">Multi-agent Tool-use</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#FD3A84] w-fit text-[#C44558]  font-primary text-[16px]'><Search className='me-3 inline-flex' /><span className="font-[600]">RAG Retrieval Quality</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#FD3A84] w-fit text-[#C44558]  font-primary text-[16px]'><CircleCheck className='me-3 inline-flex' /><span className="font-[600]">Compliance Validation</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Brain className='me-3 inline-flex' /><span className="font-[600]">LLM Correctness</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><MemoryStick className='me-3 inline-flex' /><span className="font-[600]">Planning & Memory</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><ShieldCheck className='me-3 inline-flex' /><span className="font-[600]">Safety & Robustness</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Network className='me-3 inline-flex' /><span className="font-[600]">Multi-agent Tool-use</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Search className='me-3 inline-flex' /><span className="font-[600]">RAG Retrieval Quality</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><CircleCheck className='me-3 inline-flex' /><span className="font-[600]">Compliance Validation</span> </li>
                     </ul>
                 </div>
 
@@ -74,17 +75,18 @@ const NeuroTestPage = () => {
                     
                         title="A Unified Architecture for AI Evaluation"
                     
+                        titleClassName=" text-[#015190]"
                         subtitleClassName=" text-[#626161]"
                     />
-                    <div className="max-w-[1190px] mt-[60px] m-auto px-5 py-5 lg:p-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] ">
+                    <div className="max-w-[1190px] mt-[60px] m-auto px-5 py-5 lg:p-5 bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] ">
                         <div className="grid lg:grid-cols-3 grid-cols-1  gap-4">
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px]">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary mb-[20px] block'>AIRITHM UI</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>AIRITHM UI</h3>
                                     <p className='text-[#626161] text-[18px] font-[700] font-secondary'>VUX Dashboard</p>
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary mb-[20px] block'>Plugin Ecosystem</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Plugin Ecosystem</h3>
 
                                     <ul className='list-disc pl-5'>
                                         <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>DeepEval</li>
@@ -97,7 +99,7 @@ const NeuroTestPage = () => {
                             </div>
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] ">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary font-[500] text-center block'>FastAPI Service Layer</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary font-[500] text-center block'>FastAPI Service Layer</h3>
                                 </div>
                                 <div className="hidden top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
                                     after:content-[''] 
@@ -114,7 +116,7 @@ const NeuroTestPage = () => {
                                     <span className="absolute right-0 left-[-7px] bottom-0  w-4 h-4 border-r-3 border-b-3 border-[#ffffff] rotate-45" />
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary text-center  block'>Evaluation Suite Loader</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation Suite Loader</h3>
                                 </div>
                                 <div className="hidden top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
                                     after:content-[''] 
@@ -131,12 +133,12 @@ const NeuroTestPage = () => {
                                     <span className="absolute right-0 left-[-7px] bottom-0  w-4 h-4 border-r-3 border-b-3 border-[#ffffff] rotate-45" />
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary text-center  block'>Evaluation Orchestrator</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation Orchestrator</h3>
                                 </div>
                             </div>
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] ">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary mb-[20px] block'>Data Inputs</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Data Inputs</h3>
 
                                     <ul className='list-disc pl-5'>
                                         <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>JSONL tests</li>
@@ -145,10 +147,10 @@ const NeuroTestPage = () => {
                                     </ul>
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary  block'>Data Inputs</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary  block'>Data Inputs</h3>
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#C44558] text-[24px] font-primary mb-[20px] block'>Result Storage</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Result Storage</h3>
                                     <p className='text-[#626161] text-[18px] font-[700] font-secondary'>PostgreSQL</p>
                                 </div>
 
@@ -162,19 +164,19 @@ const NeuroTestPage = () => {
                 <SectionHeading
                     title="Key Features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
-                    titleClassName="sm:text-[40px] text-[32px]"
+                    titleClassName="sm:text-[40px] text-[32px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
-                <div className="py-[40px] lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]">
+                <div className="py-[40px] lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
 
                     {/* Column 1 */}
                     <ul className=''>
                         {list.map((item, index) => (
                             <li
                                 key={index}
-                                className="text-[#C44558] flex items-center font-primary font-semibold text-[20px] mb-[18px]"
+                                className="text-[#015190] flex items-center font-primary font-semibold text-[20px] mb-[18px]"
                             >
-                                <span className="inline-flex me-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] h-[40px] w-[40px] justify-center items-center rounded-full">
+                                <span className="inline-flex me-5 bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] h-[40px] w-[40px] justify-center items-center rounded-full">
                                     <CircleCheck className="text-white h-[19px]" />
                                 </span>
                                 {item}
@@ -187,9 +189,9 @@ const NeuroTestPage = () => {
                         {listtwo.map((item, index) => (
                             <li
                                 key={index}
-                                className="text-[#C44558] flex items-center font-primary font-semibold text-[20px] mb-[18px]"
+                                className="text-[#015190] flex items-center font-primary font-semibold text-[20px] mb-[18px]"
                             >
-                                <span className="inline-flex me-5 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] h-[40px] w-[40px] justify-center items-center rounded-full">
+                                <span className="inline-flex me-5 bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] h-[40px] w-[40px] justify-center items-center rounded-full">
                                     <CircleCheck className="text-white h-[19px]" />
                                 </span>
                                 {item}
@@ -220,9 +222,9 @@ const NeuroTestPage = () => {
                         rgba(255, 255, 255, 0.1) 0%,
                         rgba(153, 153, 153, 0.1) 100%
                         );
-                        transition-shadow duration-300    hover:shadow-[0px_0px_40px_2px_#C4455840] shrink-0  w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#9d9d9d ] p-5 gap-12 flex flex-col ${item.cardClass}`}>
+                        transition-shadow duration-300    hover:shadow-[0px_0px_40px_2px_#01519040] shrink-0  w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#9d9d9d ] p-5 gap-12 flex flex-col ${item.cardClass}`}>
                                 <div class="feature-card-content">
-                                    <h2 class="font-primary  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[24px] sm:mb-[24px]" >{item.title}</h2>
+                                    <h2 class="font-primary  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[24px] sm:mb-[24px]" >{item.title}</h2>
                                     <p class="font-secondary text-[14px] sm:text-[18px] leading-[1.4]  capitalize text-white" >{item.description}</p>
                                 </div>
                             </div>

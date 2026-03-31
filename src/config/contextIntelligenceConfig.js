@@ -9,13 +9,13 @@ export const Context_HERO_CONFIG = {
    {
   text: "Download Architecture Deck",
   className:
-    "py-5 px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#C44558] bg-white",
+    "py-5 px-6 w-full md:w-fit flex flex-row-reverse font-primary font-medium text-[16px] leading-[120%] rounded-lg text-[#015190] bg-white",
   icon: "Download",
   hoverIcon:false,
   iconSize: "20",
   href:"",
   wrapperClass:
-    "bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
+    "bg-[linear-gradient(86.66deg,#015190_10.85%,#FF7F7F_84.93%)] w-full sm:w-fit overflow-hidden rounded-lg p-px",
 }
 ,
    {
@@ -49,7 +49,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
     {
       id: 1,
       icon: "LineChart", // lucide-react icon
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Predictive Analytics",
       description:
         "Advanced forecasting with context-aware models that understands market dynamics and business cycles",
@@ -59,7 +59,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
     {
       id: 2,
       icon: "Users",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Personalization Engine",
       description:
         "Real-time customer experience optimization based on behavioral context and preferences",
@@ -68,7 +68,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
     {
       id: 3,
       icon: "Bot",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Process Automation",
       description:
         "Intelligent workflow orchestration that adapts to changing business requirements automatically",
@@ -81,7 +81,7 @@ export const CONTEXT_CTA_CONFIG = {
   heading: "Ready to Transform your Enterprise?",
   paragraph:
     "Join leading enterprises already leveraging context intelligence to drive unprecedented business outcomes",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "Download Whitepaper",
@@ -95,7 +95,7 @@ export const CONTEXT_CTA_CONFIG = {
 {
   text: "Request Demo",
   className:
-    "px-6 text-[#C44558] bg-white min-w-[228px] leading-[1.2] font-primary font-medium rounded-lg py-5 text-[16px]",
+    "px-6 text-[#015190] bg-white min-w-[228px] leading-[1.2] font-primary font-medium rounded-lg py-5 text-[16px]",
   href: "",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
@@ -111,7 +111,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
     {
       id: 1,
       icon: "FastForward", // change to your lucide icon
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "10x Faster Processing",
       description:
         "Revolutionary parallel processing architecture delivers results 10x faster than traditional AI platforms",
@@ -122,7 +122,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
     {
       id: 2,
       icon: "Brain", // change to your lucide icon
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Context-Aware Intelligence",
       description:
         "First platform to truly understand multi-dimensional context relationships in real-time",
@@ -131,7 +131,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
     {
       id: 3,
       icon: "RefreshCw", // change to your lucide icon
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Self-Evolving Models",
       description:
         "AI that learns and adapts automatically without manual retraining or intervention",
@@ -140,7 +140,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
     {
       id: 4,
       icon: "Globe", // change to your lucide icon
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Enterprise Ready",
       description:
         "Built for mission-critical applications with 99.99% uptime and enterprise-grade security",
@@ -156,7 +156,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 1,
       icon: "Network",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Dynamic Context Mapping",
       description:
         "Real-time relationship discovery & contextual understanding across multi-dimensional data spaces",
@@ -164,7 +164,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 2,
       icon: "Settings",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Adaptive Intelligence",
       description:
         "Self-evolving algorithms that learn and adapt to changing business contexts automatically",
@@ -172,7 +172,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 3,
       icon: "Rocket",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Quantum Processing",
       description:
         "Parallel context analysis with quantum inspired computing for unprecedented speed",
@@ -180,7 +180,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 4,
       icon: "ShieldCheck",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Enterprise Security",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
@@ -188,7 +188,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 5,
       icon: "Expand",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Infinite Scalability",
       description:
         "Cloud native architecture that scales seamlessly from startup to enterprise workloads",
@@ -196,7 +196,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 6,
       icon: "Puzzle",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Universal Integration",
       description:
         "Native connectors and APIs for seamless integration with existing enterprise systems",

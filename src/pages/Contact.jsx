@@ -163,7 +163,7 @@ export default Contact
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         textColor: "#1E1E1E",
         description:
-            "<a className='!text-[#C44558]' href='mailto:sales@airithm.ai'>sales@airithm.ai</a>",
+            "<a className='!text-[#015190]' href='mailto:sales@airithm.ai'>sales@airithm.ai</a>",
 
             
         
@@ -177,7 +177,7 @@ export default Contact
         textColor: "#1E1E1E",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         description:
-                    "<a className='!text-[#C44558]' href='support@airithm.ai'>support@airithm.ai</a>",
+                    "<a className='!text-[#015190]' href='support@airithm.ai'>support@airithm.ai</a>",
 
             
         
@@ -191,7 +191,7 @@ export default Contact
             textColor: "#1E1E1E",
             cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
         description:
-                    "<a className='!text-[#C44558]' href='corporate@airithm.ai'>corporate@airithm.ai</a>",
+                    "<a className='!text-[#015190]' href='corporate@airithm.ai'>corporate@airithm.ai</a>",
         },
          {
             id: 4,

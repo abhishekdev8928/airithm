@@ -3,12 +3,12 @@ export const at_HEADER = {
    headclass:"pt-0 text-white max-w-[800px] m-auto",
   paragraph:
     "A clear, unbiased comparison to help engineering and QA leaders choose the right testing approach.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "View Architecture",
   className:
-    " text-[#C44558] bg-white",
+    " text-[#015190] bg-white",
 
   hoverIcon:true,
   iconSize: "20px",

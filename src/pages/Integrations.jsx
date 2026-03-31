@@ -18,8 +18,8 @@ const Integrations = () => {
         iconClassName="invert-0"
     />
     <section className='md:py-[150px] py-[100px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
-            <h4 className='m-auto mb-[30px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                    w-fit py-[5px] rounded-[100px] px-[20px] my-3 border border[1px] border-[#797979] '><span className='font-secondary text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+            <h4 className='m-auto mb-[30px] bg-[#42ABDF40]
+                    w-fit py-[5px] rounded-[100px] px-[20px] my-3 border border[1px] border-[#797979] '><span className='font-secondary text-[12px]   bg-[#6AC0E6]
                     bg-clip-text 
                     text-transparent'>Platform Integrations</span></h4>
         <MainBanner data={Integrations_HEADER} />
@@ -34,7 +34,7 @@ const Integrations = () => {
     <section className='py-[90px] bg-[#fff]'>
           {/* Section Heading */}
               <SectionHeading
-                titleClassName="text-dark capitalize"
+                titleClassName="text-[#015190] capitalize"
                 title="Built to Work With Your Stack"
                 subtitleClassName="text-dark"
                 // subtitle="{subtitle}"
@@ -43,7 +43,7 @@ const Integrations = () => {
         <div className='max-w-[1100px] m-auto px-5 md:grid flex flex-wrap grid-cols-12 justify-center gap-10'>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
-                    <GitBranch className='text-[#c44558]'/>
+                    <GitBranch className='text-[#015190]'/>
                 </span>
                 <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD Tools</h3>
                 <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
@@ -70,7 +70,7 @@ const Integrations = () => {
             </div>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
-                    <Cloud className='text-[#c44558]'/>
+                    <Cloud className='text-[#015190]'/>
                 </span>
                 <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Cloud Platforms</h3>
                 <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Deploy and scale your testing infrastructure across major cloud providers with native integrations.</p>
@@ -97,7 +97,7 @@ const Integrations = () => {
             </div>
             <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
-                    <TestTubeDiagonal className='text-[#c44558]'/>
+                    <TestTubeDiagonal className='text-[#015190]'/>
                 </span>
                 <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Test Frameworks</h3>
                 <p className='text-[#626161] mt-[10px] text-[14px] font-[500] font-secondary'>Connect with popular testing frameworks and tools to leverage existing test suites and methodologies.</p>
@@ -124,7 +124,7 @@ const Integrations = () => {
             </div>
                  <div className="md:col-span-6 col-span-12 rounded-[24px] border border-[1px] border-[#D9D9D9] p-[18px]">
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
-                    <CodeXml className='text-[#c44558]'/>
+                    <CodeXml className='text-[#015190]'/>
                 </span>
                 <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD Tools</h3>
                 <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>

@@ -47,7 +47,7 @@ const ClosedLoopFlow = () => {
 
         title="Closed-Loop Intelligence Flow"
 
-        titleClassName=" text-[#00273A]
+        titleClassName=" text-[#015190]
           "
           subtitleClassName="text-[#626161]
           "
@@ -58,11 +58,11 @@ const ClosedLoopFlow = () => {
        
 
         {/* Flow */}
-        <div className="md:mt-20 mt-12 px-6 max-w-lg mx-auto shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] py-[50px] flex flex-col items-center gap-8 relative">
+        <div className="md:mt-20 mt-12 px-6 max-w-lg mx-auto shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] py-[50px] flex flex-col items-center gap-8 relative">
           {FLOW_STEPS.map((item, idx) => (
             <div key={idx} className="relative  flex flex-col items-center">
               {/* Step Badge */}
-              <div className="absolute -top-4 flex size-[32px] items-center justify-center rounded-full bg-gradient-to-r from-[#FFA68D] via-[#FD3A84] to-[#FD3A84]
+              <div className="absolute -top-4 flex size-[32px] items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]
                 font-secondary font-medium text-[14px] leading-[1.4] tracking-[0.04em]
                 text-white">
                 {item.step}
@@ -90,7 +90,7 @@ const ClosedLoopFlow = () => {
                       <div
                         key={i}
                         className="font-primary p-4 font-medium text-[14px] leading-none tracking-[0.02em] capitalize
-                          bg-gradient-to-r from-[rgba(255,166,141,0.12)] text-[#C44558] to-[rgba(253,58,132,0.12)]
+                          bg-[#42ABDF40]
                           "
                       >
                         {tag}
@@ -109,10 +109,10 @@ const ClosedLoopFlow = () => {
         </div>
 
         {/* CTA */}
-        <div className="md:mt-16 mt-10 py-2 px-4 inline-flex items-center gap-2 rounded-full font-secondary font-medium bg-gradient-to-r from-[rgba(255,166,141,0.1)] to-[rgba(253,58,132,0.1)]
- text-[12px] text-[#C44558] leading-[1.4] tracking-[0.04em]
+        <div className="md:mt-16 mt-10 py-2 px-4 inline-flex items-center gap-2 rounded-full font-secondary font-medium bg-[#42ABDF40]
+ text-[12px] text-[#015190] leading-[1.4] tracking-[0.04em]
 ">
-          <RotateCcw size={20} color="#C44558" /> Automated Pipeline Excellence
+          <RotateCcw size={20} color="#015190" /> Automated Pipeline Excellence
         </div>
       </div>
     </section>

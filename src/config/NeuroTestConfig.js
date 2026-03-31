@@ -3,13 +3,14 @@ export const Neuro_Test_HEADER = {
   heading: "Neuro Test",
   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
   headclass:"pt-[0px]",
+  headingclass:"text-[#fff]",
   paragraph:
     "Airithm test studio revolutionizes testing with two powerful capabilities <br class='hidden md:block' /> NeuroTest for AI/LLM And CoreTest for enterprise applications",
   buttons: [
    {
   text: "Explore Documentation",
   className:
-    " text-[#C44558] bg-white",
+    " text-[#015190] bg-white",
   icon: "Play",
   hoverIcon:false,
   iconSize: "20px",
@@ -35,8 +36,8 @@ export const Core_capabiliti_CONFIG = {
     cards: [
     {
       id: 1,
-      // icon: "Settings",
-      linkIconSrc:"/svg/grid/settings.svg",
+      icon: "Settings",
+      // linkIconSrc:"/svg/grid/settings.svg",
       textColor:"#fff",
       gradent:true,
       iconColor: "",
@@ -48,7 +49,8 @@ export const Core_capabiliti_CONFIG = {
     },
     {
       id: 2,
-      linkIconSrc:"/svg/grid/search.svg",
+      icon:"Search",
+      // linkIconSrc:"/svg/grid/search.svg",
       gradent:true,
       iconColor: "",
       cardClassName: "w-full sm:w-[365px] border border-[#9d9d9d] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] ",
@@ -61,7 +63,8 @@ export const Core_capabiliti_CONFIG = {
     },
     {
       id: 3,
-       linkIconSrc:"/svg/grid/bot.svg",
+      icon:"Bot",
+      //  linkIconSrc:"/svg/grid/bot.svg",
       iconColor: "",
        textColor:"#fff",
        gradent:true,
@@ -74,7 +77,8 @@ export const Core_capabiliti_CONFIG = {
     ,
     {
       id: 4,
-        linkIconSrc:"./svg/shield-check.svg",
+        icon:"ShieldCheck",
+        // linkIconSrc:"./svg/shield-check.svg",
       iconColor: "",
       gradent:true,
        textColor:"#fff",
@@ -87,7 +91,8 @@ export const Core_capabiliti_CONFIG = {
     ,
     {
       id: 5,
-       linkIconSrc:"/svg/grid/git-branch.svg",
+       icon:"GitBranch",
+      //  linkIconSrc:"/svg/grid/git-branch.svg",
       iconColor: "",
       gradent:true,
        textColor:"#fff",
@@ -100,7 +105,8 @@ export const Core_capabiliti_CONFIG = {
     ,
     {
       id: 6,
-  linkIconSrc:"/svg/grid/chart-spline.svg",
+  icon:"ChartSpline",
+  // linkIconSrc:"/svg/grid/chart-spline.svg",
       iconColor: "",
       gradent:true,
        textColor:"#fff",
@@ -227,12 +233,12 @@ export const benifits_Config ={
   heading: "Elevate your AI quality with NeuroTest",
   paragraph:
     "The gold standard for production-grade AI governance is here.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
   
   {
     text: "Download Whitepaper",
-    className: " text-[#C44558] bg-white ",
+    className: " text-[#015190] bg-white ",
     icon: "Download",
     iconSize: "20px",
     hoverIcon:false,

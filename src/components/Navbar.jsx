@@ -91,6 +91,7 @@ export default function Navbar({
           fixed top-0 left-0 w-full z-50
           py-6 px-4 px-10
           transition-all duration-300
+          bg-[#fff]
           ${disableScrollHide ? "" : isVisible ? "translate-y-0" : "-translate-y-full"}
           ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-transparent"}
           ${wrapperClassName}
@@ -193,13 +194,13 @@ export default function Navbar({
         >
           <div className="grid grid-cols-4 px-7">
             <div className="col-span-2 px-6 py-9">
-              <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="/ai-automation">AI Test Platform</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/ai-automation">AI Test Platform</Link></h2>
               <div className="menu mt-4 flex">
                 <div className="w-[50%]">
-                  <h2 className="text-[#C44558] font-[600] text-[20px] mb-4"><Link to="/core-test">Core Test</Link></h2>
+                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><Link to="/core-test">Core Test</Link></h2>
                   <Link to="/intelligent-test-automation" className="flex gap-3">
                     <div className="w-[16px]">
-                      <Atom color="#C44558" width="16px" className="mt-[0px]" />
+                      <Atom color="#015190" width="16px" className="mt-[0px]" />
                     </div>
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Intelligent Test Automation</h3>
@@ -208,7 +209,7 @@ export default function Navbar({
                   </Link>
                   <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
                     <div className="w-[16px]">
-                      <BookCheck color="#C44558" width="16px" className="mt-[0px]" />
+                      <BookCheck color="#015190" width="16px" className="mt-[0px]" />
                     </div>
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Knowledge Base Creation</h3>
@@ -217,7 +218,7 @@ export default function Navbar({
                   </Link>
                   <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
                     <div className="w-[16px]">
-                      <AudioWaveform color="#C44558" width="16px" className="mt-[0px]" />
+                      <AudioWaveform color="#015190" width="16px" className="mt-[0px]" />
                     </div>
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">How Autonomous Testing Works</h3>
@@ -227,10 +228,10 @@ export default function Navbar({
 
                 </div>
                 <div className="w-[50%]">
-                  <h2 className="text-[#C44558] font-[600] text-[20px] mb-4"><Link to="/neuro-test">Neuro Test</Link></h2>
+                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><Link to="/neuro-test">Neuro Test</Link></h2>
                   <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                     <div className="w-[16px]">
-                      <Building color="#C44558" width="16px" className="mt-[0px]" />
+                      <Building color="#015190" width="16px" className="mt-[0px]" />
                     </div>
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Testing AI Systems at Enterprise Scale</h3>
@@ -239,7 +240,7 @@ export default function Navbar({
                   </Link>
                   <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
                     <div className="w-[16px]">
-                      <ChartPie color="#C44558" width="16px" className="mt-[0px]" />
+                      <ChartPie color="#015190" width="16px" className="mt-[0px]" />
                     </div>
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LLM Based Evaluation</h3>
@@ -253,12 +254,12 @@ export default function Navbar({
 
             </div>
             <div className="col-span-1 px-6 py-9 border border-y-[1px] border-x-[#D9D9D9] border-y-[#fff]">
-              <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
               <div className="menu mt-4 ">
 
                 <Link to="/real-time-context" className="flex gap-3">
                   <div className="w-[16px]">
-                    <Network color="#C44558" width="16px" className="" />
+                    <Network color="#015190" width="16px" className="" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Real-time Context</h3>
@@ -267,7 +268,7 @@ export default function Navbar({
                 </Link>
                 <Link to='/context-capsules' className="flex gap-3 mt-3">
                   <div className="w-[16px]">
-                    <ShieldCheck color="#C44558" width="16px" className="" />
+                    <ShieldCheck color="#015190" width="16px" className="" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Context Capsules</h3>
@@ -278,7 +279,7 @@ export default function Navbar({
 
                 <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
                   <div className="w-[16px]">
-                    <Settings color="#C44558" width="16px" className="" />
+                    <Settings color="#015190" width="16px" className="" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Declarative Context Protocol</h3>
@@ -287,7 +288,7 @@ export default function Navbar({
                 </Link>
                 <Link to='/reflective-memory' className="flex gap-3 mt-3">
                   <div className="w-[16px]">
-                    <Expand color="#C44558" width="16px" className="" />
+                    <Expand color="#015190" width="16px" className="" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Reflective Memory</h3>
@@ -298,7 +299,7 @@ export default function Navbar({
 
                 <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
                   <div className="w-[16px]">
-                    <Rocket color="#C44558" width="16px" className="" />
+                    <Rocket color="#015190" width="16px" className="" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Temporal Context Memory</h3>
@@ -311,7 +312,7 @@ export default function Navbar({
 
                 <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
                   <div className="w-[16px]">
-                    <Puzzle color="#C44558" width="16px" className="" />
+                    <Puzzle color="#015190" width="16px" className="" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Attention Memory Network</h3>
@@ -323,12 +324,12 @@ export default function Navbar({
 
             </div>
             <div className="col-span-1 px-6 py-9">
-              <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="">AI Governance</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="">AI Governance</Link></h2>
               <div className="menu mt-4">
 
                 <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
                   <div className="w-[16px]">
-                    <GitCompare color="#C44558" width="16px" className="mt-[0px]" />
+                    <GitCompare color="#015190" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">CI/CD & Devops Integration</h3>
@@ -337,7 +338,7 @@ export default function Navbar({
                 </Link>
                 <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
                   <div className="w-[16px]">
-                    <Infinity color="#C44558" width="16px" className="mt-[0px]" />
+                    <Infinity color="#015190" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Two Platforms.
@@ -347,7 +348,7 @@ export default function Navbar({
                 </Link>
                 <Link className="flex gap-3  mt-3" to="/security">
                   <div className="w-[16px]">
-                    <ShieldBan color="#C44558" width="16px" className="mt-[0px]" />
+                    <ShieldBan color="#015190" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Security</h3>
@@ -356,11 +357,11 @@ export default function Navbar({
                 </Link>
 
               </div>
-              <h2 className="text-[#C44558] font-[600] text-[24px] mt-8"><Link to="/platform-capabilities">Platform Capabilities</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px] mt-8"><Link to="/platform-capabilities">Platform Capabilities</Link></h2>
               <div className="menu mt-4">
                 <Link className="flex gap-3 " to="/platform-deployment">
                   <div className="w-[16px]">
-                    <CloudUpload color="#C44558" width="16px" className="mt-[0px]" />
+                    <CloudUpload color="#015190" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Deployment</h3>
@@ -369,7 +370,7 @@ export default function Navbar({
                 </Link>
                 <Link className="flex gap-3 mt-3" to="/platform-integrations">
                   <div className="w-[16px]">
-                    <GitPullRequestArrow color="#C44558" width="16px" className="mt-[0px]" />
+                    <GitPullRequestArrow color="#015190" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Integrations</h3>
@@ -378,7 +379,7 @@ export default function Navbar({
                 </Link>
                 <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
                   <div className="w-[16px]">
-                    <FlaskRound color="#C44558" width="16px" className="mt-[0px]" />
+                    <FlaskRound color="#015190" width="16px" className="mt-[0px]" />
                   </div>
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Test Analytics & Insights</h3>
@@ -406,18 +407,18 @@ export default function Navbar({
           onClick={(e) => e.stopPropagation()}
         >
           <div className="px-10 py-9">
-            {/* <h2 className="text-[#C44558] font-[600] text-[24px]">Resources</h2> */}
+            {/* <h2 className="text-[#015190] font-[600] text-[24px]">Resources</h2> */}
 
             <div className="grid grid-cols-4 justify-center px-7">
               <div className="col-span-1 "></div>
 
               <div className="col-span-2 px-6 py-3 ">
-                <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
+                <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
                 <div className="menu mt-6 flex gap-6">
                   <div className="w-[50%]">
                     <Link to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
-                        <FileText color="#C44558" className="" />
+                        <FileText color="#015190" className="" />
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
@@ -426,7 +427,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
-                        <Layers color="#C44558" className="" />
+                        <Layers color="#015190" className="" />
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
@@ -435,7 +436,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
-                        <BriefcaseBusiness color="#C44558" className="" />
+                        <BriefcaseBusiness color="#015190" className="" />
                       </div>
                       <div className="w-auto">
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
@@ -446,7 +447,7 @@ export default function Navbar({
                   <div className="w-[50%]">
                     <Link to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
-                        <ChartLine color="#C44558" className="" />
+                        <ChartLine color="#015190" className="" />
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
@@ -455,7 +456,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
-                        <CirclePlay color="#C44558" className="" />
+                        <CirclePlay color="#015190" className="" />
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
@@ -464,7 +465,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
-                        <CircleQuestionMark color="#C44558" className="" />
+                        <CircleQuestionMark color="#015190" className="" />
                       </div>
                       <div>
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
@@ -504,7 +505,7 @@ export default function Navbar({
               />
               <button className=" h-[20px] w-[20px]" onClick={() => setShowModal2(false)}><X /></button>
             </div>
-            {/* <h2 className="text-[#C44558] font-[600] text-[24px]">Resources</h2> */}
+            {/* <h2 className="text-[#015190] font-[600] text-[24px]">Resources</h2> */}
 
             <div className="grid grid-cols-4 text-left justify-center">
               {/* <div className="col-span-1 "></div> */}
@@ -538,14 +539,14 @@ export default function Navbar({
                     : "max-h-0 opacity-0"
                     }`}
                 >
-                  <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-0 mt-2"><Link to="/ai-automation">AI Test Platform</Link></h2>
+                  <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-2"><Link to="/ai-automation">AI Test Platform</Link></h2>
                   <div className="menu mt-2">
-                    <h2 className="text-[#C44558] font-[600] text-[20px] mb-4">
+                    <h2 className="text-[#015190] font-[600] text-[20px] mb-4">
                       <Link to="/core-test">Core Test</Link>
                     </h2>
                     <Link to="/intelligent-test-automation" className="flex gap-3">
                       <div className="w-[16px]">
-                        <Atom color="#C44558" width="16px" className="mt-[0px]" />
+                        <Atom color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Intelligent Test Automation</h3>
@@ -554,7 +555,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <BookCheck color="#C44558" width="16px" className="mt-[0px]" />
+                        <BookCheck color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Knowledge Base Creation</h3>
@@ -563,7 +564,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <AudioWaveform color="#C44558" width="16px" className="mt-[0px]" />
+                        <AudioWaveform color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">How Autonomous Testing Works</h3>
@@ -572,12 +573,12 @@ export default function Navbar({
                     </Link>
 
 
-                    <h2 className="text-[#C44558] font-[600] text-[20px] mb-4 mt-6">
+                    <h2 className="text-[#015190] font-[600] text-[20px] mb-4 mt-6">
                       <Link to="/neuro-test">Neuro Test</Link>
                     </h2>
                     <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                       <div className="w-[16px]">
-                        <Building color="#C44558" width="16px" className="mt-[0px]" />
+                        <Building color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Testing AI Systems at Enterprise Scale</h3>
@@ -586,7 +587,7 @@ export default function Navbar({
                     </Link>
                     <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <ChartPie color="#C44558" width="16px" className="mt-[0px]" />
+                        <ChartPie color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LLM Based Evaluation</h3>
@@ -596,11 +597,11 @@ export default function Navbar({
 
 
 
-                <h2 className="text-[#C44558] font-[600] text-[24px] pt-3 pb-0 mt-6"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
+                <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-6"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
 
                     <Link to="/real-time-context" className="flex gap-3 mt-4">
                       <div className="w-[16px]">
-                        <Network color="#C44558" width="16px" className="" />
+                        <Network color="#015190" width="16px" className="" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Real-time Context</h3>
@@ -610,7 +611,7 @@ export default function Navbar({
                     </Link>
                     <Link to='/context-capsules' className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <ShieldCheck color="#C44558" width="16px" className="" />
+                        <ShieldCheck color="#015190" width="16px" className="" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Context Capsules</h3>
@@ -622,7 +623,7 @@ export default function Navbar({
 
                     <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <Settings color="#C44558" width="16px" className="" />
+                        <Settings color="#015190" width="16px" className="" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Declarative Context Protocol</h3>
@@ -632,7 +633,7 @@ export default function Navbar({
                     </Link>
                     <Link to='/reflective-memory' className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <Expand color="#C44558" width="16px" className="" />
+                        <Expand color="#015190" width="16px" className="" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Reflective Memory</h3>
@@ -644,7 +645,7 @@ export default function Navbar({
 
                     <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <Rocket color="#C44558" width="16px" className="" />
+                        <Rocket color="#015190" width="16px" className="" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Temporal Context Memory</h3>
@@ -658,7 +659,7 @@ export default function Navbar({
 
                     <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
-                        <Puzzle color="#C44558" width="16px" className="" />
+                        <Puzzle color="#015190" width="16px" className="" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Attention Memory Network</h3>
@@ -672,13 +673,13 @@ export default function Navbar({
 
 
 
-                      <h2 className="text-[#C44558] font-[600] text-[24px] mt-8 mb-4">
+                      <h2 className="text-[#015190] font-[600] text-[24px] mt-8 mb-4">
                       <Link to="">AI Governance</Link>
                     </h2> 
 
                     <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
                       <div className="w-[16px]">
-                        <GitCompare color="#C44558" width="16px" className="mt-[0px]" />
+                        <GitCompare color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">CI/CD & Devops Integration</h3>
@@ -687,7 +688,7 @@ export default function Navbar({
                     </Link>
                     <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
                       <div className="w-[16px]">
-                        <Infinity color="#C44558" width="16px" className="mt-[0px]" />
+                        <Infinity color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Two Platforms.
@@ -697,7 +698,7 @@ export default function Navbar({
                     </Link>
                     <Link className="flex gap-3  mt-3" to="/security">
                       <div className="w-[16px]">
-                        <ShieldBan color="#C44558" width="16px" className="mt-[0px]" />
+                        <ShieldBan color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Security</h3>
@@ -708,13 +709,13 @@ export default function Navbar({
 
 
 
-                    <h2 className="text-[#C44558] font-[600] text-[24px] mt-8 mb-4">
+                    <h2 className="text-[#015190] font-[600] text-[24px] mt-8 mb-4">
                       <Link to="/platform-capabilities">Platform Capabilities</Link>
                     </h2>
 
                     <Link className="flex gap-3 " to="/platform-deployment">
                       <div className="w-[16px]">
-                        <CloudUpload color="#C44558" width="16px" className="mt-[0px]" />
+                        <CloudUpload color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Deployment</h3>
@@ -723,7 +724,7 @@ export default function Navbar({
                     </Link>
                     <Link className="flex gap-3 mt-3" to="/platform-integrations">
                       <div className="w-[16px]">
-                        <GitPullRequestArrow color="#C44558" width="16px" className="mt-[0px]" />
+                        <GitPullRequestArrow color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Integrations</h3>
@@ -732,7 +733,7 @@ export default function Navbar({
                     </Link>
                     <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
                       <div className="w-[16px]">
-                        <FlaskRound color="#C44558" width="16px" className="mt-[0px]" />
+                        <FlaskRound color="#015190" width="16px" className="mt-[0px]" />
                       </div>
                       <div>
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Test Analytics & Insights</h3>
@@ -776,12 +777,12 @@ export default function Navbar({
                     }`}
                 >
                   <div>
-                    <h2 className="text-[#C44558] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
+                    <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
                     <div className="menu mt-6 ">
 
                       <Link to="/resources" className="flex gap-3">
                         <div className="w-[39px]">
-                          <FileText color="#C44558" className="" />
+                          <FileText color="#015190" className="" />
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
@@ -790,7 +791,7 @@ export default function Navbar({
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
-                          <Layers color="#C44558" className="" />
+                          <Layers color="#015190" className="" />
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
@@ -799,7 +800,7 @@ export default function Navbar({
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
-                          <BriefcaseBusiness color="#C44558" className="" />
+                          <BriefcaseBusiness color="#015190" className="" />
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
@@ -809,7 +810,7 @@ export default function Navbar({
 
                       <Link to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
-                          <ChartLine color="#C44558" className="" />
+                          <ChartLine color="#015190" className="" />
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
@@ -818,7 +819,7 @@ export default function Navbar({
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
-                          <CirclePlay color="#C44558" className="" />
+                          <CirclePlay color="#015190" className="" />
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
@@ -827,7 +828,7 @@ export default function Navbar({
                       </Link>
                       <Link to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
-                          <CircleQuestionMark color="#C44558" className="" />
+                          <CircleQuestionMark color="#015190" className="" />
                         </div>
                         <div className="w-[90%]">
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
@@ -889,11 +890,11 @@ export default function Navbar({
               </div>
               <div className="col-span-4">
 
-                <div className=" p-px mt-[40px] w-[fit] rounded-lg bg-gradient-to-r from-[#C44558] via-[#FF7F7F] to-[#FF7F7F]">
+                <div className=" p-px mt-[40px] w-[fit] rounded-lg bg-[#015190]">
                   <Button
                     btnText="Start Now"
                     href="/demo"
-                    className="bg-white text-[#C44558] px-6 py-4 rounded-lg"
+                    className="bg-white text-[#015190] px-6 py-4 rounded-lg"
                     useCommonSvg
                   />
                 </div>

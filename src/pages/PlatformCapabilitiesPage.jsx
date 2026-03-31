@@ -43,6 +43,7 @@ const PlatformCapabilitiesPage = () => {
                         title="Feature Deep Dive"
                         subtitle='Explore how each capability transforms your testing workflow'
                        
+                        titleClassName="  text-[#015190]"
                         subtitleClassName="  text-[#626161]"
                     />
        <FeatureGrid />
@@ -60,7 +61,7 @@ const PlatformCapabilitiesPage = () => {
            <SectionHeading
                         title="What It Does"
                         subtitle='Our autonomous test generation engine analyzes your application’s structure, user flows, and business logic to automatically create comprehensive test suites. It identifies critical paths, edge cases, and potential failure points without manual intervention.'
-
+                        titleClassName="  text-[#015190] " 
                         subtitleClassName="  text-[#626161] max-w-[819px]"
                     />
     </section>
@@ -103,30 +104,30 @@ const PlatformCapabilitiesPage = () => {
         <SectionHeading
                         title="Real-World Use Cases"
                        
-                        titleClassName=" text-[#00273A]"
+                        titleClassName=" text-[#015190]"
                         
                     />
                   <div className="max-w-[1227px] mx-auto mt-[40px] flex flex-wrap gap-5 justify-center">
   <div className="flex-1 min-w-[280px] transition-shadow duration-300
-                hover:shadow-[0px_0px_40px_2px_#C4455840] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#C445580D] bg-[#fff] rounded-[16px]">
+                hover:shadow-[0px_0px_40px_2px_#01519040] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#0151900D] bg-[#fff] rounded-[16px]">
     <h2 className='font-[600] font-primary text-[24px]'>E-commerce Platform</h2>
     <p className='text-[#626161] text-[14px] sm:text-[14px] mt-2'>Automatically generates tests for product catalogs, shopping carts, and checkout flows across multiple payment methods.</p>
   </div>
 
   <div className="flex-1 min-w-[280px] transition-shadow duration-300
-                hover:shadow-[0px_0px_40px_2px_#C4455840] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#C445580D] bg-[#fff] rounded-[16px]">
+                hover:shadow-[0px_0px_40px_2px_#01519040] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#0151900D] bg-[#fff] rounded-[16px]">
     <h2 className='font-[600] font-primary text-[24px]'>Banking Application</h2>
     <p className='text-[#626161] text-[14px] sm:text-[14px] mt-2'>Create comprehensive test suites for account management, transactions, and security features with regulatory compliance.</p>
   </div>
 </div>
 
                                   <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
-                      <div  className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                      <div  className="bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] overflow-hidden   rounded-lg  p-0.5">
                       <Button
                                             icon="CircleArrowOutUpRight"
                                             iconSize="20px" btnText="View Architecture"
                                           
-                                            className=" shadow-[0px_30px_12px_0px_#00000005]  bg-white text-[#C44558]"
+                                            className=" shadow-[0px_30px_12px_0px_#00000005]  bg-white text-[#015190]"
                                         />
 
                                       </div>

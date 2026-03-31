@@ -11,7 +11,7 @@ export const StatsCard = ({ icon, title, children }) => {
     <div className="w-[390px]  border rounded-2xl p-5 border-[#C6C6C6]">
       {icon}
 
-      <h4 className="font-primary mt-[24px] text-[#C44558] capitalize font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
+      <h4 className="font-primary mt-[24px] text-[#015190] capitalize font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
         {title}
       </h4>
 
@@ -27,7 +27,7 @@ export const StatRow = ({ id, label, value, suffix }) => {
         {label}
       </span>
 
-      <span className="font-secondary text-[#C44558] font-medium text-[14px] leading-[1.4] tracking-[0.04em]">
+      <span className="font-secondary text-[#015190] font-medium text-[14px] leading-[1.4] tracking-[0.04em]">
         {value}
         {suffix ?? ""}
       </span>
@@ -39,12 +39,12 @@ const RelevanceScoreCard = ({ score = 87 }) => {
   return (
     <div className="w-full p-4 ">
       <p className="text-gray-500 text-sm text-center">Relevance Score</p>
-      <p className="text-2xl leading-[1.4] font-medium font-secondary text-[#C44558]  text-center mt-2">
+      <p className="text-2xl leading-[1.4] font-medium font-secondary text-[#015190]  text-center mt-2">
         {score}%
       </p>
       <div className="w-full h-3 bg-gray-200 rounded-full mt-6 overflow-hidden">
         <div
-          className="h-full bg-gradient-to-r from-orange-400 to-pink-500 rounded-full"
+          className="h-full bg-[#6AC0E6] rounded-full"
           style={{ width: `${score}%` }}
         ></div>
       </div>

@@ -9,7 +9,7 @@ import TimeLine2 from "../components/services/TimeLine2";
 import UspServices2 from "../components/services/UspServices2";
 const CICDPage = () => {
   return (
-    <>
+    <div className="bg-[#E9F6FB]">
       <Navbar initialTextColor="black" />
 
       <section>
@@ -92,7 +92,7 @@ const CICDPage = () => {
             subtitle="
                 Measurable improvements across your entire development lifecycle."
             subtitleClassName=" font-secondary text-[#626161]"
-            titleClassName="font-primary   text-[#00273A] captialize"
+            titleClassName="font-primary   text-[#015190] captialize"
             title="Key Benefits"
             wrapperClassName=""
             spacing="space-y-4"
@@ -114,7 +114,7 @@ const CICDPage = () => {
       <UspServices2 data={USP_CONFIG}/>
       <FooterSection />
 
-    </>
+    </div>
   );
 };
 
@@ -132,6 +132,7 @@ export const USP_CONFIG = {
     {
       id: 1,
       icon: "Store",
+      iconColor:"#6AC0E6",
       title: "E-Commerce Platform",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
@@ -144,14 +145,14 @@ export const USP_CONFIG = {
             text: "50+ deploys/day",
             icon: {
               name: "Rocket",
-              color: "#C44558",
+              color: "#6AC0E6",
             },
           },
           {
             text: "8 min avg",
             icon: {
               name: "Clock",
-              color: "#C44558",
+              color: "#6AC0E6",
             },
           },
         
@@ -159,7 +160,7 @@ export const USP_CONFIG = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -168,6 +169,7 @@ export const USP_CONFIG = {
      {
       id: 2,
       icon: "Hospital",
+      iconColor:"#6AC0E6",
       title: "Healthcare SaaS",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
@@ -181,14 +183,14 @@ export const USP_CONFIG = {
             text: "100% compliant",
             icon: {
               name: "CircleAlert",
-              color: "#C44558",
+              color: "#6AC0E6",
             },
           },
           {
             text: "Zero breaches",
             icon: {
               name: "Lock",
-              color: "#C44558",
+              color: "#6AC0E6",
             },
           },
         
@@ -196,7 +198,7 @@ export const USP_CONFIG = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
     
@@ -204,6 +206,7 @@ export const USP_CONFIG = {
      {
       id: 3,
       icon: "Smartphone",
+      iconColor:"#6AC0E6",
       title: "Mobile App Startup",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
@@ -216,14 +219,14 @@ export const USP_CONFIG = {
             text: "5M+ users",
             icon: {
               name: "UsersRound",
-              color: "#C44558",
+              color: "#6AC0E6",
             },
           },
           {
             text: "4.8 rating",
             icon: {
               name: "Star",
-              color: "#C44558",
+              color: "#6AC0E6",
             },
           },
         
@@ -231,7 +234,7 @@ export const USP_CONFIG = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
  
@@ -265,10 +268,10 @@ export const CICD_DATA = {
           <img src="/svg/img1.png" alt="" />
         </div>
           <div className="bg-[#FFFFFF1F] rounded-[8px] p-2">
-          <p className="text-[14px] gap-1  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex">
+          <p className="text-[14px] gap-1  bg-[#6AC0E6] bg-clip-text text-transparent flex">
             <img src="/svg/check.svg" alt="" /> Commit Detected: Feature/New-Feature
           </p>
-          <p className="text-[14px]  gap-1 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent mt-2 flex">
+          <p className="text-[14px]  gap-1 bg-[#6AC0E6] bg-clip-text text-transparent mt-2 flex">
                <img src="/svg/check.svg"  alt="" />  Pipeline Triggered Automatically
           </p>
           </div>
@@ -286,15 +289,15 @@ export const CICD_DATA = {
         
           <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] bg-[#FFFFFF1F]">
             <span className="text-gray-400">Unit Tests</span>
-            <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  243 passed</span>
+            <span className="bg-[#6AC0E6] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  243 passed</span>
           </div>
           <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] mt-2 bg-[#FFFFFF1F]">
             <span className="text-gray-400">Integration Tests</span>
-            <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex gap-1"> <img src="/svg/check.svg"  alt="" />  87 passed</span>
+            <span className="bg-[#6AC0E6] bg-clip-text text-transparent flex gap-1"> <img src="/svg/check.svg"  alt="" />  87 passed</span>
           </div>
           <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] mt-2 bg-[#FFFFFF1F]">
             <span className="text-gray-400">Security Scan</span>
-            <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  No issues</span>
+            <span className="bg-[#6AC0E6] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  No issues</span>
           </div>
         </>
       )
@@ -308,19 +311,19 @@ export const CICD_DATA = {
       card: (
         <div className="grid grid-cols-2 gap-4 text-center">
           <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
-            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">94%</p>
+            <p className="bg-[#6AC0E6] bg-clip-text text-transparent text-[32px] font-primary font-[600]">94%</p>
             <p className="text-[14px] font-seconadry text-[#FFFFFF]">Coverage</p>
           </div>
           <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
-            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">A+</p>
+            <p className="bg-[#6AC0E6] bg-clip-text text-transparent text-[32px] font-primary font-[600]">A+</p>
             <p className="text-[14px] font-seconadry text-[#FFFFFF]">Quality</p>
           </div>
           <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
-            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">0</p>
+            <p className="bg-[#6AC0E6] bg-clip-text text-transparent text-[32px] font-primary font-[600]">0</p>
             <p className="text-[14px] font-seconadry text-[#FFFFFF]">Vulnerabilities</p>
           </div>
           <div className="bg-[#FFFFFF1F] py-3 rounded-[16px]">
-            <p className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-[32px] font-primary font-[600]">98%</p>
+            <p className="bg-[#6AC0E6] bg-clip-text text-transparent text-[32px] font-primary font-[600]">98%</p>
             <p className="text-[14px] font-seconadry text-[#FFFFFF]">Performance</p>
           </div>
         </div>
@@ -336,22 +339,22 @@ export const CICD_DATA = {
         <>
           <div className="flex justify-between text-[16px] bg-[#FFFFFF1F] p-2 rounded-[8px]">
             <span className="text-gray-400">Staging</span>
-             <span class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                                                            w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center "><span class="font-secondary  block text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+             <span class="bg-[#42ABDF40]
+                                                            w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center "><span class="font-secondary  block text-[12px]   bg-[#6AC0E6]
                                                             bg-clip-text p-1
                                                             text-transparent">Deployed</span></span>
           </div>
           <div className="flex justify-between text-[16px] bg-[#FFFFFF1F] p-2 rounded-[8px] mt-2">
             <span className="text-gray-400">Production</span>
-          <span class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                                                            w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center "><span class="font-secondary  block text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+          <span class="bg-[#42ABDF40]
+                                                            w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center "><span class="font-secondary  block text-[12px]   bg-[#6AC0E6]
                                                             bg-clip-text p-1
                                                             text-transparent">In Progress</span></span>
           </div>
           <div className="mt-3 bg-[#FFFFFF1F] p-2 rounded-[8px]">
-            <p className="flex justify-between mb-2 text-[16px] text-gray-400 "><span>Deployment Progress</span> <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">75%</span></p>
+            <p className="flex justify-between mb-2 text-[16px] text-gray-400 "><span>Deployment Progress</span> <span className="bg-[#6AC0E6] bg-clip-text text-transparent">75%</span></p>
             <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-              <div className="h-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]  w-[75%]" />
+              <div className="h-full bg-[#6AC0E6]  w-[75%]" />
             </div>
           </div>
         </>
@@ -364,13 +367,14 @@ export const CICD_DATA = {
 export const AUTOMATION_PIPELINE_HEADER = {
   heading: "CI/CD & DevOps <br class='hidden md:block' /> Integration",
   headclass: false,
+  headingclass:"text-[#fff]",
   paragraph:
     "Streamline your development workflow with intelligent automation that accelerates <br class='hidden md:block' /> delivery while maintaining code quality and security.",
   buttons: [
     {
      
       className:
-        "py-5 px-6 min-w-[253px] w-full font-primary font-semibold text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px] w-full font-primary font-semibold text-[16px] leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
@@ -389,6 +393,7 @@ export const AUTOMATION_PIPELINE_HEADER = {
 
 export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
   title: "What It Does",
+  titleClassName: "text-[#015190]",
   subtitle:
     "Our CI/CD platform seamlessly integrates with your existing development workflow to automate the entire software delivery lifecycle. From code commit to production deployment, we orchestrate testing, building, security scanning, and deployment with intelligent automation that learns from your team's patterns.",
 
@@ -396,7 +401,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
     {
       id: 1,
       icon: "GitCommitHorizontal",
-      iconColor: "#C44558",
+      iconColor: "#6AC0E6",
       title: "Automated Pipelines",
       description:
         "Trigger builds, tests, and deployments automatically on every commit. Smart parallel execution reduces wait times by up to 70%.",
@@ -405,7 +410,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
     {
       id: 2,
       icon: "ShieldCheck",
-      iconColor: "#C44558",
+      iconColor: "#6AC0E6",
       title: "Security First",
       description:
         "Built-in vulnerability scanning, compliance checks, and secret management ensure every deployment meets security standards.",
@@ -414,7 +419,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
     {
       id: 3,
       icon: "Clock",
-      iconColor: "#C44558",
+      iconColor: "#6AC0E6",
       title: "Real-Time Insights",
       description:
         "Monitor pipeline performance, deployment success rates, and team velocity with comprehensive analytics dashboards.",
@@ -434,7 +439,7 @@ export const INSIGHTS_DATA = {
       description:
         "Comprehensive automated testing ensures code quality with near-perfect coverage.",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
     },
     {
       id: "Rocket",
@@ -444,7 +449,7 @@ export const INSIGHTS_DATA = {
       description:
         "Reduce deployment time from hours to minutes with intelligent automation.",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
     },
     {
       id: "costReduction",
@@ -454,7 +459,7 @@ export const INSIGHTS_DATA = {
       description:
         "Lower infrastructure costs through optimized resource utilization and efficiency.",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
     },
     {
       id: "riskMitigation",
@@ -464,7 +469,7 @@ export const INSIGHTS_DATA = {
       description:
         "Automated rollbacks and canary deployments minimize production incidents.",
       cardClassName: "md:w-[293px] w-[100%]",
-      iconWrapperClass: "text-[#C44558]",
+      iconWrapperClass: "text-[#015190]",
     },
   ],
   bottomRow: [
@@ -474,8 +479,8 @@ export const INSIGHTS_DATA = {
       label: "Time To Market",
       description:
         "Ship features 3× faster with automated pipelines and continuous delivery.",
-      cardClassName: "md:w-[360px] w-[100%] bg-[#F9F9F9]",
-      iconWrapperClass: "text-[#C44558]",
+      cardClassName: "md:w-[360px] w-[100%] bg-[#fff]",
+      iconWrapperClass: "text-[#015190]",
     },
     {
       id: "teamProductivity",
@@ -483,8 +488,8 @@ export const INSIGHTS_DATA = {
       label: "Team Productivity",
       description:
         "Developers focus on coding while automation handles deployment complexity.",
-      cardClassName: "md:w-[360px] w-[100%] bg-[#F9F9F9]",
-      iconWrapperClass: "text-[#C44558]",
+      cardClassName: "md:w-[360px] w-[100%] bg-[#fff]",
+      iconWrapperClass: "text-[#015190]",
     },
     {
       id: "qualityAssurance",
@@ -492,8 +497,8 @@ export const INSIGHTS_DATA = {
       label: "Quality Assurance",
       description:
         "Catch bugs early with automated testing at every stage of the pipeline.",
-      cardClassName: "md:w-[360px] w-[100%] bg-[#F9F9F9]",
-      iconWrapperClass: "text-[#C44558]",
+      cardClassName: "md:w-[360px] w-[100%] bg-[#fff]",
+      iconWrapperClass: "text-[#015190]",
     },
   ],
 };

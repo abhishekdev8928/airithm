@@ -1,14 +1,15 @@
 export const Security_HEADER = {
   heading: "Enterprise-Grade Security & <br/> Compliance by Design",
    headclass:"pt-0  text-white",
+   headingclass:"text-[#fff]",
   paragraph:
     "Security, privacy, and governance embedded across every layer of the autonomous testing platform.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "Request Documentation",
   className:
-    " text-[#C44558] bg-white",
+    " text-[#015190] bg-white",
   icon: "",
   hoverIcon:true,
   iconSize: "20px",
@@ -33,7 +34,7 @@ export const Security_HEADER = {
 export const CORE_MODULE_CONFIG = {
    title: "Enterprise Security Capabilities",
    bodyclass:"bg-[#fff] text-[#00273A] mt-[-100px] relative z-10 ",
-   headcolor:"#00273A",
+   headcolor:"#015190",
    paracolor:"",
    
   // subtitle:
@@ -43,7 +44,7 @@ export const CORE_MODULE_CONFIG = {
       id: 1,
       icon: "CircleQuestionMark",
       textColor:"#1E1E1E",
-      iconColor: "",
+      iconColor: "#015190",
       title: "Zero-Trust Architecture",
       discColor:'#626161',
       description:
@@ -52,7 +53,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 2,
       icon: "CircleOff",
-      iconColor: "",
+      iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
       title: "Tenant Isolation",
@@ -62,7 +63,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 3,
       icon: "Bot",
-      iconColor: "",
+      iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
       title: "Secure Agent Execution",
@@ -72,7 +73,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 4,
       icon: "KeyRound",
-      iconColor: "",
+      iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
       title: "Encrypted Memory & Logs",
@@ -82,7 +83,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 5,
       icon: "Search",
-      iconColor: "",
+      iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
       title: "Auditability & Traceability",
@@ -93,7 +94,7 @@ export const CORE_MODULE_CONFIG = {
       id: 6,
       icon: "Brain",
        textColor:"#1E1E1E",
-      iconColor: "",
+      iconColor: "#015190",
       title: "Governance-First AI",
       discColor:'#626161',
       description:
@@ -135,11 +136,11 @@ export const SECURITY_CTA_CONFIG = {
   heading: "Security You Can Trust. <br class=' hidden sm:block' /> Autonomy You Can Scale.",
    paragraph:
     "Ready to implement enterprise-grade <br class=' hidden sm:block' /> autonomous testing with confidence?",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
   {
     text: "Request Enterprise Demo",
-    className: " text-[#C44558] bg-white ",
+    className: " text-[#015190] bg-white ",
     icon: "CircleArrowOutUpRight",
     href: "",
     

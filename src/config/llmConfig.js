@@ -1,13 +1,14 @@
 export const LLM_BASED_EVALUATION_HEADER = {
   heading: "LLM Based Evaluation",
   headclass: "pt-[0px]",
+  headingclass:"text-[#fff]",
   paragraph:
     "Automate and scale your AI model evaluation with intelligent, context-aware <br /> assessment frameworks.",
   buttons: [
     {
    text: "View Architecture", 
       className:
-        "py-5 px-6 min-w-[253px]  w-full font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]  w-full font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
@@ -32,7 +33,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
     {
       id: 1,
       icon: "Search",
-      iconColor: "#C44558", // icon white because hasBg is true
+      iconColor: "#015190", // icon white because hasBg is true
       title: "Intelligent Analysis",
       description:
         "Automatically evaluates model outputs for accuracy, relevance, and quality using advanced language models.",
@@ -41,7 +42,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
     {
       id: 2,
       icon: "ChartSpline",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       title: "Performance Metrics",
       description:
         "Generates detailed performance reports with actionable insights and improvement recommendations.",
@@ -50,7 +51,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
     {
       id: 3,
       icon: "Settings",
-      iconColor: "#C44558",
+      iconColor: "#015190",
 
       title: "Continuous Monitoring",
       description:
@@ -157,7 +158,7 @@ export const LLM_BASED_USP_CONFIG = {
         labels: ["Accuracy +25%"],
         showDisc: false, // ✅ disc visible
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
         
       },
     },
@@ -176,7 +177,7 @@ export const LLM_BASED_USP_CONFIG = {
         labels: ["Quality +40%"],
         showDisc: false, // ❌ text only, no disc
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
       },
     },
 
@@ -194,7 +195,7 @@ export const LLM_BASED_USP_CONFIG = {
         labels: ["Efficiency +60%"],
         showDisc: false,
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "linear-gradient(#6AC0E6)",
         
       },
     },
@@ -205,12 +206,12 @@ export const LLM_BASED_CTA_CONFIG = {
   heading: "Ready to Transform Your Evaluation Process?",
   paragraph:
     "Join leading AI teams who trust our platform for comprehensive, <br /> automated model evaluation.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
     {
   text: "View Architecture",
       className:
-        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",

@@ -30,12 +30,12 @@ const FeatureCard = ({
   const ArrowIconComponent = LucideIcons["ArrowRight"];
 
   // Determine final icon color
-  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#00508D";
+  const finalIconColor = hasBg ? "#FFFFFF" : iconColor || "#6AC0E6";
 
   return (
    <div
   className={`core-feature-card transition-shadow duration-300
-  hover:shadow-[0px_0px_40px_2px_#C4455840]
+  hover:shadow-[0px_0px_40px_2px_#01519040]
   shrink-0  !h-[-webkit-fill-available]
    rounded-lg sm:rounded-3xl border border-[#D9D9D9] space-y-5  p-4 flex flex-col
    ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} `}
@@ -65,7 +65,7 @@ const FeatureCard = ({
               : "w-auto h-auto"
           }`}
           style={{
-            background: hasBg ? bgColor || "#C44558" : "transparent",
+            background: hasBg ? bgColor || "#6AC0E6" : "transparent",
           }}
         >
           <IconComponent size={24} color={finalIconColor} />
@@ -97,7 +97,7 @@ const FeatureCard = ({
       {showLink && href && (
         <a
           href={href}
-          className="text-[#C44558] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[16px] font-secondary"
+          className="text-[#015190] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[16px] font-secondary"
         >
           {linkText}
          {linkIconType === "gradient" && linkIconSrc ? (
@@ -110,7 +110,7 @@ const FeatureCard = ({
       <ArrowIconComponent
         size={22}
         strokeWidth={2}
-        color={linkIconColor || "#C44558"}
+        color={linkIconColor || "#6AC0E6"}
       />
     )}
         </a>
@@ -132,7 +132,7 @@ const FeatureCard = ({
                   <PointIcon
                     size={16}
                     className="mt-1 shrink-0"
-                    color={points.icon.color || "#C44558"}
+                    color={points.icon.color || "#6AC0E6"}
                   />
                 ) : (
                   <span

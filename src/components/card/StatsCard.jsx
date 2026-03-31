@@ -19,7 +19,7 @@ const StatsCard = ({
         bg-white
 
         transition-shadow duration-300
-  hover:shadow-[0px_0px_40px_2px_#C4455840] border border-[#D9D9D9]
+  hover:shadow-[0px_0px_40px_2px_#01519040] border border-[#D9D9D9]
 
         px-4 py-6
         text-center
@@ -28,7 +28,7 @@ const StatsCard = ({
       `}
     >
       {/* Icon */}
-      <div className="mx-auto flex w-[64px] h-[64px] items-center justify-center rounded-2xl bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+      <div className="mx-auto flex w-[64px] h-[64px] items-center justify-center rounded-2xl bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
         {Icon && (
           <Icon
             style={{ width: iconSize, height: iconSize , strokeWidth:1 }}

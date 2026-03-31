@@ -27,7 +27,7 @@ const CapabilityCard = ({
           ${
             useGradientBg
               ? "bg-[linear-gradient(86deg,#015190_10.85%,#6AC0E6_84.93%)]"
-              : "bg-[#C44558]"
+              : "bg-[#015190]"
           }
         `}
       >

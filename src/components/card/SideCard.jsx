@@ -10,7 +10,7 @@ const SideCard = ({ title, icon, iconSrc, iconSize, points }) => {
         {iconSrc ? (
           <img src={iconSrc} alt="icon" className="w-6 h-6" />
         ) : (
-          Icon && <Icon size={iconSize || 24} className="text-[#C44558]" />
+          Icon && <Icon size={iconSize || 24} className="text-[#015190]" />
         )}
       </div>
 
@@ -22,7 +22,7 @@ const SideCard = ({ title, icon, iconSrc, iconSize, points }) => {
         {/* Points list */}
         <ul className="space-y-2.5">
           {points?.map((item, i) => (
-            <li key={i} className="flex items-center gap-3 text-[#C44558]">
+            <li key={i} className="flex items-center gap-3 text-[#015190]">
               {item.iconSrc ? (
                 <img src={item.iconSrc} alt="icon" className="w-5 h-5" />
               ) : (

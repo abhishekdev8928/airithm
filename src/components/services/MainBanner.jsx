@@ -11,7 +11,7 @@ const MainBanner = ({ data }) => {
             {/* <div className="absolute inset-0 bg-black/5" /> */}
 
             <div className={`relative text-center px-4 lg:px-0 ${data.headclass === true ?  "lg:pt-[220px] pt-[150px]" : data.headclass}   z-10`}>
-              <h1 dangerouslySetInnerHTML={{ __html: data.heading }} class="font-primary text-[40px] mx-auto font-[600]  sm:w-fit leading-none sm:text-[64px]  mx-auto tracking-[0.02em]">
+              <h1 dangerouslySetInnerHTML={{ __html: data.heading }} class={`font-primary text-[40px] mx-auto font-[600] text-[#015190]  sm:w-fit leading-none sm:text-[64px]  mx-auto tracking-[0.02em] ${data.headingclass}`}>
                 
               </h1>
               <h3 className='font-primary lg:text-[20px] text-[16px] font-[500] mt-2'>{data.subheading}</h3>
@@ -21,10 +21,10 @@ const MainBanner = ({ data }) => {
               </p>
 
                 {/* <div className="flex mx-auto w-[264px]  sm:w-full flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px]">
-                    <div className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5">
+                    <div className="bg-[linear-gradient(86.66deg,#015190_10.85%,#FF7F7F_84.93%)] overflow-hidden rounded-lg w-fit p-0.5">
                     <Button
                         btnText="Join Partner Program"
-                        className="py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white"
+                        className="py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
                         iconSize="20"
                         useCommonSvg="true"
                         />
@@ -43,7 +43,7 @@ const MainBanner = ({ data }) => {
                 
                   {data.buttons.map((btn, index) =>
                     index === 0 ? (
-                      <div key={index} className="bg-[linear-gradient(86.66deg,#C44558_10.85%,#FF7F7F_84.93%)] overflow-hidden   rounded-lg  p-0.5">
+                      <div key={index} className=" overflow-hidden   rounded-lg  p-0.5">
                         <Button
                           btnText={btn.text}
                           className={btn.className}

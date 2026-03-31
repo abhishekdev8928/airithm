@@ -1,10 +1,11 @@
 export const Integrations_HEADER = {
   heading: "Integrations",
 //   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
+headingclass:"text-[#fff]",
   headclass:"pt-[0px]",
   paragraph:
     "Seamlessly connect autonomous testing into your ecosystem.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [],
 };
 
@@ -12,13 +13,13 @@ export const Integrations_HEADER = {
 export const PLANING_CTA_CONFIG = {
   heading: "Ready to integrate?",
   paragraph:"Start connecting TestFlow with your existing tools and workflows in <br/> minutes.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",
   buttons: [
     {
   text: "View Documentation",
   className:
-    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+    "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",

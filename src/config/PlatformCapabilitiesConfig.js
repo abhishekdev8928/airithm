@@ -2,14 +2,15 @@ export const Pc_HEADER = {
   heading: "Platform Capabilities",
 //   subheading:"Autonomous intelligence across the testing lifecycle.",
   headclass:"pt-[0px]",
+  headingclass:"text-[#fff]",
   paragraph:
     "Autonomous intelligence across the testing lifecycle.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
     {
       text: "View Documentation",
       className:
-        " text-[#C44558] bg-white",
+        " text-[#015190] bg-white",
       href: "",
       hoverIcon:false,
         icon: "Eye",

@@ -31,7 +31,7 @@ const KnowledgeBasedCreationPage = () => {
         {/* Content */}
         <div
           className="relative px-4 sm:px-0 w-full gap-10 commmunity-section section-overlap
-    flex-col justify-center flex items-center mt-[-100px] z-10"
+    flex-col justify-center flex items-center !pb-[100px] mt-[-100px] z-10"
         >
           <div className="max-w-7xl relative">
             <SectionHeading
@@ -39,7 +39,7 @@ const KnowledgeBasedCreationPage = () => {
                 KNOWLEDGE_FEATURES_CONFIG_ONE?.subtitle || "Not Provided"
               }
               subtitleClassName="font-secondary max-w-[760px] text-[#626161]"
-              titleClassName="font-primary text-[#00273A] capitalize"
+              titleClassName="font-primary text-[#015190] capitalize"
               title={KNOWLEDGE_FEATURES_CONFIG_ONE?.title || "Not Provided"}
               spacing="space-y-4"
             />
@@ -91,7 +91,7 @@ const KnowledgeBasedCreationPage = () => {
             <SectionHeading
               subtitle="Measurable impact on your organization’s knowledge ecosystem."
               subtitleClassName=" font-secondary text-[#626161]"
-              titleClassName="font-primary   text-[#00273A] captialize"
+              titleClassName="font-primary   text-[#015190] captialize"
               title="Key Benefits"
               wrapperClassName=""
               spacing="space-y-4"

@@ -88,7 +88,7 @@ export const HOME_CAPABILITY_CONFIG  = {
     {
       id: 1,
       icon: "Bot",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       useGradientBg:true,
       title: "Agentic AI",
       description: "Autonomous intelligent agents",
@@ -127,7 +127,7 @@ export const HOME_PLATFORM_CONFIG = {
     {
       id: 1,
       icon: "Box",
-      iconColor: "#C44558",
+      iconColor: "#015190",
       badge: "Patent Pending",
       title: "AI Test Platform",
       description:

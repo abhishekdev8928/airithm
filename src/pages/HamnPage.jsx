@@ -44,11 +44,11 @@ const HamnPage = () => {
       <section className="py-20 max-w-[1100px] mx-auto px-4">
         <SectionHeading
           title="Attention Flow Visualization"
-          titleClassName="sm:text-[48px] text-[00273A]"
+          titleClassName="sm:text-[48px] text-[#015190]"
           subtitleClassName="sm:text-[16px] text-[#626161]"
         />
 
-        <div className="mt-16 flex p-9 shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px]  justify-between gap-0 flex-wrap sm:flex-nowrap">
+        <div className="mt-16 flex p-9 shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]  justify-between gap-0 flex-wrap sm:flex-nowrap">
           {steps.map((step, index) => {
             const Icon = icons[step.icon.name];
 
@@ -56,30 +56,30 @@ const HamnPage = () => {
               <React.Fragment key={step.id}>
                 {/* Step */}
                 <div className="flex flex-col items-center gap-4 min-w-[140px]">
-                  <div className="w-[56px] h-[56px] rounded-full bg-[linear-gradient(135deg,#FFA68D_0%,#FD3A84_100%)] flex items-center justify-center text-white shadow-md">
+                  <div className="w-[56px] h-[56px] rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] flex items-center justify-center text-white shadow-md">
                     {Icon && <Icon size={step.icon.size || 32} />}
                   </div>
 
-                  <p className="text-[#C44558] font-primary font-medium text-[16px] text-center">
+                  <p className="text-[#015190] font-primary font-medium text-[16px] text-center">
                     {step.label}
                   </p>
                 </div>
 
                 {/* Arrow */}
                 {index !== steps.length - 1 && (
-                  <div className="hidden top-[30px] sm:block flex-1 h-[2px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] relative
+                  <div className="hidden top-[30px] sm:block flex-1 h-[2px] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] relative
                     after:content-[''] 
                     after:absolute 
                     after:rounded
                     after:left-[-8px]
                     after:top-[-3px]
                     after:border-[3px] 
-                    after:border-[#FD3A84] 
+                    after:border-[#015190] 
                     after:w-[9px] 
                     after:h-[9px] 
                     after:bg-[#fff]
                   ">
-                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 border-r-3 border-b-3 border-[#FD3A84] rotate-320" />
+                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 border-r-3 border-b-3 border-[#015190] rotate-320" />
                   </div>
                 )}
               </React.Fragment>
@@ -90,7 +90,7 @@ const HamnPage = () => {
 
       <section className="md:py-[100px] py-[70px] px-4 sm:px-0">
         <div className="relative text-center px-4 lg:px-0  z-10">
-          <h1 class="font-primary lg:text-[48px] text-[40px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
+          <h1 class="font-primary lg:text-[48px] text-[#015190] text-[40px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
             Explainable AI
           </h1>
 
@@ -142,14 +142,14 @@ const HamnPage = () => {
                         y2="19.2049"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#FFA68D" />
-                        <stop offset="1" stop-color="#FD3A84" />
+                        <stop stop-color="#6AC0E6" />
+                        <stop offset="1" stop-color="#015190" />
                       </linearGradient>
                     </defs>
                   </svg>
                 </span>
                 <div className="inline-block">
-                  <h3 className="text-[#C44558] text-[20px] font-primary font-[600] mb-2">
+                  <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
                     Attention Visualization
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
@@ -189,14 +189,14 @@ const HamnPage = () => {
                         y2="19.2049"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#FFA68D" />
-                        <stop offset="1" stop-color="#FD3A84" />
+                        <stop stop-color="#6AC0E6" />
+                        <stop offset="1" stop-color="#015190" />
                       </linearGradient>
                     </defs>
                   </svg>
                 </span>
                 <div className="inline-block">
-                  <h3 className="text-[#C44558] text-[20px] font-primary font-[600] mb-2">
+                  <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
                     Decision Pathways
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
@@ -235,14 +235,14 @@ const HamnPage = () => {
                         y2="19.2049"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#FFA68D" />
-                        <stop offset="1" stop-color="#FD3A84" />
+                        <stop stop-color="#6AC0E6" />
+                        <stop offset="1" stop-color="#015190" />
                       </linearGradient>
                     </defs>
                   </svg>
                 </span>
                 <div className="inline-block">
-                  <h3 className="text-[#C44558] text-[20px] font-primary font-[600] mb-2">
+                  <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
                     Audit Trail
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">

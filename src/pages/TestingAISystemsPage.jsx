@@ -26,30 +26,30 @@ const TestingAISystemsPage = () => {
                 iconClassName="invert-0"
             />
             <section className='  px-5 md:py-[100px] py-[80px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
-                <span class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] taxt-center m-auto  mb-8
+                <span class="bg-[#42ABDF40] taxt-center m-auto  mb-8
                                                              w-fit p-0  rounded-[100px] px-[15px] border border[1px] border-[#797979] flex justify-center items-center ">
-                    <span class="font-secondary  block text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                    <span class="font-secondary  block text-[12px]   bg-[#6AC0E6]
                                                             bg-clip-text p-2
                                                             text-transparent font-[600]">Enterprise AI Validation</span></span>
                 <MainBanner data={Testing_HEADER} />
 
                 <div className="px-7 py-6 md:gap-5 gap-3 mt-[60px] grid grid-cols-12 max-w-[680px] rounded-[24px] border border-[1px] border-[#D9D9D9] m-auto mt-[60px ]" >
                     <div className="md:col-span-4 col-span-12  text-center rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
-                        <div className="h-[40px] m-auto  w-[40px] rounded-[4px] justify-center items-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)] flex flex-col">
+                        <div className="h-[40px] m-auto  w-[40px] rounded-[4px] justify-center items-center bg-[#42ABDF40] flex flex-col">
                             <img src="./svg/brain.svg" className="h-[24px]" alt="" />
                         </div> 
                         <h2 className="text-[16px] font-primary font-[500] text-[#fff] mt-1">Input</h2>
 
                     </div>
                     <div className="md:col-span-4 col-span-12  text-center rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
-                        <div className="h-[40px] m-auto  w-[40px] rounded-[4px] justify-center items-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)] flex flex-col">
+                        <div className="h-[40px] m-auto  w-[40px] rounded-[4px] justify-center items-center bg-[#42ABDF40] flex flex-col">
                             <img src="./svg/network.svg" className="h-[24px]" alt="" />
                         </div> 
                         <h2 className="text-[16px] font-primary font-[500] text-[#fff] mt-1">Reasoning</h2>
 
                     </div>
                     <div className="md:col-span-4 col-span-12  text-center rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
-                        <div className="h-[40px] m-auto  w-[40px] rounded-[4px] justify-center items-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)] flex flex-col">
+                        <div className="h-[40px] m-auto  w-[40px] rounded-[4px] justify-center items-center bg-[#42ABDF40] flex flex-col">
                             <img src="./svg/circle-check-lg.svg" className="h-[24px]" alt="" />
                         </div> 
                         <h2 className="text-[16px] font-primary font-[500] text-[#fff] mt-1">Output</h2>
@@ -58,21 +58,21 @@ const TestingAISystemsPage = () => {
                     <div className="col-span-12 flex justify-between rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
                        
                         <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Accuracy Score</h2>
-                        <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                        <span className="bg-[#6AC0E6]
                         bg-clip-text text-transparent text-[16px] font-secondary">94.2%</span>
 
                     </div>
                     <div className="col-span-12 flex justify-between rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
                        
                         <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Faithfulness</h2>
-                        <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                        <span className="bg-[#6AC0E6]
                         bg-clip-text text-transparent text-[16px] font-secondary">97.8%</span>
 
                     </div>
                     <div className="col-span-12 flex justify-between rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
                        
                         <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Hallucination Rate</h2>
-                        <span className="bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                        <span className="bg-[#6AC0E6]
                         bg-clip-text text-transparent text-[16px] font-secondary">2.1%</span>
 
                     </div>
@@ -86,7 +86,7 @@ const TestingAISystemsPage = () => {
                    <SectionHeading
                         title="How Autonomous AI Testing Works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
-                        titleClassName="sm:text-[48px]"
+                        titleClassName="sm:text-[48px] text-[#015190]"
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
                     />
                       <ProcessFlow />
@@ -99,33 +99,33 @@ const TestingAISystemsPage = () => {
                   <SectionHeading
                         title="How Autonomous AI Testing Works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
-                        titleClassName="sm:text-[48px]"
+                        titleClassName="sm:text-[48px] text-[#015190]"
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
                     />
 
-                    <div className="max-w-[1175px] px-5 m-auto grid grid-cols-12 mt-[60px] pt-6 gap-4 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] py-4">
+                    <div className="max-w-[1175px] px-5 m-auto grid grid-cols-12 mt-[60px] pt-6 gap-4 bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] py-4">
                       <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
-                        <TriangleAlert className="text-[#C44558]"/>
+                        <TriangleAlert className="text-[#015190]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Hallucination Rate</h3>
-                        <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">2.1%</h2>
+                        <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">2.1%</h2>
                         <p className="text-[#626161] text-[20px] font-secondary"> 0.4% from last week</p>
                       </div>
                           <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
-                        <ChartSpline className="text-[#C44558]"/>
+                        <ChartSpline className="text-[#015190]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Drift Index</h3>
-                        <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">0.08</h2>
+                        <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">0.08</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">Stable over 30 days</p>
                       </div>
                           <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
-                        <Star className="text-[#C44558]"/>
+                        <Star className="text-[#015190]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Quality Score</h3>
-                        <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">94.7</h2>
+                        <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">94.7</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">+1.2 pts this month</p>
                       </div>
                           <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
-                        <Bug className="text-[#C44558]"/>
+                        <Bug className="text-[#015190]"/>
                         <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Regressions</h3>
-                        <h2 className="text-[36px] text-[#C44558] font-primary font-[600] mt-4">3</h2>
+                        <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">3</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">Critical: 0 | High: 1</p>
                       </div>
                       <div className="col-span-12">
@@ -142,7 +142,7 @@ const TestingAISystemsPage = () => {
           <button
             key={range}
             onClick={() => setActiveRange(range)}
-            className={`px-4 py-1 rounded-full text-[12px] font-medium transition text-[#C44558] bg-[linear-gradient(90deg,_rgba(255,166,141,0.12)_0.03%,_rgba(253,58,132,0.12)_100%)]
+            className={`px-4 py-1 rounded-full text-[12px] font-medium transition text-[#015190] bg-[#42ABDF40]
 
                `}
           >
@@ -204,12 +204,12 @@ export const TEST_ANALYTICS_CTA_CONFIG = {
   heading: "Ready to validate your AI <br/> systems with confidence?",
   paragraph:
     "Join leading enterprises using autonomous testing to ensure AI <br/> reliability, safety, and compliance",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
     {
       text: "Talk to an AI Architect",
       className:
-        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
@@ -236,6 +236,7 @@ export const Related_Resources = {
     {
       id: 1,
       icon: "FileText",
+      iconColor: "#6AC0E6",
       title: "LLM Testing Framework",
       bigheading:"WHITEPAPER",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
@@ -249,6 +250,7 @@ export const Related_Resources = {
     {
       id: 2,
       icon: "ChartBar",
+         iconColor: "#6AC0E6",
       title: "RAG System Evaluation",
       bigheading:"BENCHMARK",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
@@ -264,6 +266,7 @@ export const Related_Resources = {
     {
       id: 3,
       icon: "Newspaper",
+         iconColor: "#6AC0E6",
       title: "Detecting Hallucinations",
       bigheading:"BLOG",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
@@ -279,6 +282,7 @@ export const Related_Resources = {
     {
       id: 4,
         icon: "Network",
+           iconColor: "#6AC0E6",
       title: "Testing Architecture",
       bigheading:"ARCHITECTURE",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
@@ -334,13 +338,13 @@ const steps = [
   return (
     <div className="px-5 mt-[50px]  ">
       
-      <div className="relative flex lg:gap-0 gap-18 lg:flex-row flex-col m-auto max-w-[1320px] bg-[#F9F9F9] lg:py-[100px] py-[50px] rounded-[24px] items-center justify-center  shadow-[0px_0px_8px_4px_#C4455880]">
+      <div className="relative flex lg:gap-0 gap-18 lg:flex-row flex-col m-auto max-w-[1320px] bg-[#F9F9F9] lg:py-[100px] py-[50px] rounded-[24px] items-center justify-center  shadow-[0px_0px_8px_4px_#01519080]">
 
 
         {steps.map((step, index) => (
           <div key={step.id} className={`${index !== steps.length - 1 && index % 2 === 0 ? "":"justify-end"} relative lg:w-[220px] lg:h-[310px] flex gap-0 flex-col items-center text-center`}>
             {/* Number Circle */}
-            <div className="z-10 flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] text-white font-semibold text-[24px] shadow-md">
+            <div className="z-10 flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] text-white font-semibold text-[24px] shadow-md">
               {step.id}
             </div>
 
@@ -360,8 +364,8 @@ const steps = [
                     <path d="M82 6H83.5C83.5 5.17157 82.8284 4.5 82 4.5V6ZM82 185H80.5C80.5 185.828 81.1716 186.5 82 186.5V185ZM158 185L143 176.34V193.66L158 185ZM1.5 6H3C3 4.32843 4.32843 3 6 3V1.5V0C2.67157 0 0 2.67157 0 6H1.5ZM6 1.5V3C7.67157 3 9 4.32843 9 6H10.5H12C12 2.67157 9.32843 0 6 0V1.5ZM10.5 6H9C9 7.67157 7.67157 9 6 9V10.5V12C9.32843 12 12 9.32843 12 6H10.5ZM6 10.5V9C4.32843 9 3 7.67157 3 6H1.5H0C0 9.32843 2.67157 12 6 12V10.5ZM10.5 6V7.5H82V6V4.5H10.5V6ZM82 6H80.5V185H82H83.5V6H82ZM82 185V186.5H144.5V185V183.5H82V185Z" fill="url(#paint0_linear_2502_967)"/>
                     <defs>
                     <linearGradient id="paint0_linear_2502_967" x1="1.54586" y1="93.2736" x2="158" y2="93.2736" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#FFA68D"/>
-                    <stop offset="1" stop-color="#FD3A84"/>
+                    <stop stop-color="#6AC0E6"/>
+                    <stop offset="1" stop-color="#015190"/>
                     </linearGradient>
                     </defs>
                 </svg>
@@ -377,8 +381,8 @@ const steps = [
                     <path d="M77 181.66V183.16C77.8284 183.16 78.5 182.489 78.5 181.66H77ZM77 8.66016V7.16016C76.1716 7.16016 75.5 7.83173 75.5 8.66016H77ZM148 8.66016L133 -9.82285e-05V17.3204L148 8.66016ZM1.5 181.66H3C3 179.989 4.32843 178.66 6 178.66V177.16V175.66C2.67157 175.66 0 178.332 0 181.66H1.5ZM6 177.16V178.66C7.67157 178.66 9 179.989 9 181.66H10.5H12C12 178.332 9.32843 175.66 6 175.66V177.16ZM10.5 181.66H9C9 183.332 7.67157 184.66 6 184.66V186.16V187.66C9.32843 187.66 12 184.989 12 181.66H10.5ZM6 186.16V184.66C4.32843 184.66 3 183.332 3 181.66H1.5H0C0 184.989 2.67157 187.66 6 187.66V186.16ZM10.5 181.66V183.16H77V181.66V180.16H10.5V181.66ZM77 181.66H78.5V8.66016H77H75.5V181.66H77ZM77 8.66016V10.1602H134.5V8.66016V7.16016H77V8.66016Z" fill="url(#paint0_linear_2502_968)"/>
                     <defs>
                     <linearGradient id="paint0_linear_2502_968" x1="1.54293" y1="97.433" x2="148" y2="97.433" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#FFA68D"/>
-                    <stop offset="1" stop-color="#FD3A84"/>
+                    <stop stop-color="#6AC0E6"/>
+                    <stop offset="1" stop-color="#015190"/>
                     </linearGradient>
                     </defs>
                 </svg>
@@ -391,8 +395,8 @@ const steps = [
                     <path d="M170 6H171.5C171.5 5.17157 170.828 4.5 170 4.5V6ZM170 151L178.66 136H161.34L170 151ZM1.5 6H3C3 4.32843 4.32843 3 6 3V1.5V0C2.67157 0 0 2.67157 0 6H1.5ZM6 1.5V3C7.67157 3 9 4.32843 9 6H10.5H12C12 2.67157 9.32843 0 6 0V1.5ZM10.5 6H9C9 7.67157 7.67157 9 6 9V10.5V12C9.32843 12 12 9.32843 12 6H10.5ZM6 10.5V9C4.32843 9 3 7.67157 3 6H1.5H0C0 9.32843 2.67157 12 6 12V10.5ZM10.5 6V7.5H170V6V4.5H10.5V6ZM170 6H168.5V137.5H170H171.5V6H170Z" fill="url(#paint0_linear_2502_971)"/>
                     <defs>
                     <linearGradient id="paint0_linear_2502_971" x1="1.54937" y1="76.2693" x2="170" y2="76.2693" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#FFA68D"/>
-                    <stop offset="1" stop-color="#FD3A84"/>
+                    <stop stop-color="#6AC0E6"/>
+                    <stop offset="1" stop-color="#015190"/>
                     </linearGradient>
                     </defs>
                 </svg>
@@ -410,9 +414,9 @@ const steps = [
 export const Enterprise_Use_Cases = {
   title: "Enterprise Use Cases",
   subtitle: "Validate AI systems across mission-critical business applications",
-  bodyclass: "bg-[#fff] text-black mt-[-90px] !px-5",
+  bodyclass: "bg-[#fff] text-black mt-[-90px] !px-5 ",
   // tags:"How it works",
-    bggradient:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px] px-5 py-5 max-w-auto lg:max-w-[1270px] ",
+    bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] px-5 py-5 max-w-auto lg:max-w-[1270px] ",
 
   cards: [
     {
@@ -430,21 +434,21 @@ export const Enterprise_Use_Cases = {
             text: "Intent classification accuracy",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
            {
             text: "Response quality & relevance",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
            {
             text: "Escalation appropriateness",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
        
@@ -453,7 +457,7 @@ export const Enterprise_Use_Cases = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#015190",
 
       }
         
@@ -475,21 +479,21 @@ export const Enterprise_Use_Cases = {
             text: "Recommendation accuracy",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
           {
             text: "Bias & fairness monitoring",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
           {
             text: "Explainability & audit trails",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
          
@@ -498,7 +502,7 @@ export const Enterprise_Use_Cases = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#015190",
 
       }
     
@@ -518,21 +522,21 @@ export const Enterprise_Use_Cases = {
             text: "Retrieval precision & recall",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
                 {
             text: "Answer faithfulness",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
                 {
             text: "Source attribution verification",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
           
@@ -541,7 +545,7 @@ export const Enterprise_Use_Cases = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#015190",
 
       }
  
@@ -562,21 +566,21 @@ export const Enterprise_Use_Cases = {
             text: "Policy adherence validation",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
                 {
             text: "Risk threshold monitoring",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
                 {
             text: "Audit-ready documentation",
             icon: {
               name: "Check",
-              color: "#C44558",
+              color: "#015190",
             },
           },
           
@@ -585,7 +589,7 @@ export const Enterprise_Use_Cases = {
 
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#015190",
 
       }
  
@@ -606,9 +610,10 @@ export const Evaluation_Dimensions_CONFIG = {
     {
       id: 1,
       icon: "Target",
+      iconColor:"#6AC0E6",
       title: "Accuracy",
       bigheading:"96.4%",
-      bigheadingclass:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent",
+      bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[437px] min-h-[258px]",
       textColor: "#fff",
@@ -625,7 +630,7 @@ export const Evaluation_Dimensions_CONFIG = {
         ],
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -635,8 +640,9 @@ export const Evaluation_Dimensions_CONFIG = {
       id: 2,
       icon: "Link",
       title: "Faithfulness",
+            iconColor:"#6AC0E6",
       bigheading:"98.2%",
-      bigheadingclass:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent",
+      bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[437px] min-h-[258px]",
       textColor: "#fff",
@@ -653,7 +659,7 @@ export const Evaluation_Dimensions_CONFIG = {
         ],
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -663,8 +669,9 @@ export const Evaluation_Dimensions_CONFIG = {
       id: 3,
       icon: "ShieldCheck",
       title: "Robustness",
+            iconColor:"#6AC0E6",
       bigheading:"93.7%",
-      bigheadingclass:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent",
+      bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[437px] min-h-[258px]",
       textColor: "#fff",
@@ -681,7 +688,7 @@ export const Evaluation_Dimensions_CONFIG = {
         ],
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -691,8 +698,9 @@ export const Evaluation_Dimensions_CONFIG = {
       id: 4,
       icon: "Scale",
       title: "Bias & Fairness",
+            iconColor:"#6AC0E6",
       bigheading:"95.1%",
-      bigheadingclass:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent",
+      bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[437px] min-h-[258px]",
       textColor: "#fff",
@@ -709,7 +717,7 @@ export const Evaluation_Dimensions_CONFIG = {
         ],
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -719,8 +727,9 @@ export const Evaluation_Dimensions_CONFIG = {
       id: 5,
       icon: "Menu",
       title: "Consistency",
+            iconColor:"#6AC0E6",
       bigheading:"97.3%",
-      bigheadingclass:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent",
+      bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[437px] min-h-[258px]",
       textColor: "#fff",
@@ -737,7 +746,7 @@ export const Evaluation_Dimensions_CONFIG = {
         ],
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -747,8 +756,9 @@ export const Evaluation_Dimensions_CONFIG = {
       id: 6,
       icon: "Lightbulb",
       title: "Explainability",
+            iconColor:"#6AC0E6",
       bigheading:"91.8%",
-      bigheadingclass:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent",
+      bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[437px] min-h-[258px]",
       textColor: "#fff",
@@ -765,7 +775,7 @@ export const Evaluation_Dimensions_CONFIG = {
         ],
 
         // TEXT COLOR / GRADIENT
-        textGradientColor: "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+        textGradientColor: "#6AC0E6",
 
       }
         
@@ -796,9 +806,9 @@ export const Enterprise_Grade_AI_Governance = {
         labels: ["Immutable test execution records","Timestamped model & prompt versions","User action attribution"],
         showDisc: true, // ✅ disc visible
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         
       },
     },
@@ -817,9 +827,9 @@ export const Enterprise_Grade_AI_Governance = {
         labels: ["Natural-language rationales", "Evidence highlighting", "Transparent scoring methodology"],
         showDisc: true, // ❌ text only, no disc
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
       },
     },
 
@@ -837,9 +847,9 @@ export const Enterprise_Grade_AI_Governance = {
         labels: ["Automated version tagging", "Diff comparisons across versions", "Safe rollback capability"],
         showDisc: false,
         textGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        "#6AC0E6",
         discGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        "#6AC0E6",
         
       },
     },
@@ -857,9 +867,9 @@ export const Enterprise_Grade_AI_Governance = {
         labels: ["EU AI Act alignment", "Security Compliant / ISO compliance", "Industry-specific governance frameworks"],
         showDisc: false,
         textGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        "#6AC0E6",
         discGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+        "#6AC0E6",
         
       },
     },
@@ -887,9 +897,9 @@ export const Testing_USP_CONFIG = {
         labels: ["Intent recognition accuracy","Task completion validation","Output format compliance"],
         showDisc: true, // ✅ disc visible
         textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         
       },
     },
@@ -907,10 +917,10 @@ export const Testing_USP_CONFIG = {
       points: {
         labels: ["Harmful content detection", "Boundary violation monitoring", "Failure mode analysis"],
         showDisc: true, // ❌ text only, no disc
-        textGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+               textGradientColor:
+          "#6AC0E6",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
       },
     },
 
@@ -927,10 +937,10 @@ export const Testing_USP_CONFIG = {
       points: {
         labels: ["Response time tracking", "Quality score trends", "Edge case handling"],
         showDisc: false,
-        textGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+                textGradientColor:
+          "#6AC0E6",
         discGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         
       },
     },
@@ -947,10 +957,10 @@ export const Testing_USP_CONFIG = {
       points: {
         labels: ["Complete audit trails", "Decision explainability", "Regulatory compliance"],
         showDisc: false,
-        textGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+               textGradientColor:
+          "#6AC0E6",
         discGradientColor:
-        "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "#6AC0E6",
         
       },
     },
@@ -963,7 +973,7 @@ export const USP_CONFIG = {
   title: "Why Traditional Testing Fails for AI Systems",
   subtitle: "AI systems require fundamentally different validation approaches than deterministic software",
   bodyclass: "",
-   bggradient:"bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[24px]",
+   bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px]",
 
   cards: [
     {
@@ -971,6 +981,7 @@ export const USP_CONFIG = {
       icon: "Dices",
       title: "Non-Deterministic Outputs",
       discColor: "#626161",
+      iconColor:"#015190",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
@@ -982,6 +993,7 @@ export const USP_CONFIG = {
      {
       id: 2,
       icon: "ChartSpline",
+      iconColor:"#015190",
       title: "Configure Test Strategy",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
@@ -995,6 +1007,7 @@ export const USP_CONFIG = {
       icon: "Database",
       title: "Data & Prompt Sensitivity",
       discColor: "#626161",
+      iconColor:"#015190",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
@@ -1006,6 +1019,7 @@ export const USP_CONFIG = {
       icon: "RefreshCcw",
       title: "Continuous Evolution",
       discColor: "#626161",
+      iconColor:"#015190",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
       description:
@@ -1022,14 +1036,15 @@ export const USP_CONFIG = {
 export const Testing_HEADER = {
     heading: "Testing AI Systems<br/> at  Enterprise Scale",
     headclass: " text-white",
+    headingclass:"text-[#fff]",
     paragraph:
         "A comprehensive approach to validating AI behavior, reliability, and safety in production <br/> environments.",
-    //   backgroundImage: "/bg/bg-gradient-four.jpg",
+    //   backgroundImage: "/bg/gradient.png",
     buttons: [
         {
             text: "View Evaluation Architecture",
             className:
-                "py-5 px-8  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+                "py-5 px-8  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
             icon: "CircleArrowOutUpRight",
             hoverIcon: true,
             iconSize: "20px",

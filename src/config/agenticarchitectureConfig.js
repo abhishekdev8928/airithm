@@ -4,7 +4,7 @@ export const AgenticArchitectureConfig = {
   headclass:"pt-[0px]",
   paragraph:
     "Coordinated AI agents driving intelligent testing decisions.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [],
 };
 
@@ -116,7 +116,7 @@ export const PLANING_CTA_CONFIG = {
   heading: "Need Help?",
   paragraph:
     "Get Assistance with agentic architecture implementation",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",
   buttons: [
   

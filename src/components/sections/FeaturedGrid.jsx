@@ -64,7 +64,7 @@ export default function FeatureGrid() {
                 rounded-2xl border border-light-lg bg-white
                 p-5 flex flex-col justify-between space-y-6
                 transition-shadow duration-300
-                hover:shadow-[0px_0px_40px_2px_#C4455840]
+                hover:shadow-[0px_0px_40px_2px_#01519040]
                 ${item.col ?? ""}
               `}
             >
@@ -73,7 +73,7 @@ export default function FeatureGrid() {
                 <Icon
                   size={item.iconSize}
                   strokeWidth={1.5}
-                  className="text-[#C44558]"
+                  className="text-[#015190]"
                 />
               )}
 
@@ -91,7 +91,7 @@ export default function FeatureGrid() {
               {/* CTA */}
               <a
                 href="#"
-                className="group flex items-center gap-2.5 font-primary text-[#C44558]
+                className="group flex items-center gap-2.5 font-primary text-[#015190]
                            font-medium text-[16px] leading-[1.2]"
               >
                 Learn More

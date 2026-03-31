@@ -4,12 +4,12 @@ export const REAL_TIME_CONTEXT_HEADER = {
    headclass:true,
   paragraph:
     "Enable seamless synchronization of distributed agents, devices and subsystems with secure, <br/> scalable event-driven AI behaviors It's across organizational boundaries.",
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
    {
   text: "View Demo",
   className:
-    " text-[#C44558] bg-white",
+    " text-[#015190] bg-white border-[#015190] border",
   icon: "Eye",
   hoverIcon:false,
   iconSize: "20px",
@@ -50,8 +50,8 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 2, 
-      linkIconSrc: "./svg/shield-check.svg",
-      iconColor: "",
+      icon: "ShieldCheck",
+      iconColor: "#6AC0E6",
        textColor:"#fff",
              cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px]",
        discColor:'#C6C6C6',
@@ -61,8 +61,8 @@ export const CORE_MODULE_CONFIG = {
     },
     {
       id: 3,
-      linkIconSrc: "./svg/zap.svg",
-      iconColor: "",
+      icon: "Zap",
+      iconColor: "#6AC0E6",
        textColor:"#fff",
              cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px]",
        discColor:'#C6C6C6',

@@ -7,7 +7,7 @@ export const PLATFORM_ARCHITECTURE_HEADER_CONFIG = {
     {
       text: "View Documentation",
       className:
-        " text-[#C44558] bg-white",
+        " text-[#015190] bg-white",
       href: "",
       hoverIcon:false,
         icon: "Eye",
@@ -32,10 +32,10 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
       color: "#FFFFFF",
     },
     items: [
-      { id: "rest", title: "REST API", icon: "CodeXml", size: 32, color: "#C44558" },
-      { id: "cli", title: "CLI", icon: "Terminal", size: 32, color: "#C44558" },
-      { id: "sdk", title: "SDK", icon: "Form", size: 32, color: "#C44558" },
-      { id: "web", title: "Web UI", icon: "Monitor", size: 32, color: "#C44558" },
+      { id: "rest", title: "REST API", icon: "CodeXml", size: 32, color: "#015190" },
+      { id: "cli", title: "CLI", icon: "Terminal", size: 32, color: "#015190" },
+      { id: "sdk", title: "SDK", icon: "Form", size: 32, color: "#015190" },
+      { id: "web", title: "Web UI", icon: "Monitor", size: 32, color: "#015190" },
     ],
   },
 
@@ -49,11 +49,11 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
       color: "#FFFFFF",
     },
     items: [
-      { id: "planner", title: "Planner", icon: "NotebookPen", size: 32, color: "#C44558" },
-      { id: "generator", title: "Generator", icon: "Sparkles", size: 32, color: "#C44558" },
-      { id: "executor", title: "Executor", icon: "Play", size: 32, color: "#C44558" },
-      { id: "evaluator", title: "Evaluator", icon: "CheckCircle", size: 32, color: "#C44558" },
-      { id: "memory", title: "Memory", icon: "Database", size: 32, color: "#C44558" },
+      { id: "planner", title: "Planner", icon: "NotebookPen", size: 32, color: "#015190" },
+      { id: "generator", title: "Generator", icon: "Sparkles", size: 32, color: "#015190" },
+      { id: "executor", title: "Executor", icon: "Play", size: 32, color: "#015190" },
+      { id: "evaluator", title: "Evaluator", icon: "CheckCircle", size: 32, color: "#015190" },
+      { id: "memory", title: "Memory", icon: "Database", size: 32, color: "#015190" },
     ],
   },
 
@@ -67,9 +67,9 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
       color: "#FFFFFF",
     },
     items: [
-      { id: "vector", title: "Vector Memory", icon: "MemoryStick", size: 32, color: "#C44558" },
-      { id: "graph", title: "Graph Memory", icon: "VectorSquare", size: 32, color: "#C44558" },
-      { id: "temporal", title: "Temporal Memory", icon: "CircleDotDashed", size: 32, color: "#C44558" },
+      { id: "vector", title: "Vector Memory", icon: "MemoryStick", size: 32, color: "#015190" },
+      { id: "graph", title: "Graph Memory", icon: "VectorSquare", size: 32, color: "#015190" },
+      { id: "temporal", title: "Temporal Memory", icon: "CircleDotDashed", size: 32, color: "#015190" },
     ],
   },
 
@@ -83,10 +83,10 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
       color: "#FFFFFF",
     },
     items: [
-      { id: "browser-grid", title: "Browser Grid", icon: "Presentation", size: 32, color: "#C44558" },
-      { id: "device-farm", title: "Device Farm", icon: "Smartphone", size: 32, color: "#C44558" },
-      { id: "api-runners", title: "API Runners", icon: "LayoutTemplate", size: 32, color: "#C44558" },
-      { id: "cloud", title: "Cloud Infra", icon: "Cloud", size: 32, color: "#C44558" },
+      { id: "browser-grid", title: "Browser Grid", icon: "Presentation", size: 32, color: "#015190" },
+      { id: "device-farm", title: "Device Farm", icon: "Smartphone", size: 32, color: "#015190" },
+      { id: "api-runners", title: "API Runners", icon: "LayoutTemplate", size: 32, color: "#015190" },
+      { id: "cloud", title: "Cloud Infra", icon: "Cloud", size: 32, color: "#015190" },
     ],
   },
 
@@ -100,9 +100,9 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
       color: "#FFFFFF",
     },
     items: [
-      { id: "llm-eval", title: "LLM Evaluator", icon: "Bot", size: 32, color: "#C44558" },
-      { id: "analytics", title: "Analytics Engine", icon: "PieChart", size: 32, color: "#C44558" },
-      { id: "insights", title: "Insights", icon: "Lightbulb", size: 32, color: "#C44558" },
+      { id: "llm-eval", title: "LLM Evaluator", icon: "Bot", size: 32, color: "#015190" },
+      { id: "analytics", title: "Analytics Engine", icon: "PieChart", size: 32, color: "#015190" },
+      { id: "insights", title: "Insights", icon: "Lightbulb", size: 32, color: "#015190" },
     ],
   },
 ];

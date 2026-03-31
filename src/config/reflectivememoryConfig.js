@@ -5,12 +5,12 @@ export const REFLECTIVE_MEMORY_HEADER = {
 paragraph:
   "Self-learning AI that continuously evolves through meta-cognitive <br class='hidden sm:block' /> analysis, autonomous reflection, and intelligent adaptation.",
 
-//   backgroundImage: "/bg/bg-gradient-four.jpg",
+//   backgroundImage: "/bg/gradient.png",
   buttons: [
 //    {
 //   text: "Documentation",
 //   className:
-//     "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+//     "py-5 px-6  font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
 //   icon: "",
 //   hoverIcon:true,
 //   iconSize: "20px",
@@ -89,10 +89,10 @@ export const LOOP_CARD_CONFIG = {
       {
       id: 1,
       icon: "Search",
-      textColor:"#C44558",
+      textColor:"#015190",
       discColor:'#626161 ',
       cardClassName: " !h-fit md:w-[375px] w-[100%]",
-      iconColor: "",
+      iconColor: "#015190",
       title: "Continuous Analysis",
       description:
         "Every decision and outcome is automatically captured and analyzed for patterns, effectiveness, and potential improvement",
@@ -100,9 +100,9 @@ export const LOOP_CARD_CONFIG = {
     {
       id: 2,
       icon: "SquareChartGantt",
-      iconColor: "",
+      iconColor: "#015190",
         cardClassName: "  !h-fit md:w-[375px] w-[100%]",
-   textColor:"#C44558",
+   textColor:"#015190",
       discColor:'#626161 ',
       title: "Meta-Cognitive Processing",
       description:
@@ -111,9 +111,9 @@ export const LOOP_CARD_CONFIG = {
     {
       id: 3,
       icon: "ChartSpline",
-      iconColor: "",
+      iconColor: "#015190",
         cardClassName: "!h-fit  md:w-[375px] w-[100%]",
-       textColor:"#C44558",
+       textColor:"#015190",
       discColor:'#626161 ',
       title: "Autonomous Refinement",
       description:

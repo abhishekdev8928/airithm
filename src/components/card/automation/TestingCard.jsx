@@ -31,7 +31,8 @@ const TestingCard = ({ title, description, bgImgSrc, list }) => {
 
       {/* Pink Hover Layer */}
       <div className="
-        absolute inset-0 bg-gradient-to-br from-[#f78da7] to-[#f05862]
+        absolute inset-0  bg-[linear-gradient(86deg,#015190_10.85%,#6AC0E6_84.93%)]
+
         opacity-0 
         min-[900px]:group-hover:opacity-100
         transition-opacity duration-700

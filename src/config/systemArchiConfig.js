@@ -7,7 +7,7 @@ export const SYSTEM_ARCHI_HEADER_CONFIG = {
     {
       text: "Download Architecture Deck",
       className:
-        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       icon: "Download",
       hoverIcon: true,
       iconSize: "20px",
@@ -216,12 +216,12 @@ export const SYSTEM_ARCHI_CTA_CONFIG = {
   heading: "Bring Contextual Intelligence <br /> to Your Ecosystem.",
   paragraph:
     "Join leading AI teams who trust our platform for comprehensive, <br /> automated model evaluation.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
     {
       text: "Talk to Solutions Architect",
       className:
-        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6 min-w-[253px]   font-primary font-semibold text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
       
       hoverIcon: false,
             icon: "CircleArrowOutUpRight",

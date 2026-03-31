@@ -12,7 +12,7 @@ const LucideIcon = ({ name, size, color, strokeWidth }) => {
 
 export default function PlatformHighLevelArchi() {
   return (
-    <div className="flex flex-col w-full items-center p-12 shadow-[0px_0px_8px_4px_#C4455880] rounded-[24px] ">
+    <div className="flex flex-col w-full items-center p-12 shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] ">
       {PLATFORM_HL_ARCHITECTURE_CONFIG.map((layer, index) => (
         <div key={layer.id} className="w-full  relative">
           {/* Layer Card */}

@@ -7,6 +7,7 @@ export const QA_TESTING_USP_CONFIG = {
       icon: "Settings",
       title: "Functional & Regression Testing",
       textColor: "#1E1E1E",
+      iconColor: "#015190",
       discColor: "#626161",
       cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
       description:
@@ -22,15 +23,16 @@ export const QA_TESTING_USP_CONFIG = {
           "CI/CD Validation",
           "Real-time Error Detection",
         ],
-        textGradientColor: "#C44558",
+        textGradientColor: "#015190",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%)",
       },
     },
 
     {
       id: 2,
       icon: "Lock",
+      iconColor: "#015190",
       title: "Security & Compliance Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
@@ -48,15 +50,18 @@ export const QA_TESTING_USP_CONFIG = {
           "Data Privacy Enforcement",
           "Encryption & Access Control",
         ],
-        textGradientColor: "#C44558",
+        textGradientColor: "#015190",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%)",
+          // "background: radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%);
+
       },
     },
 
     {
       id: 3,
       icon: "Smartphone",
+      iconColor: "#015190",
       title: "Usability & Accessibility Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
@@ -74,15 +79,16 @@ export const QA_TESTING_USP_CONFIG = {
           "WCAG & ADA Validation",
           "UX Heatmap Insights",
         ],
-        textGradientColor: "#C44558",
+        textGradientColor: "#015190",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%)",
       },
     },
 
     {
       id: 4,
       icon: "Shuffle",
+      iconColor: "#015190",
       title: "Data & Integration Testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
@@ -100,9 +106,9 @@ export const QA_TESTING_USP_CONFIG = {
           "ERP, CRM & Payment Gateway",
           "Data Flow Consistency",
         ],
-        textGradientColor: "#C44558",
+        textGradientColor: "#015190",
         discGradientColor:
-          "linear-gradient(90deg, rgba(255,166,141,1) 0%, rgba(253,58,132,1) 100%)",
+          "radial-gradient(66.19% 497.1% at 50% 50%, #015190 0%, #015190 50.32%, #6AC0E6 100%)",
       },
     },
   ],
@@ -119,7 +125,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 1,
       icon: "BookCheck",
-      linkIconSrc:"./svg/grid/book-check.svg",
+      // linkIconSrc:"./svg/grid/book-check.svg",
       textColor:"#fff",
       gradient:true,
       cardClassName:" w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
@@ -132,7 +138,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 2,
       icon: "PencilRuler",
-      linkIconSrc:"./svg/grid/pencil-ruler.svg",
+      // linkIconSrc:"./svg/grid/pencil-ruler.svg",
       cardClassName:"w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
        textColor:"#fff",
@@ -144,7 +150,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 3,
       icon: "CirclePlay",
-      linkIconSrc:"./svg/grid/circle-plus.svg",
+      // linkIconSrc:"./svg/grid/circle-plus.svg",
       cardClassName:"w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
       iconColor: "",
        textColor:"#fff",
@@ -156,7 +162,7 @@ export const CORE_TEST_MODULE_CONFIG = {
     {
       id: 4,
       icon: "ChartBarBig",
-      linkIconSrc:"./svg/grid/chart-bar-big.svg",
+      // linkIconSrc:"./svg/grid/chart-bar-big.svg",
       iconColor: "",
       cardClassName:"w-full md:w-[23%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)]",
 
@@ -244,7 +250,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
         "Finds patterns & anomalies",
         "Planning, reasoning, tool use",
       ],
-      textColor: "#C44558",
+      textColor: "#015190",
     },
     iconSrc: "/svg/circle-check.svg",
   },
@@ -259,7 +265,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
         "Improves test strategies",
         "Self-optimizing test cycles",
       ],
-      textColor: "#C44558",
+      textColor: "#015190",
     },
     iconSrc: "/svg/circle-check.svg",
   },
@@ -268,6 +274,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
 
 export  const CORE_TEST_HEADER_CONFIG = {
   heading: "CoreTest",
+  headingclass:"text-[#fff]",
   subheading:
     "Comprehensive Intelligent Testing for Enterprise & Non-AI Applications",
   headclass: "",
@@ -277,7 +284,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
     {
       text: "View Architecture",
       className:
-        "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#C44558] bg-white",
+        "py-5 px-6  font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
            icon: "CircleArrowOutUpRight",
       hoverIcon: true,
       iconSize: "20px",
@@ -298,11 +305,11 @@ export  const CORE_TEST_HEADER_CONFIG = {
   heading: "Build Better. Test Smarter. <br /> Accelerate Quality with CoreTest",
   paragraph:
     "Empower your teams with intelligent, end-to-end test automation across every layer of your enterprise stack.",
-  backgroundImage: "/bg/bg-gradient-four.jpg",
+  backgroundImage: "/bg/gradient.png",
   buttons: [
   {
     text: "Request Demo",
-    className: " text-[#C44558] bg-white ",
+    className: " text-[#015190] bg-white ",
     icon: "Play",
     iconSize: "20px",
     href: "",

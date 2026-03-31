@@ -60,8 +60,8 @@ const Webinars = () => {
               className={`text-[12px] font-seconadry py-3 hover:cursor-pointer px-5 rounded-[100px] font-[500] transition-all duration-300
               ${
                 activeCategory === item
-                  ? "bg-[#C44558] text-[#fff]"
-                  : "bg-[#fff] border border-[#C44558] text-[#C44558]"
+                  ? "bg-[#015190] text-[#fff]"
+                  : "bg-[#fff] border border-[#015190] text-[#015190]"
               }`}
             >
               {item}
