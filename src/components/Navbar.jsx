@@ -306,7 +306,7 @@ export default function Navbar({
                     <Settings color="#015190" width="16px" className="" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Protoco</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Protocol</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for multiagent AI systems. </p> */}
                   </div>
                 </NavLink>
@@ -638,7 +638,7 @@ export default function Navbar({
                         <ShieldCheck color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Context Capsules</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Capsules</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona,
     tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p> */}
                       </div>

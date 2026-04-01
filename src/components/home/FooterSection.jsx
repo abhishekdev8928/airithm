@@ -25,26 +25,26 @@ const FooterSection = () => {
             
             {/* Column 1 */}
             <div className="flex  flex-col gap-4 ">
-              <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link to="/ai-automation">AI Test Platform</Link></h3>
+              <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link onClick={() => window.scrollTo(0, 0)} to="/ai-automation">AI Test Platform</Link></h3>
               <h4 className="text-inter-18  font-semibold leading-[1.2]">
-                <Link to="/core-test">aiRM.CoreQ</Link>
+                <Link onClick={() => window.scrollTo(0, 0)} to="/core-test">aiRM.CoreQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li> <Link to="/intelligent-test-automation" className="flex gap-3">
+                <li> <Link onClick={() => window.scrollTo(0, 0)} to="/intelligent-test-automation" className="flex gap-3">
                   
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Intelligent Test Automation</h3>
 
                     </div>
                   </Link></li>
-                <li>  <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
+                <li>  <Link onClick={() => window.scrollTo(0, 0)} to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
                    
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Knowledge Base Creation</h3>
 
                     </div>
                   </Link></li>
-                <li> <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
+                <li> <Link onClick={() => window.scrollTo(0, 0)} to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
                     
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">How Autonomous Testing Works</h3>
@@ -54,11 +54,11 @@ const FooterSection = () => {
         
               </ul>
                <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
-               <Link to="/neuro-test">aiRM.EvalQ</Link>
+               <Link onClick={() => window.scrollTo(0, 0)} to="/neuro-test">aiRM.EvalQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li>
-                   <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
+                   <Link onClick={() => window.scrollTo(0, 0)} to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                   
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Testing AI Systems at Enterprise Scale</h3>
@@ -66,7 +66,7 @@ const FooterSection = () => {
                     </div>
                   </Link>
                 </li>
-                <li>    <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
+                <li>    <Link onClick={() => window.scrollTo(0, 0)} to="/llm-based-evaluation" className="flex gap-3 mt-3">
                   
                     <div>
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LLM Based Evaluation</h3>
@@ -79,10 +79,10 @@ const FooterSection = () => {
             {/* Column 2 */}
             <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
-               <Link to="/context-intelligence-platform">aiRM.LumiQ</Link>
+               <Link onClick={() => window.scrollTo(0, 0)} to="/context-intelligence-platform">aiRM.LumiQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li>       <Link to="/real-time-context" className="flex gap-3">
+                <li>       <Link onClick={() => window.scrollTo(0, 0)} to="/real-time-context" className="flex gap-3">
                 
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Broadcast</h3>
@@ -90,7 +90,7 @@ const FooterSection = () => {
                   </div>
                 </Link></li>
                 <li>
-                    <Link to='/context-capsules' className="flex gap-3 mt-3">
+                    <Link onClick={() => window.scrollTo(0, 0)} to='/context-capsules' className="flex gap-3 mt-3">
                  
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Capsules</h3>
@@ -98,28 +98,28 @@ const FooterSection = () => {
                   </div>
                 </Link>
                 </li>
-                <li>                <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
+                <li>                <Link onClick={() => window.scrollTo(0, 0)} to="/declarative-context-protocol" className="flex gap-3 mt-3">
                   
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Protocol</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for multiagent AI systems. </p> */}
                   </div>
                 </Link></li>
-                <li><Link to='/reflective-memory' className="flex gap-3 mt-3">
+                <li><Link onClick={() => window.scrollTo(0, 0)} to='/reflective-memory' className="flex gap-3 mt-3">
             
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Reflect</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis, reflection, and intelligent adaptation.</p> */}
                   </div>
                 </Link></li>
-                <li>    <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
+                <li>    <Link onClick={() => window.scrollTo(0, 0)} to="/temporal-context-memory" className="flex gap-3 mt-3">
                   
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Memory</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture for better contextual understanding and retrieval performance.</p> */}
                   </div>
                 </Link></li>
-                <li> <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
+                <li> <Link onClick={() => window.scrollTo(0, 0)} to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
                
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Nexus</h3>
@@ -132,17 +132,17 @@ const FooterSection = () => {
             {/* Column 3 */}
             <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
-                <Link to="">AI Governance</Link>
+                <Link onClick={() => window.scrollTo(0, 0)} to="">AI Governance</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li> <Link className="flex gap-3" to="/ci-cd-devops-integration">
+                <li> <Link onClick={() => window.scrollTo(0, 0)} className="flex gap-3" to="/ci-cd-devops-integration">
                 
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">CI/CD & Devops Integration</h3>
 
                   </div>
                 </Link></li>
-                <li>      <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
+                <li>      <Link onClick={() => window.scrollTo(0, 0)} className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
                   
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Two Platforms.
@@ -150,7 +150,7 @@ const FooterSection = () => {
 
                   </div>
                 </Link></li>
-                <li> <Link className="flex gap-3  mt-3" to="/security">
+                <li> <Link onClick={() => window.scrollTo(0, 0)} className="flex gap-3  mt-3" to="/security">
               
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Security</h3>
@@ -160,11 +160,11 @@ const FooterSection = () => {
               </ul>
 
                <h4 className="text-inter-20 font-semibold leading-[1.2] mt-3">
-              <Link to="/platform-capabilities">Platform Capabilities</Link>
+              <Link onClick={() => window.scrollTo(0, 0)} to="/platform-capabilities">Platform Capabilities</Link>
               </h4>
               <ul>
                 <li>
-                          <Link className="flex gap-3 " to="/platform-deployment">
+                          <Link onClick={() => window.scrollTo(0, 0)} className="flex gap-3 " to="/platform-deployment">
                 
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Platform Deployment</h3>
@@ -173,7 +173,7 @@ const FooterSection = () => {
                 </Link>
                 </li>
                 <li>
-                   <Link className="flex gap-3 mt-3" to="/platform-integrations">
+                   <Link onClick={() => window.scrollTo(0, 0)} className="flex gap-3 mt-3" to="/platform-integrations">
               
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Platform Integrations</h3>
@@ -182,7 +182,7 @@ const FooterSection = () => {
                 </Link>
                 </li>
                 <li>
-                          <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
+                          <Link onClick={() => window.scrollTo(0, 0)} className="flex gap-3 mt-3" to="/test-analytics-insights">
                   
                   <div>
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Test Analytics & Insights</h3>
@@ -196,15 +196,15 @@ const FooterSection = () => {
               {/* Column 5 */}
             <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
-                <Link to="/resources">Resources</Link>
+                <Link onClick={() => window.scrollTo(0, 0)} to="/resources">Resources</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16 text-white/90">
-                <li><Link to="/resources">Blog</Link></li>
-                <li><Link to="/resources">Whitepapers</Link></li>
-                <li><Link to="/resources">Case Studies</Link></li>
-                <li><Link to="/resources">Benchmarks</Link></li>
-                <li><Link to="/resources">Webinars & Events</Link></li>
-                <li><Link to="/resources">FAQs</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Blog</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Whitepapers</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Case Studies</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Benchmarks</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Webinars & Events</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">FAQs</Link></li>
               </ul>
             </div>
 
@@ -214,7 +214,7 @@ const FooterSection = () => {
                 Quick Link
               </h4>
               <ul className="space-y-3.5 text-inter-16">
-                <li>          <Link
+                <li>          <Link onClick={() => window.scrollTo(0, 0)}
                   to="/company"
                   className="w-full flex justify-between items-center"
                 >
@@ -224,7 +224,7 @@ const FooterSection = () => {
 
 
                 </Link></li>
-                <li> <Link
+                <li> <Link onClick={() => window.scrollTo(0, 0)}
                   to="/pricing"
 
                   className="w-full flex justify-between items-center"
@@ -235,7 +235,7 @@ const FooterSection = () => {
 
 
                 </Link></li>
-                <li>  <Link
+                <li>  <Link onClick={() => window.scrollTo(0, 0)}
                   to="/contact-us"
 
                   className="w-full flex justify-between items-center"
@@ -246,7 +246,7 @@ const FooterSection = () => {
 
 
                 </Link></li>
-                <li><Link
+                <li><Link onClick={() => window.scrollTo(0, 0)}
                   to="/demo"
 
                   className="w-full flex justify-between items-center"
