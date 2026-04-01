@@ -4,6 +4,7 @@ export const Memory_HEADER = {
   paragraph:
     "Persistent, relationship-aware context for testing intelligence.",
 //   backgroundImage: "/bg/gradient.png",
+headingclass:"text-[#fff]",
   buttons: [
    {
   text: "View Documentation",

@@ -4,6 +4,7 @@ export const Comapny_HEADER = {
   paragraph:
     "AIRITHM builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",
 //   backgroundImage: "/bg/gradient.png",
+headingclass:"text-[#fff]",
   buttons: [
    {
   text: "View Leadership",

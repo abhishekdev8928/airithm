@@ -1,7 +1,7 @@
 
 export const REFLECTIVE_MEMORY_HEADER = {
   heading: "Reflective Memory",
-  headclass:"pt-[100px]",
+  headclass:"pt-[100px] ",
 paragraph:
   "Self-learning AI that continuously evolves through meta-cognitive <br class='hidden sm:block' /> analysis, autonomous reflection, and intelligent adaptation.",
 

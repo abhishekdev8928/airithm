@@ -7,6 +7,8 @@ const PRICING_HEADER_CONFIG = {
   heading: "Flexible Pricing for <br class=' hidden sm:block' /> Autonomous Testing",
   paragraph:
     "Plans designed to scale from pilot teams to enterprise-wide autonomy.",
+    headingclass:"text-[#fff]",
+
   buttons: [],
 };
 
@@ -95,7 +97,7 @@ export const PRICING_CONFIG = {
         text: "Request Demo",
         href:"/demo",
         bgClass:
-          "bg-[linear-gradient(85.9deg,_#015190_62.74%,_#FF7F7F_95.09%)]",
+          "bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)]",
       },
     },
     {

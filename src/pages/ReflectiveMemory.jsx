@@ -14,14 +14,14 @@ const ReflectiveMemory = () => {
   const { cards } = LOOP_CARD_CONFIG;
  
   return (
-    <div className='bg-[#E9F6FB]'>
+    <div className='bg-[#E9F6FB] menuwhitepage'>
       <Navbar
         wrapperClassName="relative "
         disableScrollHide={true}
         linkClassName="text-black"
         iconClassName="invert-0"
       />
-      <section className='mb-[80px]'>
+      <section className='mb-[80px] '>
         <MainBanner data={REFLECTIVE_MEMORY_HEADER} />
         <div className="tags flex gap-[40px] justify-center items-center lg:flex-row flex-col  mt-[10px]">
           <span className='text-[14px] text-[#015190] font-[500] font-secondary'>    <Atom className='inline-flex me-2 text-[14px]' />Autonomous Learning</span>
@@ -113,7 +113,7 @@ const ReflectiveMemory = () => {
 
             </div>
             <div className="imgbox h-[270px] overflow-hidden lg:w-[434px] w-[100%] bg-[#D9D9D9] rounded-[24px] m-auto">
-              <img src="./home/meta-prompts.jpg" alt="" />
+              <img src="./home/meta-prompts.webp" alt="" />
             </div>
           </div>
         </div>

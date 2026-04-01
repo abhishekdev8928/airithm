@@ -12,7 +12,7 @@ const IntelligentTestAutomation = () => {
 
 
     return (
-        <div className="bg-[#E9F6FB]">
+        <div className="bg-[#E9F6FB] menuwhitepage">
             <Navbar
                 wrapperClassName="relative "
                 disableScrollHide={true}

@@ -13,7 +13,7 @@ import FooterSection from "@/components/home/FooterSection";
 import { HOME_CAPABILITY_CONFIG } from "@/config/homeConfig";
 const HomePage = () => {
   return (
-    <>
+    <div className="homepage">
 
  <Navbar initialTextColor="text-white" />
 
@@ -32,7 +32,7 @@ const HomePage = () => {
       <CtaSection />
       <BlogsSection />
       <FooterSection />
-    </>
+    </div>
   );
 };
 

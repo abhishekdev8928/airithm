@@ -27,7 +27,7 @@ const FooterSection = () => {
             <div className="flex  flex-col gap-4 ">
               <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link to="/ai-automation">AI Test Platform</Link></h3>
               <h4 className="text-inter-18  font-semibold leading-[1.2]">
-                <Link to="/core-test">Core Test</Link>
+                <Link to="/core-test">aiRM.CoreQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li> <Link to="/intelligent-test-automation" className="flex gap-3">
@@ -54,7 +54,7 @@ const FooterSection = () => {
         
               </ul>
                <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
-               <Link to="/neuro-test">Neuro Test</Link>
+               <Link to="/neuro-test">aiRM.EvalQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li>
@@ -79,13 +79,13 @@ const FooterSection = () => {
             {/* Column 2 */}
             <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
-               <Link to="/context-intelligence-platform">Context Intelligent Platform</Link>
+               <Link to="/context-intelligence-platform">aiRM.LumiQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li>       <Link to="/real-time-context" className="flex gap-3">
                 
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Real-time Context</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Broadcast</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Ensure smooth synchronization of agents and devices with secure, scalable, event-driven AI across organizations.</p> */}
                   </div>
                 </Link></li>
@@ -93,7 +93,7 @@ const FooterSection = () => {
                     <Link to='/context-capsules' className="flex gap-3 mt-3">
                  
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Context Capsules</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Capsules</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona, tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p> */}
                   </div>
                 </Link>
@@ -101,28 +101,28 @@ const FooterSection = () => {
                 <li>                <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
                   
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Declarative Context Protocol</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Protocol</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for multiagent AI systems. </p> */}
                   </div>
                 </Link></li>
                 <li><Link to='/reflective-memory' className="flex gap-3 mt-3">
             
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Reflective Memory</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Reflect</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis, reflection, and intelligent adaptation.</p> */}
                   </div>
                 </Link></li>
                 <li>    <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
                   
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Temporal Context Memory</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Memory</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture for better contextual understanding and retrieval performance.</p> */}
                   </div>
                 </Link></li>
                 <li> <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
                
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">Hybrid Attention Memory Network</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#fff]">LumiQ Nexus</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Revolutionary AI routing engine with policy-gated multi-head attention mechanism.</p> */}
                   </div>
                 </Link></li>

@@ -134,7 +134,7 @@ const TcmPage = () => {
   
   <img
     className="h-full w-[300px] object-cover rounded-3xl"
-    src="/home/tcm.jpg"
+    src="/home/tcm.webp"
     alt=""
   />
 

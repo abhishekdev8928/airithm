@@ -21,7 +21,7 @@ const Contact = () => {
                 <form className="space-y-6">
                   {/* Email */}
                     <div>
-                        <label className="font-primary block mb-2 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">
+                        <label className="font-primary block mb-2 bg-[#6AC0E6] bg-clip-text text-transparent">
                         Email
                         </label>
                         <input
@@ -34,7 +34,7 @@ const Contact = () => {
                     {/* First & Last Name */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                        <label className="font-primary block mb-2 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">
+                        <label className="font-primary block mb-2 bg-[#6AC0E6] bg-clip-text text-transparent">
                             First Name
                         </label>
                         <input
@@ -45,7 +45,7 @@ const Contact = () => {
                         </div>
 
                         <div>
-                        <label className="font-primary block mb-2 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">
+                        <label className="font-primary block mb-2 bg-[#6AC0E6] bg-clip-text text-transparent">
                             Last Name
                         </label>
                         <input
@@ -58,7 +58,7 @@ const Contact = () => {
 
                     {/* Company Name */}
                     <div>
-                        <label className="font-primary block mb-2 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">
+                        <label className="font-primary block mb-2 bg-[#6AC0E6] bg-clip-text text-transparent">
                         Company Name
                         </label>
                         <input
@@ -70,7 +70,7 @@ const Contact = () => {
 
                     {/* Contact No */}
                     <div>
-                        <label className="font-primary block mb-2 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">
+                        <label className="font-primary block mb-2 bg-[#6AC0E6] bg-clip-text text-transparent">
                         Contact No
                         </label>
                         <div className="flex gap-3">
@@ -95,7 +95,7 @@ const Contact = () => {
 
                     {/* Purpose */}
                     <div>
-                        <label className="font-primary block mb-2 bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent">
+                        <label className="font-primary block mb-2 bg-[#6AC0E6] bg-clip-text text-transparent">
                         Purpose Of Inquiry
                         </label>
                         <textarea
@@ -108,7 +108,7 @@ const Contact = () => {
                     {/* Checkbox */}
                     <div className="flex items-center gap-3">
                         <input type="checkbox" className="mt-1 accent-white" />
-                        <p className="text-[18px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent text-sm">
+                        <p className="text-[18px] bg-[#6AC0E6] bg-clip-text text-transparent text-sm">
                         I Allow AIRITHM To Contact Me For Scheduling And Marketing, As Per Its Privacy Policy.
                         </p>
                     </div>

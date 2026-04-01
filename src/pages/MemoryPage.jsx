@@ -106,13 +106,13 @@ const MemoryPage = () => {
                     subtitleClassName="  text-[#D9D9D9]"
                 />
                 <div className="mt-[40px]">
-                    <img className='m-auto' src="/topics/why-graph.png" alt="" />
+                    <img className='m-auto' src="/topics/why-graph.webp" alt="" />
                 </div>
 <div className="flex flex-wrap  justify-center gap-4 mt-[40px]">
   {/* Card 1 */}
   <div className=" w-full sm:w-[400px] border-[1px] border-[#D9D9D9] p-5 rounded-[16px]">
     <div className="icon h-[48px] w-[48px] rounded-[4px] flex items-center justify-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]">
-      <LucideIcons.ShieldCheck className="text-[#015190]" />
+      <LucideIcons.ShieldCheck className="text-[#6AC0E6]" />
     </div>
     <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
       Reduced Hallucinations
@@ -129,7 +129,7 @@ const MemoryPage = () => {
   {/* Card 2 */}
   <div className="w-full sm:w-[400px] border-[1px] border-[#D9D9D9] p-5 rounded-[16px]">
     <div className="icon h-[48px] w-[48px] rounded-[4px] flex items-center justify-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]">
-      <LucideIcons.Route className="text-[#015190]" />
+      <LucideIcons.Route className="text-[#6AC0E6]" />
     </div>
     <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
       Complete Traceability
@@ -143,7 +143,7 @@ const MemoryPage = () => {
   {/* Card 3 */}
   <div className="w-full sm:w-[400px] border-[1px] border-[#D9D9D9] p-5 rounded-[16px]">
     <div className="icon h-[48px] w-[48px] rounded-[4px] flex items-center justify-center bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]">
-      <LucideIcons.Link className="text-[#015190]" />
+      <LucideIcons.Link className="text-[#6AC0E6]" />
     </div>
     <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
       Context Continuity
@@ -167,7 +167,7 @@ const MemoryPage = () => {
           <div className="max-w-[1128px] m-auto mt-[80px] flex flex-wrap justify-center gap-4 gap-y-10">
   {/* Card 1 */}
   <div className="w-[250px] sm:w-[280px] md:w-[260px] lg:w-[260px] text-center">
-    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,_#015190_10.85%,_#FF7F7F_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
+    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
       <LucideIcons.Zap className="text-[#fff]" />
     </div>
     <h3 className="text-[24px] mt-6 leading-[1.2] text-[#1E1E1E] font-primary font-[600]">
@@ -180,7 +180,7 @@ const MemoryPage = () => {
 
   {/* Card 2 */}
   <div className="w-[250px] sm:w-[280px] md:w-[260px] lg:w-[260px] text-center">
-    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,_#015190_10.85%,_#FF7F7F_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
+    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
       <LucideIcons.Expand className="text-[#fff]" />
     </div>
     <h3 className="text-[24px] mt-6 leading-[1.2] text-[#1E1E1E] font-primary font-[600]">Scalable</h3>
@@ -191,7 +191,7 @@ const MemoryPage = () => {
 
   {/* Card 3 */}
   <div className="w-[250px] sm:w-[280px] md:w-[260px] lg:w-[260px] text-center">
-    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,_#015190_10.85%,_#FF7F7F_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
+    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
       <LucideIcons.Layers2 className="text-[#fff]" />
     </div>
     <h3 className="text-[24px] leading-[1.2] mt-6 text-[#1E1E1E] font-primary font-[600]">Multi-Modal</h3>
@@ -202,7 +202,7 @@ const MemoryPage = () => {
 
   {/* Card 4 */}
   <div className="w-[250px] sm:w-[280px] md:w-[260px] lg:w-[260px] text-center">
-    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,_#015190_10.85%,_#FF7F7F_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
+    <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
       <LucideIcons.Settings className="text-[#fff]" />
     </div>
     <h3 className="text-[24px] leading-[1.2] mt-6 text-[#1E1E1E] font-primary font-[600]">Flexible</h3>

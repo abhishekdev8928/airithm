@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import { NavLink } from "react-router-dom";
 import {
   Brain,
   BriefcaseBusiness,
@@ -93,24 +94,31 @@ export default function Navbar({
           transition-all duration-300
           bg-[#fff]
           ${disableScrollHide ? "" : isVisible ? "translate-y-0" : "-translate-y-full"}
-          ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-transparent"}
+          ${scrolled ? "bg-black/60 backdrop-blur-md darmenu" : "bg-transparent lightmenu"}
           ${wrapperClassName}
         `}
       >
         <div className="mx-auto w-full flex items-center justify-between gap-4">
-          <Link to="/">
+          <NavLink to="/">
 
             <img
               src="/svg/airithm-logo.svg"
               alt="Airithm Logo"
-              className="w-[120px] sm:w-[140px] lg:w-[150px]"
-            /></Link>
+              className="w-[120px] sm:w-[140px] lg:w-[150px] darklogo"
+            />
+            <img
+              src="/svg/logo-white.svg"
+              alt="Airithm Logo"
+              className="w-[120px] sm:w-[140px] lg:w-[150px] whitelogo"
+            />
+            
+            </NavLink>
 
           <nav className="hidden lg:flex gap-6">
             {NAVBAR_LINKS.map((item) => (
               <>
 
-                {
+                {/* {
                   item.link && (
                     <a href={`${item.link}`} className={`
                   flex items-center gap-2
@@ -121,7 +129,23 @@ export default function Navbar({
                       {item.label}
                     </a>
                   )
-                }
+                } */}
+                {
+                item.link && (
+                  <NavLink
+                    to={item.link}
+                    className={({ isActive }) => `
+                      flex items-center gap-2
+                      text-[14px] sm:text-[15px] lg:text-[16px]
+                      transition-colors duration-300
+                      ${textColor}
+                      ${isActive ? "activeclassmeni" : ""}
+                    `}
+                  >
+                    {item.label}
+                  </NavLink>
+                )
+              }
                 {
                   !item.link && (
 
@@ -181,7 +205,7 @@ export default function Navbar({
       {/* ================= PLATFORM MODAL ================= */}
       {/* {showModal && ( */}
       <div
-        className={`fixed inset-0  flex items-start justify-center  z-50 lg:block none    transform transition-transform duration-300 ease-out  ${showModal ? "lg:translate-y-0 translate-y-[-1000px]" : "lg:-translate-y-[1000px] translate-y-[1000px]"}`}
+        className={`fixed popmenu inset-0  flex items-start justify-center  z-50 lg:block none    transform transition-transform duration-300 ease-out  ${showModal ? "lg:translate-y-0 translate-y-[-1000px]" : "lg:-translate-y-[1000px] translate-y-[1000px]"}`}
         onClick={() => setShowModal(false)}
       >
         <div
@@ -194,11 +218,11 @@ export default function Navbar({
         >
           <div className="grid grid-cols-4 px-7">
             <div className="col-span-2 px-6 py-9">
-              <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/ai-automation">AI Test Platform</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/ai-automation">AI Test Platform</NavLink></h2>
               <div className="menu mt-4 flex">
                 <div className="w-[50%]">
-                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><Link to="/core-test">Core Test</Link></h2>
-                  <Link to="/intelligent-test-automation" className="flex gap-3">
+                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><NavLink to="/core-test">aiRM.CoreQ</NavLink></h2>
+                  <NavLink to="/intelligent-test-automation" className="flex gap-3">
                     <div className="w-[16px]">
                       <Atom color="#015190" width="16px" className="mt-[0px]" />
                     </div>
@@ -206,8 +230,8 @@ export default function Navbar({
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Intelligent Test Automation</h3>
 
                     </div>
-                  </Link>
-                  <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
+                  </NavLink>
+                  <NavLink to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
                     <div className="w-[16px]">
                       <BookCheck color="#015190" width="16px" className="mt-[0px]" />
                     </div>
@@ -215,8 +239,8 @@ export default function Navbar({
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Knowledge Base Creation</h3>
 
                     </div>
-                  </Link>
-                  <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
+                  </NavLink>
+                  <NavLink to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
                     <div className="w-[16px]">
                       <AudioWaveform color="#015190" width="16px" className="mt-[0px]" />
                     </div>
@@ -224,12 +248,12 @@ export default function Navbar({
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">How Autonomous Testing Works</h3>
 
                     </div>
-                  </Link>
+                  </NavLink>
 
                 </div>
                 <div className="w-[50%]">
-                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><Link to="/neuro-test">Neuro Test</Link></h2>
-                  <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
+                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><NavLink to="/neuro-test">aiRM.EvalQ</NavLink></h2>
+                  <NavLink to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                     <div className="w-[16px]">
                       <Building color="#015190" width="16px" className="mt-[0px]" />
                     </div>
@@ -237,8 +261,8 @@ export default function Navbar({
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Testing AI Systems at Enterprise Scale</h3>
 
                     </div>
-                  </Link>
-                  <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
+                  </NavLink>
+                  <NavLink to="/llm-based-evaluation" className="flex gap-3 mt-3">
                     <div className="w-[16px]">
                       <ChartPie color="#015190" width="16px" className="mt-[0px]" />
                     </div>
@@ -246,7 +270,7 @@ export default function Navbar({
                       <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LLM Based Evaluation</h3>
 
                     </div>
-                  </Link>
+                  </NavLink>
 
 
                 </div>
@@ -254,19 +278,19 @@ export default function Navbar({
 
             </div>
             <div className="col-span-1 px-6 py-9 border border-y-[1px] border-x-[#D9D9D9] border-y-[#fff]">
-              <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/context-intelligence-platform">aiRM.LumiQ</NavLink></h2>
               <div className="menu mt-4 ">
 
-                <Link to="/real-time-context" className="flex gap-3">
+                <NavLink to="/real-time-context" className="flex gap-3">
                   <div className="w-[16px]">
                     <Network color="#015190" width="16px" className="" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Real-time Context</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Broadcast</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Ensure smooth synchronization of agents and devices with secure, scalable, event-driven AI across organizations.</p> */}
                   </div>
-                </Link>
-                <Link to='/context-capsules' className="flex gap-3 mt-3">
+                </NavLink>
+                <NavLink to='/context-capsules' className="flex gap-3 mt-3">
                   <div className="w-[16px]">
                     <ShieldCheck color="#015190" width="16px" className="" />
                   </div>
@@ -274,60 +298,60 @@ export default function Navbar({
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Context Capsules</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona, tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p> */}
                   </div>
-                </Link>
+                </NavLink>
 
 
-                <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
+                <NavLink to="/declarative-context-protocol" className="flex gap-3 mt-3">
                   <div className="w-[16px]">
                     <Settings color="#015190" width="16px" className="" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Declarative Context Protocol</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Protoco</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for multiagent AI systems. </p> */}
                   </div>
-                </Link>
-                <Link to='/reflective-memory' className="flex gap-3 mt-3">
+                </NavLink>
+                <NavLink to='/reflective-memory' className="flex gap-3 mt-3">
                   <div className="w-[16px]">
                     <Expand color="#015190" width="16px" className="" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Reflective Memory</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Reflect</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis, reflection, and intelligent adaptation.</p> */}
                   </div>
-                </Link>
+                </NavLink>
 
 
-                <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
+                <NavLink to="/temporal-context-memory" className="flex gap-3 mt-3">
                   <div className="w-[16px]">
                     <Rocket color="#015190" width="16px" className="" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Temporal Context Memory</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Memory</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture for better contextual understanding and retrieval performance.</p> */}
                   </div>
-                </Link>
+                </NavLink>
 
 
 
 
-                <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
+                <NavLink to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
                   <div className="w-[16px]">
                     <Puzzle color="#015190" width="16px" className="" />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Attention Memory Network</h3>
+                    <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Nexus</h3>
                     {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Revolutionary AI routing engine with policy-gated multi-head attention mechanism.</p> */}
                   </div>
-                </Link>
+                </NavLink>
 
               </div>
 
             </div>
             <div className="col-span-1 px-6 py-9">
-              <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="">AI Governance</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><a href="#!">AI Governance</a></h2>
               <div className="menu mt-4">
 
-                <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
+                <NavLink className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
                   <div className="w-[16px]">
                     <GitCompare color="#015190" width="16px" className="mt-[0px]" />
                   </div>
@@ -335,8 +359,8 @@ export default function Navbar({
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">CI/CD & Devops Integration</h3>
 
                   </div>
-                </Link>
-                <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
+                </NavLink>
+                <NavLink className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
                   <div className="w-[16px]">
                     <Infinity color="#015190" width="16px" className="mt-[0px]" />
                   </div>
@@ -345,8 +369,8 @@ export default function Navbar({
                       One Intelligence Loop</h3>
 
                   </div>
-                </Link>
-                <Link className="flex gap-3  mt-3" to="/security">
+                </NavLink>
+                <NavLink className="flex gap-3  mt-3" to="/security">
                   <div className="w-[16px]">
                     <ShieldBan color="#015190" width="16px" className="mt-[0px]" />
                   </div>
@@ -354,12 +378,12 @@ export default function Navbar({
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Security</h3>
 
                   </div>
-                </Link>
+                </NavLink>
 
               </div>
-              <h2 className="text-[#015190] font-[600] text-[24px] mt-8"><Link to="/platform-capabilities">Platform Capabilities</Link></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px] mt-8"><NavLink to="/platform-capabilities">Platform Capabilities</NavLink></h2>
               <div className="menu mt-4">
-                <Link className="flex gap-3 " to="/platform-deployment">
+                <NavLink className="flex gap-3 " to="/platform-deployment">
                   <div className="w-[16px]">
                     <CloudUpload color="#015190" width="16px" className="mt-[0px]" />
                   </div>
@@ -367,8 +391,8 @@ export default function Navbar({
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Deployment</h3>
 
                   </div>
-                </Link>
-                <Link className="flex gap-3 mt-3" to="/platform-integrations">
+                </NavLink>
+                <NavLink className="flex gap-3 mt-3" to="/platform-integrations">
                   <div className="w-[16px]">
                     <GitPullRequestArrow color="#015190" width="16px" className="mt-[0px]" />
                   </div>
@@ -376,8 +400,8 @@ export default function Navbar({
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Integrations</h3>
 
                   </div>
-                </Link>
-                <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
+                </NavLink>
+                <NavLink className="flex gap-3 mt-3" to="/test-analytics-insights">
                   <div className="w-[16px]">
                     <FlaskRound color="#015190" width="16px" className="mt-[0px]" />
                   </div>
@@ -385,7 +409,7 @@ export default function Navbar({
                     <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Test Analytics & Insights</h3>
 
                   </div>
-                </Link>
+                </NavLink>
 
 
               </div>
@@ -399,7 +423,7 @@ export default function Navbar({
       {/* ================= RESOURCES MODAL ================= */}
       {/* {showModal1 && ( */}
       <div
-        className={`fixed inset-0  flex items-start justify-center  z-50    transform transition-transform duration-300 ease-out  ${showModal1 ? "lg:translate-y-0 translate-y-[-1000px]" : "lg:-translate-y-[1000px] translate-y-[1000px]"}`}
+        className={`fixed inset-0 popmenu flex items-start justify-center  z-50    transform transition-transform duration-300 ease-out  ${showModal1 ? "lg:translate-y-0 translate-y-[-1000px]" : "lg:-translate-y-[1000px] translate-y-[1000px]"}`}
         onClick={() => setShowModal1(false)}
       >
         <div
@@ -413,10 +437,10 @@ export default function Navbar({
               <div className="col-span-1 "></div>
 
               <div className="col-span-2 px-6 py-3 ">
-                <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
+                <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/resources">Resources</NavLink></h2>
                 <div className="menu mt-6 flex gap-6">
                   <div className="w-[50%]">
-                    <Link to="/resources" className="flex gap-3">
+                    <NavLink to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
                         <FileText color="#015190" className="" />
                       </div>
@@ -424,8 +448,8 @@ export default function Navbar({
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert insights, product thinking, and industry analysis on AI testing, system reliability, and intelligent automation.</p>
                       </div>
-                    </Link>
-                    <Link to="/resources" className="flex gap-3 mt-5">
+                    </NavLink>
+                    <NavLink to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <Layers color="#015190" className="" />
                       </div>
@@ -433,8 +457,8 @@ export default function Navbar({
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Deep technical research covering benchmarking strategies, system validation, and performance assurance for enterprise-grade AI platforms.</p>
                       </div>
-                    </Link>
-                    <Link to="/resources" className="flex gap-3 mt-5">
+                    </NavLink>
+                    <NavLink to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <BriefcaseBusiness color="#015190" className="" />
                       </div>
@@ -442,10 +466,10 @@ export default function Navbar({
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.</p>
                       </div>
-                    </Link>
+                    </NavLink>
                   </div>
                   <div className="w-[50%]">
-                    <Link to="/resources" className="flex gap-3">
+                    <NavLink to="/resources" className="flex gap-3">
                       <div className="w-[39px]">
                         <ChartLine color="#015190" className="" />
                       </div>
@@ -453,8 +477,8 @@ export default function Navbar({
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Comparative performance insights and data-driven evaluations to help assess efficiency, quality, and scalability.</p>
                       </div>
-                    </Link>
-                    <Link to="/resources" className="flex gap-3 mt-5">
+                    </NavLink>
+                    <NavLink to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <CirclePlay color="#015190" className="" />
                       </div>
@@ -462,8 +486,8 @@ export default function Navbar({
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert-led sessions, product discussions, and live events exploring trends, innovations, and best practices.</p>
                       </div>
-                    </Link>
-                    <Link to="/resources" className="flex gap-3 mt-5">
+                    </NavLink>
+                    <NavLink to="/resources" className="flex gap-3 mt-5">
                       <div className="w-[39px]">
                         <CircleQuestionMark color="#015190" className="" />
                       </div>
@@ -471,7 +495,7 @@ export default function Navbar({
                         <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
                         <p className="text-[14px] text-[#797979] font-secondary font-[400]">Answers covering platform capabilities, integrations, and usage.</p>
                       </div>
-                    </Link>
+                    </NavLink>
                   </div>
                 </div>
 
@@ -487,7 +511,7 @@ export default function Navbar({
       {/* ================= mobile MODAL ================= */}
       {/* {showModal1 && ( */}
       <div
-        className={`fixed inset-0  flex items-start justify-center  z-50    transform transition-transform duration-300 ease-out  ${showModal2 ? "translate-x-0" : "-translate-x-full"}`}
+        className={`fixed inset-0 popmenu flex items-start justify-center  z-50    transform transition-transform duration-300 ease-out  ${showModal2 ? "translate-x-0" : "-translate-x-full"}`}
 
       >
         <div
@@ -539,12 +563,12 @@ export default function Navbar({
                     : "max-h-0 opacity-0"
                     }`}
                 >
-                  <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-2"><Link to="/ai-automation">AI Test Platform</Link></h2>
+                  <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-2"><NavLink to="/ai-automation">AI Test Platform</NavLink></h2>
                   <div className="menu mt-2">
                     <h2 className="text-[#015190] font-[600] text-[20px] mb-4">
-                      <Link to="/core-test">Core Test</Link>
+                      <NavLink to="/core-test">aiRM.CoreQ</NavLink>
                     </h2>
-                    <Link to="/intelligent-test-automation" className="flex gap-3">
+                    <NavLink to="/intelligent-test-automation" className="flex gap-3">
                       <div className="w-[16px]">
                         <Atom color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -552,8 +576,8 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Intelligent Test Automation</h3>
 
                       </div>
-                    </Link>
-                    <Link to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
+                    </NavLink>
+                    <NavLink to="/knowledge-base-creation-from-self-learning" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <BookCheck color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -561,8 +585,8 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Knowledge Base Creation</h3>
 
                       </div>
-                    </Link>
-                    <Link to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
+                    </NavLink>
+                    <NavLink to="/how-autonomous-testing-works" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <AudioWaveform color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -570,13 +594,13 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">How Autonomous Testing Works</h3>
 
                       </div>
-                    </Link>
+                    </NavLink>
 
 
                     <h2 className="text-[#015190] font-[600] text-[20px] mb-4 mt-6">
-                      <Link to="/neuro-test">Neuro Test</Link>
+                      <NavLink to="/neuro-test">aiRM.EvalQ</NavLink>
                     </h2>
-                    <Link to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
+                    <NavLink to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                       <div className="w-[16px]">
                         <Building color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -584,8 +608,8 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Testing AI Systems at Enterprise Scale</h3>
 
                       </div>
-                    </Link>
-                    <Link to="/llm-based-evaluation" className="flex gap-3 mt-3">
+                    </NavLink>
+                    <NavLink to="/llm-based-evaluation" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <ChartPie color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -593,23 +617,23 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LLM Based Evaluation</h3>
 
                       </div>
-                    </Link>
+                    </NavLink>
 
 
 
-                <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-6"><Link to="/context-intelligence-platform">Context Intelligent Platform</Link></h2>
+                <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-6"><NavLink to="/context-intelligence-platform">aiRM.LumiQ</NavLink></h2>
 
-                    <Link to="/real-time-context" className="flex gap-3 mt-4">
+                    <NavLink to="/real-time-context" className="flex gap-3 mt-4">
                       <div className="w-[16px]">
                         <Network color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Real-time Context</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Broadcast</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Ensure smooth synchronization of agents and
     devices with secure, scalable, event-driven AI across organizations.</p> */}
                       </div>
-                    </Link>
-                    <Link to='/context-capsules' className="flex gap-3 mt-3">
+                    </NavLink>
+                    <NavLink to='/context-capsules' className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <ShieldCheck color="#015190" width="16px" className="" />
                       </div>
@@ -618,55 +642,55 @@ export default function Navbar({
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Portable, scoped context units with persona,
     tools, and time-bound memory for AIRITHM’s Agentic Memory Engine</p> */}
                       </div>
-                    </Link>
+                    </NavLink>
 
 
-                    <Link to="/declarative-context-protocol" className="flex gap-3 mt-3">
+                    <NavLink to="/declarative-context-protocol" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <Settings color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Declarative Context Protocol</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Protoco</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Enterprise-grade governance framework for
     multiagent AI systems. </p> */}
                       </div>
-                    </Link>
-                    <Link to='/reflective-memory' className="flex gap-3 mt-3">
+                    </NavLink>
+                    <NavLink to='/reflective-memory' className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <Expand color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Reflective Memory</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Reflect</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">An AI that evolves through self-analysis,
     reflection, and intelligent adaptation.</p> */}
                       </div>
-                    </Link>
+                    </NavLink>
 
 
-                    <Link to="/temporal-context-memory" className="flex gap-3 mt-3">
+                    <NavLink to="/temporal-context-memory" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <Rocket color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Temporal Context Memory</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Memoryy</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture
     for better contextual understanding and retrieval performance.</p> */}
                       </div>
-                    </Link>
+                    </NavLink>
 
 
 
 
-                    <Link to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
+                    <NavLink to="/hybrid-attention-memory-network" className="flex gap-3 mt-3">
                       <div className="w-[16px]">
                         <Puzzle color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Hybrid Attention Memory Network</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">LumiQ Nexus</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Revolutionary AI routing engine with
     policy-gated multi-head attention mechanism.</p> */}
                       </div>
-                    </Link>
+                    </NavLink>
 
 
 
@@ -674,10 +698,10 @@ export default function Navbar({
 
 
                       <h2 className="text-[#015190] font-[600] text-[24px] mt-8 mb-4">
-                      <Link to="">AI Governance</Link>
+                      <NavLink to="">AI Governance</NavLink>
                     </h2> 
 
-                    <Link className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
+                    <NavLink className="flex gap-3 mt-3" to="/ci-cd-devops-integration">
                       <div className="w-[16px]">
                         <GitCompare color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -685,8 +709,8 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">CI/CD & Devops Integration</h3>
 
                       </div>
-                    </Link>
-                    <Link className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
+                    </NavLink>
+                    <NavLink className="flex gap-3 mt-3" to="/two-platforms-one-intelligence-loop">
                       <div className="w-[16px]">
                         <Infinity color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -695,8 +719,8 @@ export default function Navbar({
                           One Intelligence Loop</h3>
 
                       </div>
-                    </Link>
-                    <Link className="flex gap-3  mt-3" to="/security">
+                    </NavLink>
+                    <NavLink className="flex gap-3  mt-3" to="/security">
                       <div className="w-[16px]">
                         <ShieldBan color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -704,16 +728,16 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Security</h3>
 
                       </div>
-                    </Link>
+                    </NavLink>
 
 
 
 
                     <h2 className="text-[#015190] font-[600] text-[24px] mt-8 mb-4">
-                      <Link to="/platform-capabilities">Platform Capabilities</Link>
+                      <NavLink to="/platform-capabilities">Platform Capabilities</NavLink>
                     </h2>
 
-                    <Link className="flex gap-3 " to="/platform-deployment">
+                    <NavLink className="flex gap-3 " to="/platform-deployment">
                       <div className="w-[16px]">
                         <CloudUpload color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -721,8 +745,8 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Deployment</h3>
 
                       </div>
-                    </Link>
-                    <Link className="flex gap-3 mt-3" to="/platform-integrations">
+                    </NavLink>
+                    <NavLink className="flex gap-3 mt-3" to="/platform-integrations">
                       <div className="w-[16px]">
                         <GitPullRequestArrow color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -730,8 +754,8 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Platform Integrations</h3>
 
                       </div>
-                    </Link>
-                    <Link className="flex gap-3 mt-3" to="/test-analytics-insights">
+                    </NavLink>
+                    <NavLink className="flex gap-3 mt-3" to="/test-analytics-insights">
                       <div className="w-[16px]">
                         <FlaskRound color="#015190" width="16px" className="mt-[0px]" />
                       </div>
@@ -739,7 +763,7 @@ export default function Navbar({
                         <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]">Test Analytics & Insights</h3>
 
                       </div>
-                    </Link>
+                    </NavLink>
 
 
                   </div>
@@ -777,10 +801,10 @@ export default function Navbar({
                     }`}
                 >
                   <div>
-                    <h2 className="text-[#015190] font-[600] text-[24px]"><Link to="/resources">Resources</Link></h2>
+                    <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/resources">Resources</NavLink></h2>
                     <div className="menu mt-6 ">
 
-                      <Link to="/resources" className="flex gap-3">
+                      <NavLink to="/resources" className="flex gap-3">
                         <div className="w-[39px]">
                           <FileText color="#015190" className="" />
                         </div>
@@ -788,8 +812,8 @@ export default function Navbar({
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Blog</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert insights, product thinking, and industry analysis on AI testing, system reliability, and intelligent automation.</p>
                         </div>
-                      </Link>
-                      <Link to="/resources" className="flex gap-3 mt-5">
+                      </NavLink>
+                      <NavLink to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
                           <Layers color="#015190" className="" />
                         </div>
@@ -797,8 +821,8 @@ export default function Navbar({
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Whitepapers</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Deep technical research covering benchmarking strategies, system validation, and performance assurance for enterprise-grade AI platforms.</p>
                         </div>
-                      </Link>
-                      <Link to="/resources" className="flex gap-3 mt-5">
+                      </NavLink>
+                      <NavLink to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
                           <BriefcaseBusiness color="#015190" className="" />
                         </div>
@@ -806,9 +830,9 @@ export default function Navbar({
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Case Studies</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Real-world success stories showcasing measurable impact, implementation journeys, and outcomes across industries.</p>
                         </div>
-                      </Link>
+                      </NavLink>
 
-                      <Link to="/resources" className="flex gap-3 mt-5">
+                      <NavLink to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
                           <ChartLine color="#015190" className="" />
                         </div>
@@ -816,8 +840,8 @@ export default function Navbar({
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Benchmarks</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Comparative performance insights and data-driven evaluations to help assess efficiency, quality, and scalability.</p>
                         </div>
-                      </Link>
-                      <Link to="/resources" className="flex gap-3 mt-5">
+                      </NavLink>
+                      <NavLink to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
                           <CirclePlay color="#015190" className="" />
                         </div>
@@ -825,8 +849,8 @@ export default function Navbar({
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">Webinars & Events</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Expert-led sessions, product discussions, and live events exploring trends, innovations, and best practices.</p>
                         </div>
-                      </Link>
-                      <Link to="/resources" className="flex gap-3 mt-5">
+                      </NavLink>
+                      <NavLink to="/resources" className="flex gap-3 mt-5">
                         <div className="w-[39px]">
                           <CircleQuestionMark color="#015190" className="" />
                         </div>
@@ -834,7 +858,7 @@ export default function Navbar({
                           <h3 className="text-[20px] font-primary font-[500] mt-0 text-[#1E1E1E]">FAQs</h3>
                           <p className="text-[14px] text-[#797979] font-secondary font-[400]">Answers covering platform capabilities, integrations, and usage.</p>
                         </div>
-                      </Link>
+                      </NavLink>
                     </div>
 
                   </div>
@@ -842,7 +866,7 @@ export default function Navbar({
 
               </div>
               <div className="col-span-4  py-5">
-                <Link
+                <NavLink
                   to="/company"
                   className="w-full flex justify-between items-center"
                 >
@@ -851,13 +875,13 @@ export default function Navbar({
                   </h2>
 
 
-                </Link>
+                </NavLink>
 
 
 
               </div>
               <div className="col-span-4  py-5">
-                <Link
+                <NavLink
                   to="/pricing"
 
                   className="w-full flex justify-between items-center"
@@ -867,13 +891,13 @@ export default function Navbar({
                   </h2>
 
 
-                </Link>
+                </NavLink>
 
 
 
               </div>
               <div className="col-span-4  py-5">
-                <Link
+                <NavLink
                   to="/contact-us"
 
                   className="w-full flex justify-between items-center"
@@ -883,7 +907,7 @@ export default function Navbar({
                   </h2>
 
 
-                </Link>
+                </NavLink>
 
 
 

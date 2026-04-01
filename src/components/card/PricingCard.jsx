@@ -21,7 +21,7 @@ const PricingCard = ({
       `}
       style={{
         background: highlight
-          ? "linear-gradient(90deg, rgba(255,166,141,0.1) 0.03%, rgba(253,58,132,0.1) 100%)"
+          ? "#42ABDF40"
           : "linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(153,153,153,0.1) 100%)",
       }}
     >
@@ -30,8 +30,8 @@ const PricingCard = ({
           className=" 
             absolute top-0 right-0 
             px-8 py-2
-            text-xs font-primary font-medium text-black
-            bg-[linear-gradient(90deg,_#FFA68D_0.03%,_#FD3A84_100%)]
+            text-xs font-primary font-medium text-[#FFFFFF]
+            bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)]
             rounded-l-sm overflow-hidden leading-[1.4] tarcking-[0.04em]
           "
         >
@@ -62,7 +62,7 @@ const PricingCard = ({
                   highlight
                     ? {
                         background:
-                          "linear-gradient(90deg, #FFA68D 0.03%, #FD3A84 100%)",
+                          "linear-gradient(#6AC0E6)",
                         WebkitBackgroundClip: "text",
                         color: "transparent",
                       }

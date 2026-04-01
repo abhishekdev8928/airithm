@@ -78,11 +78,11 @@ const Webinars = () => {
                 className="md:col-span-6 col-span-12 p-5 border border-[#D9D9D9] rounded-[18px] hover:shadow-lg transition-all duration-300"
               >
                 {/* Badge */}
-                <h4 className="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
+                <h4 className="bg-[#42ABDF40]
                 w-fit p-2 rounded-[100px] px-[20px]">
                   <span
                     className="font-secondary text-[12px] font-[600]
-                    bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                    bg-[#015190]
                     bg-clip-text text-transparent"
                   >
                     {item.type}
@@ -100,15 +100,15 @@ const Webinars = () => {
                 <ul className="md:mt-7 mt-3">
                   <li className="text-[#626161] mb-[4px] font-[600]">
                     Speaker:
-                    <span className="text-[#FD3A84]"> {item.speaker}</span>
+                    <span className="text-[#015190]"> {item.speaker}</span>
                   </li>
                   <li className="text-[#626161] mb-[4px] font-[600]">
                     Date:
-                    <span className="text-[#FD3A84]"> {item.date}</span>
+                    <span className="text-[#015190]"> {item.date}</span>
                   </li>
                   <li className="text-[#626161] mb-[4px] font-[600]">
                     Duration:
-                    <span className="text-[#FD3A84]"> {item.duration}</span>
+                    <span className="text-[#015190]"> {item.duration}</span>
                   </li>
                 </ul>
 

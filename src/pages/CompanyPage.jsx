@@ -58,22 +58,22 @@ Our dual-platform approach combines the precision of autonomous testing with the
 
                 <div className="flex flex-wrap justify-center md:flex-nowrap gap-[30px] max-w-[1224px] mx-auto mt-[50px]" >
                     <div className="max-w-[600px] border border-[1px] border-[#505050] rounded-[16px] py-5 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full">
-                        <FlaskConical className=' text-[#FD3A84] h-[32px]' />
+                        <FlaskConical className=' text-[#6AC0E6] h-[32px]' />
                         <h2 className='font-primary mt-[30px] text-[24px] font-[600] text-[white]'>Autonomous Testing Platform</h2>
-                        <h3 className='font-secandary mt-[14px]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                        <h3 className='font-secandary mt-[14px]  bg-[#6AC0E6]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
                         <p className='font-seconadry lg:text-[14px] text-[14px] mt-[14px] text-[#C6C6C6]'>Eliminate manual test maintenance with AI-powered autonomous testing. Our platform automatically generates, executes, and maintains test suites that evolve with your codebase.</p>
                        <div className='mt-auto'>
 
                          <ul className='mt-[20px]'>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Self-healing test scripts</li>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                            font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' />Intelligent test generation</li>
-                                <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Parallel execution at scale</li>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Visual regression detection</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' /> Self-healing test scripts</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                            font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' />Intelligent test generation</li>
+                                <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' /> Parallel execution at scale</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' /> Visual regression detection</li>
                         </ul>
                         <Button
                             btnText="Learn More"
@@ -87,9 +87,9 @@ Our dual-platform approach combines the precision of autonomous testing with the
                        </div>
                     </div>
                     <div className="max-w-[600px] border border-[1px] border-[#505050] rounded-[16px] py-4 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full flex flex-col">
-                        <Network className=' text-[#FD3A84] h-[32px]' />
+                        <Network className=' text-[#6AC0E6] h-[32px]' />
                         <h2 className='font-primary mt-[30px] text-[24px] font-[600] text-[white]'>Context Intelligence Platform</h2>
-                        <h3 className='font-secandary mt-[14px]  bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                        <h3 className='font-secandary mt-[14px]  bg-[#6AC0E6]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
                         <p className='font-seconadry lg:text-[14px] text-[14px]  mt-[14px] text-[#C6C6C6]'>Understand the full context of your systems with deep behavioral analysis.
 Our platform maps dependencies, monitors patterns, and provides actionable intelligence for every decision.</p>
@@ -97,14 +97,14 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
 
 
                          <ul className='mt-[20px]'>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Real-time dependency mapping</li>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Behavioral pattern analysis</li>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' /> Impact prediction engine</li>
-                            <li className='text-[16px] mb-[10px] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
-                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#FD3A84]' />Cross-system intelligence</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' /> Real-time dependency mapping</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' /> Behavioral pattern analysis</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' /> Impact prediction engine</li>
+                            <li className='text-[16px] mb-[10px] bg-[#6AC0E6]
+                                font-[600] bg-clip-text text-transparent'><Check className='me-2 inline-flex text-[#6AC0E6]' />Cross-system intelligence</li>
                         </ul>
                         <Button
                             btnText="Learn More"

@@ -38,7 +38,7 @@ const DemoPage = () => {
             <div className="demo-feature-list max-w-xl w-full space-y-4 mx-auto lg:px-0 px-5">
               <div className="demo-feature-item border rounded-2xl border-[#D9D9D9] flex justify-center items-center gap-6 max-w-full min-h-[94px] ">
                 <div
-                  className="size-12 flex justify-center items-center rounded-sm bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]"
+                  className="size-12 flex justify-center items-center rounded-sm bg-[#42ABDF40]"
                 >
                   <img src="/svg/brain.svg" className="size-[32]" alt="" />
                 </div>
@@ -62,7 +62,7 @@ const DemoPage = () => {
 
               <div className="demo-feature-item border rounded-2xl border-[#D9D9D9] flex justify-center items-center gap-6 max-w-full min-h-[94px] ">
                 <div
-                  className="size-12 flex justify-center items-center rounded-sm bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
+                  className="size-12 flex justify-center items-center rounded-sm bg-[#42ABDF40]
 
 "
                 >
@@ -87,7 +87,7 @@ const DemoPage = () => {
               </div>
               <div className="demo-feature-item border rounded-2xl border-[#D9D9D9] flex justify-center items-center gap-6 max-w-full min-h-[94px] ">
                 <div
-                  className="size-12 flex justify-center items-center rounded-sm bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
+                  className="size-12 flex justify-center items-center rounded-sm bg-[#42ABDF40]
 
 "
                 >

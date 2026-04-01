@@ -69,7 +69,7 @@ const BlogFilter = () => {
                   <div>
                     <span
                       className="inline-block mb-3 px-3 py-1 rounded-full text-[12px]
-                      bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0%,rgba(253,58,132,0.15)_100%)]
+                      bg-[#c1ecff]
                       text-[#015190] font-medium"
                     >
                       {item.tag}

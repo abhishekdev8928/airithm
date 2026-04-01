@@ -28,7 +28,7 @@ const ContextCapsulePage = () => {
           <div className="max-w-xl mx-auto">
             <img
               className=" w-full"
-              src="/core-module/context-capsule/capsule.png"
+              src="/core-module/context-capsule/capsule.webp"
               alt=""
             />
           </div>
@@ -49,7 +49,7 @@ const ContextCapsulePage = () => {
   
   {/* Left box */}
   <div className="bg-[#D9D9D9] w-full lg:max-w-[452px] overflow-hidden min-h-[300px]  rounded-2xl self-stretch ">
-    <img src="/home/modular-context.jpg" className="h-full object-cover" alt="" />
+    <img src="/home/modular-context.webp" className="h-full object-cover" alt="" />
   </div>
 
   {/* Right boxes */}

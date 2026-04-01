@@ -1,6 +1,7 @@
 export const Resource_HEADER = {
   heading: "Resources for AIRITHM",
    headclass:"pt-0 text-white",
+   headingclass:"text-[#fff]",
   paragraph:
     "Deep insights, research, benchmarks, and real-world examples to help enterprises build reliable AI and software systems.",
 //   backgroundImage: "/bg/gradient.png",
@@ -105,7 +106,7 @@ export const resorce_card_CONFIG = {
 export const featured_content_Config=[
     {
         id:1,
-        img:"/resource/img1.png",
+        img:"/resource/img1.webp",
         tags:["Whitepaper"],
         title:"The Rise of Autonomous Testing in Enterprise",
         disc:"How AI agents are transforming software quality at scale",
@@ -115,7 +116,7 @@ export const featured_content_Config=[
 
     },  {
         id:1,
-        img:"/resource/img2.png",
+        img:"/resource/img2.webp",
         tags:["Whitepaper"],
         title:"The Rise of Autonomous Testing in Enterprise",
         disc:"How AI agents are transforming software quality at scale",
@@ -125,7 +126,7 @@ export const featured_content_Config=[
 
     },  {
         id:1,
-        img:"/resource/img3.png",
+        img:"/resource/img3.webp",
         tags:["Whitepaper"],
         title:"The Rise of Autonomous Testing in Enterprise",
         disc:"How AI agents are transforming software quality at scale",
@@ -139,7 +140,7 @@ export const featured_content_Config=[
 export const BLOG_CONFIG = [
   {
     id: 1,
-    img: "/blog/blog1.png",
+    img: "/blog/blog1.webp",
     tag: "Whitepaper",
     title: "From Automation to Autonomy: QA in the Age of GenAI",
     desc: "How autonomous agents adapt to code changes in real time",
@@ -148,7 +149,7 @@ export const BLOG_CONFIG = [
   },
   {
     id: 2,
-    img: "/blog/blog2.png",
+    img: "/blog/blog2.webp",
     tag: "Autonomous Testing",
     title: "Identity in AI: Building Data Privacy and Trust",
     desc: "Context Intelligence The Missing Layer in Modern AI Systems",
@@ -157,7 +158,7 @@ export const BLOG_CONFIG = [
   },
   {
     id: 3,
-    img: "/blog/blog3.png",
+    img: "/blog/blog3.webp",
     tag: "Whitepaper",
     title: "Trust, Test, Transform: How Evaluation Frameworks Shape Better AI",
     desc: "How multi-agent systems collaborate to solve complex testing problems",

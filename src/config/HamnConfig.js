@@ -41,7 +41,7 @@ export const HAMN_HEADER_CHIPS = [
 ];
 
 export const HAMN_SECTION_CONFIG = {
-  imageSrc: "/core-module/hamn/hamn.jpg",
+  imageSrc: "/core-module/hamn/hamn.webp",
   imageAlt: "Hybrid Attention Memory Network Architecture",
   wrapperClassName: "max-w-5xl px-5 lg:px-0",
   description:
