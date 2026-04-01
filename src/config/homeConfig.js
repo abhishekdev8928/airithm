@@ -282,7 +282,7 @@ export const Home_BLOGS_CONFIG = [
     id: 1,
     title:
       "From Automation to Autonomy: QA in the Age of GenAI",
-      image:"public/blog/auto.webp"
+      image:"/public/blog/auto.webp"
   },
   {
     id: 2,
@@ -293,13 +293,13 @@ export const Home_BLOGS_CONFIG = [
     id: 3,
     title:
       "Trust, Test, Transform: How Evaluation Frameworks Shape Better AI",
-       image:"public/blog/ttt.webp"
+       image:"/public/blog/ttt.webp"
   },
   {
     id: 4,
     title:
       "Agentic AI - The Next Evolution Beyond Chatbots",
-      image:"public/blog/ai.webp"
+      image:"/public/blog/ai.webp"
   },
  
 ];
