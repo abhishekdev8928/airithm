@@ -113,6 +113,8 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
 export const PLATFORM_ARCHITECTURE_CONFIG = {
   title: "Deep Dive into Architecture",
   subtitle: "Explore each architectural component in detail",
+  bodyclass:"bg-[#E9F6FB] ",
+
 
   cards: [
     {
@@ -122,10 +124,10 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
       description:
         "Multi-agent orchestration for intelligent tasking workflows, precise planning, decision-making, and coordination.",
       hasBg: true,
- cardClassName:" w-full sm:w-[350px] border-light-sm",
+ cardClassName:" w-full sm:w-[350px] bg-[#fff] border-light-sm",
       showLink: true,
       linkText: "Learn More",
-      href: "/arhitecture-security",
+      href: "/agentic-architecture",
     },
     {
       id: 2,
@@ -134,7 +136,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
       description:
         "Persistent context for intelligent testing, decision, vector, graph, and temporal memory systems.",
       hasBg: true,
- cardClassName:"w-full sm:w-[350px] border-light-sm",
+ cardClassName:"w-full sm:w-[350px] bg-[#fff] border-light-sm",
       showLink: true,
       linkText: "Learn More",
       href: "/memory-and-graph-rag",
@@ -146,7 +148,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
       description:
         "Enterprise security built into every layer.Tenant isolation, encryption, and compliance readiness.",
       hasBg: true,
-      cardClassName:" w-full sm:w-[350px] border-light-sm",
+      cardClassName:" w-full bg-[#fff] sm:w-[350px] border-light-sm",
       href: "/arhitecture-security",
       showLink: true, 
     },

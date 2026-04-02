@@ -4,7 +4,7 @@ export const Context_HERO_CONFIG = {
     "Enterprise-grade AI orchestration that understands, adapts, and <br class='hidden sm:block' /> evolves with you data context in real-time.",
 
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
-  imageSrc: "/automation/dashboard.webp",
+  // imageSrc: "/automation/dashboard.webp",
   buttons: [
    {
   text: "Download Architecture Deck",
@@ -156,6 +156,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
     {
       id: 1,
       icon: "Network",
+      cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       iconColor: "#015190",
       title: "Dynamic Context Mapping",
       description:
@@ -166,6 +167,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       icon: "Settings",
       iconColor: "#015190",
       title: "Adaptive Intelligence",
+       cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       description:
         "Self-evolving algorithms that learn and adapt to changing business contexts automatically",
     },
@@ -174,6 +176,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       icon: "Rocket",
       iconColor: "#015190",
       title: "Quantum Processing",
+       cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       description:
         "Parallel context analysis with quantum inspired computing for unprecedented speed",
     },
@@ -182,6 +185,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       icon: "ShieldCheck",
       iconColor: "#015190",
       title: "Enterprise Security",
+       cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
     },
@@ -189,6 +193,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       id: 5,
       icon: "Expand",
       iconColor: "#015190",
+       cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       title: "Infinite Scalability",
       description:
         "Cloud native architecture that scales seamlessly from startup to enterprise workloads",
@@ -197,6 +202,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       id: 6,
       icon: "Puzzle",
       iconColor: "#015190",
+       cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       title: "Universal Integration",
       description:
         "Native connectors and APIs for seamless integration with existing enterprise systems",

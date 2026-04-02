@@ -15,7 +15,7 @@ const HeroSection = ({
   return (
     <section>
       <div
-        className="w-full h-auto mt-[104px] md:h-[800px] relative overflow-hidden"
+        className="w-full h-auto mt-[104px]  relative overflow-hidden"
         style={{
           background: backgroundGradient,
           borderRadius: rounded,
@@ -23,7 +23,7 @@ const HeroSection = ({
       >
         {/* CONTENT */}
         <div
-          className="flex flex-col pt-[100px] mx-auto  items-center  w-full px-6"
+          className="flex flex-col py-[100px] mx-auto  items-center  w-full px-6"
 
         >
           {/* Heading with <br/> support */}
@@ -78,7 +78,7 @@ const HeroSection = ({
 
 
             </div>
-            <img className="w-full h-full object-cover  mx-auto" src={imageSrc} alt="" />
+            {/* <img className="w-full h-full object-cover  mx-auto" src={imageSrc} alt="" /> */}
           </div>
         )}
       </div>

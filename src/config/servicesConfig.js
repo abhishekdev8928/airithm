@@ -114,7 +114,7 @@ export const KEY_FEATURES_CONFIG = {
      title: "Key Features",
   subtitle:
     "Advanced capabilities for enterprise-grade context intelligence",
-    bodyclass:"lg:rounded-t-[100px] rounded-t-[50px] border border-[1px] border-[#D9D9D9] mt-[90px]",
+    bodyclass:"!lg:rounded-t-[100px] bg-[#E9F6FB] rounded-t-[50px] !rounded-b-[0px] border border-[1px] border-[#D9D9D9] mt-[90px]",
  
     cards: [
       {
@@ -122,8 +122,8 @@ export const KEY_FEATURES_CONFIG = {
       icon: "Wifi",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      cardClassName: " md:w-[290px] w-[100%] ",
-      iconColor: "",
+      cardClassName: " md:w-[290px] w-[100%] bg-[#fff] ",
+      iconColor: "#015190	",
       title: "Low-Latency Upadtes",
       description:
         "Sub-millisecond context propagation ensures real-time responsiveness across your entire network",
@@ -131,8 +131,8 @@ export const KEY_FEATURES_CONFIG = {
     {
       id: 2,
       icon: "Expand",
-      iconColor: "",
-        cardClassName: " md:w-[290px] w-[100%] ",
+      iconColor: "#015190	",
+        cardClassName: " md:w-[290px] w-[100%]  bg-[#fff]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Infinite Scalability",
@@ -142,8 +142,8 @@ export const KEY_FEATURES_CONFIG = {
     {
       id: 3,
       icon: "ShieldHalf",
-      iconColor: "",
-        cardClassName: "  md:w-[290px] w-[100%] ",
+      iconColor: "#015190	",
+        cardClassName: "  md:w-[290px] w-[100%] bg-[#fff]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "End-to-end Encryption",
@@ -153,8 +153,8 @@ export const KEY_FEATURES_CONFIG = {
     {
       id: 4,
       icon: "Waypoints",
-        cardClassName: "  md:w-[290px] w-[100%] ",
-      iconColor: "",
+        cardClassName: "  md:w-[290px] w-[100%] bg-[#fff]",
+      iconColor: "#015190	",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
       title: "Intelligent Rounting",

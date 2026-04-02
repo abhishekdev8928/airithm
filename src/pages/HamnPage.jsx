@@ -41,7 +41,7 @@ const HamnPage = () => {
       <UspServices data={HAMN_USP_CONFIG} />
 
 
-      <section className="py-20 max-w-[1100px] mx-auto px-4">
+      <section className="py-[100px] max-w-[1100px] mx-auto px-4">
         <SectionHeading
           title="Attention Flow Visualization"
           titleClassName="sm:text-[48px] text-[#015190]"
@@ -88,7 +88,7 @@ const HamnPage = () => {
         </div>
       </section>
 
-      <section className="md:py-[100px] py-[70px] px-4 sm:px-0">
+      <section className="md:py-[100px] py-[70px] px-4 sm:px-0 bg-[#E9F6FB] rounded-t-[100px]">
         <div className="relative text-center px-4 lg:px-0  z-10">
           <h1 class="font-primary lg:text-[48px] text-[#015190] text-[40px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
             Explainable AI

@@ -357,11 +357,11 @@ const ResourcesPage = () => {
             </section>
 
                 <Webinars/>
-            <section className='py-[80px] pt-0'>
+            <section className='py-[90px] bg-[#E9F6FB] rounded-t-[100px]'>
                 <SectionHeading
                     title="Frequently Asked Questions"
                     subtitle='Quick answers to common questions about the platform, technology, and deployment.'
-                    titleClassName="sm:text-[48px] text-[#000]"
+                    titleClassName="sm:text-[48px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
                 />
                 <div className="max-w-[800px] m-auto mt-[60px] px-5 md:px-0" >

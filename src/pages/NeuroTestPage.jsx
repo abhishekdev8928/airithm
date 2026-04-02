@@ -40,11 +40,11 @@ const NeuroTestPage = () => {
                 linkClassName="text-black"
                 iconClassName="invert-0"
             />
-            <section className='pt-[100px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+            <section className='py-[100px] rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
                 <MainBanner data={Neuro_Test_HEADER} />
-                <div className="h-[308px] w-[917px] bg-[#D9D9D9] rounded-[0px] m-auto mt-[60px] mb-[30px]">
+                {/* <div className="h-[308px] w-[917px] bg-[#D9D9D9] rounded-[0px] m-auto mt-[60px] mb-[30px]">
                     <img src="/automation/Neuro-Test.webp" alt="" />
-                </div>
+                </div> */}
             </section>
             <section className='py-[80px] px-5 max-w-[780px] mx-auto '>
                 <SectionHeading
@@ -160,14 +160,14 @@ const NeuroTestPage = () => {
                 </div>
 
             </div>
-            <section className='py-[80px] max-w-[891px] mx-auto '>
+            <section className='py-[90px] md:rounded-[100px] rounded-[40px] bg-[#E9F6FB]'>
                 <SectionHeading
                     title="Key Features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
                     titleClassName="sm:text-[40px] text-[32px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
-                <div className="py-[40px] lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
+                <div className="py-[40px] max-w-[891px] mx-auto lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
 
                     {/* Column 1 */}
                     <ul className=''>

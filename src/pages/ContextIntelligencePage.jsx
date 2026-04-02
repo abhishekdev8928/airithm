@@ -24,7 +24,7 @@ const ContextIntelligencePage = () => {
       <HeroSection {...Context_HERO_CONFIG} />
 
       <FeatureSection
-        className="border-b border-[#D9D9D9]  shadow-[0_2px_4px_0_rgba(0,39,58,0.1)] rounded-b-[50px] sm:rounded-b-[100px]"
+        className="border-b border-[#D9D9D9] bg-[#E9F6FB]  shadow-[0_2px_4px_0_rgba(0,39,58,0.1)] rounded-b-[50px] sm:rounded-b-[100px]"
         config={CONTEXT_CORE_PILLAR_CONFIG}
       />
 

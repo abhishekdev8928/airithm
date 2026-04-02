@@ -6,7 +6,22 @@ export const AgenticArchitectureConfig = {
   paragraph:
     "Coordinated AI agents driving intelligent testing decisions.",
 //   backgroundImage: "/bg/gradient.png",
-  buttons: [],
+    buttons: [
+    {
+      text: "View Documentation",
+      className:
+        " text-[#015190] bg-white",
+      href: "",
+      hoverIcon:false,
+        icon: "Eye",
+    },
+    {
+      text: "Explore Architecture",
+      className: " text-white bg-primary-gradient ",
+      href: "",
+        icon: "CircleArrowOutUpRight",
+    },
+  ],
 };
 
 
