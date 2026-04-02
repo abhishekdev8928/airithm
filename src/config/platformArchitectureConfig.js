@@ -3,6 +3,7 @@ export const PLATFORM_ARCHITECTURE_HEADER_CONFIG = {
   paragraph:
     "Build for scale, safety and enterprise-grade autonomy",
     headclass:false,
+    headingclass:"text-[#fff]",
   buttons: [
     {
       text: "View Documentation",
@@ -44,7 +45,7 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
     title: "Agent Layer",
     subtitle: "Multi-agent orchestration system",
     layerIcon: {
-      src: "/svg/brain.svg",
+      src: "/svg/braindark.svg",
       size: 32,
       color: "#FFFFFF",
     },
@@ -62,7 +63,7 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
     title: "Memory & Knowledge Layer",
     subtitle: "Graph-RAG, Vector Store, Context Management",
     layerIcon: {
-      src: "/svg/network.svg",
+      src: "/svg/networkdark.svg",
       size: 20,
       color: "#FFFFFF",
     },
@@ -78,7 +79,7 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
     title: "Execution Layer",
     subtitle: "Test runners, browsers, device farms",
     layerIcon: {
-      src: "/svg/functional.svg",
+      src: "/svg/functionaldark.svg",
       size: 32,
       color: "#FFFFFF",
     },
@@ -168,7 +169,7 @@ export const PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG = {
     },
     {
       id: 2,
-      icon: "/svg/repeat-2.svg",
+      icon: "/svg/repeatdark.svg",
       title: "Fault Tolerance",
       description:
         "Circuit breakers, retry mechanisms, and graceful degradation ensure continuous operation even during partial system failures.",

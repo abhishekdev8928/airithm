@@ -17,9 +17,7 @@ export default function PlatformHighLevelArchi() {
         <div key={layer.id} className="w-full  relative">
           {/* Layer Card */}
 
-          <div className="rounded-3xl bg-gradient-to-r
-        from-[rgba(255,166,141,0.6)]
-        to-[rgba(253,58,132,0.6)] space-y-4  border border-[#d4d4d4] p-6">
+          <div className="rounded-3xl bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)]   space-y-4  border border-[#d4d4d4] p-6">
             {/* Header */}
             <div className="flex rounded-2xl bg-[#fff]  items-start p-4 border-light-sm justify-between">
               <div className="space-y-2">
@@ -32,7 +30,7 @@ export default function PlatformHighLevelArchi() {
               </div>
 
               {/* Layer Icon */}
-              <div className="size-12 flex items-center justify-center rounded-md bg-pink-50">
+              <div className="size-12 flex items-center justify-center rounded-md bg-[#DEF4FF]">
                 <img
                   src={layer.layerIcon.src}
                   className={`w-[${layer.layerIcon.size}px] h-[${layer.layerIcon.size}px]`}
@@ -72,8 +70,8 @@ export default function PlatformHighLevelArchi() {
             <path d="M11.5469 56L23.0939 36H-0.000130177L11.5469 56ZM5.54688 8H7.54688C7.54688 5.77124 9.31811 4 11.5469 4V2V0C7.10897 0 3.54688 3.5621 3.54688 8H5.54688ZM11.5469 2V4C13.7756 4 15.5469 5.77124 15.5469 8H17.5469H19.5469C19.5469 3.5621 15.9848 0 11.5469 0V2ZM17.5469 8H15.5469C15.5469 10.2288 13.7756 12 11.5469 12V14V16C15.9848 16 19.5469 12.4379 19.5469 8H17.5469ZM11.5469 14V12C9.31811 12 7.54688 10.2288 7.54688 8H5.54688H3.54688C3.54688 12.4379 7.10897 16 11.5469 16V14ZM11.5469 14H9.54688V38H11.5469H13.5469V14H11.5469Z" fill="url(#paint0_linear_2033_879)"/>
             <defs>
             <linearGradient id="paint0_linear_2033_879" x1="5.55039" y1="29.007" x2="17.5469" y2="29.007" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FFA68D"/>
-            <stop offset="1" stop-color="#FD3A84"/>
+            <stop stop-color="#6AC0E6"/>
+            <stop offset="1" stop-color="#015190	"/>
             </linearGradient>
             </defs>
             </svg>

@@ -1,6 +1,7 @@
 export const SYSTEM_ARCHI_HEADER_CONFIG = {
   heading: "System Architecture Overview",
   headclass: "pt-0 text-white",
+  headingclass:"text-[#fff]",
   paragraph:
     "A multi-layered platform that orchestrates memory, context, reasoning, and <br /> collaboration across AI agents.",
   buttons: [

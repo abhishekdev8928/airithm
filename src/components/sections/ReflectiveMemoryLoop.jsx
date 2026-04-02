@@ -17,7 +17,7 @@ export default function ReflectiveMemoryLoop() {
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] capitalize">
             Memory Update
           </h2>
-          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <DatabaseIcon size={32} color="#fff" />
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function ReflectiveMemoryLoop() {
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute top-[-60%] capitalize">
             Memory Processing
           </h2>
-          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <Bot size={32} color="#fff" />
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function ReflectiveMemoryLoop() {
 
         {/* Step 3 */}
         <div className="flex items-center gap-6">
-          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <UndoDot size={32} color="#fff" />
           </div>
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute translate-x-[110%] capitalize">
@@ -80,7 +80,7 @@ export default function ReflectiveMemoryLoop() {
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] capitalize">
             Better Retrieval
           </h2>
-          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <SearchCheck size={32} color="#fff" />
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function ReflectiveMemoryLoop() {
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute bottom-[-60%] capitalize">
             Better Reasoning
           </h2>
-          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+          <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <Brain size={32} color="#fff" />
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function ReflectiveMemoryLoop() {
 
         {/* Step 3 */}
         <div className="flex items-center gap-6">
-          <div className="size-16 flex items-center  justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+          <div className="size-16 flex items-center  justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <FlaskRound size={32} color="#fff" />
           </div>
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute translate-x-[110%] capitalize">
@@ -126,7 +126,7 @@ export default function ReflectiveMemoryLoop() {
 //     </h2>
 
 //     <div className="size-16 flex items-center justify-center rounded-full
-//       bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+//       bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
 //       <DatabaseIcon size={32} color="#fff" />
 //     </div>
 //   </div>
@@ -147,7 +147,7 @@ export default function ReflectiveMemoryLoop() {
 //     </h2>
 
 //     <div className="size-16 flex items-center justify-center rounded-full
-//       bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
+//       bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
 //       <DatabaseIcon size={32} color="#fff" />
 //     </div>
 //   </div>

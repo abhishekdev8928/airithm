@@ -3,6 +3,7 @@ export const ABOUT_HEADER_CONFIG = {
   paragraph:
     "Building intelligent systems that understand context and validate <br class='md:block hidden' /> behavior—autonomously.",
     headclass:false,
+    headingclass:"text-[#fff]",
   buttons:[]
 };
 

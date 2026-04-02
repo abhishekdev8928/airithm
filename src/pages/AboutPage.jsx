@@ -68,7 +68,7 @@ const AboutPage = () => {
                 return (
                   <div
                     key={platform?.id ?? index}
-                    className="size-[164px] gap-2.5 flex flex-col items-center justify-center rounded-full bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]"
+                    className="size-[164px] gap-2.5 flex flex-col items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]"
                   >
                     <Icon size={24} color={platform?.iconColor ?? "#fff"} />
 

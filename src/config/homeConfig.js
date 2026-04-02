@@ -288,7 +288,8 @@ export const Home_BLOGS_CONFIG = [
     id: 2,
     title:
       "Identity in AI: Building Data Privacy and Trust",
-  },
+     image:"/blog/iai.jpg"
+      },
   {
     id: 3,
     title:

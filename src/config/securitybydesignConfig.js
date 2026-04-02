@@ -1,6 +1,7 @@
 export const Security_HEADER = {
   heading: "Security by Design",
    headclass:"",
+   headingclass:"text-[#fff]",
   paragraph:
     "Enterprise-grade protection embedded at every layer of our platform architecture,<br/> ensuring your data remains secure from foundation to interface.",
 //   backgroundImage: "/bg/gradient.png",

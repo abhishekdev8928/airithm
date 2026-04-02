@@ -158,31 +158,34 @@ const TestingAISystemsPage = () => {
       <div className="relative">
         {activeRange === "7d" && (
           <div
-            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"
+            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"   
           >   
             <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
               Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
             </h2>
+            <img src="/home/7days.jpeg" className="h-[100%] w-[100%] object-cover" alt="" />
           </div>
         )}
 
         {activeRange === "30d" && (
               <div
-            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"
+            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"   
           >   
             <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
               Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
             </h2>
+               <img src="/home/30days.jpeg" className="h-[100%] w-[100%] object-cover" alt="" />
           </div>
         )}
 
         {activeRange === "90d" && (
              <div
-            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"
+            className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"   
           >   
             <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
               Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
             </h2>
+               <img src="/home/90days.jpeg" className="h-[100%] w-[100%] object-cover" alt="" />
           </div>
         )}
       </div>

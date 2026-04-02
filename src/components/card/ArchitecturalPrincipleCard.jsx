@@ -9,7 +9,7 @@ const ArchitecturalPrincipleCard = ({ icon, title, description, tags }) => {
                  w-full p-5 shrink-0 rounded-2xl flex flex-col justify-between"
     >
       {/* Icon */}
-      <div className="bg-[linear-gradient(90deg,rgba(255,166,141,0.15)_0.03%,rgba(253,58,132,0.15)_100%)]
+      <div className="bg-[#42ABDF40]
                       size-8 p-1 rounded-lg">
         <img src={icon} alt={title} />
       </div>
@@ -32,10 +32,10 @@ const ArchitecturalPrincipleCard = ({ icon, title, description, tags }) => {
             <div
               key={index}
               className="inline-block leading-none py-2 px-3 rounded-full
-                         bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]"
+                         bg-[#42ABDF40]"
             >
               <span
-                className="font-secondary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+                className="font-secondary bg-[radial-gradient(#6AC0E6)] 
                            bg-clip-text text-transparent leading-none
                            tracking-[0.04em] font-medium text-xs"
               >

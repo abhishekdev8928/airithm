@@ -2,6 +2,7 @@ export const AgenticArchitectureConfig = {
   heading: "Agentic Architecture",
 //   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
   headclass:"pt-[0px]",
+  headingclass:"text-[#fff]",
   paragraph:
     "Coordinated AI agents driving intelligent testing decisions.",
 //   backgroundImage: "/bg/gradient.png",
@@ -21,7 +22,7 @@ export const CORE_MODULE_CONFIG = {
       id: 1,
       icon: "Route",
       textColor:"#000",
-      iconColor: "",
+      iconColor: "#015190	",
         cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
       title: "Planning",
       discColor:'#626161',
@@ -31,7 +32,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 2,
       icon: "Wrench",
-      iconColor: "",
+      iconColor: "#015190	",
       cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        textColor:"#000",
        discColor:'#626161',
@@ -42,7 +43,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 3,
       icon: "Lightbulb",
-      iconColor: "",
+      iconColor: "#015190	",
        textColor:"#000",
        cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        discColor:'#626161',
@@ -53,7 +54,7 @@ export const CORE_MODULE_CONFIG = {
     {
       id: 4,
       icon: "MessageCircle",
-      iconColor: "",
+      iconColor: "#015190	",
        textColor:"#000",
        cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        discColor:'#626161',

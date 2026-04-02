@@ -51,8 +51,8 @@ const SecuritybyDesignPage = () => {
                 iconClassName="invert-0"
             />
             <section className='md:py-[150px] py-[100px] text-center rounded-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
-                <h4 class="bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]
-                            w-fit py-2 px-1 rounded-[100px] m-auto px-[20px] my-3 flex items-center gap-2 border border[1px] border-[#797979] "><Lock className='text-[#015190] h-[19px]' /> <span class="font-secondary text-[12px]   bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] font-[500]
+                <h4 class="bg-[linear-gradient(#42ABDF40)]
+                            w-fit py-2 px-1 rounded-[100px] m-auto px-[20px] my-3 flex items-center gap-2 border border[1px] border-[#797979] "><Lock className='text-[#6AC0E6] h-[19px]' /> <span class="font-secondary text-[12px]   bg-[linear-gradient(#6AC0E6)] font-[500]
                             bg-clip-text
                             text-transparent">Security Architecture</span></h4>
                 <MainBanner data={Security_HEADER} />
@@ -121,6 +121,7 @@ const SecuritybyDesignPage = () => {
                                 <div className="md:grid flex flex-col grid-cols-12 gap-6">
                                 <div className="col-span-6 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] rounded-[16px] border border-[1px] py-6 border-[#D9D9D9]">
                                         <img src="/svg/badge.png" className='m-auto' alt="" />
+                                        {/* <LucideIcons.Badge color='#6AC0E6'/> */}
                                         <h2 className='text-[24px] mt-3 font-primary text-center text-[#fff] font-[600]'>SOC 2</h2>
                                         <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Type II Compliant</p>                                        
                                     </div>
@@ -157,7 +158,8 @@ const SecuritybyDesignPage = () => {
                                  <h2 className='text-[24px]  font-primary text-left text-[#fff] font-[600]'>Security Features</h2>
                                  <div className="bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)] py-4 px-6 mt-5 flex gap-5 items-center rounded-[16px]">
                                     <div className="">
-                                        <img src="/svg/fingerprint-pattern.png" alt="" />
+                                        {/* <img src="/svg/fingerprint-pattern.png" alt="" /> */}
+                                        <LucideIcons.FingerprintIcon color='#6AC0E6'/>
                                     </div>
                                     <div className="">
                                         <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Zero Trust Architecture</h3>
@@ -179,7 +181,8 @@ const SecuritybyDesignPage = () => {
 
                                  <div className="bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)] py-4 px-6 mt-3 flex gap-5 items-center rounded-[16px]">
                                     <div className="">
-                                        <img src="/svg/hard-drive.png" alt="" />
+                                        {/* <img src="/svg/hard-drive.png" alt="" /> */}
+                                        <LucideIcons.HardDrive color='#6AC0E6'/>
                                     </div>
                                     <div className="">
                                         <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Secure Infrastructure</h3>
@@ -190,7 +193,8 @@ const SecuritybyDesignPage = () => {
 
                                  <div className="bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)] py-4 px-6 mt-3 flex gap-5 items-center rounded-[16px]">
                                     <div className="">
-                                        <img src="/svg/history.png" alt="" />
+                                        {/* <img src="/svg/history.png" alt="" /> */}
+                                        <LucideIcons.History color='#6AC0E6'/>
                                     </div>
                                     <div className="">
                                         <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Incident Response</h3>

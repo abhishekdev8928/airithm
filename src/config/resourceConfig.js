@@ -167,7 +167,7 @@ export const BLOG_CONFIG = [
   },
   {
     id: 4,
-    img: "/blog/blog4.png",
+    img: "/blog/blog4.jpg",
     tag: "Whitepaper",
     title: "Agentic AI - The Next Evolution Beyond Chatbots",
     desc: "Designing validation pipelines for enterprise-scale AI systems",

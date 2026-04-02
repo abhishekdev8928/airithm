@@ -122,27 +122,27 @@ const DeploymentOptionsPage = () => {
 
                             {/* Header */}
                             <div className="grid grid-cols-4 gap-6 py-6 border-b border-white/10">
-                                <div className="bg-[linear-gradient(90deg,_#FFA68D_0.03%,_#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[20px] ">Feature</div>
-                                <div className="bg-[linear-gradient(90deg,_#FFA68D_0.03%,_#FD3A84_100%)] bg-clip-text text-transparent font-medium  text-[20px] text-center">Cloud</div>
-                                <div className="bg-[linear-gradient(90deg,_#FFA68D_0.03%,_#FD3A84_100%)] bg-clip-text text-transparent font-medium text-[20px]  text-center">Hybrid</div>
-                                <div className="bg-[linear-gradient(90deg,_#FFA68D_0.03%,_#FD3A84_100%)] bg-clip-text text-transparent font-medium  text-[20px] text-center">On-Premise</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium text-[20px] ">Feature</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium  text-[20px] text-center">Cloud</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium text-[20px]  text-center">Hybrid</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium  text-[20px] text-center">On-Premise</div>
                             </div>
 
                             {/* Security Model */}
                             <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
                                 <div className="text-white/80">Security Model</div>
                                 <div className="text-center">
-                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[linear-gradient(90deg,_rgba(255,166,141,0.12)_0.03%,_rgba(253,58,132,0.12)_100%)] text-[#FF7F7F] border border-white/10">
+                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
                                     Shared Responsibility
                                 </span>
                                 </div>
                                 <div className="text-center">
-                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[linear-gradient(90deg,_rgba(255,166,141,0.12)_0.03%,_rgba(253,58,132,0.12)_100%)] text-[#FF7F7F] border border-white/10">
+                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
                                     Customer Controlled
                                 </span>
                                 </div>
                                 <div className="text-center">
-                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[linear-gradient(90deg,_rgba(255,166,141,0.12)_0.03%,_rgba(253,58,132,0.12)_100%)] text-[#FF7F7F] border border-white/10">
+                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
                                     Full Control
                                 </span>
                                 </div>
@@ -151,17 +151,17 @@ const DeploymentOptionsPage = () => {
                             {/* Maintenance Effort */}
                             <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
                                 <div className="text-white/80">Maintenance Effort</div>
-                                <div className="text-center text-[#FF7F7F] text-lg"><LucideIcons.Check className='m-auto'/></div>
-                                <div className="text-center text-[#FF7F7F] text-lg"><LucideIcons.Check className='m-auto'/></div>
-                                <div className="text-center text-[#FF7F7F] text-lg"><LucideIcons.Minus className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Minus className='m-auto'/></div>
                             </div>
 
                             {/* Scalability */}
                             <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
                                 <div className="text-white/80">Scalability</div>
-                                <div className="text-center text-[#FF7F7F] text-lg"><LucideIcons.Minus className='m-auto'/></div>
-                                <div className="text-center text-[#FF7F7F] text-lg"><LucideIcons.Check className='m-auto'/></div>
-                                <div className="text-center text-[#FF7F7F] text-lg"><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Minus className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
                             </div>
 
                             {/* Maintenance */}

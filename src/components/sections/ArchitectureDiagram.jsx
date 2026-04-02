@@ -21,7 +21,7 @@ export default function ArchitectureDiagram() {
        <div className="md:scale-[0.8] scale-1 md:my-[-70px]">
          {/* API Gateway */}
         <div className="flex justify-center mb-4 px-5">
-          <div className="w-full max-w-[450px] md:py-6 py-4 rounded-3xl bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]
+          <div className="w-full max-w-[450px] md:py-6 py-4 rounded-3xl bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]
  text-white text-center font-primary font-medium md:text-[36px] text-[24px] leading-[1.2] tracking-[0.02em] capitalize
 ">
             API Gateway

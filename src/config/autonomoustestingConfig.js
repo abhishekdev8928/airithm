@@ -1,6 +1,7 @@
 export const at_HEADER = {
   heading: "Autonomous Testing vs Traditional Testing",
    headclass:"pt-0 text-white max-w-[800px] m-auto",
+   headingclass:"text-[#fff]",
   paragraph:
     "A clear, unbiased comparison to help engineering and QA leaders choose the right testing approach.",
 //   backgroundImage: "/bg/gradient.png",
@@ -32,14 +33,14 @@ export const benifits_Config ={
    
   {
     id: 3,
-        img:"/svg/brain.svg",
+        img:"/svg/braindark.svg",
     title: "Adaptive Test Generation",
     description:
       "AI creates and evolves tests automatically based on application behavior and user patterns.",
   },
   {
     id: 4,
-        img:"/svg/wand-sparkles.svg",
+        img:"/svg/wand-sparklesdark.svg",
     title: "Agentic Execution",
     description:
       "Intelligent agents that understand context and adapt to changes in real-time.",

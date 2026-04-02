@@ -23,7 +23,7 @@ const AutonomousTestingPage = () => {
                 <MainBanner data={at_HEADER} />
                 <div className="max-w-[676px] grid lg:gap-6 gap-12 grid-cols-12 m-auto bg-[#FFFFFF1A] border border-[1px] border-[#FFFFFF1A] py-8 px-5 rounded-[24px] mt-[60px]">
                     <div className="lg:col-span-6 col-span-12 px-5">
-                        <h3 className="text-[20px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[600]">Legacy Testing</h3>
+                        <h3 className="text-[20px] font-primary bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-[600]">Legacy Testing</h3>
 
                         <ul className="mt-5">
                             <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/code-xml.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Manual Scripts</span></li>
@@ -32,7 +32,7 @@ const AutonomousTestingPage = () => {
                         </ul>
                     </div>
                     <div className="lg:col-span-6 col-span-12 px-5">
-                        <h3 className="text-[20px] font-primary bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] bg-clip-text text-transparent font-[600]">Autonomous Testing</h3>
+                        <h3 className="text-[20px] font-primary bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-[600]">Autonomous Testing</h3>
 
                         <ul className="mt-5">
                             <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/brain.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">AI-Powered</span></li>
@@ -69,7 +69,7 @@ const AutonomousTestingPage = () => {
                         <p className="text-[#626161] text-[16px]">Legacy script-based approach</p>
 
                         <ul className="mt-[30px]">
-                            <li className="text-[#b5001b] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Manual script creation</li>
+                            <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Manual script creation</li>
                             <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Constant maintenance overhead</li>
                             <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>Limited adaptability</li>
                             <li className="text-[#015190] text-[18px] items-center font-secondary flex gap-3 mb-2"><span className=""><img className="size-6" src="/svg/triangle-alert.svg" alt="" /></span>High long-term costs</li>
@@ -89,14 +89,11 @@ const AutonomousTestingPage = () => {
                     <table class="w-full text-left text-sm md:text-base">
                         <thead>
                             <tr class=" p-2 sm:px-6 sm:py-5">
-                                <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84]
-                                    bg-clip-text text-transparent ">Feature</th>
-                                <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600]  bg-gradient-to-r from-[#FFA68D] to-[#FD3A84]
-                                    bg-clip-text text-transparent text-center">
+                                <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600] text-[#6AC0E6] ">Feature</th>
+                                <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600]  text-[#6AC0E6]  text-center">
                                     Traditional Testing
                                 </th>
-                                <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600]  bg-gradient-to-r from-[#FFA68D] to-[#FD3A84]
-                                bg-clip-text text-transparent text-center">
+                                <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600]  text-[#6AC0E6]  text-center">
                                     Autonomous Testing
                                 </th>
                             </tr>
@@ -107,7 +104,7 @@ const AutonomousTestingPage = () => {
                             <tr class="">
                                 <td class="p-2 sm:px-6 sm:py-5 font-medium">Test Creation</td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
-                                    <img src="/svg/Check.svg" alt="" className="m-auto" />
+                                    <img src="/svg/check.svg" alt="" className="m-auto" />
                                     <div class="text-xs sm:text-[16px] mt-1">AI-Generated</div>
                                 </td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
@@ -120,7 +117,7 @@ const AutonomousTestingPage = () => {
                             <tr class="">
                                 <td class="p-2 sm:px-6 sm:py-5 font-medium">Maintenance Effort</td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
-                                    <img src="/svg/Check.svg" alt="" className="m-auto" />
+                                    <img src="/svg/check.svg" alt="" className="m-auto" />
                                     <div class="text-xs sm:text-[16px] mt-1">Self-Healing</div>
                                 </td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
@@ -133,7 +130,7 @@ const AutonomousTestingPage = () => {
                             <tr class="">
                                 <td class="p-3 sm:px-6 sm:py-5 font-medium">Scalability</td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
-                                    <img src="/svg/Check.svg" alt="" className="m-auto" />
+                                    <img src="/svg/check.svg" alt="" className="m-auto" />
                                     <div class="text-xs sm:text-[16px] mt-1">Infinite Scale</div>
                                 </td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
@@ -146,7 +143,7 @@ const AutonomousTestingPage = () => {
                             <tr class="">
                                 <td class="p-3 sm:px-6 sm:py-5 font-medium">AI & LLM Support</td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
-                                    <img src="/svg/Check.svg" alt="" className="m-auto" />
+                                    <img src="/svg/check.svg" alt="" className="m-auto" />
                                     <div class="text-xs sm:text-[16px] mt-1">Native Integration</div>
                                 </td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
@@ -159,7 +156,7 @@ const AutonomousTestingPage = () => {
                             <tr class="">
                                 <td class="p-3 sm:px-6 sm:py-5 font-medium">Time To Value</td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
-                                    <img  src="/svg/Check.svg" alt="" className="m-auto" />
+                                    <img  src="/svg/check.svg" alt="" className="m-auto" />
                                     <div class="text-xs sm:text-[16px] mt-1">Immediate</div>
                                 </td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
@@ -186,28 +183,28 @@ const AutonomousTestingPage = () => {
                         </h3>
                         <div >
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >1</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >1</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Manual requirement analysis</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >2</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >2</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Script creation & coding</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >3</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >3</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Test execution</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >4</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >4</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Script breakage & debugging</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
                                            ">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >5</span>
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >5</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Manual fixes & Updates  </h3>
                             </div>
                         </div>
@@ -216,28 +213,28 @@ const AutonomousTestingPage = () => {
                         <h3 className="text-[#015190] text-[24px] font-[600] font-primary">Autonomous Testing Flow</h3>
                         <div>
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >1</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >1</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">AI system learning</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >2</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >2</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Automated test generation</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >3</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >3</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Intelligent agent execution</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >4</span>
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >4</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">LLM-based evaluation</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
                                            ">
-                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)] rounded-[50%] w-[24px] h-[24px] m-auto" >5</span>
+                                <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >5</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Continuous optimization </h3>
                             </div>
                         </div>
@@ -257,44 +254,44 @@ const AutonomousTestingPage = () => {
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="/svg/wrench.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Maintenance Overhead</h3>
-                        <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
-                            <li className="text-[16px] font-secondary mb-[8px]  bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Constant script updates</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">UI changes break tests</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Version compatibility</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Resource intensive</li>
+                        <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
+                            <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Constant script updates</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">UI changes break tests</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Version compatibility</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Resource intensive</li>
                         </ul>
 
                     </div>
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
-                        <img src="/svg/triangle-alert.svg" alt="" className="h-[32px]"/>
+                        <img src="/svg/triangle-alertlight.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Brittleness</h3>
-                        <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
-                            <li className="text-[16px] font-secondary mb-[8px]  bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Selector dependency</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Hard-coded waits</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Environment sensitivity</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Fragile assertions</li>
+                        <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
+                            <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Selector dependency</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Hard-coded waits</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Environment sensitivity</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Fragile assertions</li>
                         </ul>
 
                     </div>
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
-                        <img src="/svg/chart-line.svg" alt="" className="h-[32px]"/>
+                        <img src="/svg/chart-linedark.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Scaling Challenges</h3>
-                        <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
-                            <li className="text-[16px] font-secondary mb-[8px]  bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Linear cost growth</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Team dependency</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Knowledge silos</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Technical debt</li>
+                        <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
+                            <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Linear cost growth</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Team dependency</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Knowledge silos</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Technical debt</li>
                         </ul>
 
                     </div>
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="/svg/grid/bot.svg" alt="" className="h-[32px]"/>
                         <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">AI Limitations</h3>
-                        <ul className="list-disc pl-5 marker:text-[#FFA68D] mt-[20px]">
-                            <li className="text-[16px] font-secondary mb-[8px]  bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">No learning capability</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Static rule-based</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Version compatibility</li>
-                            <li className="text-[16px] font-secondary mb-[8px] bg-gradient-to-r from-[#FFA68D] to-[#FD3A84] bg-clip-text text-transparent">Manual adaptation</li>
+                        <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
+                            <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">No learning capability</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Static rule-based</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Version compatibility</li>
+                            <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Manual adaptation</li>
                         </ul>
 
                     </div>

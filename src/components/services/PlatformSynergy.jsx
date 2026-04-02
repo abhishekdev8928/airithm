@@ -4,7 +4,7 @@ import SideCard from "../card/SideCard";
 import SectionHeading from "@/components/common/SectionHeading";
 
 const GRADIENT_BG =
-  "bg-[linear-gradient(90deg,#FFA68D_0.03%,#FD3A84_100%)]";
+  "bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]";
 
 const PlatformSynergy = () => {
   const { title, center, cards } = HOW_THEY_WORK_TOGETHER_CONFIG;
