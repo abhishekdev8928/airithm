@@ -119,9 +119,8 @@ Our dual-platform approach combines the precision of autonomous testing with the
                     </div>
                 </div>
             </section>
-            <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
-                    {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
-                {/* <SectionHeading
+            {/* <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
+                 <SectionHeading
                     title="Engineering the Future"
                     subtitle='Founder'
                     titleClassName="text-[#000]"
@@ -149,7 +148,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
 
             </section>
             <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
-                */}
+               
                 <SectionHeading
                     title="Built by Visionaries"
                     subtitle='A team of industry veterans and innovators dedicated to reshaping software quality'
@@ -165,23 +164,14 @@ Our dual-platform approach combines the precision of autonomous testing with the
                         <img src={item.profile} alt="" />
                     <h2 className='font-primary mt-[35px] font-[600] text-[#015190] text-[24px]'>{item.title}</h2>
                     <h3 className='text-[#1E1E1E] text-[18px] font-secondary font-[500]'>{item.designation}</h3>
-                    {/* <p className='text-[#626161] text-[18px] mt-[20px] font-secondary font-[300] '>{item.discription}</p> */}
-
-                    {/* <div className='flex gap-[15px] mt-[30px]'>
-                        <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
-                            <Linkedin className='h-[24px] text-[#015190]'/>
-                        </span>
-                        <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
-                            <X className='h-[24px] text-[#015190]'/>
-                        </span>
-                    </div> */}
+                   
                     </div>
                 ))}
                 </div>
                  
 
-            </section>
-            <section className='py-[80px]  pb-[150px] rounded-t-[50px] md:rounded-t-[100px] rounded-b-0 bg-[linear-gradient(360deg,#000000_0%,#042539_100%)]
+            </section> */}
+            <section className='py-[80px]  pb-[150px] rounded-b-0 bg-[linear-gradient(360deg,#000000_0%,#042539_100%)]
 
 '>
                        {/* <p className='font-secondary font-[500] text-[18px] text-[#fff] text-center mb-[10px]'>Our Values</p> */}
