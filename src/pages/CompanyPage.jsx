@@ -92,8 +92,8 @@ Our dual-platform approach combines the precision of autonomous testing with the
                         <h3 className='font-secandary mt-[14px]  bg-[#6AC0E6]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
                         <p className='font-seconadry lg:text-[14px] text-[14px]  mt-[14px] text-[#C6C6C6]'>Understand the full context of your systems with deep behavioral analysis.
-Our platform maps dependencies, monitors patterns, and provides actionable intelligence for every decision.</p>
-                       <div className=' mt-auto'>
+                        Our platform maps dependencies, monitors patterns, and provides actionable intelligence for every decision.</p>
+                                            <div className=' mt-auto'>
 
 
                          <ul className='mt-[20px]'>
@@ -121,7 +121,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
             </section>
             <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
                     {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
-                <SectionHeading
+                {/* <SectionHeading
                     title="Engineering the Future"
                     subtitle='Founder'
                     titleClassName="text-[#000]"
@@ -142,7 +142,6 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & CEO</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha is a senior engineering and technology leader with over 20 years of experience guiding enterprise-scale AI strategy, operating models, and governance across Fortune 500 companies and highly regulated sectors, including finance, healthcare, travel, and supply chain.</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
-                    {/* <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p> */}
                 </div>
                     
                 </div>
@@ -150,7 +149,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
 
             </section>
             <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
-                    {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
+                */}
                 <SectionHeading
                     title="Built by Visionaries"
                     subtitle='A team of industry veterans and innovators dedicated to reshaping software quality'
