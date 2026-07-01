@@ -15,12 +15,12 @@ const TestimonialCarousel = () => {
       <div className="rounded-[50px] sm:rounded-[100px]  section-wrapper  bg-white relative z-10 mt-[-100px]  w-full">
         <SectionHeading
           titleClassName="pt-9 text-[#015190]   "
-          title="Over 1,000 <br class=' sm:hidden' />  five-star reviews"
+          title="What Our Clients Say"
         />
 
         <div className="max-w-7xl mx-auto">
-          {/* Profile Images Row */}
-          <div className="flex justify-center flex-wrap pt-10 pb-[60px] sm:pt-[60px] sm:pb-20 items-center gap-2">
+
+          {/* <div className="flex justify-center flex-wrap pt-10 pb-[60px] sm:pt-[60px] sm:pb-20 items-center gap-2">
             {profileImages.map((img, idx) => (
               <div
                 key={idx}
@@ -35,10 +35,10 @@ const TestimonialCarousel = () => {
                 />
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Carousel */}
-          <div className="relative pb-10">
+          <div className="relative pb-10  pt-10 sm:pt-[60px]">
             <Swiper
               modules={[Pagination, Navigation]}
               {...swiperConfig}
@@ -53,13 +53,13 @@ const TestimonialCarousel = () => {
                       </p>
 
                       <div className="flex items-center gap-4 mt-auto">
-                        <div className="size-[60px] rounded-full overflow-hidden">
+                        {/* <div className="size-[60px] rounded-full overflow-hidden">
                           <img
                             src={profileImages[0]}
                             alt={testimonial.name}
                             className="w-full h-full object-cover"
                           />
-                        </div>
+                        </div> */}
                         <div className="">
                           <h4 className="font-primary font-medium text-[16px] leading-[1.4] tracking-[0.02em] capitalize text-[#00273A]">
                             {testimonial.name}

@@ -186,9 +186,8 @@ Our dual-platform approach combines the precision of autonomous testing with the
                 </div>
 
             </section>
-                <section className='py-[100px] pb-[200px] rounded-t-[50px] rounded-b-0  mt-[-100px] bg-[#fff] px-5 '>
-                    {/* <p className='font-secondary font-[600] text-[18px] text-[#626161] text-center mb-[10px]'>Backed Up</p> */}
-                <SectionHeading
+                {/* <section className='py-[100px] pb-[200px] rounded-t-[50px] rounded-b-0  mt-[-100px] bg-[#fff] px-5 '>
+               <SectionHeading
                     title="World-Class Investors"
                     subtitle='Supported by leading venture capital firms and strategic partners who share our vision'
                     titleClassName="sm:text-[40px] text-[#000]"
@@ -232,7 +231,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
                 </div>
                  
 
-            </section>
+            </section> */}
             {/* <div> */}
                 <CtaSection wrapperClassName="mt-[-100px]" {...Company_CTA_CONFIG} />
             {/* </div> */}
